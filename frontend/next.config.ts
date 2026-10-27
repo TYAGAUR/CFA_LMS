@@ -18,6 +18,8 @@ const nextConfig: NextConfig = {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
   poweredByHeader: false,
+  // The Docker image (Render) runs the self-contained server; local dev keeps the normal build.
+  output: process.env.NEXT_OUTPUT === "standalone" ? "standalone" : undefined,
 };
 
 export default nextConfig;

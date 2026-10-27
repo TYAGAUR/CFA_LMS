@@ -1,0 +1,48 @@
+# Render Blueprint: one Docker web service (Next.js + FastAPI) and one Postgres database.
+# Region is Singapore (closest Render region to India). New Blueprint → pick this repo → Apply.
+services:
+  - type: web
+    name: cfa-lms
+    runtime: docker
+    plan: free            # free sleeps after 15 min idle and has no persistent disk; use starter for a pilot
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/v1/healthz
+    autoDeploy: true
+    envVars:
+      - key: APP_ENV
+        value: staging
+      - key: DEMO_MODE
+        value: "true"     # on-screen OTP + mock gateway until MSG91/Razorpay are connected; set false then
+      - key: OTP_DEBUG_ECHO
+        value: "true"
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: STAFF_MFA_REQUIRED
+        value: "true"
+      - key: PAYMENT_PROVIDER
+        value: mock
+      - key: SEED_ON_START
+        value: "true"     # idempotent; loads demo catalogue, questions, courses and staff accounts
+      - key: SECRET_KEY
+        generateValue: true
+      - key: SEED_STAFF_PASSWORD
+        sync: false       # Render asks for this when the Blueprint is created
+      - key: DATABASE_URL
+        fromDatabase:
+          name: cfa-lms-db
+          property: connectionString
+      - key: RAZORPAY_KEY_ID
+        sync: false
+      - key: RAZORPAY_KEY_SECRET
+        sync: false
+      - key: RAZORPAY_WEBHOOK_SECRET
+        sync: false
+
+databases:
+  - name: cfa-lms-db
+    plan: free            # free Postgres expires after 30 days; switch to a paid plan before real students
+    region: singapore
+    databaseName: cfa_lms
+    user: cfa_lms
+    postgresMajorVersion: "16"

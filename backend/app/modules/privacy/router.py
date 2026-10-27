@@ -113,7 +113,7 @@ async def request_guardian_consent(body: GuardianIn, user: CurrentUser = Depends
     first = u.full_name.split()[0]
     await sms().send(mobile, f"{first} has asked to join Karan Sir Classes. Review and give consent: {link}")
     out: dict = {"status": "sent", "guardian_mobile": f"******{mobile[-4:]}"}
-    if get_settings().is_dev:
+    if get_settings().dev_tools:
         out["debug_link"] = link
     return out
 

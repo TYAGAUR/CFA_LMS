@@ -194,6 +194,11 @@ async def main() -> None:
     s = get_settings()
     if s.app_env not in ("local", "test", "staging"):
         raise SystemExit("Refusing to seed outside local/test/staging")
+    global STAFF_PASSWORD
+    if s.seed_staff_password:
+        STAFF_PASSWORD = s.seed_staff_password
+    elif not s.is_dev:
+        raise SystemExit("Set SEED_STAFF_PASSWORD to seed staff accounts outside local/test")
     async with SessionLocal() as session:
         subjects = await seed_catalog(session)
         staff = await seed_staff(session)
@@ -204,7 +209,7 @@ async def main() -> None:
         await seed_demo_student(session, courses, staff["admin@local.test"])
         await session.commit()
     personas = {
-        "staff_password": STAFF_PASSWORD,
+        "staff_password": STAFF_PASSWORD if s.is_dev else "(SEED_STAFF_PASSWORD)",
         "staff": [{"email": e, "roles": r} for e, _, r in STAFF],
         "demo_student_mobile": DEMO_STUDENT[0][3:],
         "note": "Local only. OTP codes are printed in the API console and shown on screen (OTP_DEBUG_ECHO).",
@@ -212,7 +217,8 @@ async def main() -> None:
     (SEED / "personas.json").write_text(json.dumps(personas, indent=2), encoding="utf-8")
     print(f"Seeded: {len(subjects)} subjects, {notes} new note items, {questions} new questions, "
           f"{cards} new flashcards, {len(courses)} courses, {len(staff)} staff.")
-    print(f"Staff logins: {', '.join(e for e, _, _ in STAFF)} / password {STAFF_PASSWORD}")
+    pw = STAFF_PASSWORD if s.is_dev else "(SEED_STAFF_PASSWORD)"
+    print(f"Staff logins: {', '.join(e for e, _, _ in STAFF)} / password {pw}")
     print(f"Demo student mobile: {DEMO_STUDENT[0][3:]} (registered for CFA-L1-MAY27)")
 
 

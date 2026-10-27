@@ -26,8 +26,8 @@ class MockProvider:
 
     def __init__(self) -> None:
         s = get_settings()
-        if not s.is_dev:
-            raise RuntimeError("The mock payment provider is only available in local/test")
+        if not s.dev_tools:
+            raise RuntimeError("The mock payment provider is only available in local/test or staging demo mode")
         self.secret = s.mock_webhook_secret
 
     async def create_order(self, intent: OrderIntent) -> ProviderOrder:

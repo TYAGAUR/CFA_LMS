@@ -96,7 +96,7 @@ async def webhook(provider: Literal["razorpay", "mock"], request: Request,
 # ---------- mock gateway (local/test only) ----------
 
 def _mock():
-    if get_settings().payment_provider != "mock" or not get_settings().is_dev:
+    if get_settings().payment_provider != "mock" or not get_settings().dev_tools:
         raise NotFound()
     return get_provider("mock")
 

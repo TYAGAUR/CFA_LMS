@@ -1,0 +1,12 @@
+.git
+.env
+.claude
+Documentation
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+backend/.venv
+backend/var
+frontend/node_modules
+frontend/.next
+*.tsbuildinfo

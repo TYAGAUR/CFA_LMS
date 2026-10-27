@@ -75,7 +75,7 @@ async def request_otp(session: AsyncSession, channel: str, destination: str, pur
     else:
         await email_provider().send(dest, "Your verification code", text)
     out = {"challenge_id": str(ch.id), "expires_in": s.otp_ttl_seconds, "destination": dest}
-    if s.otp_debug_echo and s.is_dev:
+    if s.otp_debug_echo and s.dev_tools:
         out["debug_code"] = code
     return out
 

@@ -1,10 +1,11 @@
 """Application settings (12-factor, environment variables). See D-01 §3."""
 
+import re
 from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
-from pydantic import Field
+from pydantic import AliasChoices, Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 BACKEND_DIR = Path(__file__).resolve().parents[2]
@@ -19,8 +20,12 @@ class Settings(BaseSettings):
     )
 
     app_env: Literal["local", "test", "staging", "production"] = "local"
+    # Staging only: allow on-screen OTP codes and the mock payment gateway until SMS/Razorpay are connected.
+    demo_mode: bool = False
     app_name: str = "Karan Sir Classes · CFA Learning Hub"
-    public_base_url: str = "http://localhost:3000"
+    # Render sets RENDER_EXTERNAL_URL automatically; PUBLIC_BASE_URL (e.g. a custom domain) wins.
+    public_base_url: str = Field(default="http://localhost:3000",
+                                 validation_alias=AliasChoices("PUBLIC_BASE_URL", "RENDER_EXTERNAL_URL"))
 
     database_url: str = "postgresql+asyncpg://cfa_lms:cfa_lms_local@localhost:5432/cfa_lms"
 
@@ -53,12 +58,26 @@ class Settings(BaseSettings):
     # Events: optional HTTP sink so other services/teams can consume domain events (A-08 §6)
     event_sink_url: str = ""
 
+    # Seeded staff password; required outside local/test (scripts/seed.py).
+    seed_staff_password: str = ""
+
     storage_dir: Path = BACKEND_DIR / "var" / "storage"
     max_upload_mb: int = 500
+
+    @field_validator("database_url")
+    @classmethod
+    def _asyncpg_url(cls, v: str) -> str:
+        # Hosts such as Render hand out postgres:// or postgresql:// URLs; the app needs the asyncpg driver.
+        return re.sub(r"^postgres(ql)?://", "postgresql+asyncpg://", v)
 
     @property
     def is_dev(self) -> bool:
         return self.app_env in ("local", "test")
+
+    @property
+    def dev_tools(self) -> bool:
+        """On-screen OTP, mock gateway and debug links: local/test, or staging with DEMO_MODE."""
+        return self.is_dev or (self.app_env == "staging" and self.demo_mode)
 
 
 @lru_cache
@@ -66,7 +85,8 @@ def get_settings() -> Settings:
     s = Settings()
     if not s.is_dev:
         # Guard rails: never allow dev conveniences outside local/test.
-        assert not s.otp_debug_echo, "OTP_DEBUG_ECHO must be false outside local/test"
+        assert s.app_env == "staging" or not s.demo_mode, "DEMO_MODE is not allowed in production"
+        assert s.dev_tools or not s.otp_debug_echo, "OTP_DEBUG_ECHO must be false outside local/test/demo"
         assert s.staff_mfa_required, "STAFF_MFA_REQUIRED must be true outside local/test"
         assert s.cookie_secure, "COOKIE_SECURE must be true outside local/test"
         assert "change-me" not in s.secret_key, "SECRET_KEY must be set"

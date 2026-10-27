@@ -56,6 +56,20 @@ Under-18 sign-ups go through the parental-consent flow; in local mode the guardi
 
 `PAYMENT_PROVIDER=mock` uses a built-in test gateway (no money moves). To switch to Razorpay test mode set `PAYMENT_PROVIDER=razorpay` and the three `RAZORPAY_*` variables, then register the webhook. Details: `Documentation/02_Architecture/A-08_Payments_and_Registration_Integration.md`.
 
+## Deploy on Render
+
+`render.yaml` is a Render Blueprint. It creates one Docker web service, `cfa-lms`, and one Postgres database, `cfa-lms-db`, both in Singapore. The container runs Next.js on Render's public port. Next.js proxies `/api/*` to FastAPI inside the same container (see `Dockerfile` and `deploy/start.sh`). Every start runs `alembic upgrade head`, then the idempotent seed while `SEED_ON_START=true`.
+
+1. In the Render dashboard, choose **New → Blueprint**, connect this GitHub repo and select `render.yaml`.
+2. When Render prompts for values, set **SEED_STAFF_PASSWORD**. It becomes the password for the four `@local.test` staff accounts. Leave the Razorpay keys blank for now.
+3. Apply, wait for the first deploy, then open `https://<service>.onrender.com`. Staff sign-in asks each account to enrol an authenticator app (TOTP).
+
+`DEMO_MODE=true` is allowed on staging only; production refuses to start with it. It shows OTP codes on screen and enables the mock payment gateway, because no SMS gateway or live Razorpay account is connected yet. Before real students sign up:
+
+- Connect SMS, then set `OTP_DEBUG_ECHO=false`.
+- Set `PAYMENT_PROVIDER=razorpay` with the three `RAZORPAY_*` keys and `DEMO_MODE=false`. Point the Razorpay webhook at `/api/v1/payments/webhooks/razorpay`.
+- Move off the free plans. A free web service sleeps after 15 minutes idle (the first request then takes about a minute). It has no persistent disk, so uploaded PDFs are lost on each redeploy. Free Postgres expires after 30 days. On a paid plan, add a disk mounted at `/app/backend/var` or move uploads to object storage.
+
 ## Tests
 
 ```bash
