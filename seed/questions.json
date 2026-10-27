@@ -1,0 +1,856 @@
+[
+  {
+    "id": 0,
+    "s": "eq",
+    "c": 0,
+    "d": "E",
+    "q": "A shareholder of a listed company that goes bankrupt can lose at most:",
+    "o": [
+      "The amount invested in the shares",
+      "The amount invested plus a pro rata share of the company's debts",
+      "Twice the amount invested"
+    ],
+    "a": 0,
+    "e": "Limited liability caps the loss at the investment; creditors cannot claim the shareholder's personal assets."
+  },
+  {
+    "id": 1,
+    "s": "eq",
+    "c": 0,
+    "d": "E",
+    "q": "When a company is liquidated, claims are settled in which order?",
+    "o": [
+      "Preferred shareholders, debt holders, common shareholders",
+      "Common shareholders, preferred shareholders, debt holders",
+      "Debt holders, preferred shareholders, common shareholders"
+    ],
+    "a": 2,
+    "e": "Equity is the residual claim. Debt is paid first, then preferred shares, and common shareholders receive whatever is left."
+  },
+  {
+    "id": 2,
+    "s": "eq",
+    "c": 0,
+    "d": "M",
+    "q": "Which statement about non-cumulative preference shares is correct?",
+    "o": [
+      "Skipped dividends accumulate and are paid before any common dividend",
+      "Dividends that are skipped are lost and need not be made up later",
+      "Skipped dividends convert into extra common shares"
+    ],
+    "a": 1,
+    "e": "Only cumulative preference shares carry forward unpaid dividends as arrears."
+  },
+  {
+    "id": 3,
+    "s": "eq",
+    "c": 0,
+    "d": "M",
+    "q": "Sanvi Steels has 20,000 cumulative 9% preference shares of ₹100 par. No preference dividend was paid in the last two years. Before it can pay any common dividend this year, it must pay preference holders a total of:",
+    "o": [
+      "₹5,40,000",
+      "₹1,80,000",
+      "₹3,60,000"
+    ],
+    "a": 0,
+    "e": "Annual dividend = 9% × ₹100 × 20,000 = ₹1,80,000. Two years of arrears plus the current year gives 3 × ₹1,80,000 = ₹5,40,000."
+  },
+  {
+    "id": 4,
+    "s": "eq",
+    "c": 0,
+    "d": "M",
+    "q": "Participating preference shares are best described as shares that:",
+    "o": [
+      "Can be exchanged for common shares at the holder's option",
+      "Can be redeemed by the issuer at a set price",
+      "May receive extra dividends above the stated rate when profits exceed a threshold"
+    ],
+    "a": 2,
+    "e": "Participation allows a share of additional profit. Conversion and redemption are separate features."
+  },
+  {
+    "id": 5,
+    "s": "eq",
+    "c": 0,
+    "d": "E",
+    "q": "In convertible preference shares, the right to convert belongs to the:",
+    "o": [
+      "Issuer",
+      "Holder",
+      "Stock exchange"
+    ],
+    "a": 1,
+    "e": "Convertible preferred gives the holder the option to switch into common shares."
+  },
+  {
+    "id": 6,
+    "s": "eq",
+    "c": 0,
+    "d": "M",
+    "q": "Which feature mainly benefits the issuer rather than the investor?",
+    "o": [
+      "Callable",
+      "Putable",
+      "Convertible"
+    ],
+    "a": 0,
+    "e": "A call feature lets the issuer redeem early, for instance when it can refinance more cheaply. Put and conversion rights favour the holder."
+  },
+  {
+    "id": 7,
+    "s": "eq",
+    "c": 0,
+    "d": "E",
+    "q": "Which dividend behaviour is most typical of a company in its growth stage?",
+    "o": [
+      "Pays high and stable dividends",
+      "Pays out all earnings every year",
+      "Retains most earnings to fund expansion"
+    ],
+    "a": 2,
+    "e": "Growth firms have many reinvestment opportunities and usually pay little or no dividend."
+  },
+  {
+    "id": 8,
+    "s": "eq",
+    "c": 0,
+    "d": "M",
+    "q": "Compared with public equity, private equity is mainly characterised by:",
+    "o": [
+      "Daily price discovery on an exchange",
+      "Limited disclosure and lower liquidity",
+      "Standard disclosure under listing rules"
+    ],
+    "a": 1,
+    "e": "Private holdings have no exchange listing, so disclosure is limited and shares are hard to sell."
+  },
+  {
+    "id": 9,
+    "s": "eq",
+    "c": 0,
+    "d": "M",
+    "q": "Venture capital funds mainly invest in:",
+    "o": [
+      "Early-stage companies with high risk and high potential",
+      "Mature firms with stable cash flows",
+      "Listed companies in financial distress"
+    ],
+    "a": 0,
+    "e": "Venture capital backs young businesses, accepting a high failure rate for large upside."
+  },
+  {
+    "id": 10,
+    "s": "eq",
+    "c": 0,
+    "d": "M",
+    "q": "A leveraged buyout is best described as an acquisition that:",
+    "o": [
+      "Is funded entirely with the acquirer's own equity",
+      "Is paid for with the target's preference shares",
+      "Uses a large amount of debt secured on the target's assets and cash flows"
+    ],
+    "a": 2,
+    "e": "The defining feature of an LBO is the heavy use of borrowed money."
+  },
+  {
+    "id": 11,
+    "s": "eq",
+    "c": 0,
+    "d": "H",
+    "q": "A buyout in which the acquirers are the company's existing managers is called a:",
+    "o": [
+      "Leveraged recapitalisation",
+      "Management buyout",
+      "Growth equity round"
+    ],
+    "a": 1,
+    "e": "An MBO is led by the incumbent management team, often with debt and private equity support."
+  },
+  {
+    "id": 12,
+    "s": "eq",
+    "c": 0,
+    "d": "H",
+    "q": "An investor buys newly issued shares directly from a listed company in a negotiated private deal to fund a turnaround. This is most likely a:",
+    "o": [
+      "PIPE",
+      "Venture capital round",
+      "Leveraged buyout"
+    ],
+    "a": 0,
+    "e": "Private investment in public equity is a special-situation deal: private terms, listed issuer."
+  },
+  {
+    "id": 13,
+    "s": "eq",
+    "c": 0,
+    "d": "H",
+    "q": "Aditya Foods is liquidated. Asset sales raise ₹90 crore. Debt claims are ₹70 crore and preference shares have a ₹15 crore liquidation preference. Common shareholders receive:",
+    "o": [
+      "₹20 crore",
+      "Nothing",
+      "₹5 crore"
+    ],
+    "a": 2,
+    "e": "₹90 − ₹70 = ₹20 crore remains after debt. The preference claim takes ₹15 crore first, leaving ₹5 crore for common."
+  },
+  {
+    "id": 14,
+    "s": "eq",
+    "c": 1,
+    "d": "E",
+    "q": "A limit buy order will execute:",
+    "o": [
+      "At the best available price immediately",
+      "Only after the market closes",
+      "Only at the limit price or lower"
+    ],
+    "a": 2,
+    "e": "A limit order sets a price boundary. It may not execute if the market never reaches it."
+  },
+  {
+    "id": 15,
+    "s": "eq",
+    "c": 1,
+    "d": "E",
+    "q": "In the primary market:",
+    "o": [
+      "Investors trade existing shares with each other",
+      "Issuers sell new securities to investors",
+      "Brokers lend shares to short sellers"
+    ],
+    "a": 1,
+    "e": "The primary market is where securities are first issued and the issuer receives the money."
+  },
+  {
+    "id": 16,
+    "s": "eq",
+    "c": 1,
+    "d": "M",
+    "q": "An IPO of a company on the NSE is an example of a:",
+    "o": [
+      "Primary market transaction",
+      "Secondary market transaction",
+      "Over-the-counter trade"
+    ],
+    "a": 0,
+    "e": "The company is selling new shares for the first time."
+  },
+  {
+    "id": 17,
+    "s": "eq",
+    "c": 1,
+    "d": "M",
+    "q": "A market order guarantees:",
+    "o": [
+      "The price but not execution",
+      "Both price and execution",
+      "Execution but not the price"
+    ],
+    "a": 2,
+    "e": "Market orders trade at the best available price now, so the price is uncertain."
+  },
+  {
+    "id": 18,
+    "s": "eq",
+    "c": 1,
+    "d": "M",
+    "q": "Which is a main function of a well-functioning financial system?",
+    "o": [
+      "Guaranteeing investment returns",
+      "Helping people save, borrow, raise equity and manage risk",
+      "Setting the prices of all securities"
+    ],
+    "a": 1,
+    "e": "Financial systems channel savings to investment and allow risk transfer, without guaranteeing returns."
+  },
+  {
+    "id": 19,
+    "s": "eq",
+    "c": 1,
+    "d": "M",
+    "q": "A stop-loss sell order is triggered when:",
+    "o": [
+      "The price falls to the stop level",
+      "The price rises above the stop level",
+      "The order book is empty"
+    ],
+    "a": 0,
+    "e": "A sell stop becomes active once the price trades at or below the stop price."
+  },
+  {
+    "id": 20,
+    "s": "eq",
+    "c": 1,
+    "d": "M",
+    "q": "Compared with a call market, a continuous trading market:",
+    "o": [
+      "Matches all orders at a single price at set times",
+      "Trades only block orders",
+      "Matches orders throughout the day as they arrive"
+    ],
+    "a": 2,
+    "e": "Call markets batch orders at one time; continuous markets trade whenever buyers and sellers match."
+  },
+  {
+    "id": 21,
+    "s": "eq",
+    "c": 1,
+    "d": "H",
+    "q": "An investor places a limit buy at ₹250 while the best offer is ₹252. The order will most likely:",
+    "o": [
+      "Execute at ₹252 immediately",
+      "Wait in the order book until the price falls to ₹250",
+      "Be cancelled by the exchange"
+    ],
+    "a": 1,
+    "e": "A limit buy will not pay more than its limit, so it rests in the book."
+  },
+  {
+    "id": 22,
+    "s": "eq",
+    "c": 1,
+    "d": "H",
+    "q": "Margin trading increases an investor's:",
+    "o": [
+      "Exposure to gains and losses",
+      "Guaranteed return",
+      "Voting rights"
+    ],
+    "a": 0,
+    "e": "Borrowed funds magnify both gains and losses relative to the investor's own capital."
+  },
+  {
+    "id": 23,
+    "s": "eq",
+    "c": 1,
+    "d": "E",
+    "q": "A short seller profits when the share price:",
+    "o": [
+      "Rises",
+      "Stays unchanged",
+      "Falls"
+    ],
+    "a": 2,
+    "e": "A short seller sells borrowed shares and buys them back later, ideally at a lower price."
+  },
+  {
+    "id": 24,
+    "s": "eq",
+    "c": 2,
+    "d": "E",
+    "q": "In a weak-form efficient market, prices already reflect:",
+    "o": [
+      "All past market data",
+      "All public information",
+      "All public and private information"
+    ],
+    "a": 0,
+    "e": "Weak form covers historical prices and volumes, so technical analysis should not earn abnormal returns."
+  },
+  {
+    "id": 25,
+    "s": "eq",
+    "c": 2,
+    "d": "M",
+    "q": "Semi-strong form efficiency implies that fundamental analysis of public information:",
+    "o": [
+      "Always earns abnormal returns",
+      "Is only useful with inside information",
+      "Cannot earn consistent abnormal returns"
+    ],
+    "a": 2,
+    "e": "If public information is already in the price, analysing it gives no consistent edge."
+  },
+  {
+    "id": 26,
+    "s": "eq",
+    "c": 2,
+    "d": "M",
+    "q": "Insider trading gains are consistent with a market that is:",
+    "o": [
+      "Strong-form efficient",
+      "Not strong-form efficient",
+      "Perfectly efficient in all forms"
+    ],
+    "a": 1,
+    "e": "Strong-form efficiency means even private information is reflected. Insider profits show it is not."
+  },
+  {
+    "id": 27,
+    "s": "eq",
+    "c": 2,
+    "d": "M",
+    "q": "The January effect is best described as:",
+    "o": [
+      "A calendar anomaly of higher small-firm returns in January",
+      "A rule for timing dividends",
+      "A tax on early-year trades"
+    ],
+    "a": 0,
+    "e": "It is a calendar anomaly, one of several patterns that challenge market efficiency."
+  },
+  {
+    "id": 28,
+    "s": "eq",
+    "c": 2,
+    "d": "M",
+    "q": "Loss aversion means investors:",
+    "o": [
+      "Ignore losses",
+      "Prefer uncertain gains to sure gains",
+      "Feel losses more strongly than equal gains"
+    ],
+    "a": 2,
+    "e": "Loss aversion is a behavioural bias that can lead to holding losers too long."
+  },
+  {
+    "id": 29,
+    "s": "eq",
+    "c": 2,
+    "d": "E",
+    "q": "Overconfidence bias leads investors to:",
+    "o": [
+      "Underestimate their skill",
+      "Overestimate their skill and trade too often",
+      "Avoid all risk"
+    ],
+    "a": 1,
+    "e": "Overconfident investors trade more, raising costs and reducing returns."
+  },
+  {
+    "id": 30,
+    "s": "eq",
+    "c": 2,
+    "d": "M",
+    "q": "Which anomaly can be an artefact of the data or method rather than a real pattern?",
+    "o": [
+      "A pattern found only after testing many strategies",
+      "A pattern that persists across markets and decades",
+      "A pattern explained by known risk"
+    ],
+    "a": 0,
+    "e": "Data mining can produce patterns that vanish out of sample."
+  },
+  {
+    "id": 31,
+    "s": "eq",
+    "c": 2,
+    "d": "H",
+    "q": "If a market is semi-strong efficient, an investor who trades on a public earnings announcement:",
+    "o": [
+      "Will earn an abnormal profit",
+      "Is breaking insider trading law",
+      "Should not expect abnormal profit after the price reacts"
+    ],
+    "a": 2,
+    "e": "Public news is priced quickly, so profits after the reaction are normal."
+  },
+  {
+    "id": 32,
+    "s": "eq",
+    "c": 2,
+    "d": "H",
+    "q": "Herding behaviour is when investors:",
+    "o": [
+      "Only buy index funds",
+      "Copy the actions of a group rather than their own analysis",
+      "Hold cash in every market"
+    ],
+    "a": 1,
+    "e": "Herding can push prices away from fundamentals during booms and busts."
+  },
+  {
+    "id": 33,
+    "s": "eq",
+    "c": 2,
+    "d": "M",
+    "q": "Anchoring bias is best shown by an investor who:",
+    "o": [
+      "Fixes on the purchase price when judging a share's value",
+      "Reacts to every news headline",
+      "Diversifies across ten sectors"
+    ],
+    "a": 0,
+    "e": "Anchoring ties judgement to an arbitrary reference point such as the buy price."
+  },
+  {
+    "id": 34,
+    "s": "eth",
+    "c": 0,
+    "d": "E",
+    "q": "Under the CFA Code of Ethics, members must place the interests of clients:",
+    "o": [
+      "Equal to their employer's",
+      "Above their own and their employer's",
+      "Below their firm's"
+    ],
+    "a": 1,
+    "e": "Clients' interests come first, then the employer's, then the member's."
+  },
+  {
+    "id": 35,
+    "s": "eth",
+    "c": 0,
+    "d": "M",
+    "q": "An analyst uses material non-public information from a director friend to trade. This most directly violates the standard on:",
+    "o": [
+      "Material non-public information",
+      "Fair dealing",
+      "Diligence and reasonable basis"
+    ],
+    "a": 0,
+    "e": "Trading on or passing on MNPI breaches the standard on material non-public information."
+  },
+  {
+    "id": 36,
+    "s": "eth",
+    "c": 0,
+    "d": "M",
+    "q": "A member's duty of loyalty, prudence and care applies to:",
+    "o": [
+      "Only the firm's shareholders",
+      "Only prospective clients",
+      "Clients whose assets they manage"
+    ],
+    "a": 2,
+    "e": "The duty of loyalty, prudence and care is owed to clients."
+  },
+  {
+    "id": 37,
+    "s": "qm",
+    "c": 0,
+    "d": "E",
+    "q": "₹1,00,000 is invested at 8% compounded annually. The value after 2 years is closest to:",
+    "o": [
+      "₹1,16,000",
+      "₹1,16,640",
+      "₹1,08,000"
+    ],
+    "a": 1,
+    "e": "1,00,000 × 1.08² = ₹1,16,640. Simple interest would give ₹1,16,000."
+  },
+  {
+    "id": 38,
+    "s": "qm",
+    "c": 0,
+    "d": "M",
+    "q": "An effective annual rate is higher than the stated annual rate when:",
+    "o": [
+      "Compounding occurs more than once a year",
+      "Compounding occurs once a year",
+      "Interest is simple"
+    ],
+    "a": 0,
+    "e": "More frequent compounding raises the effective rate."
+  },
+  {
+    "id": 39,
+    "s": "qm",
+    "c": 0,
+    "d": "M",
+    "q": "A perpetuity paying ₹500 a year with a 10% discount rate has a present value of:",
+    "o": [
+      "₹50,000",
+      "₹500",
+      "₹5,000"
+    ],
+    "a": 2,
+    "e": "PV = payment ÷ rate = 500 ÷ 0.10 = ₹5,000."
+  },
+  {
+    "id": 40,
+    "s": "ec",
+    "c": 0,
+    "d": "E",
+    "q": "When the price of a normal good rises, quantity demanded generally:",
+    "o": [
+      "Rises",
+      "Falls, other things equal",
+      "Stays the same"
+    ],
+    "a": 1,
+    "e": "This is the law of demand."
+  },
+  {
+    "id": 41,
+    "s": "ec",
+    "c": 0,
+    "d": "M",
+    "q": "Demand is price elastic when the absolute value of elasticity is:",
+    "o": [
+      "Greater than 1",
+      "Less than 1",
+      "Equal to 0"
+    ],
+    "a": 0,
+    "e": "Elastic demand means quantity responds by more than the percentage change in price."
+  },
+  {
+    "id": 42,
+    "s": "ec",
+    "c": 0,
+    "d": "M",
+    "q": "A perfectly competitive firm maximises profit where:",
+    "o": [
+      "Total cost is lowest",
+      "Average cost equals price only",
+      "Marginal cost equals marginal revenue"
+    ],
+    "a": 2,
+    "e": "Profit is maximised where MR = MC. In perfect competition MR equals price."
+  },
+  {
+    "id": 43,
+    "s": "cf",
+    "c": 0,
+    "d": "E",
+    "q": "Corporate governance mainly aims to:",
+    "o": [
+      "Guarantee profits",
+      "Align management's actions with shareholders' interests",
+      "Remove the board"
+    ],
+    "a": 1,
+    "e": "Governance sets the rules and checks so managers act for owners."
+  },
+  {
+    "id": 44,
+    "s": "cf",
+    "c": 0,
+    "d": "M",
+    "q": "Which is a typical role of the board's audit committee?",
+    "o": [
+      "Overseeing financial reporting and the external auditor",
+      "Setting product prices",
+      "Managing daily operations"
+    ],
+    "a": 0,
+    "e": "The audit committee checks reporting quality and auditor independence."
+  },
+  {
+    "id": 45,
+    "s": "cf",
+    "c": 0,
+    "d": "M",
+    "q": "An ESG factor is best described as:",
+    "o": [
+      "A tax on emissions",
+      "A type of bond",
+      "An environmental, social or governance consideration in analysis"
+    ],
+    "a": 2,
+    "e": "ESG factors are non-financial considerations that can affect value and risk."
+  },
+  {
+    "id": 46,
+    "s": "fsa",
+    "c": 0,
+    "d": "E",
+    "q": "Under accrual accounting, revenue is recognised when:",
+    "o": [
+      "Cash is received",
+      "It is earned, whether or not cash is received",
+      "The invoice is printed"
+    ],
+    "a": 1,
+    "e": "Accrual accounting matches revenue to performance, not to cash timing."
+  },
+  {
+    "id": 47,
+    "s": "fsa",
+    "c": 0,
+    "d": "M",
+    "q": "A company capitalises a cost instead of expensing it. In the current year, net income will be:",
+    "o": [
+      "Higher",
+      "Lower",
+      "Unchanged"
+    ],
+    "a": 0,
+    "e": "Capitalising defers the cost through depreciation, raising current profit."
+  },
+  {
+    "id": 48,
+    "s": "fsa",
+    "c": 0,
+    "d": "M",
+    "q": "Gross profit margin is calculated as:",
+    "o": [
+      "Net income ÷ revenue",
+      "Operating income ÷ assets",
+      "(Revenue − cost of goods sold) ÷ revenue"
+    ],
+    "a": 2,
+    "e": "Gross margin measures profit after direct costs, as a share of revenue."
+  },
+  {
+    "id": 49,
+    "s": "fi",
+    "c": 0,
+    "d": "E",
+    "q": "When market yields rise, the price of an existing fixed-rate bond:",
+    "o": [
+      "Rises",
+      "Falls",
+      "Is unchanged"
+    ],
+    "a": 1,
+    "e": "Bond prices move inversely to yields."
+  },
+  {
+    "id": 50,
+    "s": "fi",
+    "c": 0,
+    "d": "M",
+    "q": "A bond has a 7% coupon on ₹1,000 face value. The annual coupon payment is:",
+    "o": [
+      "₹70",
+      "₹7",
+      "₹700"
+    ],
+    "a": 0,
+    "e": "Coupon = 7% × 1,000 = ₹70."
+  },
+  {
+    "id": 51,
+    "s": "fi",
+    "c": 0,
+    "d": "M",
+    "q": "For a given yield change, which bond has the largest price change?",
+    "o": [
+      "Short maturity, high coupon",
+      "Short maturity, low coupon",
+      "Long maturity, low coupon"
+    ],
+    "a": 2,
+    "e": "Longer maturity and lower coupon mean higher duration and higher price sensitivity."
+  },
+  {
+    "id": 52,
+    "s": "dv",
+    "c": 0,
+    "d": "E",
+    "q": "The underlying of a derivative is:",
+    "o": [
+      "The premium paid",
+      "The asset or rate its value is based on",
+      "The exchange that lists it"
+    ],
+    "a": 1,
+    "e": "A derivative derives its value from an underlying such as a share, index or interest rate."
+  },
+  {
+    "id": 53,
+    "s": "dv",
+    "c": 0,
+    "d": "M",
+    "q": "A forward contract differs from a futures contract because it is typically:",
+    "o": [
+      "Customised and traded over the counter",
+      "Standardised and exchange traded",
+      "Marked to market daily by the exchange"
+    ],
+    "a": 0,
+    "e": "Forwards are private, customised agreements, so they carry counterparty risk."
+  },
+  {
+    "id": 54,
+    "s": "dv",
+    "c": 0,
+    "d": "M",
+    "q": "The buyer of a call option has:",
+    "o": [
+      "The obligation to buy",
+      "The obligation to sell",
+      "The right but not the obligation to buy"
+    ],
+    "a": 2,
+    "e": "A call holder pays a premium for the right to buy at the strike price."
+  },
+  {
+    "id": 55,
+    "s": "ai",
+    "c": 0,
+    "d": "E",
+    "q": "Compared with listed shares, real estate is generally:",
+    "o": [
+      "More liquid",
+      "Less liquid",
+      "Traded on exchanges daily"
+    ],
+    "a": 1,
+    "e": "Real estate is illiquid and hard to value frequently."
+  },
+  {
+    "id": 56,
+    "s": "ai",
+    "c": 0,
+    "d": "M",
+    "q": "A hedge fund charging '2 and 20' takes:",
+    "o": [
+      "A 2% management fee and 20% of profits",
+      "20% management fee and 2% of profits",
+      "2% of profits only"
+    ],
+    "a": 0,
+    "e": "The management fee is a percentage of assets and the incentive fee a share of gains."
+  },
+  {
+    "id": 57,
+    "s": "ai",
+    "c": 0,
+    "d": "M",
+    "q": "Which is a common feature of private equity funds?",
+    "o": [
+      "Daily redemption",
+      "No management fee",
+      "Long lock-up with capital called over time"
+    ],
+    "a": 2,
+    "e": "Private equity funds usually lock capital for years and draw it down as needed."
+  },
+  {
+    "id": 58,
+    "s": "pm",
+    "c": 0,
+    "d": "E",
+    "q": "Diversification mainly reduces:",
+    "o": [
+      "Systematic risk",
+      "Unsystematic risk",
+      "Inflation"
+    ],
+    "a": 1,
+    "e": "Company-specific risk can be diversified away. Market risk cannot."
+  },
+  {
+    "id": 59,
+    "s": "pm",
+    "c": 0,
+    "d": "M",
+    "q": "A portfolio has weights 60% in an asset returning 10% and 40% in one returning 5%. Expected return is:",
+    "o": [
+      "8%",
+      "7.5%",
+      "7%"
+    ],
+    "a": 0,
+    "e": "0.6 × 10% + 0.4 × 5% = 8%."
+  },
+  {
+    "id": 60,
+    "s": "pm",
+    "c": 0,
+    "d": "M",
+    "q": "An investment policy statement should include the client's:",
+    "o": [
+      "Favourite shares",
+      "Broker's commission plan",
+      "Return objectives and risk tolerance"
+    ],
+    "a": 2,
+    "e": "The IPS records objectives, constraints and risk tolerance to guide the portfolio."
+  }
+]

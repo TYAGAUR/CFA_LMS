@@ -1,0 +1,128 @@
+[
+  {
+    "code": "eth",
+    "name": "Ethics",
+    "icon": "⚖",
+    "lms": [
+      "Ethics and Trust in the Profession",
+      "Code of Ethics and Standards",
+      "Application of the Code",
+      "Introduction to GIPS"
+    ]
+  },
+  {
+    "code": "qm",
+    "name": "Quantitative Methods",
+    "icon": "∑",
+    "lms": [
+      "Rates and Returns",
+      "Time Value of Money",
+      "Statistical Measures",
+      "Probability Concepts",
+      "Hypothesis Testing"
+    ]
+  },
+  {
+    "code": "ec",
+    "name": "Economics",
+    "icon": "◔",
+    "lms": [
+      "Firm and Market Structures",
+      "Business Cycles",
+      "Fiscal and Monetary Policy",
+      "Currency Exchange Rates"
+    ]
+  },
+  {
+    "code": "cf",
+    "name": "Corporate Issuers",
+    "icon": "⌂",
+    "lms": [
+      "Organizational Forms",
+      "Investors and Stakeholders",
+      "Corporate Governance",
+      "Working Capital",
+      "Capital Structure"
+    ]
+  },
+  {
+    "code": "fsa",
+    "name": "Financial Statement Analysis",
+    "icon": "▤",
+    "lms": [
+      "Financial Reporting Overview",
+      "Income Statements",
+      "Balance Sheets",
+      "Cash Flow Statements",
+      "Inventories",
+      "Long-Term Assets"
+    ]
+  },
+  {
+    "code": "eq",
+    "name": "Equity Investments",
+    "icon": "▲",
+    "lms": [
+      "Equity Instrument Features",
+      "Equity Market Organization",
+      "Market Efficiency",
+      "Security Market Indexes",
+      "Company Analysis: Basics",
+      "Industry Analysis",
+      "Forecasting Performance",
+      "Valuation Concepts"
+    ]
+  },
+  {
+    "code": "fi",
+    "name": "Fixed Income",
+    "icon": "≋",
+    "lms": [
+      "Instrument Features",
+      "Cash Flows and Types",
+      "Issuance and Trading",
+      "Bond Pricing",
+      "Yield Measures",
+      "Duration and Convexity"
+    ]
+  },
+  {
+    "code": "dv",
+    "name": "Derivatives",
+    "icon": "⇄",
+    "lms": [
+      "Derivative Instrument and Market Features",
+      "Forward Commitments and Contingent Claims",
+      "Benefits, Risks and Uses",
+      "Arbitrage, Replication and Cost of Carry",
+      "Pricing of Forward Contracts",
+      "Pricing of Futures Contracts",
+      "Pricing of Swaps",
+      "Pricing of Options",
+      "Put-Call Parity",
+      "One-Period Binomial Model"
+    ]
+  },
+  {
+    "code": "ai",
+    "name": "Alternative Investments",
+    "icon": "◈",
+    "lms": [
+      "Features and Categories",
+      "Performance and Returns",
+      "Private Capital and Real Assets",
+      "Hedge Funds"
+    ]
+  },
+  {
+    "code": "pm",
+    "name": "Portfolio Management",
+    "icon": "◐",
+    "lms": [
+      "Portfolio Risk and Return",
+      "Portfolio Management Overview",
+      "Portfolio Planning",
+      "Behavioural Finance"
+    ]
+  }
+]

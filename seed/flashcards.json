@@ -1,0 +1,96 @@
+{
+  "eq": [
+    {
+      "front": "What is limited liability?",
+      "back": "A shareholder can lose no more than the amount invested."
+    },
+    {
+      "front": "Order of claims in liquidation",
+      "back": "Debt, then preferred, then common."
+    },
+    {
+      "front": "Cumulative preference share",
+      "back": "Unpaid dividends build up as arrears and must be paid before any common dividend."
+    },
+    {
+      "front": "Callable preferred: who holds the option?",
+      "back": "The issuer."
+    },
+    {
+      "front": "Convertible preferred: who holds the option?",
+      "back": "The holder."
+    },
+    {
+      "front": "What is an LBO?",
+      "back": "A buyout funded mainly with debt secured on the target."
+    },
+    {
+      "front": "What is a PIPE?",
+      "back": "A private purchase of newly issued shares of a listed company."
+    },
+    {
+      "front": "Semi-strong efficiency",
+      "back": "Prices reflect all public information."
+    },
+    {
+      "front": "Anchoring bias",
+      "back": "Fixing on an arbitrary reference such as the purchase price."
+    }
+  ],
+  "dv": [
+    {
+      "front": "Underlying",
+      "back": "The asset or rate that determines a derivative's value."
+    },
+    {
+      "front": "Forward vs futures",
+      "back": "Forwards are OTC and customised. Futures are exchange-traded and standardised."
+    },
+    {
+      "front": "Call option buyer",
+      "back": "Has the right, not the obligation, to buy at the strike."
+    },
+    {
+      "front": "Put-call parity idea",
+      "back": "A call plus cash equals a put plus the underlying, for the same strike and expiry."
+    }
+  ],
+  "qm": [
+    {
+      "front": "Effective annual rate",
+      "back": "(1 + periodic rate)^m − 1"
+    },
+    {
+      "front": "Perpetuity PV",
+      "back": "Payment ÷ discount rate"
+    },
+    {
+      "front": "FV of a lump sum",
+      "back": "PV × (1 + r)^n"
+    }
+  ],
+  "fi": [
+    {
+      "front": "Price and yield",
+      "back": "Move in opposite directions."
+    },
+    {
+      "front": "Coupon payment",
+      "back": "Coupon rate × face value."
+    },
+    {
+      "front": "Duration",
+      "back": "Measure of price sensitivity to yield changes."
+    }
+  ],
+  "eth": [
+    {
+      "front": "Client priority",
+      "back": "Clients come before employer and member."
+    },
+    {
+      "front": "MNPI",
+      "back": "Material non-public information: do not trade on it or pass it on."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "staff_password": "LocalDev#2026!",
+  "staff": [
+    {
+      "email": "super@local.test",
+      "roles": [
+        "super_admin"
+      ]
+    },
+    {
+      "email": "admin@local.test",
+      "roles": [
+        "admin"
+      ]
+    },
+    {
+      "email": "author@local.test",
+      "roles": [
+        "author"
+      ]
+    },
+    {
+      "email": "reviewer@local.test",
+      "roles": [
+        "reviewer"
+      ]
+    }
+  ],
+  "demo_student_mobile": "9876543210",
+  "note": "Local only. OTP codes are printed in the API console and shown on screen (OTP_DEBUG_ECHO)."
+}

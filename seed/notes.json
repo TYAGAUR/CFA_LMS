@@ -1,0 +1,769 @@
+[
+  {
+    "subject": "eq",
+    "lm_index": 0,
+    "topics": [
+      {
+        "title": "What is an equity instrument?",
+        "body": {
+          "schema": "notes/v1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "inline": [
+                {
+                  "t": "An equity instrument is a security that represents part ownership of a company. The owner holds a fractional claim on assets, but only on what remains after every higher-priority claim is settled."
+                }
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "t": "Loss is capped at the amount invested. This is "
+                  },
+                  {
+                    "t": "limited liability",
+                    "b": true
+                  },
+                  {
+                    "t": "."
+                  }
+                ],
+                [
+                  {
+                    "t": "Ownership may carry voting rights over company policy."
+                  }
+                ],
+                [
+                  {
+                    "t": "Returns come from dividends and share price changes."
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "The liquidation waterfall"
+            },
+            {
+              "type": "paragraph",
+              "inline": [
+                {
+                  "t": "When a company is wound up, cash is distributed in strict priority order."
+                }
+              ]
+            },
+            {
+              "type": "infographic",
+              "kind": "waterfall",
+              "data": [
+                {
+                  "label": "1st · Debt",
+                  "text": "Debt holders: principal and interest",
+                  "pct": 100
+                },
+                {
+                  "label": "2nd · Preferred",
+                  "text": "Preferred shareholders",
+                  "pct": 76
+                },
+                {
+                  "label": "3rd · Common",
+                  "text": "Common: the rest",
+                  "pct": 52
+                }
+              ],
+              "alt": "Priority of claims: 1st · Debt, then 2nd · Preferred, then 3rd · Common"
+            },
+            {
+              "type": "callout",
+              "variant": "example",
+              "title": "Worked example",
+              "inline": [
+                {
+                  "t": "Aditya Foods is liquidated and raises ₹90 crore. Debt claims are ₹70 crore and preference shares carry a ₹15 crore liquidation preference. Left after debt: 90 − 70 = ₹20 crore. After preference: 20 − 15 = "
+                },
+                {
+                  "t": "₹5 crore for common shareholders",
+                  "b": true
+                },
+                {
+                  "t": "."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "variant": "watch_out",
+              "title": "Watch out",
+              "inline": [
+                {
+                  "t": "Preferred shares rank above common but below debt. Do not call preferred shares \"debt\" because the dividend is not a legal obligation."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "variant": "fun",
+              "title": "Funny use case",
+              "inline": [
+                {
+                  "t": "Think of a wedding buffet. Debt holders are the family elders served first, preferred shareholders are the cousins, and common shareholders queue at the end hoping the gulab jamun has not run out."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Common and preferred shares",
+        "body": {
+          "schema": "notes/v1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "inline": [
+                {
+                  "t": "Preferred shares sit between debt and common equity. They usually pay a fixed dividend and carry limited or no voting rights."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "header": [
+                "Feature",
+                "What it means",
+                "Who benefits"
+              ],
+              "rows": [
+                [
+                  "Cumulative",
+                  "Missed dividends build up as arrears",
+                  "Holder"
+                ],
+                [
+                  "Non-cumulative",
+                  "Missed dividends are lost",
+                  "Issuer"
+                ],
+                [
+                  "Participating",
+                  "Extra dividend if profits exceed a threshold",
+                  "Holder"
+                ],
+                [
+                  "Convertible",
+                  "Can switch into common shares",
+                  "Holder"
+                ],
+                [
+                  "Callable",
+                  "Issuer may redeem at a set price",
+                  "Issuer"
+                ],
+                [
+                  "Putable",
+                  "Holder may sell back at a set price",
+                  "Holder"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "variant": "formula",
+              "title": "Formula",
+              "inline": [
+                {
+                  "t": "Annual preference dividend = dividend rate × par value × number of shares"
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "variant": "example",
+              "title": "Worked example",
+              "inline": [
+                {
+                  "t": "Sanvi Steels has 20,000 cumulative 9% preference shares of ₹100 par. Nothing was paid for 2 years. Yearly dividend = 9% × 100 × 20,000 = ₹1,80,000. Arrears plus this year = 3 × 1,80,000 = "
+                },
+                {
+                  "t": "₹5,40,000",
+                  "b": true
+                },
+                {
+                  "t": " due before any common dividend."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "variant": "watch_out",
+              "title": "Watch out",
+              "inline": [
+                {
+                  "t": "Arrears include the current year only if the current dividend is also being declared. Read whether the question asks for arrears alone or the total."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Public and private equity",
+        "body": {
+          "schema": "notes/v1",
+          "blocks": [
+            {
+              "type": "table",
+              "header": [
+                "",
+                "Public equity",
+                "Private equity"
+              ],
+              "rows": [
+                [
+                  "Trading",
+                  "Listed on an exchange",
+                  "Negotiated privately"
+                ],
+                [
+                  "Liquidity",
+                  "High",
+                  "Low"
+                ],
+                [
+                  "Disclosure",
+                  "Extensive, regulated",
+                  "Limited"
+                ],
+                [
+                  "Price discovery",
+                  "Continuous market price",
+                  "Valuation by appraisal"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Types of private equity"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "t": "Venture capital:",
+                    "b": true
+                  },
+                  {
+                    "t": " early-stage firms, high risk."
+                  }
+                ],
+                [
+                  {
+                    "t": "Growth equity:",
+                    "b": true
+                  },
+                  {
+                    "t": " established firms needing expansion money."
+                  }
+                ],
+                [
+                  {
+                    "t": "Buyouts:",
+                    "b": true
+                  },
+                  {
+                    "t": " LBO uses heavy debt. MBO is led by existing managers."
+                  }
+                ],
+                [
+                  {
+                    "t": "Special situations:",
+                    "b": true
+                  },
+                  {
+                    "t": " for example a PIPE, a private purchase of new shares of a listed company."
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Dividends across the life cycle",
+        "body": {
+          "schema": "notes/v1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "inline": [
+                {
+                  "t": "A company's dividend behaviour follows its stage of life."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "header": [
+                "Stage",
+                "Cash generation",
+                "Typical dividend"
+              ],
+              "rows": [
+                [
+                  "Start-up",
+                  "Negative",
+                  "None"
+                ],
+                [
+                  "Growth",
+                  "Rising, reinvested",
+                  "None or low"
+                ],
+                [
+                  "Mature",
+                  "Strong and stable",
+                  "High and steady"
+                ],
+                [
+                  "Decline",
+                  "Falling",
+                  "Cut or special payouts"
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "extra": {
+      "revision_sheet": {
+        "schema": "notes/v1",
+        "blocks": [
+          {
+            "type": "callout",
+            "variant": "formula",
+            "title": "Revision sheet · 1 page",
+            "inline": [
+              {
+                "t": "Priority in liquidation: debt → preferred → common"
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "header": [
+              "Remember",
+              "Point"
+            ],
+            "rows": [
+              [
+                "Limited liability",
+                "Loss capped at investment"
+              ],
+              [
+                "Cumulative",
+                "Arrears carried forward"
+              ],
+              [
+                "Callable",
+                "Issuer option"
+              ],
+              [
+                "Putable, convertible, participating",
+                "Holder options"
+              ],
+              [
+                "LBO",
+                "Debt-funded buyout"
+              ],
+              [
+                "PIPE",
+                "Private buy of new listed shares"
+              ]
+            ]
+          }
+        ]
+      },
+      "infographic": {
+        "schema": "notes/v1",
+        "blocks": [
+          {
+            "type": "heading",
+            "level": 3,
+            "text": "Infographic · Who gets paid first?"
+          },
+          {
+            "type": "infographic",
+            "kind": "waterfall",
+            "data": [
+              {
+                "label": "1st · Debt",
+                "text": "Debt holders: principal and interest",
+                "pct": 100
+              },
+              {
+                "label": "2nd · Preferred",
+                "text": "Preferred shareholders",
+                "pct": 76
+              },
+              {
+                "label": "3rd · Common",
+                "text": "Common: the rest",
+                "pct": 52
+              }
+            ],
+            "alt": "Priority of claims: 1st · Debt, then 2nd · Preferred, then 3rd · Common"
+          },
+          {
+            "type": "paragraph",
+            "inline": [
+              {
+                "t": "Bars show relative priority of claim, not amounts."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "planned_videos": [
+      {
+        "title": "What is equity? Limited liability explained",
+        "duration": "8:40",
+        "topic": "What is an equity instrument?"
+      },
+      {
+        "title": "The waterfall, step by step",
+        "duration": "6:15",
+        "topic": "What is an equity instrument?"
+      },
+      {
+        "title": "Preferred share features",
+        "duration": "12:05",
+        "topic": "Common and preferred shares"
+      },
+      {
+        "title": "Public vs private equity",
+        "duration": "9:30",
+        "topic": "Public and private equity"
+      }
+    ]
+  },
+  {
+    "subject": "eq",
+    "lm_index": 1,
+    "topics": [
+      {
+        "title": "Functions of the financial system",
+        "body": {
+          "schema": "notes/v1",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "inline": [
+                {
+                  "t": "The financial system helps people "
+                },
+                {
+                  "t": "save",
+                  "b": true
+                },
+                {
+                  "t": ", "
+                },
+                {
+                  "t": "borrow",
+                  "b": true
+                },
+                {
+                  "t": ", "
+                },
+                {
+                  "t": "raise equity",
+                  "b": true
+                },
+                {
+                  "t": ", "
+                },
+                {
+                  "t": "manage risk",
+                  "b": true
+                },
+                {
+                  "t": ", "
+                },
+                {
+                  "t": "exchange assets",
+                  "b": true
+                },
+                {
+                  "t": " and "
+                },
+                {
+                  "t": "trade for profit",
+                  "b": true
+                },
+                {
+                  "t": ". Prices in these markets also tell everyone what capital is worth."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "variant": "example",
+              "title": "Worked example",
+              "inline": [
+                {
+                  "t": "Ritu wants ₹20 lakh for a workshop. She sells shares to investors in the primary market. Later, the investors trade those shares among themselves in the secondary market. Ritu's company receives money only from the first sale."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Order types",
+        "body": {
+          "schema": "notes/v1",
+          "blocks": [
+            {
+              "type": "table",
+              "header": [
+                "Order",
+                "Guarantees",
+                "Risk"
+              ],
+              "rows": [
+                [
+                  "Market",
+                  "Execution",
+                  "Uncertain price"
+                ],
+                [
+                  "Limit",
+                  "Price at limit or better",
+                  "May not execute"
+                ],
+                [
+                  "Stop-loss",
+                  "Triggers at stop price",
+                  "Fills after trigger, price may slip"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "variant": "watch_out",
+              "title": "Watch out",
+              "inline": [
+                {
+                  "t": "A limit buy at ₹250 with the best offer at ₹252 does not trade. It waits."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "extra": {
+      "revision_sheet": {
+        "schema": "notes/v1",
+        "blocks": [
+          {
+            "type": "table",
+            "header": [
+              "Remember",
+              "Point"
+            ],
+            "rows": [
+              [
+                "Primary market",
+                "New issues, issuer gets cash"
+              ],
+              [
+                "Secondary market",
+                "Investors trade with each other"
+              ],
+              [
+                "Market order",
+                "Execution, not price"
+              ],
+              [
+                "Limit order",
+                "Price, not execution"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "planned_videos": [
+      {
+        "title": "How markets are organised",
+        "duration": "10:12",
+        "topic": "Functions of the financial system"
+      },
+      {
+        "title": "Market vs limit orders",
+        "duration": "7:45",
+        "topic": "Order types"
+      }
+    ]
+  },
+  {
+    "subject": "eq",
+    "lm_index": 2,
+    "topics": [
+      {
+        "title": "Forms of market efficiency",
+        "body": {
+          "schema": "notes/v1",
+          "blocks": [
+            {
+              "type": "table",
+              "header": [
+                "Form",
+                "Prices reflect",
+                "What fails to earn abnormal returns"
+              ],
+              "rows": [
+                [
+                  "Weak",
+                  "Past prices and volume",
+                  "Technical analysis"
+                ],
+                [
+                  "Semi-strong",
+                  "All public information",
+                  "Fundamental analysis"
+                ],
+                [
+                  "Strong",
+                  "Public and private information",
+                  "Even insider trading"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Anomalies and behavioural biases",
+        "body": {
+          "schema": "notes/v1",
+          "blocks": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                [
+                  {
+                    "t": "January effect:",
+                    "b": true
+                  },
+                  {
+                    "t": " small-firm returns higher in January."
+                  }
+                ],
+                [
+                  {
+                    "t": "Loss aversion:",
+                    "b": true
+                  },
+                  {
+                    "t": " losses feel worse than equal gains."
+                  }
+                ],
+                [
+                  {
+                    "t": "Overconfidence:",
+                    "b": true
+                  },
+                  {
+                    "t": " too much trading."
+                  }
+                ],
+                [
+                  {
+                    "t": "Herding:",
+                    "b": true
+                  },
+                  {
+                    "t": " copying the crowd."
+                  }
+                ],
+                [
+                  {
+                    "t": "Anchoring:",
+                    "b": true
+                  },
+                  {
+                    "t": " fixing on the purchase price."
+                  }
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "variant": "fun",
+              "title": "Funny use case",
+              "inline": [
+                {
+                  "t": "Your uncle buys a share at ₹500, watches it fall to ₹300, and says \"I will sell when it gets back to ₹500.\" That is anchoring and loss aversion sharing one chai."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "extra": {
+      "revision_sheet": {
+        "schema": "notes/v1",
+        "blocks": [
+          {
+            "type": "table",
+            "header": [
+              "Remember",
+              "Point"
+            ],
+            "rows": [
+              [
+                "Weak",
+                "Past data priced in"
+              ],
+              [
+                "Semi-strong",
+                "Public data priced in"
+              ],
+              [
+                "Strong",
+                "All data priced in"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "planned_videos": [
+      {
+        "title": "Efficient markets in 10 minutes",
+        "duration": "10:00",
+        "topic": "Forms of market efficiency"
+      },
+      {
+        "title": "Biases that cost you money",
+        "duration": "8:20",
+        "topic": "Anomalies and behavioural biases"
+      }
+    ]
+  }
+]
