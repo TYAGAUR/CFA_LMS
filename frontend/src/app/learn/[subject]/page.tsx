@@ -80,7 +80,8 @@ function LearnInner({ subject }: { subject: string }) {
 
   const notes = lm?.content.filter((c) => c.kind === "note" || c.kind === "infographic") ?? [];
   const revision = lm?.content.filter((c) => c.kind === "revision_sheet") ?? [];
-  const activeItem = itemId ?? (tab === "revision" ? revision[0]?.id : notes[0]?.id) ?? null;
+  // Study notes are shown inside "Videos & resources"; the Notes tab is intentionally left empty.
+  const activeNote = (itemId && notes.some((c) => c.id === itemId) ? itemId : notes[0]?.id) ?? null;
 
   async function toggleLearned() {
     if (!lm) return;
@@ -127,7 +128,7 @@ function LearnInner({ subject }: { subject: string }) {
                   <ul>
                     {notes.map((c) => (
                       <li key={c.id}>
-                        <button type="button" className={tab === "notes" && activeItem === c.id ? "on" : ""} onClick={() => go({ tab: "notes", item: c.id })}>
+                        <button type="button" className={tab === "resources" && itemId === c.id ? "on" : ""} onClick={() => go({ tab: "resources", item: c.id, res: null })}>
                           ▸ {c.title}
                         </button>
                       </li>
@@ -157,7 +158,7 @@ function LearnInner({ subject }: { subject: string }) {
                 <div className="crumb">{subj.name} › LM{lm.lm_no}</div>
                 <h2>{lm.title}</h2>
                 <div className="ptabs" role="tablist">
-                  {([["resources", `Videos & resources (${lm.resources.length})`], ["flashcards", "Flashcards"], ["notes", `Notes (${notes.length})`], ["quiz", "Chapter quiz"], ["revision", "Revision sheet"], ["los", "LOS"]] as [Tab, string][]).map(([k, label]) => (
+                  {([["resources", `Videos & resources (${lm.resources.length + notes.length})`], ["flashcards", "Flashcards"], ["notes", "Notes"], ["quiz", "Chapter quiz"], ["revision", "Revision sheet"], ["los", "LOS"]] as [Tab, string][]).map(([k, label]) => (
                     <button key={k} role="tab" aria-selected={tab === k} type="button" onClick={() => go({ tab: k, item: null })}>
                       {label}
                     </button>
@@ -165,9 +166,12 @@ function LearnInner({ subject }: { subject: string }) {
                 </div>
               </div>
               <div className="pbody">
-                {tab === "notes" && (notes.length ? <ContentView id={activeItem!} /> : <Empty text="Notes for this LM are being prepared by the faculty." />)}
+                {tab === "notes" && <Empty text="No notes here yet. This LM's study notes are under Videos & resources." />}
                 {tab === "revision" && (revision.length ? <ContentView id={revision[0].id} /> : <Empty text="The revision sheet for this LM will appear here." />)}
-                {tab === "resources" && <Resources lm={lm} resId={resId} onPick={(id) => go({ res: id })} onProgress={reloadLm} />}
+                {tab === "resources" && (
+                  <Resources lm={lm} notes={notes} activeNote={activeNote} resId={resId}
+                    onPick={(id) => go({ res: id })} onPickNote={(id) => go({ item: id })} onProgress={reloadLm} />
+                )}
                 {tab === "flashcards" && <FlashcardStudy subject={subject} lmId={lm.id} compact />}
                 {tab === "quiz" && <QuizPanel lm={lm} />}
                 {tab === "los" && (lm.los.length ? (
@@ -249,26 +253,48 @@ function ContentView({ id }: { id: string }) {
   );
 }
 
-function Resources({ lm, resId, onPick, onProgress }: { lm: LmDetail; resId: string | null; onPick: (id: string) => void; onProgress: () => void }) {
+function Resources({ lm, notes, activeNote, resId, onPick, onPickNote, onProgress }: {
+  lm: LmDetail; notes: LmDetail["content"]; activeNote: string | null; resId: string | null;
+  onPick: (id: string) => void; onPickNote: (id: string) => void; onProgress: () => void;
+}) {
   const current = resId ?? lm.resources[0]?.id;
-  if (!lm.resources.length) return <Empty text="Class videos and PDFs for this LM will appear here once uploaded." />;
   return (
-    <div className="vid">
-      <div>{current && <ResourceViewer key={current} resourceId={current} onProgress={(done) => done && onProgress()} />}</div>
-      <div className="reslist">
-        {lm.resources.map((r, i) => (
-          <button key={r.id} type="button" className={r.id === current ? "on" : ""} onClick={() => onPick(r.id)}>
-            <span className={`n ${r.completed ? "done" : ""}`}>{r.completed ? "✓" : i + 1}</span>
-            <span>
-              <b>{r.title}</b>
-              <small className="muted" style={{ display: "block" }}>
-                {r.kind === "video" ? `Video ${duration(r.duration_s)}` : r.kind === "link" ? "External link" : "PDF"}
-                {r.mandatory ? "" : " · optional"}
-              </small>
-            </span>
-          </button>
-        ))}
-      </div>
+    <div className="stack" style={{ gap: 28 }}>
+      {lm.resources.length > 0 ? (
+        <div className="vid">
+          <div>{current && <ResourceViewer key={current} resourceId={current} onProgress={(done) => done && onProgress()} />}</div>
+          <div className="reslist">
+            {lm.resources.map((r, i) => (
+              <button key={r.id} type="button" className={r.id === current ? "on" : ""} onClick={() => onPick(r.id)}>
+                <span className={`n ${r.completed ? "done" : ""}`}>{r.completed ? "✓" : i + 1}</span>
+                <span>
+                  <b>{r.title}</b>
+                  <small className="muted" style={{ display: "block" }}>
+                    {r.kind === "video" ? `Video ${duration(r.duration_s)}` : r.kind === "link" ? "External link" : "PDF"}
+                    {r.mandatory ? "" : " · optional"}
+                  </small>
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <p className="small muted" style={{ margin: 0 }}>Class videos and PDFs for this LM will appear here once uploaded.</p>
+      )}
+
+      {notes.length > 0 && activeNote && (
+        <section>
+          <div className="eyebrow">Study notes</div>
+          <div className="row" style={{ margin: "8px 0 14px", flexWrap: "wrap" }}>
+            {notes.map((c) => (
+              <button key={c.id} type="button" className={`btn sm ${c.id === activeNote ? "" : "ghost"}`} onClick={() => onPickNote(c.id)}>
+                {c.title}
+              </button>
+            ))}
+          </div>
+          <ContentView id={activeNote} />
+        </section>
+      )}
     </div>
   );
 }

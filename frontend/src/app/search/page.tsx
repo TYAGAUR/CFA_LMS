@@ -52,7 +52,7 @@ export default function Search() {
             {res.content.map((c) => (
               <div className="card" key={c.id}>
                 <div className="small muted">{c.subject} · {c.lm}</div>
-                {c.entitled ? <Link href={`/learn/${c.subject_code}?lm=${c.lm_id}&tab=notes&item=${c.id}`}><b>{c.title}</b></Link> : <b>{c.title} 🔒</b>}
+                {c.entitled ? <Link href={`/learn/${c.subject_code}?lm=${c.lm_id}&tab=resources&item=${c.id}`}><b>{c.title}</b></Link> : <b>{c.title} 🔒</b>}
                 {c.snippet && <p className="small" style={{ margin: "6px 0 0" }}><Snippet text={c.snippet} /></p>}
               </div>
             ))}

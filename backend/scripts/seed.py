@@ -21,7 +21,7 @@ from app.core.config import REPO_DIR, get_settings  # noqa: E402
 from app.core.db import SessionLocal  # noqa: E402
 from app.core.security import hash_password  # noqa: E402
 from app.core.timeutil import now_utc  # noqa: E402
-from app.modules.catalog.models import LearningModule, Subject, Topic  # noqa: E402
+from app.modules.catalog.models import LearningModule, Los, Subject, Topic  # noqa: E402
 from app.modules.commerce import service as commerce  # noqa: E402
 from app.modules.commerce.models import Course, CourseSubject  # noqa: E402
 from app.modules.content import service as content  # noqa: E402
@@ -116,18 +116,114 @@ async def seed_questions(session, subjects: dict[str, Subject], author: User, re
     return n
 
 
+# LM number (1-based) for each prototype flashcard, by position in flashcards.json, so each LM shows its own cards.
+PROTO_CARD_LMS = {"eq": [1, 1, 1, 1, 1, 1, 1, 3, 3], "dv": [1, 2, 2, 9], "qm": [1, 2, 2], "fi": [6, 1, 11],
+                  "eth": [2, 3]}
+
+
 async def seed_flashcards(session, subjects: dict[str, Subject], author: User) -> int:
     data = json.loads((SEED / "flashcards.json").read_text(encoding="utf-8"))
     n = 0
     for code, cards in data.items():
+        lm_nos = PROTO_CARD_LMS.get(code, [])
         for i, c in enumerate(cards):
+            lm_id = None
+            if i < len(lm_nos):
+                lm_id = await session.scalar(select(LearningModule.id).where(
+                    LearningModule.subject_id == subjects[code].id, LearningModule.lm_no == lm_nos[i]))
             ref = f"proto-{code}-{i}"
-            if await session.scalar(select(Flashcard.id).where(Flashcard.source_ref == ref)):
+            card = await session.scalar(select(Flashcard).where(Flashcard.source_ref == ref))
+            if card is not None:
+                card.lm_id = lm_id or card.lm_id  # the mapping wins, so LM renumbering re-files old cards
                 continue
-            session.add(Flashcard(subject_id=subjects[code].id, front=c["front"], back=c["back"], sort_order=i,
-                                  status="published", source_ref=ref, created_by=author.id))
+            session.add(Flashcard(subject_id=subjects[code].id, lm_id=lm_id, front=c["front"], back=c["back"],
+                                  sort_order=i, status="published", source_ref=ref, created_by=author.id))
             n += 1
     return n
+
+
+async def _publish_note(session, lm: LearningModule, title: str, kind: str, body: dict, order: int,
+                        author: User) -> None:
+    topic = None
+    if kind == "note":
+        topic = Topic(lm_id=lm.id, title=title, sort_order=order)
+        session.add(topic)
+        await session.flush()
+    item = ContentItem(lm_id=lm.id, topic_id=topic.id if topic else None, kind=kind, title=title, sort_order=order)
+    session.add(item)
+    await session.flush()
+    v = await content.save_draft(session, item, body, author, "original", None, "Imported from content pack")
+    await content.publish(session, item, v.id, author)
+
+
+async def seed_packs(session, subjects: dict[str, Subject], author: User, reviewer: User) -> dict[str, int]:
+    """seed/packs/<subject>.json: full subject content (LMs, LOS, notes, revision sheet, MCQs, flashcards).
+
+    Names and LM titles in the pack win over subjects.json; content is only added, never overwritten.
+    """
+    counts = {"lms": 0, "los": 0, "notes": 0, "questions": 0, "flashcards": 0}
+    for path in sorted((SEED / "packs").glob("*.json")):
+        pack = json.loads(path.read_text(encoding="utf-8"))
+        code = pack["subject"]
+        subj = subjects[code]
+        subj.name = pack.get("name", subj.name)
+        lm_by_no: dict[int, LearningModule] = {}
+        for spec in pack["lms"]:
+            lm = await session.scalar(select(LearningModule).where(LearningModule.subject_id == subj.id,
+                                                                   LearningModule.lm_no == spec["lm_no"]))
+            if lm is None:
+                lm = LearningModule(subject_id=subj.id, lm_no=spec["lm_no"], title=spec["title"],
+                                    status="published", published_at=now_utc())
+                session.add(lm)
+                await session.flush()
+                counts["lms"] += 1
+            lm.title, lm.summary = spec["title"], spec.get("summary")
+            lm_by_no[lm.lm_no] = lm
+
+            los_by_code = {x.code: x for x in (await session.scalars(select(Los).where(Los.lm_id == lm.id))).all()}
+            for o in spec["los"]:
+                if o["code"] not in los_by_code:
+                    los_by_code[o["code"]] = Los(lm_id=lm.id, code=o["code"], statement=o["statement"],
+                                                 command_word=o["command_word"])
+                    session.add(los_by_code[o["code"]])
+                    counts["los"] += 1
+            await session.flush()
+
+            if not await session.scalar(select(ContentItem.id).where(ContentItem.lm_id == lm.id)):
+                items = [(t["title"], "note", t["body"]) for t in spec["topics"]]
+                if spec.get("revision"):
+                    items.append(("Revision sheet", "revision_sheet", spec["revision"]))
+                for order, (title, kind, body) in enumerate(items):
+                    await _publish_note(session, lm, title, kind, body, order, author)
+                    counts["notes"] += 1
+
+            for i, x in enumerate(spec["questions"]):
+                ref = f"pack-{code}-{lm.lm_no}-{i:02d}"
+                if await session.scalar(select(Question.id).where(Question.source_ref == ref)):
+                    continue
+                session.add(Question(
+                    subject_id=subj.id, lm_id=lm.id, los_id=los_by_code[x["los"]].id, stem=x["q"], options=x["o"],
+                    correct_index=x["a"], explanation=x["e"], difficulty=x["d"],
+                    qtype="numerical" if NUMERIC.search(x["q"]) else "conceptual", status="published",
+                    provenance="original", source_ref=ref, author_id=author.id, reviewer_id=reviewer.id,
+                    published_at=now_utc()))
+                counts["questions"] += 1
+
+            for i, c in enumerate(spec["flashcards"]):
+                ref = f"pack-{code}-{lm.lm_no}-{i:02d}"
+                if await session.scalar(select(Flashcard.id).where(Flashcard.source_ref == ref)):
+                    continue
+                session.add(Flashcard(subject_id=subj.id, lm_id=lm.id, front=c["front"], back=c["back"],
+                                      sort_order=lm.lm_no * 100 + i, status="published", source_ref=ref,
+                                      created_by=author.id))
+                counts["flashcards"] += 1
+
+        for proto_id, lm_no in pack.get("retag_proto", {}).items():
+            qn = await session.scalar(select(Question).where(Question.source_ref == f"proto-{proto_id}"))
+            if qn is not None and lm_no in lm_by_no:
+                qn.lm_id = lm_by_no[lm_no].id
+    await session.flush()
+    return counts
 
 
 async def seed_staff(session) -> dict[str, User]:
@@ -205,6 +301,7 @@ async def main() -> None:
         notes = await seed_notes(session, subjects, staff["author@local.test"])
         questions = await seed_questions(session, subjects, staff["author@local.test"], staff["reviewer@local.test"])
         cards = await seed_flashcards(session, subjects, staff["author@local.test"])
+        packs = await seed_packs(session, subjects, staff["author@local.test"], staff["reviewer@local.test"])
         courses = await seed_courses(session, subjects)
         await seed_demo_student(session, courses, staff["admin@local.test"])
         await session.commit()
@@ -217,6 +314,7 @@ async def main() -> None:
     (SEED / "personas.json").write_text(json.dumps(personas, indent=2), encoding="utf-8")
     print(f"Seeded: {len(subjects)} subjects, {notes} new note items, {questions} new questions, "
           f"{cards} new flashcards, {len(courses)} courses, {len(staff)} staff.")
+    print("Content packs: " + ", ".join(f"{v} new {k}" for k, v in packs.items()))
     pw = STAFF_PASSWORD if s.is_dev else "(SEED_STAFF_PASSWORD)"
     print(f"Staff logins: {', '.join(e for e, _, _ in STAFF)} / password {pw}")
     print(f"Demo student mobile: {DEMO_STUDENT[0][3:]} (registered for CFA-L1-MAY27)")

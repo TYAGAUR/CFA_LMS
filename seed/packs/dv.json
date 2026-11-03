@@ -1,0 +1,3725 @@
+{
+ "subject": "dv",
+ "name": "Derivatives",
+ "lms": [
+  {
+   "lm_no": 1,
+   "title": "Derivative Instrument and Derivative Market Features",
+   "summary": "What derivatives are, their underlyings, and how OTC and exchange-traded markets differ.",
+   "los": [
+    {
+     "code": "1.a",
+     "command_word": "define",
+     "statement": "Define a derivative and describe basic features of a derivative instrument."
+    },
+    {
+     "code": "1.b",
+     "command_word": "describe",
+     "statement": "Describe the basic features of derivative markets, and contrast over-the-counter and exchange-traded derivative markets."
+    }
+   ],
+   "topics": [
+    {
+     "title": "What a derivative is",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "derivative",
+          "b": true
+         },
+         {
+          "t": " is a contract whose value comes from an "
+         },
+         {
+          "t": "underlying",
+          "b": true
+         },
+         {
+          "t": ": a share, index, bond, interest rate, currency, commodity, credit event or even weather. It specifies the underlying, size, price, maturity and settlement (physical delivery or cash)."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Long",
+           "b": true
+          },
+          {
+           "t": " = buyer; "
+          },
+          {
+           "t": "short",
+           "b": true
+          },
+          {
+           "t": " = seller. One side's gain is the other's loss (a zero-sum contract, before costs)."
+          }
+         ],
+         [
+          {
+           "t": "Derivatives let users take or shed exposure with little upfront cash, which creates "
+          },
+          {
+           "t": "leverage",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A Nifty futures lot is 75 units. At an index level of 22,000, one contract controls ₹16.5 lakh of exposure. If initial margin is 12%, the trader posts only about ₹2 lakh."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "OTC versus exchange-traded",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "",
+         "Exchange-traded",
+         "Over-the-counter (OTC)"
+        ],
+        "rows": [
+         [
+          "Terms",
+          "Standardised",
+          "Customised"
+         ],
+         [
+          "Counterparty risk",
+          "Low: clearing house guarantees",
+          "Higher, though central clearing and collateral reduce it"
+         ],
+         [
+          "Transparency",
+          "Prices public",
+          "Private, though post-crisis reporting has increased"
+         ],
+         [
+          "Liquidity",
+          "High for main contracts",
+          "Varies"
+         ],
+         [
+          "Examples",
+          "Futures, listed options",
+          "Forwards, most swaps"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "central counterparty (CCP)",
+          "b": true
+         },
+         {
+          "t": " stands between buyer and seller, collects margin and guarantees performance. Regulators now require many standard OTC swaps to be centrally cleared."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Customisation is the OTC advantage; standardisation and the clearing guarantee are the exchange advantage."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "An OTC forward is a tailor-made suit. An exchange future is off the rack: it fits most people well enough and you can return it (close it out) easily."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Derivative value = f(underlying) · Zero-sum before costs"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Underlying",
+        "Asset or rate the contract depends on"
+       ],
+       [
+        "Long / short",
+        "Buyer / seller"
+       ],
+       [
+        "Exchange-traded",
+        "Standardised, cleared, transparent"
+       ],
+       [
+        "OTC",
+        "Customised, bilateral, more counterparty risk"
+       ],
+       [
+        "CCP",
+        "Becomes buyer to every seller and seller to every buyer"
+       ],
+       [
+        "Settlement",
+        "Physical delivery or cash"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The underlying of a derivative is:",
+     "o": [
+      "The margin account",
+      "The asset or rate from which the derivative derives its value",
+      "The clearing house"
+     ],
+     "a": 1,
+     "e": "The value of the contract depends on the underlying.",
+     "los": "1.a"
+    },
+    {
+     "d": "M",
+     "q": "Compared with OTC derivatives, exchange-traded derivatives are:",
+     "o": [
+      "Higher in counterparty risk",
+      "Customised and private",
+      "Standardised with clearing-house guarantees"
+     ],
+     "a": 2,
+     "e": "Exchanges standardise terms and clearing houses guarantee performance.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "A central counterparty reduces:",
+     "o": [
+      "Counterparty credit risk",
+      "Market risk",
+      "Basis risk"
+     ],
+     "a": 0,
+     "e": "The CCP guarantees performance and collects margin.",
+     "los": "1.b"
+    },
+    {
+     "d": "E",
+     "q": "Which is most likely an OTC derivative?",
+     "o": [
+      "An exchange-traded futures contract",
+      "A customised currency forward",
+      "A listed index option"
+     ],
+     "a": 1,
+     "e": "Forwards are privately negotiated.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "Derivatives provide leverage because:",
+     "o": [
+      "They have no counterparties",
+      "They must be fully paid upfront",
+      "A small upfront payment controls a large exposure"
+     ],
+     "a": 2,
+     "e": "Margin or premium is small relative to notional.",
+     "los": "1.a"
+    },
+    {
+     "d": "H",
+     "q": "A Nifty futures contract of 75 units at an index level of 22,000 with 12% initial margin needs margin closest to:",
+     "o": [
+      "₹1.98 lakh",
+      "₹16.5 lakh",
+      "₹2.64 lakh"
+     ],
+     "a": 0,
+     "e": "75 × 22,000 = ₹16.5 lakh; 12% = ₹1.98 lakh.",
+     "los": "1.a"
+    },
+    {
+     "d": "E",
+     "q": "Settlement of a derivative by paying the difference in value rather than delivering the asset is:",
+     "o": [
+      "Physical settlement",
+      "Cash settlement",
+      "Netting"
+     ],
+     "a": 1,
+     "e": "Cash settlement pays the gain or loss.",
+     "los": "1.a"
+    },
+    {
+     "d": "M",
+     "q": "Before transaction costs, derivatives are best described as:",
+     "o": [
+      "Always profitable for the long",
+      "Riskless",
+      "Zero-sum between the long and the short"
+     ],
+     "a": 2,
+     "e": "One party's gain equals the other's loss.",
+     "los": "1.a"
+    },
+    {
+     "d": "H",
+     "q": "Post-crisis regulation mainly affected OTC markets by:",
+     "o": [
+      "Requiring central clearing and reporting for many standard contracts",
+      "Removing margin requirements",
+      "Banning swaps"
+     ],
+     "a": 0,
+     "e": "Mandatory clearing and trade reporting increased transparency.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "Which is an advantage of OTC derivatives over exchange-traded ones?",
+     "o": [
+      "Lower counterparty risk",
+      "Terms can be tailored to the user",
+      "Greater transparency"
+     ],
+     "a": 1,
+     "e": "Customisation is the key OTC benefit.",
+     "los": "1.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Derivative",
+     "back": "Contract whose value comes from an underlying asset or rate."
+    },
+    {
+     "front": "Long vs short",
+     "back": "Buyer vs seller of the contract."
+    },
+    {
+     "front": "Exchange-traded features",
+     "back": "Standardised, cleared, transparent, liquid."
+    },
+    {
+     "front": "OTC features",
+     "back": "Customised, bilateral, more counterparty risk."
+    },
+    {
+     "front": "CCP",
+     "back": "Clearing counterparty guaranteeing both sides."
+    },
+    {
+     "front": "Why derivatives are leveraged",
+     "back": "Small margin or premium controls large notional."
+    }
+   ]
+  },
+  {
+   "lm_no": 2,
+   "title": "Forward Commitment and Contingent Claim Features and Instruments",
+   "summary": "Forwards, futures and swaps (obligations) versus options and credit derivatives (rights).",
+   "los": [
+    {
+     "code": "2.a",
+     "command_word": "define",
+     "statement": "Define forward contracts, futures contracts, swaps, options and credit derivatives, and compare their basic characteristics."
+    },
+    {
+     "code": "2.b",
+     "command_word": "determine",
+     "statement": "Determine the value at expiration and profit of derivatives."
+    },
+    {
+     "code": "2.c",
+     "command_word": "contrast",
+     "statement": "Contrast forward commitments with contingent claims."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Forward commitments",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Forward",
+           "b": true
+          },
+          {
+           "t": ": OTC agreement to buy or sell at a fixed price on a future date. Long payoff at expiry = S_T − F₀."
+          }
+         ],
+         [
+          {
+           "t": "Futures",
+           "b": true
+          },
+          {
+           "t": ": exchange-traded forward with daily "
+          },
+          {
+           "t": "mark-to-market",
+           "b": true
+          },
+          {
+           "t": " and margin."
+          }
+         ],
+         [
+          {
+           "t": "Swap",
+           "b": true
+          },
+          {
+           "t": ": exchange of a series of cash flows, e.g. fixed for floating interest. Equivalent to a series of forwards."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Meera agrees to buy 1 kg of silver in three months at ₹90,000 (forward). At expiry silver is ₹95,000. Long payoff = 95,000 − 90,000 = "
+         },
+         {
+          "t": "+₹5,000",
+          "b": true
+         },
+         {
+          "t": "; the short loses ₹5,000."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Forward commitments are "
+         },
+         {
+          "t": "symmetric",
+          "b": true
+         },
+         {
+          "t": ": both gains and losses can be large for either side."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Contingent claims: options and credit derivatives",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "",
+         "Call",
+         "Put"
+        ],
+        "rows": [
+         [
+          "Buyer's right",
+          "Buy at strike X",
+          "Sell at strike X"
+         ],
+         [
+          "Payoff at expiry (long)",
+          "max(0, S_T − X)",
+          "max(0, X − S_T)"
+         ],
+         [
+          "Long profit",
+          "max(0, S_T − X) − c₀",
+          "max(0, X − S_T) − p₀"
+         ],
+         [
+          "Breakeven",
+          "X + c₀",
+          "X − p₀"
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "The buyer pays a "
+          },
+          {
+           "t": "premium",
+           "b": true
+          },
+          {
+           "t": " and has a right, not an obligation. The writer has the obligation."
+          }
+         ],
+         [
+          {
+           "t": "European",
+           "b": true
+          },
+          {
+           "t": " options exercise only at expiry; "
+          },
+          {
+           "t": "American",
+           "b": true
+          },
+          {
+           "t": " any time before."
+          }
+         ],
+         [
+          {
+           "t": "Credit default swap (CDS)",
+           "b": true
+          },
+          {
+           "t": ": protection buyer pays a periodic premium; seller pays if a credit event occurs on the reference entity."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A call on Infosys with strike ₹1,500 costs ₹40. At expiry the share is ₹1,580. Payoff = 80; profit = 80 − 40 = "
+         },
+         {
+          "t": "₹40",
+          "b": true
+         },
+         {
+          "t": ". Breakeven = 1,540. A put with the same strike at ₹30 expires worthless: the buyer loses ₹30."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "The maximum loss for an option buyer is the premium; for a call writer it is unlimited."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Long forward = S_T − F₀ · Long call = max(0, S_T − X) − c₀ · Long put = max(0, X − S_T) − p₀"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Forward commitment",
+        "Obligation; symmetric payoff"
+       ],
+       [
+        "Contingent claim",
+        "Right; asymmetric payoff"
+       ],
+       [
+        "Futures",
+        "Standardised forward with daily MTM"
+       ],
+       [
+        "Swap",
+        "Series of forwards"
+       ],
+       [
+        "Call breakeven",
+        "X + premium"
+       ],
+       [
+        "Put breakeven",
+        "X − premium"
+       ],
+       [
+        "CDS",
+        "Premium for protection against a credit event"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A forward contract differs from a futures contract because it is typically:",
+     "o": [
+      "Marked to market daily",
+      "Traded on an exchange",
+      "Customised and traded over the counter"
+     ],
+     "a": 2,
+     "e": "Forwards are private OTC contracts; futures are standardised and exchange-traded.",
+     "los": "2.a"
+    },
+    {
+     "d": "E",
+     "q": "The buyer of a call option has:",
+     "o": [
+      "The right, but not the obligation, to buy",
+      "The obligation to buy",
+      "The right to sell"
+     ],
+     "a": 0,
+     "e": "A call gives the holder the right to buy at the strike.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "A long forward at ₹90,000 expires with the spot price at ₹95,000. The long's payoff is:",
+     "o": [
+      "₹0",
+      "+₹5,000",
+      "−₹5,000"
+     ],
+     "a": 1,
+     "e": "S_T − F₀ = 95,000 − 90,000.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "A call with strike ₹1,500 costs ₹40. At expiry the stock is at ₹1,580. The buyer's profit is:",
+     "o": [
+      "₹120",
+      "₹80",
+      "₹40"
+     ],
+     "a": 2,
+     "e": "Payoff 80 − premium 40 = 40.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "The breakeven price at expiry for a long put with strike ₹500 and premium ₹25 is:",
+     "o": [
+      "₹475",
+      "₹525",
+      "₹500"
+     ],
+     "a": 0,
+     "e": "Put breakeven = X − premium.",
+     "los": "2.b"
+    },
+    {
+     "d": "H",
+     "q": "The maximum loss for the writer of an uncovered call is:",
+     "o": [
+      "The premium received",
+      "Unlimited",
+      "The strike price"
+     ],
+     "a": 1,
+     "e": "The share price can rise without limit.",
+     "los": "2.b"
+    },
+    {
+     "d": "E",
+     "q": "Which is a contingent claim?",
+     "o": [
+      "A forward",
+      "An interest rate swap",
+      "An option"
+     ],
+     "a": 2,
+     "e": "Options pay off only if certain conditions are met.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "In a credit default swap, the protection seller:",
+     "o": [
+      "Pays compensation if a credit event occurs",
+      "Owns the reference bond",
+      "Pays periodic premiums"
+     ],
+     "a": 0,
+     "e": "The buyer pays premiums; the seller pays on default.",
+     "los": "2.a"
+    },
+    {
+     "d": "H",
+     "q": "An interest rate swap can be viewed as:",
+     "o": [
+      "A futures contract on equities",
+      "A series of forward contracts",
+      "A single call option"
+     ],
+     "a": 1,
+     "e": "Each exchange date is like a forward on the reference rate.",
+     "los": "2.c"
+    },
+    {
+     "d": "E",
+     "q": "An option that can be exercised only on the expiry date is:",
+     "o": [
+      "Bermudan",
+      "American",
+      "European"
+     ],
+     "a": 2,
+     "e": "European options exercise at expiry only.",
+     "los": "2.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Forward commitment vs contingent claim",
+     "back": "Obligation (symmetric) vs right (asymmetric)."
+    },
+    {
+     "front": "Long call payoff",
+     "back": "max(0, S_T − X)."
+    },
+    {
+     "front": "Long put payoff",
+     "back": "max(0, X − S_T)."
+    },
+    {
+     "front": "Call and put breakevens",
+     "back": "Call: X + premium. Put: X − premium."
+    },
+    {
+     "front": "European vs American",
+     "back": "Exercise at expiry only vs any time to expiry."
+    },
+    {
+     "front": "Credit default swap",
+     "back": "Protection buyer pays premiums; seller pays on a credit event."
+    }
+   ]
+  },
+  {
+   "lm_no": 3,
+   "title": "Derivative Benefits, Risks, and Issuer and Investor Uses",
+   "summary": "Why markets need derivatives, the risks they bring, and how companies and investors use them.",
+   "los": [
+    {
+     "code": "3.a",
+     "command_word": "describe",
+     "statement": "Describe benefits and risks of derivative instruments."
+    },
+    {
+     "code": "3.b",
+     "command_word": "compare",
+     "statement": "Compare the use of derivatives among issuers and investors."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Benefits and risks",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Benefits",
+           "b": true
+          },
+          {
+           "t": ": risk transfer and hedging; "
+          },
+          {
+           "t": "price discovery",
+           "b": true
+          },
+          {
+           "t": " (futures prices reveal expected spot prices); lower transaction costs; operational ease such as shorting; more efficient markets."
+          }
+         ],
+         [
+          {
+           "t": "Risks",
+           "b": true
+          },
+          {
+           "t": ": high "
+          },
+          {
+           "t": "leverage",
+           "b": true
+          },
+          {
+           "t": " magnifies losses; complexity; "
+          },
+          {
+           "t": "counterparty credit risk",
+           "b": true
+          },
+          {
+           "t": "; "
+          },
+          {
+           "t": "liquidity",
+           "b": true
+          },
+          {
+           "t": " risk from margin calls; "
+          },
+          {
+           "t": "basis risk",
+           "b": true
+          },
+          {
+           "t": " when hedge and exposure differ; "
+          },
+          {
+           "t": "systemic risk",
+           "b": true
+          },
+          {
+           "t": " when large positions fail together."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A derivative is like a kitchen knife: brilliant for cooking, dangerous in the wrong hands, and the hospital bill is not the knife's fault."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "How issuers and investors use them",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "User",
+         "Typical use"
+        ],
+        "rows": [
+         [
+          "Issuer (company)",
+          "Hedge interest rates on debt, FX on exports and imports, commodity inputs"
+         ],
+         [
+          "Investor",
+          "Modify portfolio exposure cheaply, hedge, replicate a market, express views"
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Hedge accounting for issuers"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Cash flow hedge",
+           "b": true
+          },
+          {
+           "t": ": hedges variable future cash flows, e.g. pay-fixed swap on floating debt."
+          }
+         ],
+         [
+          {
+           "t": "Fair value hedge",
+           "b": true
+          },
+          {
+           "t": ": hedges the value of an asset or liability, e.g. receive-fixed swap on fixed-rate debt."
+          }
+         ],
+         [
+          {
+           "t": "Net investment hedge",
+           "b": true
+          },
+          {
+           "t": ": hedges FX on a foreign subsidiary."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Bharat Motors exports to the US and expects $10 million in six months. It sells dollars forward at ₹83.5. Whether the rupee strengthens to 81 or weakens to 86, it receives ₹83.5 crore. The hedge removes FX risk but also gives up any windfall."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Basis risk: hedging jet fuel with crude oil futures leaves the airline exposed to the gap between the two prices."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Hedge accounting: cash flow · fair value · net investment"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Price discovery",
+        "Futures signal expected prices"
+       ],
+       [
+        "Leverage risk",
+        "Small moves, big losses"
+       ],
+       [
+        "Basis risk",
+        "Hedge and exposure move differently"
+       ],
+       [
+        "Counterparty risk",
+        "Other side may default"
+       ],
+       [
+        "Cash flow hedge",
+        "Fix variable cash flows"
+       ],
+       [
+        "Fair value hedge",
+        "Protect asset or liability value"
+       ],
+       [
+        "Net investment hedge",
+        "FX on a foreign subsidiary"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Futures prices helping markets estimate future spot prices is an example of:",
+     "o": [
+      "Price discovery",
+      "Counterparty risk",
+      "Basis risk"
+     ],
+     "a": 0,
+     "e": "Derivative markets reveal information about expected prices.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "An airline hedges jet fuel costs with crude oil futures. The main remaining risk is:",
+     "o": [
+      "Systemic risk",
+      "Basis risk",
+      "Settlement risk"
+     ],
+     "a": 1,
+     "e": "Jet fuel and crude prices do not move exactly together.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "A company with floating-rate debt enters a pay-fixed swap. Under hedge accounting this is most likely a:",
+     "o": [
+      "Fair value hedge",
+      "Net investment hedge",
+      "Cash flow hedge"
+     ],
+     "a": 2,
+     "e": "It fixes uncertain interest cash flows.",
+     "los": "3.b"
+    },
+    {
+     "d": "H",
+     "q": "A company with fixed-rate debt enters a receive-fixed, pay-floating swap to offset changes in the debt's value. This is a:",
+     "o": [
+      "Fair value hedge",
+      "Cash flow hedge",
+      "Speculative position"
+     ],
+     "a": 0,
+     "e": "It protects against changes in the liability's fair value.",
+     "los": "3.b"
+    },
+    {
+     "d": "E",
+     "q": "Which is a risk of derivatives?",
+     "o": [
+      "Lower transaction costs",
+      "Leverage that magnifies losses",
+      "Risk transfer"
+     ],
+     "a": 1,
+     "e": "Leverage cuts both ways.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "An exporter expecting $10 million sells dollars forward at ₹83.5. If the spot rate at receipt is ₹86, the exporter:",
+     "o": [
+      "Loses ₹2.5 crore in cash",
+      "Receives ₹86 crore",
+      "Receives ₹83.5 crore"
+     ],
+     "a": 2,
+     "e": "The forward locks the rate; it gives up the upside.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "Investors commonly use equity index futures to:",
+     "o": [
+      "Change market exposure quickly and cheaply",
+      "Avoid all market risk forever",
+      "Earn dividends"
+     ],
+     "a": 0,
+     "e": "Futures adjust beta without trading every stock.",
+     "los": "3.b"
+    },
+    {
+     "d": "H",
+     "q": "Systemic risk from derivatives refers to:",
+     "o": [
+      "Risk of one small option expiring worthless",
+      "Risk that failures spread across the financial system",
+      "The risk of high transaction costs"
+     ],
+     "a": 1,
+     "e": "Large, interconnected positions can transmit losses across institutions.",
+     "los": "3.a"
+    },
+    {
+     "d": "E",
+     "q": "Hedging a foreign subsidiary's value against currency moves is a:",
+     "o": [
+      "Cash flow hedge",
+      "Fair value hedge",
+      "Net investment hedge"
+     ],
+     "a": 2,
+     "e": "It hedges a net investment abroad.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "Liquidity risk for a futures hedger mainly arises from:",
+     "o": [
+      "Margin calls requiring cash",
+      "The premium paid upfront",
+      "Exercise rights"
+     ],
+     "a": 0,
+     "e": "Daily losses must be met in cash even if the hedged item gains later.",
+     "los": "3.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Benefits of derivatives",
+     "back": "Risk transfer, price discovery, low costs, efficiency."
+    },
+    {
+     "front": "Risks of derivatives",
+     "back": "Leverage, counterparty, liquidity, basis, systemic."
+    },
+    {
+     "front": "Basis risk",
+     "back": "Hedge and hedged item do not move together exactly."
+    },
+    {
+     "front": "Cash flow hedge",
+     "back": "Fixes variable cash flows, e.g. pay-fixed swap on floating debt."
+    },
+    {
+     "front": "Fair value hedge",
+     "back": "Protects value, e.g. receive-fixed swap on fixed debt."
+    },
+    {
+     "front": "Net investment hedge",
+     "back": "Hedges FX on a foreign subsidiary."
+    }
+   ]
+  },
+  {
+   "lm_no": 4,
+   "title": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
+   "summary": "No-arbitrage pricing, replication, and how carry costs and benefits set forward prices.",
+   "los": [
+    {
+     "code": "4.a",
+     "command_word": "explain",
+     "statement": "Explain how the concepts of arbitrage and replication are used in pricing derivatives."
+    },
+    {
+     "code": "4.b",
+     "command_word": "explain",
+     "statement": "Explain the difference between the spot and expected future price of an underlying and the cost of carry associated with holding the underlying asset."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Arbitrage and replication",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Arbitrage",
+          "b": true
+         },
+         {
+          "t": " is a riskless profit with no net investment. If two portfolios have identical future payoffs, they must cost the same today ("
+         },
+         {
+          "t": "law of one price",
+          "b": true
+         },
+         {
+          "t": "). Derivatives are priced so that no arbitrage exists."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Replication",
+          "b": true
+         },
+         {
+          "t": ": a long forward can be replicated by borrowing money to buy the underlying and holding it until expiry. So the forward price must equal the cost of that strategy."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "F₀(T) = S₀ × (1 + r)^T   (no carry costs or benefits)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A share trades at ₹1,000, pays no dividend, and the one-year rate is 6%. F₀ = 1,000 × 1.06 = "
+         },
+         {
+          "t": "₹1,060",
+          "b": true
+         },
+         {
+          "t": ". If the forward traded at ₹1,080, sell the forward, borrow ₹1,000, buy the share; at expiry deliver the share for ₹1,080 and repay ₹1,060: riskless profit ₹20."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Cost of carry",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Holding the underlying can generate "
+         },
+         {
+          "t": "benefits",
+          "b": true
+         },
+         {
+          "t": " (dividends, coupons, convenience yield) and "
+         },
+         {
+          "t": "costs",
+          "b": true
+         },
+         {
+          "t": " (storage, insurance). Benefits lower the forward price; costs raise it."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "F₀(T) = [S₀ − PV(benefits) + PV(costs)] × (1 + r)^T  ·  continuous: F₀ = S₀ e^{(r + c − i)T}"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Gold spot ₹70,000 per 10 g, storage costs with a PV of ₹500, rate 5%, one year. F₀ = (70,000 + 500) × 1.05 = "
+         },
+         {
+          "t": "₹74,025",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Risk-neutral pricing: the forward price does not depend on the expected future spot price or on investors' risk preferences, only on spot, rates and carry."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Arbitrageurs are the people who notice the same mango is ₹40 at one stall and ₹50 at the next. After a few minutes, both stalls charge ₹45."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "F₀ = (S₀ − PV benefits + PV costs) × (1 + r)^T"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Arbitrage",
+        "Riskless profit, no investment"
+       ],
+       [
+        "Law of one price",
+        "Same payoff, same price"
+       ],
+       [
+        "Replication",
+        "Borrow and buy underlying = long forward"
+       ],
+       [
+        "Carry benefits",
+        "Dividends, coupons, convenience yield: lower F₀"
+       ],
+       [
+        "Carry costs",
+        "Storage, insurance: raise F₀"
+       ],
+       [
+        "Risk-neutral pricing",
+        "No need for expected spot or risk aversion"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Arbitrage is best described as:",
+     "o": [
+      "A hedge with basis risk",
+      "A riskless profit with no net investment",
+      "A high-risk speculative trade"
+     ],
+     "a": 1,
+     "e": "Arbitrage earns a certain gain without committing capital.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "A non-dividend share trades at ₹1,000 and the one-year rate is 6%. The no-arbitrage one-year forward price is:",
+     "o": [
+      "₹940",
+      "₹1,000",
+      "₹1,060"
+     ],
+     "a": 2,
+     "e": "1,000 × 1.06 = 1,060.",
+     "los": "4.a"
+    },
+    {
+     "d": "H",
+     "q": "With spot ₹1,000, rate 6% and a one-year forward trading at ₹1,080, an arbitrageur should:",
+     "o": [
+      "Sell the forward, borrow ₹1,000 and buy the share",
+      "Buy the forward and short the share",
+      "Do nothing"
+     ],
+     "a": 0,
+     "e": "The forward is too expensive; this cash-and-carry trade earns ₹20.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "A long forward can be replicated by:",
+     "o": [
+      "Buying a put",
+      "Borrowing to buy the underlying",
+      "Lending cash and shorting the underlying"
+     ],
+     "a": 1,
+     "e": "Buying the asset with borrowed money gives the same payoff at expiry.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "Dividends paid by the underlying share will make its forward price:",
+     "o": [
+      "Unchanged",
+      "Higher",
+      "Lower"
+     ],
+     "a": 2,
+     "e": "Benefits of holding the asset reduce the forward price.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Gold spot is ₹70,000, PV of storage costs ₹500, and the one-year rate 5%. The forward price is closest to:",
+     "o": [
+      "₹74,025",
+      "₹73,500",
+      "₹73,475"
+     ],
+     "a": 0,
+     "e": "(70,000 + 500) × 1.05 = 74,025.",
+     "los": "4.b"
+    },
+    {
+     "d": "H",
+     "q": "Under no-arbitrage pricing, the forward price depends on:",
+     "o": [
+      "Investors' expectations of the future spot price",
+      "Spot price, interest rate and carry",
+      "The risk aversion of the buyer"
+     ],
+     "a": 1,
+     "e": "Risk-neutral pricing removes the need for expectations.",
+     "los": "4.b"
+    },
+    {
+     "d": "E",
+     "q": "Storage and insurance costs on a commodity are examples of:",
+     "o": [
+      "Convenience yield",
+      "Carry benefits",
+      "Carry costs"
+     ],
+     "a": 2,
+     "e": "They raise the cost of holding.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Convenience yield is:",
+     "o": [
+      "A benefit of holding the physical commodity",
+      "A storage cost",
+      "A transaction fee"
+     ],
+     "a": 0,
+     "e": "It reflects the value of having the physical asset on hand.",
+     "los": "4.b"
+    },
+    {
+     "d": "H",
+     "q": "The law of one price states that:",
+     "o": [
+      "All assets have the same price",
+      "Assets with identical future cash flows must have the same price today",
+      "Prices never change"
+     ],
+     "a": 1,
+     "e": "Otherwise an arbitrage would exist.",
+     "los": "4.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Arbitrage",
+     "back": "Riskless profit with no net investment."
+    },
+    {
+     "front": "No-arbitrage forward (no carry)",
+     "back": "F₀ = S₀ (1 + r)^T."
+    },
+    {
+     "front": "Forward with carry",
+     "back": "F₀ = (S₀ − PV benefits + PV costs)(1 + r)^T."
+    },
+    {
+     "front": "Replicating a long forward",
+     "back": "Borrow and buy the underlying."
+    },
+    {
+     "front": "Carry benefit examples",
+     "back": "Dividends, coupons, convenience yield."
+    },
+    {
+     "front": "Risk-neutral pricing",
+     "back": "Price uses only spot, rate, carry; not expected spot."
+    }
+   ]
+  },
+  {
+   "lm_no": 5,
+   "title": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities",
+   "summary": "Forward price versus forward value, valuing a forward during its life, and forward rates.",
+   "los": [
+    {
+     "code": "5.a",
+     "command_word": "explain",
+     "statement": "Explain how the value and price of a forward contract are determined at initiation, during the life of the contract and at expiration."
+    },
+    {
+     "code": "5.b",
+     "command_word": "explain",
+     "statement": "Explain how forward rates are determined for an underlying with a term structure and describe their uses."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Price versus value",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "The "
+         },
+         {
+          "t": "forward price",
+          "b": true
+         },
+         {
+          "t": " F₀ is fixed at the start and set so the contract's "
+         },
+         {
+          "t": "value is zero",
+          "b": true
+         },
+         {
+          "t": " at initiation. As the spot price moves, the contract gains or loses "
+         },
+         {
+          "t": "value",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Value of long forward at t: V_t = S_t − PV(benefits) + PV(costs) − F₀ ÷ (1 + r)^(T − t)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A one-year forward on a non-dividend share was agreed at ₹1,060. Six months later the share is ₹1,100 and the rate is 6%. V = 1,100 − 1,060 ÷ 1.06^0.5 = 1,100 − 1,029.6 = "
+         },
+         {
+          "t": "₹70.4",
+          "b": true
+         },
+         {
+          "t": " to the long."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "At expiry V_T = S_T − F₀. At initiation V₀ = 0. Do not confuse the forward "
+         },
+         {
+          "t": "price",
+          "b": true
+         },
+         {
+          "t": " (a number in the contract) with its "
+         },
+         {
+          "t": "value",
+          "b": true
+         },
+         {
+          "t": " (what it is worth now)."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Forward rates and FRAs",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "From spot (zero) rates we can derive "
+         },
+         {
+          "t": "implied forward rates",
+          "b": true
+         },
+         {
+          "t": ": the rate for a future period that makes investing for the long period equal to rolling short-period investments."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "(1 + z₂)² = (1 + z₁)(1 + f(1,1))"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "One-year spot rate 5%, two-year spot rate 6%. f(1,1) = 1.06² ÷ 1.05 − 1 = 1.1236 ÷ 1.05 − 1 = "
+         },
+         {
+          "t": "7.01%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "forward rate agreement (FRA)",
+          "b": true
+         },
+         {
+          "t": " locks in an interest rate for a future period. The long (pay fixed) gains if the market rate ends above the FRA rate."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "An implied forward rate is the market whispering what it thinks rates will be next year, while charging you for listening."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "V_t (long) = S_t − PV(benefits) + PV(costs) − F₀/(1 + r)^(T−t) · V₀ = 0 · V_T = S_T − F₀"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Forward price",
+        "Fixed in the contract; set so V₀ = 0"
+       ],
+       [
+        "Forward value",
+        "Changes with spot and rates"
+       ],
+       [
+        "Implied forward",
+        "(1 + z₂)² = (1 + z₁)(1 + f)"
+       ],
+       [
+        "FRA long",
+        "Pays fixed; gains if rates rise"
+       ],
+       [
+        "At expiry",
+        "Value = spot − forward price"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "At initiation, the value of a forward contract is:",
+     "o": [
+      "Equal to the forward price",
+      "Equal to the spot price",
+      "Zero"
+     ],
+     "a": 2,
+     "e": "The forward price is set so neither side pays anything upfront.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "A long forward has a forward price of ₹1,060. At expiry the spot price is ₹1,020. The value to the long is:",
+     "o": [
+      "−₹40",
+      "₹0",
+      "+₹40"
+     ],
+     "a": 0,
+     "e": "S_T − F₀ = 1,020 − 1,060.",
+     "los": "5.a"
+    },
+    {
+     "d": "H",
+     "q": "A one-year forward on a non-dividend share was agreed at ₹1,060. After six months the share is at ₹1,100 and the annual rate is 6%. The value of the long position is closest to:",
+     "o": [
+      "₹40.0",
+      "₹70.4",
+      "₹100.0"
+     ],
+     "a": 1,
+     "e": "1,100 − 1,060/1.06^0.5 = 1,100 − 1,029.6 = 70.4.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "The one-year spot rate is 5% and the two-year spot rate is 6%. The one-year rate one year from now is closest to:",
+     "o": [
+      "5.5%",
+      "6.0%",
+      "7.0%"
+     ],
+     "a": 2,
+     "e": "1.06²/1.05 − 1 = 7.01%.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "The long side of a forward rate agreement benefits when:",
+     "o": [
+      "Rates rise above the FRA rate",
+      "Rates stay unchanged",
+      "Rates fall below the FRA rate"
+     ],
+     "a": 0,
+     "e": "The long pays fixed and receives the market rate.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "The forward price of a contract:",
+     "o": [
+      "Changes every day",
+      "Is fixed when the contract is agreed",
+      "Is always zero"
+     ],
+     "a": 1,
+     "e": "Price is fixed; value changes.",
+     "los": "5.a"
+    },
+    {
+     "d": "H",
+     "q": "If the underlying pays a dividend during the contract, the value of a long forward during its life:",
+     "o": [
+      "Is increased by the dividend",
+      "Ignores the dividend",
+      "Is reduced by the present value of the remaining dividend"
+     ],
+     "a": 2,
+     "e": "Benefits reduce the long's value.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "An implied forward rate makes an investor indifferent between:",
+     "o": [
+      "Investing for the long period and rolling over shorter investments",
+      "Buying stocks and bonds",
+      "Fixed and floating swaps"
+     ],
+     "a": 0,
+     "e": "That is the no-arbitrage definition.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "Implied forward rates are derived from:",
+     "o": [
+      "Equity prices",
+      "The term structure of spot rates",
+      "Exchange rates only"
+     ],
+     "a": 1,
+     "e": "Spot rates for different maturities imply forward rates.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "During its life, a long forward position gains value when:",
+     "o": [
+      "Storage costs fall",
+      "The forward price is renegotiated",
+      "The underlying's spot price rises"
+     ],
+     "a": 2,
+     "e": "Higher spot means the right to buy at F₀ is worth more.",
+     "los": "5.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Forward value at initiation",
+     "back": "Zero."
+    },
+    {
+     "front": "Forward value during life (long)",
+     "back": "S_t − PV(benefits) + PV(costs) − F₀/(1 + r)^(T−t)."
+    },
+    {
+     "front": "Forward value at expiry",
+     "back": "S_T − F₀."
+    },
+    {
+     "front": "Price vs value",
+     "back": "Price is fixed in the contract; value moves with the market."
+    },
+    {
+     "front": "Implied forward rate",
+     "back": "(1 + z₂)² = (1 + z₁)(1 + f(1,1))."
+    },
+    {
+     "front": "FRA long",
+     "back": "Pays fixed; gains if the reference rate rises."
+    }
+   ]
+  },
+  {
+   "lm_no": 6,
+   "title": "Pricing and Valuation of Futures Contracts",
+   "summary": "Mark-to-market, margin mechanics, and why futures and forward prices can differ.",
+   "los": [
+    {
+     "code": "6.a",
+     "command_word": "compare",
+     "statement": "Compare the value and price of forward and futures contracts."
+    },
+    {
+     "code": "6.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret variation margin and the effect of mark-to-market."
+    },
+    {
+     "code": "6.c",
+     "command_word": "explain",
+     "statement": "Explain why forward and futures prices differ."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Mark-to-market and margin",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Initial margin",
+           "b": true
+          },
+          {
+           "t": ": deposit to open a position."
+          }
+         ],
+         [
+          {
+           "t": "Maintenance margin",
+           "b": true
+          },
+          {
+           "t": ": minimum balance. Below it, a "
+          },
+          {
+           "t": "margin call",
+           "b": true
+          },
+          {
+           "t": " requires topping up back to the "
+          },
+          {
+           "t": "initial",
+           "b": true
+          },
+          {
+           "t": " margin ("
+          },
+          {
+           "t": "variation margin",
+           "b": true
+          },
+          {
+           "t": ")."
+          }
+         ],
+         [
+          {
+           "t": "Gains and losses are settled "
+          },
+          {
+           "t": "daily",
+           "b": true
+          },
+          {
+           "t": ", so a futures contract's value resets to zero each day."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Long 1 gold futures (100 g) at ₹7,000/g; initial margin ₹50,000, maintenance ₹40,000. Day 1 price falls to ₹6,880: loss 120 × 100 = ₹12,000, balance ₹38,000 < 40,000. Margin call: deposit "
+         },
+         {
+          "t": "₹12,000",
+          "b": true
+         },
+         {
+          "t": " to restore ₹50,000."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Variation margin restores the account to the "
+         },
+         {
+          "t": "initial",
+          "b": true
+         },
+         {
+          "t": " margin, not to the maintenance level."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Futures versus forward prices",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "With constant interest rates, futures and forward prices are equal. When rates are random, daily settlement matters:"
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Positive correlation",
+           "b": true
+          },
+          {
+           "t": " between underlying prices and interest rates: gains arrive when rates are high (reinvest at high rates), so long futures are more attractive and "
+          },
+          {
+           "t": "futures price > forward",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Negative correlation",
+           "b": true
+          },
+          {
+           "t": " (e.g. bond futures): "
+          },
+          {
+           "t": "futures price < forward",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Interest rate futures are quoted as 100 − rate; a 1 bp change has a fixed value (basis point value)."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Mark-to-market is a strict landlord: rent is due every evening, not at the end of the lease."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Variation margin = initial margin − current balance (when balance < maintenance)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Initial margin",
+        "Deposit to open"
+       ],
+       [
+        "Maintenance margin",
+        "Trigger level for a call"
+       ],
+       [
+        "Variation margin",
+        "Restores to initial"
+       ],
+       [
+        "Daily settlement",
+        "Futures value resets to zero"
+       ],
+       [
+        "Positive corr. with rates",
+        "Futures price > forward price"
+       ],
+       [
+        "Negative corr. with rates",
+        "Futures price < forward price"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Futures contracts differ from forwards mainly because futures are:",
+     "o": [
+      "Marked to market daily",
+      "Customised",
+      "Free of margin"
+     ],
+     "a": 0,
+     "e": "Daily settlement is the key difference.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "A trader's futures margin account falls below the maintenance margin. He must deposit enough to bring the balance back to the:",
+     "o": [
+      "Maintenance margin",
+      "Initial margin",
+      "Zero level"
+     ],
+     "a": 1,
+     "e": "Variation margin restores the initial margin.",
+     "los": "6.b"
+    },
+    {
+     "d": "M",
+     "q": "Initial margin is ₹50,000 and maintenance ₹40,000. After a ₹12,000 loss, the variation margin required is:",
+     "o": [
+      "₹10,000",
+      "₹2,000",
+      "₹12,000"
+     ],
+     "a": 2,
+     "e": "Balance 38,000 < 40,000; top up to 50,000 = 12,000.",
+     "los": "6.b"
+    },
+    {
+     "d": "H",
+     "q": "If underlying prices are positively correlated with interest rates, futures prices will tend to be:",
+     "o": [
+      "Higher than forward prices",
+      "Lower than forward prices",
+      "Equal to forward prices"
+     ],
+     "a": 0,
+     "e": "Long futures gains can be reinvested at higher rates.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "With constant interest rates, futures and forward prices are:",
+     "o": [
+      "Unrelated",
+      "Equal",
+      "Always different"
+     ],
+     "a": 1,
+     "e": "The timing of settlement no longer matters.",
+     "los": "6.c"
+    },
+    {
+     "d": "E",
+     "q": "At the end of each trading day after settlement, a futures contract's value is:",
+     "o": [
+      "The initial margin",
+      "The futures price",
+      "Zero"
+     ],
+     "a": 2,
+     "e": "Gains and losses are paid daily.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "A long gold futures of 100 g at ₹7,000/g settles the next day at ₹6,880. The long's daily loss is:",
+     "o": [
+      "₹12,000",
+      "₹120",
+      "₹1,200"
+     ],
+     "a": 0,
+     "e": "120 × 100 = 12,000.",
+     "los": "6.b"
+    },
+    {
+     "d": "H",
+     "q": "Bond futures, whose underlying falls when rates rise, are most likely priced:",
+     "o": [
+      "At zero",
+      "Below equivalent forwards",
+      "Above equivalent forwards"
+     ],
+     "a": 1,
+     "e": "Negative correlation with rates makes futures less attractive than forwards.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "An interest rate futures contract is typically quoted as:",
+     "o": [
+      "A percentage of par value",
+      "The rate itself",
+      "100 minus the annualised rate"
+     ],
+     "a": 2,
+     "e": "So prices rise when rates fall, like bonds.",
+     "los": "6.a"
+    },
+    {
+     "d": "E",
+     "q": "The deposit required to open a futures position is the:",
+     "o": [
+      "Initial margin",
+      "Premium",
+      "Variation margin"
+     ],
+     "a": 0,
+     "e": "Initial margin opens the position.",
+     "los": "6.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Mark-to-market",
+     "back": "Gains and losses settled daily; value resets to zero."
+    },
+    {
+     "front": "Initial vs maintenance margin",
+     "back": "Deposit to open vs level that triggers a call."
+    },
+    {
+     "front": "Variation margin",
+     "back": "Restores account to initial margin."
+    },
+    {
+     "front": "Futures vs forward price: positive correlation with rates",
+     "back": "Futures price higher."
+    },
+    {
+     "front": "Futures vs forward price: negative correlation",
+     "back": "Futures price lower."
+    },
+    {
+     "front": "Rate futures quote",
+     "back": "100 − annualised rate."
+    }
+   ]
+  },
+  {
+   "lm_no": 7,
+   "title": "Pricing and Valuation of Interest Rate and Other Swaps",
+   "summary": "Swaps as portfolios of forwards, the par swap rate, and valuing a swap after initiation.",
+   "los": [
+    {
+     "code": "7.a",
+     "command_word": "describe",
+     "statement": "Describe how swap contracts are similar to but different from a series of forward contracts."
+    },
+    {
+     "code": "7.b",
+     "command_word": "contrast",
+     "statement": "Contrast the value and price of swaps."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Swaps as a series of forwards",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "In a plain-vanilla "
+         },
+         {
+          "t": "interest rate swap",
+          "b": true
+         },
+         {
+          "t": ", one side pays a fixed rate and the other a floating reference rate on a notional amount; only the net amount changes hands. Each settlement is like a forward, but a swap uses "
+         },
+         {
+          "t": "one fixed rate",
+          "b": true
+         },
+         {
+          "t": " for all periods, so individual 'forwards' are off-market even though the whole swap has zero value at the start."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Par swap rate s = (1 − DF_N) ÷ (DF₁ + DF₂ + … + DF_N)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Two-year annual swap with discount factors 0.97 (year 1) and 0.94 (year 2). s = (1 − 0.94) ÷ (0.97 + 0.94) = 0.06 ÷ 1.91 = "
+         },
+         {
+          "t": "3.14%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Value after initiation",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "The swap "
+         },
+         {
+          "t": "price",
+          "b": true
+         },
+         {
+          "t": " is the fixed rate agreed. Its "
+         },
+         {
+          "t": "value",
+          "b": true
+         },
+         {
+          "t": " starts at zero and changes as rates move. A "
+         },
+         {
+          "t": "pay-fixed",
+          "b": true
+         },
+         {
+          "t": " party gains when rates rise, because it pays the old lower rate while receiving a higher floating rate."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Value to fixed payer ≈ (new swap rate − old fixed rate) × notional × Σ remaining discount factors"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Rohit's firm pays 3% fixed on ₹100 crore with two years left. The current two-year swap rate is 4% and discount factors are 0.96 and 0.92. Value = (0.04 − 0.03) × 100 × (0.96 + 0.92) = "
+         },
+         {
+          "t": "₹1.88 crore",
+          "b": true
+         },
+         {
+          "t": " gain to the fixed payer."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Pay-fixed = like being short a fixed-rate bond: it gains when rates rise."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A pay-fixed swap is like booking a festival-season flight in July. When fares jump in October, you look like a genius."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "s = (1 − DF_N) ÷ ΣDF · Value (pay-fixed) = (s_new − s_old) × N × ΣDF_remaining"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Swap",
+        "Series of forwards with one fixed rate"
+       ],
+       [
+        "Value at start",
+        "Zero"
+       ],
+       [
+        "Price",
+        "The fixed swap rate"
+       ],
+       [
+        "Pay-fixed gains",
+        "When rates rise"
+       ],
+       [
+        "Receive-fixed gains",
+        "When rates fall"
+       ],
+       [
+        "Net settlement",
+        "Only the difference is paid"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "At initiation, a plain-vanilla interest rate swap has a value of:",
+     "o": [
+      "The fixed rate",
+      "Zero",
+      "The notional amount"
+     ],
+     "a": 1,
+     "e": "The fixed rate is set so that the swap is worth zero at the start.",
+     "los": "7.b"
+    },
+    {
+     "d": "M",
+     "q": "A swap is similar to a series of forwards except that:",
+     "o": [
+      "Swaps are always exchange-traded",
+      "Forwards have no counterparty",
+      "A swap uses a single fixed rate for all periods"
+     ],
+     "a": 2,
+     "e": "Each period's forward rate differs, but the swap uses one rate.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "Discount factors for years 1 and 2 are 0.97 and 0.94. The two-year par swap rate is closest to:",
+     "o": [
+      "3.14%",
+      "6.00%",
+      "3.00%"
+     ],
+     "a": 0,
+     "e": "(1 − 0.94)/(0.97 + 0.94) = 3.14%.",
+     "los": "7.b"
+    },
+    {
+     "d": "M",
+     "q": "The party paying fixed in an interest rate swap gains when:",
+     "o": [
+      "Rates fall",
+      "Rates rise",
+      "The notional falls"
+     ],
+     "a": 1,
+     "e": "It pays a below-market rate and receives more floating.",
+     "los": "7.b"
+    },
+    {
+     "d": "H",
+     "q": "A firm pays 3% fixed on ₹100 crore with two years left. The current swap rate is 4% and remaining discount factors are 0.96 and 0.92. The swap value to the firm is closest to:",
+     "o": [
+      "−₹1.88 crore",
+      "+₹1.00 crore",
+      "+₹1.88 crore"
+     ],
+     "a": 2,
+     "e": "0.01 × 100 × 1.88 = 1.88 gain.",
+     "los": "7.b"
+    },
+    {
+     "d": "E",
+     "q": "In a plain-vanilla interest rate swap, which cash flow is exchanged?",
+     "o": [
+      "Only the net interest difference",
+      "Equity dividends",
+      "The notional principal"
+     ],
+     "a": 0,
+     "e": "Payments are netted; notional is not exchanged.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "A receive-fixed swap position is economically similar to:",
+     "o": [
+      "Owning a call option",
+      "Being long a fixed-rate bond and short a floating-rate note",
+      "Being short a fixed-rate bond"
+     ],
+     "a": 1,
+     "e": "It gains when rates fall, like a fixed bond.",
+     "los": "7.a"
+    },
+    {
+     "d": "H",
+     "q": "The 'price' of a swap is best described as:",
+     "o": [
+      "The notional",
+      "Its market value",
+      "The fixed rate agreed at initiation"
+     ],
+     "a": 2,
+     "e": "Swap price = fixed rate; value changes over time.",
+     "los": "7.b"
+    },
+    {
+     "d": "M",
+     "q": "Which statement about the individual 'forwards' embedded in a swap is correct?",
+     "o": [
+      "They can have non-zero values though the swap's total is zero",
+      "They are all identical",
+      "Each has zero value at initiation"
+     ],
+     "a": 0,
+     "e": "Using one fixed rate makes some periods positive and others negative.",
+     "los": "7.a"
+    },
+    {
+     "d": "E",
+     "q": "A company with floating-rate debt that wants fixed payments should:",
+     "o": [
+      "Receive fixed in a swap",
+      "Pay fixed in a swap",
+      "Buy a call option"
+     ],
+     "a": 1,
+     "e": "Paying fixed and receiving floating converts floating debt to fixed.",
+     "los": "7.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Swap = ?",
+     "back": "Series of forwards with one fixed rate."
+    },
+    {
+     "front": "Par swap rate",
+     "back": "(1 − DF_N) ÷ sum of DFs."
+    },
+    {
+     "front": "Swap value at initiation",
+     "back": "Zero."
+    },
+    {
+     "front": "Pay-fixed gains when",
+     "back": "Rates rise."
+    },
+    {
+     "front": "Swap price vs value",
+     "back": "Price = fixed rate; value moves with rates."
+    },
+    {
+     "front": "Converting floating debt to fixed",
+     "back": "Enter a pay-fixed swap."
+    }
+   ]
+  },
+  {
+   "lm_no": 8,
+   "title": "Pricing and Valuation of Options",
+   "summary": "Exercise value, time value, moneyness, lower bounds, and the factors that drive option prices.",
+   "los": [
+    {
+     "code": "8.a",
+     "command_word": "explain",
+     "statement": "Explain the exercise value, moneyness and time value of an option."
+    },
+    {
+     "code": "8.b",
+     "command_word": "contrast",
+     "statement": "Contrast the use of arbitrage and replication concepts in pricing forward commitments and contingent claims."
+    },
+    {
+     "code": "8.c",
+     "command_word": "identify",
+     "statement": "Identify the factors that determine the value of an option and describe how each factor affects the value of an option."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Exercise value and time value",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Exercise (intrinsic) value",
+           "b": true
+          },
+          {
+           "t": ": call = max(0, S − X); put = max(0, X − S)."
+          }
+         ],
+         [
+          {
+           "t": "Moneyness",
+           "b": true
+          },
+          {
+           "t": ": a call is "
+          },
+          {
+           "t": "in the money",
+           "b": true
+          },
+          {
+           "t": " if S > X, at the money if S = X, out of the money if S < X (reverse for puts)."
+          }
+         ],
+         [
+          {
+           "t": "Time value",
+           "b": true
+          },
+          {
+           "t": " = option premium − exercise value; it shrinks to zero at expiry (time decay)."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Share ₹520, call strike ₹500, premium ₹35. Exercise value = 20; time value = 35 − 20 = "
+         },
+         {
+          "t": "₹15",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "European call lower bound: c ≥ max(0, S₀ − X/(1 + r)^T) · put: p ≥ max(0, X/(1 + r)^T − S₀)"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "What drives option values",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Increase in…",
+         "Call value",
+         "Put value"
+        ],
+        "rows": [
+         [
+          "Underlying price",
+          "↑",
+          "↓"
+         ],
+         [
+          "Exercise price",
+          "↓",
+          "↑"
+         ],
+         [
+          "Time to expiry",
+          "↑",
+          "↑ (usually)"
+         ],
+         [
+          "Volatility",
+          "↑",
+          "↑"
+         ],
+         [
+          "Risk-free rate",
+          "↑",
+          "↓"
+         ],
+         [
+          "Carry benefits (dividends)",
+          "↓",
+          "↑"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Volatility raises "
+         },
+         {
+          "t": "both",
+          "b": true
+         },
+         {
+          "t": " calls and puts. Higher volatility increases the upside the buyer keeps, while the downside is capped at the premium."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Forwards are priced by replication without probabilities; options need a model of possible prices, because the payoff is non-linear."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Volatility is to an option what bad weather is to an umbrella seller. The worse it gets, the more everyone wants one."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Premium = exercise value + time value · c ≥ max(0, S₀ − X/(1 + r)^T)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Call ITM",
+        "S > X"
+       ],
+       [
+        "Put ITM",
+        "S < X"
+       ],
+       [
+        "Time value",
+        "Premium − exercise value; zero at expiry"
+       ],
+       [
+        "Volatility ↑",
+        "Calls ↑ and puts ↑"
+       ],
+       [
+        "Rates ↑",
+        "Calls ↑, puts ↓"
+       ],
+       [
+        "Dividends ↑",
+        "Calls ↓, puts ↑"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A call option is in the money when:",
+     "o": [
+      "The underlying price is below the strike",
+      "The premium exceeds the strike",
+      "The underlying price is above the strike"
+     ],
+     "a": 2,
+     "e": "Exercising would be profitable before the premium.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "A share trades at ₹520. A call with strike ₹500 costs ₹35. Its time value is:",
+     "o": [
+      "₹15",
+      "₹35",
+      "₹20"
+     ],
+     "a": 0,
+     "e": "Exercise value 20; time value 35 − 20 = 15.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "An increase in volatility of the underlying will:",
+     "o": [
+      "Increase call values and decrease put values",
+      "Increase both call and put values",
+      "Decrease both"
+     ],
+     "a": 1,
+     "e": "Option holders benefit from wider outcomes.",
+     "los": "8.c"
+    },
+    {
+     "d": "M",
+     "q": "An increase in the risk-free rate will, other things equal:",
+     "o": [
+      "Decrease call values",
+      "Increase put values",
+      "Increase call values and decrease put values"
+     ],
+     "a": 2,
+     "e": "A higher rate lowers the PV of the strike, helping calls and hurting puts.",
+     "los": "8.c"
+    },
+    {
+     "d": "H",
+     "q": "The lower bound of a European call on a non-dividend share with S₀ = ₹100, X = ₹100, r = 5% and T = 1 is closest to:",
+     "o": [
+      "₹4.76",
+      "₹0.00",
+      "₹5.00"
+     ],
+     "a": 0,
+     "e": "100 − 100/1.05 = 4.76.",
+     "los": "8.a"
+    },
+    {
+     "d": "E",
+     "q": "At expiry, an option's time value is:",
+     "o": [
+      "Equal to the strike",
+      "Zero",
+      "Equal to the premium"
+     ],
+     "a": 1,
+     "e": "Only exercise value remains.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "A higher expected dividend on the underlying will:",
+     "o": [
+      "Not affect options",
+      "Raise call values",
+      "Lower call values and raise put values"
+     ],
+     "a": 2,
+     "e": "Dividends lower the expected share price.",
+     "los": "8.c"
+    },
+    {
+     "d": "H",
+     "q": "Options cannot be priced by replication with a single static position in the underlying, as forwards can, mainly because:",
+     "o": [
+      "Option payoffs are non-linear and depend on the range of possible prices",
+      "Options are always exchange-traded",
+      "Options have linear payoffs"
+     ],
+     "a": 0,
+     "e": "Contingent payoffs need a model of future price paths.",
+     "los": "8.b"
+    },
+    {
+     "d": "E",
+     "q": "A put option is out of the money when:",
+     "o": [
+      "S < X",
+      "S > X",
+      "S = 0"
+     ],
+     "a": 1,
+     "e": "A put pays only if the price falls below the strike.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "An increase in the exercise price will:",
+     "o": [
+      "Raise call values",
+      "Lower put values",
+      "Lower call values and raise put values"
+     ],
+     "a": 2,
+     "e": "Buying gets dearer for calls; selling higher helps puts.",
+     "los": "8.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Exercise value",
+     "back": "Call max(0, S − X); put max(0, X − S)."
+    },
+    {
+     "front": "Time value",
+     "back": "Premium − exercise value; decays to zero."
+    },
+    {
+     "front": "Volatility up",
+     "back": "Calls and puts both rise."
+    },
+    {
+     "front": "Rates up",
+     "back": "Calls rise, puts fall."
+    },
+    {
+     "front": "European call lower bound",
+     "back": "max(0, S₀ − X/(1 + r)^T)."
+    },
+    {
+     "front": "Dividends up",
+     "back": "Calls fall, puts rise."
+    }
+   ]
+  },
+  {
+   "lm_no": 9,
+   "title": "Option Replication Using Put–Call Parity",
+   "summary": "Put–call parity, synthetic positions, and put–call–forward parity.",
+   "los": [
+    {
+     "code": "9.a",
+     "command_word": "explain",
+     "statement": "Explain put–call parity for European options."
+    },
+    {
+     "code": "9.b",
+     "command_word": "explain",
+     "statement": "Explain put–call forward parity for European options."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Put–call parity",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "S₀ + p₀ = c₀ + X/(1 + r)^T   (protective put = fiduciary call)"
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "protective put",
+          "b": true
+         },
+         {
+          "t": " (share + put) and a "
+         },
+         {
+          "t": "fiduciary call",
+          "b": true
+         },
+         {
+          "t": " (call + risk-free bond paying X) have identical payoffs at expiry: the greater of S_T and X. So they must cost the same."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "S₀ = ₹100, X = ₹100, r = 5%, one year, call ₹10. PV(X) = 95.24. p₀ = c₀ + PV(X) − S₀ = 10 + 95.24 − 100 = "
+         },
+         {
+          "t": "₹5.24",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Synthetic positions"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Synthetic call = S₀ + p₀ − PV(X)."
+          }
+         ],
+         [
+          {
+           "t": "Synthetic put = c₀ + PV(X) − S₀."
+          }
+         ],
+         [
+          {
+           "t": "Synthetic share = c₀ − p₀ + PV(X)."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Parity holds for "
+         },
+         {
+          "t": "European",
+          "b": true
+         },
+         {
+          "t": " options with the same strike and expiry on the same underlying."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Put–call–forward parity",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "F₀/(1 + r)^T + p₀ = c₀ + X/(1 + r)^T"
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Replace the share with a forward and a bond paying F₀. Then long call − long put = long forward at the strike: c₀ − p₀ = (F₀ − X)/(1 + r)^T."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "F₀ = ₹105, X = ₹100, r = 5%, one year. c₀ − p₀ = 5 ÷ 1.05 = "
+         },
+         {
+          "t": "₹4.76",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Put–call parity is the finance version of 'two ₹50 notes equal one ₹100 note'. If a shop says otherwise, buy from one counter and sell to the other."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "S₀ + p₀ = c₀ + PV(X) · F₀/(1 + r)^T + p₀ = c₀ + PV(X)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Protective put",
+        "Share + put"
+       ],
+       [
+        "Fiduciary call",
+        "Call + bond paying X"
+       ],
+       [
+        "Synthetic put",
+        "c₀ + PV(X) − S₀"
+       ],
+       [
+        "Synthetic call",
+        "S₀ + p₀ − PV(X)"
+       ],
+       [
+        "c₀ − p₀",
+        "= S₀ − PV(X) = (F₀ − X)/(1 + r)^T"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Put–call parity states that:",
+     "o": [
+      "S₀ + p₀ = c₀ + PV(X)",
+      "S₀ + c₀ = p₀ + PV(X)",
+      "c₀ = p₀"
+     ],
+     "a": 0,
+     "e": "Protective put equals fiduciary call.",
+     "los": "9.a"
+    },
+    {
+     "d": "M",
+     "q": "S₀ = ₹100, X = ₹100, r = 5%, T = 1 and the call costs ₹10. The put value is closest to:",
+     "o": [
+      "₹14.76",
+      "₹5.24",
+      "₹10.00"
+     ],
+     "a": 1,
+     "e": "10 + 95.24 − 100 = 5.24.",
+     "los": "9.a"
+    },
+    {
+     "d": "M",
+     "q": "A fiduciary call consists of:",
+     "o": [
+      "A long share and a long put",
+      "A short call and a long put",
+      "A long call and a risk-free bond that pays the strike at expiry"
+     ],
+     "a": 2,
+     "e": "That is the definition.",
+     "los": "9.a"
+    },
+    {
+     "d": "M",
+     "q": "A synthetic put can be created by:",
+     "o": [
+      "Buying a call, lending PV(X) and shorting the share",
+      "Buying the share and a call",
+      "Shorting a call and buying the share"
+     ],
+     "a": 0,
+     "e": "p₀ = c₀ + PV(X) − S₀.",
+     "los": "9.a"
+    },
+    {
+     "d": "H",
+     "q": "F₀ = ₹105, X = ₹100, r = 5% and T = 1. c₀ − p₀ is closest to:",
+     "o": [
+      "₹5.00",
+      "₹4.76",
+      "₹0.00"
+     ],
+     "a": 1,
+     "e": "(105 − 100)/1.05 = 4.76.",
+     "los": "9.b"
+    },
+    {
+     "d": "E",
+     "q": "A protective put is:",
+     "o": [
+      "Long call plus long bond",
+      "Short share plus short put",
+      "Long share plus long put"
+     ],
+     "a": 2,
+     "e": "It sets a floor under a share position.",
+     "los": "9.a"
+    },
+    {
+     "d": "M",
+     "q": "Put–call parity applies to:",
+     "o": [
+      "European options with the same strike and expiry",
+      "Any two options",
+      "American options with different strikes"
+     ],
+     "a": 0,
+     "e": "The payoffs only match exactly in that case.",
+     "los": "9.a"
+    },
+    {
+     "d": "H",
+     "q": "If the call is priced above its put–call parity value, an arbitrageur would:",
+     "o": [
+      "Buy the call and sell the synthetic call",
+      "Sell the call and buy a synthetic call (share + put − bond)",
+      "Do nothing"
+     ],
+     "a": 1,
+     "e": "Sell the expensive side, buy the cheap replica.",
+     "los": "9.a"
+    },
+    {
+     "d": "M",
+     "q": "Long call plus short put with the same strike and expiry is equivalent to:",
+     "o": [
+      "A short share",
+      "A risk-free bond",
+      "A long forward at the strike"
+     ],
+     "a": 2,
+     "e": "c − p replicates a long forward.",
+     "los": "9.b"
+    },
+    {
+     "d": "E",
+     "q": "In put–call–forward parity, the share in standard parity is replaced by:",
+     "o": [
+      "A forward contract plus a bond paying F₀",
+      "A call option",
+      "A futures margin account"
+     ],
+     "a": 0,
+     "e": "Holding a forward and a bond replicates the share at expiry.",
+     "los": "9.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Put–call parity",
+     "back": "S₀ + p₀ = c₀ + PV(X)."
+    },
+    {
+     "front": "Protective put",
+     "back": "Share + put."
+    },
+    {
+     "front": "Fiduciary call",
+     "back": "Call + bond paying X."
+    },
+    {
+     "front": "Synthetic put",
+     "back": "c₀ + PV(X) − S₀."
+    },
+    {
+     "front": "Put–call–forward parity",
+     "back": "F₀/(1 + r)^T + p₀ = c₀ + PV(X)."
+    },
+    {
+     "front": "Long call − long put",
+     "back": "Long forward at the strike."
+    }
+   ]
+  },
+  {
+   "lm_no": 10,
+   "title": "Valuing a Derivative Using a One-Period Binomial Model",
+   "summary": "Up and down moves, the hedge ratio, risk-neutral probabilities and option values.",
+   "los": [
+    {
+     "code": "10.a",
+     "command_word": "explain",
+     "statement": "Explain how to value a derivative using a one-period binomial model."
+    },
+    {
+     "code": "10.b",
+     "command_word": "describe",
+     "statement": "Describe the concept of risk neutrality in derivatives pricing."
+    }
+   ],
+   "topics": [
+    {
+     "title": "The one-period binomial model",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "The underlying moves to S⁺ = S₀u or S⁻ = S₀d in one period. Work out the option payoff in each state, then discount the "
+         },
+         {
+          "t": "risk-neutral",
+          "b": true
+         },
+         {
+          "t": " expected payoff at the risk-free rate."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "π = (1 + r − d) ÷ (u − d) · c₀ = [πc⁺ + (1 − π)c⁻] ÷ (1 + r)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "S₀ = ₹100, u = 1.2, d = 0.8, r = 5%, call strike ₹100. S⁺ = 120 → c⁺ = 20; S⁻ = 80 → c⁻ = 0. π = (1.05 − 0.8) ÷ 0.4 = 0.625. c₀ = 0.625 × 20 ÷ 1.05 = "
+         },
+         {
+          "t": "₹11.90",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Replication and the hedge ratio"
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "h = (c⁺ − c⁻) ÷ (S⁺ − S⁻)"
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Buying h shares and selling one call gives a riskless portfolio. In the example h = 20 ÷ 40 = 0.5: hold half a share per call written."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Risk neutrality",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "π is "
+         },
+         {
+          "t": "not",
+          "b": true
+         },
+         {
+          "t": " the real-world probability of an up move. It is the probability that makes the underlying earn the risk-free rate. Because the option can be replicated, its price does not depend on investors' risk preferences or real-world probabilities."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A put uses the same π: p₀ = [πp⁺ + (1 − π)p⁻] ÷ (1 + r). In the example p⁺ = 0, p⁻ = 20, so p₀ = 0.375 × 20 ÷ 1.05 = ₹7.14. Check with parity: 11.90 + 95.24 − 100 = 7.14."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Risk-neutral probability is a polite fiction, like a GPS saying '5 minutes away' in Mumbai traffic. It gets you the right price even if it isn't how the world really works."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "π = (1 + r − d)/(u − d) · Value = [π V⁺ + (1 − π) V⁻]/(1 + r) · h = ΔV/ΔS"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "S⁺, S⁻",
+        "S₀u and S₀d"
+       ],
+       [
+        "Risk-neutral π",
+        "Makes the underlying earn r"
+       ],
+       [
+        "Hedge ratio",
+        "Shares per option for a riskless hedge"
+       ],
+       [
+        "Real-world probability",
+        "Not needed"
+       ],
+       [
+        "Check",
+        "Call and put values satisfy put–call parity"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "With u = 1.2, d = 0.8 and r = 5%, the risk-neutral probability of an up move is:",
+     "o": [
+      "0.500",
+      "0.625",
+      "0.750"
+     ],
+     "a": 1,
+     "e": "(1.05 − 0.8)/(1.2 − 0.8) = 0.625.",
+     "los": "10.a"
+    },
+    {
+     "d": "H",
+     "q": "S₀ = ₹100, u = 1.2, d = 0.8, r = 5%. A one-period call with strike ₹100 is worth closest to:",
+     "o": [
+      "₹12.50",
+      "₹20.00",
+      "₹11.90"
+     ],
+     "a": 2,
+     "e": "0.625 × 20/1.05 = 11.90.",
+     "los": "10.a"
+    },
+    {
+     "d": "M",
+     "q": "In the same model, the hedge ratio for the call is:",
+     "o": [
+      "0.50",
+      "0.25",
+      "1.00"
+     ],
+     "a": 0,
+     "e": "(20 − 0)/(120 − 80) = 0.5.",
+     "los": "10.a"
+    },
+    {
+     "d": "H",
+     "q": "Using the same inputs, a one-period put with strike ₹100 is worth closest to:",
+     "o": [
+      "₹11.90",
+      "₹7.14",
+      "₹5.24"
+     ],
+     "a": 1,
+     "e": "0.375 × 20/1.05 = 7.14.",
+     "los": "10.a"
+    },
+    {
+     "d": "M",
+     "q": "Risk-neutral probabilities are:",
+     "o": [
+      "Always 50%",
+      "The real-world chances of each move",
+      "Probabilities that make the underlying's expected return equal the risk-free rate"
+     ],
+     "a": 2,
+     "e": "They come from no-arbitrage, not from forecasts.",
+     "los": "10.b"
+    },
+    {
+     "d": "E",
+     "q": "In a binomial model, the option's expected payoff is discounted at:",
+     "o": [
+      "The risk-free rate",
+      "The option's premium",
+      "The expected return on the share"
+     ],
+     "a": 0,
+     "e": "Under risk neutrality, the risk-free rate applies.",
+     "los": "10.a"
+    },
+    {
+     "d": "M",
+     "q": "The option price in the binomial model does not depend on:",
+     "o": [
+      "The risk-free rate",
+      "Investors' risk preferences",
+      "The up and down factors"
+     ],
+     "a": 1,
+     "e": "Replication removes the need for risk preferences.",
+     "los": "10.b"
+    },
+    {
+     "d": "H",
+     "q": "A riskless portfolio in the binomial model is formed by:",
+     "o": [
+      "Buying one call and one put",
+      "Lending at the risk-free rate only",
+      "Buying h shares for each call written"
+     ],
+     "a": 2,
+     "e": "h shares offset the call's exposure in both states.",
+     "los": "10.a"
+    },
+    {
+     "d": "E",
+     "q": "If the share can only rise to ₹120 or fall to ₹80, the payoff of a ₹100-strike call in the down state is:",
+     "o": [
+      "₹0",
+      "₹80",
+      "₹20"
+     ],
+     "a": 0,
+     "e": "The call expires out of the money.",
+     "los": "10.a"
+    },
+    {
+     "d": "M",
+     "q": "If the risk-free rate rises in the binomial model, the risk-neutral probability of an up move:",
+     "o": [
+      "Falls",
+      "Rises",
+      "Is unchanged"
+     ],
+     "a": 1,
+     "e": "π = (1 + r − d)/(u − d) increases with r.",
+     "los": "10.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Risk-neutral probability",
+     "back": "π = (1 + r − d)/(u − d)."
+    },
+    {
+     "front": "Binomial option value",
+     "back": "[πV⁺ + (1 − π)V⁻]/(1 + r)."
+    },
+    {
+     "front": "Hedge ratio",
+     "back": "(V⁺ − V⁻)/(S⁺ − S⁻)."
+    },
+    {
+     "front": "Is π the real-world probability?",
+     "back": "No. It makes the asset earn the risk-free rate."
+    },
+    {
+     "front": "Discount rate in binomial pricing",
+     "back": "The risk-free rate."
+    },
+    {
+     "front": "Why risk preferences don't matter",
+     "back": "The option can be replicated."
+    }
+   ]
+  }
+ ],
+ "retag_proto": {
+  "52": 1,
+  "53": 2,
+  "54": 2
+ }
+}

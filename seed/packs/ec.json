@@ -1,0 +1,3852 @@
+{
+ "subject": "ec",
+ "name": "Economics",
+ "lms": [
+  {
+   "lm_no": 1,
+   "title": "Firms and Market Structures",
+   "summary": "Breakeven and shutdown, economies of scale, the four market structures, concentration measures.",
+   "los": [
+    {
+     "code": "1.a",
+     "command_word": "determine",
+     "statement": "Determine and interpret breakeven and shutdown points of production."
+    },
+    {
+     "code": "1.b",
+     "command_word": "describe",
+     "statement": "Describe how economies and diseconomies of scale affect costs."
+    },
+    {
+     "code": "1.c",
+     "command_word": "describe",
+     "statement": "Describe the characteristics of perfect competition, monopolistic competition, oligopoly and pure monopoly."
+    },
+    {
+     "code": "1.d",
+     "command_word": "explain",
+     "statement": "Explain pricing and output decisions of firms under different market structures."
+    },
+    {
+     "code": "1.e",
+     "command_word": "describe",
+     "statement": "Describe the use and limitations of concentration measures."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Breakeven, shutdown and scale",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Every firm maximises profit where "
+         },
+         {
+          "t": "marginal revenue = marginal cost (MR = MC)",
+          "b": true
+         },
+         {
+          "t": ". Whether it should keep producing depends on how price compares with its average costs."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Condition",
+         "Short run",
+         "Long run"
+        ],
+        "rows": [
+         [
+          "P ≥ ATC",
+          "Operate (profit or breakeven)",
+          "Stay in the market"
+         ],
+         [
+          "AVC ≤ P < ATC",
+          "Operate: covers variable cost and part of fixed cost",
+          "Exit"
+         ],
+         [
+          "P < AVC",
+          "Shut down",
+          "Exit"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Narmada Mills sells cloth at ₹50 a metre. ATC is ₹55 and AVC is ₹45. It loses ₹5 a metre, but each metre still adds ₹5 towards fixed costs, so it "
+         },
+         {
+          "t": "keeps operating in the short run",
+          "b": true
+         },
+         {
+          "t": ". If the price stays below ₹55, it exits in the long run."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Economies of scale",
+          "b": true
+         },
+         {
+          "t": ": long-run average cost falls as output rises (specialisation, bulk buying). "
+         },
+         {
+          "t": "Diseconomies of scale",
+          "b": true
+         },
+         {
+          "t": ": LRAC rises because the firm is too large to manage well. The lowest point of the LRAC curve is the "
+         },
+         {
+          "t": "minimum efficient scale",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Breakeven",
+          "b": true
+         },
+         {
+          "t": " is where price equals "
+         },
+         {
+          "t": "average total cost",
+          "b": true
+         },
+         {
+          "t": ". "
+         },
+         {
+          "t": "Shutdown",
+          "b": true
+         },
+         {
+          "t": " is where price falls below "
+         },
+         {
+          "t": "average variable cost",
+          "b": true
+         },
+         {
+          "t": ". Don't swap them."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "The four market structures",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "",
+         "Perfect competition",
+         "Monopolistic competition",
+         "Oligopoly",
+         "Monopoly"
+        ],
+        "rows": [
+         [
+          "Sellers",
+          "Many",
+          "Many",
+          "Few",
+          "One"
+         ],
+         [
+          "Product",
+          "Identical",
+          "Differentiated",
+          "Identical or differentiated",
+          "Unique"
+         ],
+         [
+          "Entry barriers",
+          "Very low",
+          "Low",
+          "High",
+          "Very high"
+         ],
+         [
+          "Pricing power",
+          "None (price taker)",
+          "Some",
+          "Some to considerable",
+          "Considerable"
+         ],
+         [
+          "Non-price competition",
+          "None",
+          "Advertising, branding",
+          "Advertising, branding",
+          "Advertising"
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Perfect competition",
+           "b": true
+          },
+          {
+           "t": ": the firm faces a horizontal demand curve, so P = MR. Long-run economic profit is zero."
+          }
+         ],
+         [
+          {
+           "t": "Monopolistic competition",
+           "b": true
+          },
+          {
+           "t": ": downward-sloping demand; new entrants push long-run economic profit to zero."
+          }
+         ],
+         [
+          {
+           "t": "Oligopoly",
+           "b": true
+          },
+          {
+           "t": ": firms are interdependent. Models include "
+          },
+          {
+           "t": "kinked demand",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "Cournot",
+           "b": true
+          },
+          {
+           "t": " (firms choose output at the same time), "
+          },
+          {
+           "t": "Stackelberg",
+           "b": true
+          },
+          {
+           "t": " (one firm moves first) and the "
+          },
+          {
+           "t": "dominant firm",
+           "b": true
+          },
+          {
+           "t": " model. A "
+          },
+          {
+           "t": "Nash equilibrium",
+           "b": true
+          },
+          {
+           "t": " is where no firm can gain by changing alone."
+          }
+         ],
+         [
+          {
+           "t": "Monopoly",
+           "b": true
+          },
+          {
+           "t": ": sets output where MR = MC, then charges the highest price demand allows. It may price-discriminate. Natural monopolies are often regulated."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Perfect competition is the sabzi mandi: a hundred tomato sellers and nobody can charge a rupee more. A monopoly is the only chai stall at the railway station at 3 a.m."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Concentration measures",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "N-firm concentration ratio = sum of the top N firms' market shares · HHI = sum of the squared market shares"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Four firms hold 30%, 25%, 20% and 15%. Four-firm ratio = "
+         },
+         {
+          "t": "90%",
+          "b": true
+         },
+         {
+          "t": ". Four-firm HHI = 0.30² + 0.25² + 0.20² + 0.15² = 0.09 + 0.0625 + 0.04 + 0.0225 = "
+         },
+         {
+          "t": "0.215",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "The concentration ratio "
+          },
+          {
+           "t": "ignores mergers among the top N firms",
+           "b": true
+          },
+          {
+           "t": ": if the top two merge, the ratio doesn't change, though market power does. HHI does change."
+          }
+         ],
+         [
+          {
+           "t": "Neither measure captures "
+          },
+          {
+           "t": "barriers to entry",
+           "b": true
+          },
+          {
+           "t": " or potential competition, so a concentrated market can still behave competitively."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Profit max: MR = MC · Breakeven: P = ATC · Short-run shutdown: P < AVC · HHI = Σ share²"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "AVC ≤ P < ATC",
+        "Operate short run, exit long run"
+       ],
+       [
+        "Economies of scale",
+        "LRAC falls as output rises"
+       ],
+       [
+        "Perfect competition",
+        "Price taker, P = MR, zero long-run profit"
+       ],
+       [
+        "Monopolistic competition",
+        "Differentiated, zero long-run profit"
+       ],
+       [
+        "Stackelberg",
+        "Leader moves first; Cournot: simultaneous"
+       ],
+       [
+        "Monopoly",
+        "MR = MC; price from demand curve"
+       ],
+       [
+        "Concentration ratio",
+        "Blind to mergers among top N"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "In the short run, a firm should keep operating as long as price is at least equal to:",
+     "o": [
+      "Average variable cost",
+      "Average total cost",
+      "Zero marginal revenue"
+     ],
+     "a": 0,
+     "e": "Above AVC the firm covers its variable costs and some fixed costs, so producing loses less than shutting down.",
+     "los": "1.a"
+    },
+    {
+     "d": "M",
+     "q": "A firm sells at ₹50 per unit. ATC is ₹55 and AVC is ₹45. In the short run it should:",
+     "o": [
+      "Shut down immediately",
+      "Keep operating, because price covers variable cost",
+      "Raise output until ATC equals ₹50"
+     ],
+     "a": 1,
+     "e": "Each unit contributes 50 − 45 = ₹5 to fixed costs, so the loss is smaller than if it shut down.",
+     "los": "1.a"
+    },
+    {
+     "d": "M",
+     "q": "A firm's breakeven point is where:",
+     "o": [
+      "Total revenue equals total variable cost",
+      "Marginal cost equals zero",
+      "Total revenue equals total cost"
+     ],
+     "a": 2,
+     "e": "At breakeven, price equals average total cost and economic profit is zero.",
+     "los": "1.a"
+    },
+    {
+     "d": "E",
+     "q": "A firm maximises profit at the output where:",
+     "o": [
+      "Marginal revenue equals marginal cost",
+      "Price equals average variable cost",
+      "Total revenue is at its maximum"
+     ],
+     "a": 0,
+     "e": "Producing more than this adds more cost than revenue; producing less forgoes profit.",
+     "los": "1.d"
+    },
+    {
+     "d": "M",
+     "q": "Economies of scale exist when:",
+     "o": [
+      "Short-run marginal cost rises",
+      "Long-run average cost falls as output increases",
+      "Fixed costs rise with output"
+     ],
+     "a": 1,
+     "e": "Larger scale allows specialisation and bulk buying, lowering cost per unit.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "Which market structure has many sellers offering differentiated products with low entry barriers?",
+     "o": [
+      "Perfect competition",
+      "Monopolistic competition",
+      "Oligopoly"
+     ],
+     "a": 1,
+     "e": "Differentiation gives some pricing power; low barriers keep entry easy.",
+     "los": "1.c"
+    },
+    {
+     "d": "H",
+     "q": "In long-run equilibrium, a firm in monopolistic competition earns:",
+     "o": [
+      "Positive economic profit protected by barriers",
+      "Negative economic profit",
+      "Zero economic profit"
+     ],
+     "a": 2,
+     "e": "Low barriers mean entrants keep arriving until economic profit is competed away.",
+     "los": "1.d"
+    },
+    {
+     "d": "H",
+     "q": "In the Stackelberg model of oligopoly:",
+     "o": [
+      "Firms choose output simultaneously",
+      "One firm moves first and the others react",
+      "All firms price at marginal cost"
+     ],
+     "a": 1,
+     "e": "The leader chooses output knowing how followers will respond; Cournot firms move together.",
+     "los": "1.d"
+    },
+    {
+     "d": "H",
+     "q": "Four firms have market shares of 30%, 25%, 20% and 15%. Their four-firm HHI is closest to:",
+     "o": [
+      "0.215",
+      "0.900",
+      "0.250"
+     ],
+     "a": 0,
+     "e": "0.09 + 0.0625 + 0.04 + 0.0225 = 0.215. 0.90 is the four-firm concentration ratio.",
+     "los": "1.e"
+    },
+    {
+     "d": "M",
+     "q": "A limitation of the N-firm concentration ratio is that it:",
+     "o": [
+      "Needs data on every firm in the industry",
+      "Squares each market share",
+      "Does not change when firms within the top N merge"
+     ],
+     "a": 2,
+     "e": "Combined share stays the same after such a merger, so the ratio misses the rise in market power.",
+     "los": "1.e"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Profit-maximising output",
+     "back": "Where MR = MC."
+    },
+    {
+     "front": "Breakeven vs shutdown",
+     "back": "Breakeven: P = ATC. Short-run shutdown: P < AVC."
+    },
+    {
+     "front": "Minimum efficient scale",
+     "back": "Output at the lowest point of the long-run average cost curve."
+    },
+    {
+     "front": "Cournot vs Stackelberg",
+     "back": "Cournot: firms choose output simultaneously. Stackelberg: a leader moves first."
+    },
+    {
+     "front": "Which structures earn zero long-run economic profit?",
+     "back": "Perfect and monopolistic competition."
+    },
+    {
+     "front": "HHI",
+     "back": "Sum of squared market shares; unlike the concentration ratio, it rises after mergers."
+    }
+   ]
+  },
+  {
+   "lm_no": 2,
+   "title": "Understanding Business Cycles",
+   "summary": "Phases of the business cycle, credit cycles, how activity varies, and economic indicators.",
+   "los": [
+    {
+     "code": "2.a",
+     "command_word": "describe",
+     "statement": "Describe the business cycle and its phases."
+    },
+    {
+     "code": "2.b",
+     "command_word": "describe",
+     "statement": "Describe credit cycles."
+    },
+    {
+     "code": "2.c",
+     "command_word": "describe",
+     "statement": "Describe how resource use, consumer and business activity, housing and external trade vary over the cycle, and how economic indicators measure them."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Phases and credit cycles",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Phase",
+         "Output vs potential",
+         "What typically happens"
+        ],
+        "rows": [
+         [
+          "Recovery",
+          "Below potential but rising",
+          "Trough passed; firms rehire slowly"
+         ],
+         [
+          "Expansion",
+          "Above potential, growing",
+          "Hiring, capital spending, inflation picks up"
+         ],
+         [
+          "Slowdown",
+          "Growth slowing after the peak",
+          "Inventories build up, confidence fades"
+         ],
+         [
+          "Contraction",
+          "Output falling",
+          "Layoffs, falling profits; a recession if severe"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Credit cycles",
+          "b": true
+         },
+         {
+          "t": " are expansions and contractions in the availability and cost of credit. Easy credit fuels asset prices, especially property, which supports more lending. When credit tightens, the process reverses. Credit cycles tend to be "
+         },
+         {
+          "t": "longer and deeper",
+          "b": true
+         },
+         {
+          "t": " than business cycles and can amplify them."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A credit boom is a wedding season loan mela: everyone gets a loan, everyone buys gold, and then the EMIs arrive."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Activity over the cycle",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Businesses",
+           "b": true
+          },
+          {
+           "t": ": as sales slow, unsold inventory piles up and the "
+          },
+          {
+           "t": "inventory-to-sales ratio",
+           "b": true
+          },
+          {
+           "t": " rises, so production is cut. In recovery, inventories are rebuilt."
+          }
+         ],
+         [
+          {
+           "t": "Labour",
+           "b": true
+          },
+          {
+           "t": ": firms first cut overtime and hours, then lay off workers. In recovery they first add hours, then hire. Unemployment therefore lags the cycle."
+          }
+         ],
+         [
+          {
+           "t": "Consumers",
+           "b": true
+          },
+          {
+           "t": ": spending on "
+          },
+          {
+           "t": "durables",
+           "b": true
+          },
+          {
+           "t": " (cars, appliances) swings most, because purchases can be postponed. Spending on services and staples is steadier."
+          }
+         ],
+         [
+          {
+           "t": "Housing",
+           "b": true
+          },
+          {
+           "t": ": very sensitive to "
+          },
+          {
+           "t": "mortgage rates",
+           "b": true
+          },
+          {
+           "t": " and incomes."
+          }
+         ],
+         [
+          {
+           "t": "External trade",
+           "b": true
+          },
+          {
+           "t": ": imports rise with domestic GDP; exports depend on trading partners' GDP and the exchange rate."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Ganga Retail: inventories ₹120 crore against monthly sales of ₹100 crore, so the inventory-to-sales ratio is "
+         },
+         {
+          "t": "1.2",
+          "b": true
+         },
+         {
+          "t": ", up from 1.0. That unwanted stock build-up usually means production cuts are coming."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Economic indicators",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Type",
+         "Moves",
+         "Examples"
+        ],
+        "rows": [
+         [
+          "Leading",
+          "Before the cycle",
+          "Building permits, new orders, average weekly hours, stock prices, yield spread, consumer expectations"
+         ],
+         [
+          "Coincident",
+          "With the cycle",
+          "Industrial production, payroll employment, personal income, manufacturing sales"
+         ],
+         [
+          "Lagging",
+          "After the cycle",
+          "Average duration of unemployment, inventory-to-sales ratio, unit labour costs, bank lending rates"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A rising "
+         },
+         {
+          "t": "inventory-to-sales ratio",
+          "b": true
+         },
+         {
+          "t": " is a "
+         },
+         {
+          "t": "lagging",
+          "b": true
+         },
+         {
+          "t": " indicator, but reading it with sales data helps explain where the cycle is heading."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Recovery → Expansion → Slowdown → Contraction · Leading → Coincident → Lagging"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Recovery",
+        "Output below potential, rising"
+       ],
+       [
+        "Inventory/sales ↑",
+        "Weak sales, production cuts ahead"
+       ],
+       [
+        "Labour adjustment",
+        "Hours first, then headcount"
+       ],
+       [
+        "Most cyclical spending",
+        "Durables and housing"
+       ],
+       [
+        "Credit cycle",
+        "Longer, deeper; amplifies the business cycle"
+       ],
+       [
+        "Leading",
+        "Permits, new orders, stock prices, yield spread"
+       ],
+       [
+        "Lagging",
+        "Unemployment duration, unit labour cost"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The phase in which activity is rising but output is still below potential is the:",
+     "o": [
+      "Recovery",
+      "Slowdown",
+      "Contraction"
+     ],
+     "a": 0,
+     "e": "Recovery starts at the trough, with output growing but still below potential.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "Spending on durable goods is the most cyclical type of consumer spending because:",
+     "o": [
+      "Durables are necessities",
+      "Purchases can be postponed when incomes fall",
+      "Durable prices never change"
+     ],
+     "a": 1,
+     "e": "Households delay buying cars and appliances in bad times and catch up in good times.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "Which is a leading economic indicator?",
+     "o": [
+      "Average duration of unemployment",
+      "Building permits for new private housing",
+      "Industrial production"
+     ],
+     "a": 1,
+     "e": "Permits come before construction activity; unemployment duration lags; production is coincident.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "Which is a lagging economic indicator?",
+     "o": [
+      "Stock prices",
+      "New orders for consumer goods",
+      "Average duration of unemployment"
+     ],
+     "a": 2,
+     "e": "Unemployment duration keeps rising after the economy has turned.",
+     "los": "2.c"
+    },
+    {
+     "d": "E",
+     "q": "Industrial production is best classified as a(n):",
+     "o": [
+      "Coincident indicator",
+      "Leading indicator",
+      "Lagging indicator"
+     ],
+     "a": 0,
+     "e": "Industrial output moves in step with the overall cycle.",
+     "los": "2.c"
+    },
+    {
+     "d": "H",
+     "q": "A rising inventory-to-sales ratio late in an expansion most likely signals:",
+     "o": [
+      "Weaker sales than expected and production cuts ahead",
+      "Demand that firms cannot keep up with",
+      "Falling interest rates"
+     ],
+     "a": 0,
+     "e": "Unsold stock builds up when sales slow, so firms cut output to clear it.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "Credit cycles are best described as:",
+     "o": [
+      "Seasonal changes in bank deposits",
+      "Changes in a currency's value",
+      "Expansions and contractions in credit availability that can amplify business cycles"
+     ],
+     "a": 2,
+     "e": "Easy credit lifts asset prices and spending; tight credit reverses both.",
+     "los": "2.b"
+    },
+    {
+     "d": "H",
+     "q": "When demand first weakens, firms typically adjust labour by:",
+     "o": [
+      "Hiring more permanent staff",
+      "Cutting overtime and hours before laying off workers",
+      "Raising wages"
+     ],
+     "a": 1,
+     "e": "Cutting hours is cheaper and easier to reverse than firing and later rehiring.",
+     "los": "2.c"
+    },
+    {
+     "d": "H",
+     "q": "Other things equal, faster GDP growth in India's main trading partners most likely:",
+     "o": [
+      "Raises Indian exports",
+      "Reduces Indian exports",
+      "Has no effect on Indian trade"
+     ],
+     "a": 0,
+     "e": "Richer trading partners buy more imports, which are India's exports.",
+     "los": "2.c"
+    },
+    {
+     "d": "H",
+     "q": "Housing activity is especially sensitive to:",
+     "o": [
+      "Corporate tax rates on exporters",
+      "Dividend payments",
+      "Mortgage interest rates"
+     ],
+     "a": 2,
+     "e": "Most homes are bought with loans, so EMIs and affordability move with mortgage rates.",
+     "los": "2.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Four business cycle phases",
+     "back": "Recovery, expansion, slowdown, contraction."
+    },
+    {
+     "front": "Credit cycle",
+     "back": "Swings in credit availability; longer and deeper than business cycles."
+    },
+    {
+     "front": "How firms adjust labour first",
+     "back": "Cut or add hours and overtime before changing headcount."
+    },
+    {
+     "front": "Most cyclical consumer spending",
+     "back": "Durable goods, because purchases can be postponed."
+    },
+    {
+     "front": "Leading indicators (examples)",
+     "back": "Building permits, new orders, weekly hours, stock prices, yield spread."
+    },
+    {
+     "front": "Lagging indicators (examples)",
+     "back": "Unemployment duration, inventory-to-sales ratio, unit labour costs."
+    }
+   ]
+  },
+  {
+   "lm_no": 3,
+   "title": "Fiscal Policy",
+   "summary": "Fiscal vs monetary policy, fiscal tools, the multiplier, deficits and debt, implementation lags.",
+   "los": [
+    {
+     "code": "3.a",
+     "command_word": "compare",
+     "statement": "Compare monetary and fiscal policy."
+    },
+    {
+     "code": "3.b",
+     "command_word": "describe",
+     "statement": "Describe the roles and objectives of fiscal policy and arguments about whether the size of national debt matters."
+    },
+    {
+     "code": "3.c",
+     "command_word": "describe",
+     "statement": "Describe the tools of fiscal policy and their advantages and disadvantages."
+    },
+    {
+     "code": "3.d",
+     "command_word": "explain",
+     "statement": "Explain fiscal policy implementation, its difficulties, and whether a stance is expansionary or contractionary."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Roles and tools of fiscal policy",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Fiscal policy",
+          "b": true
+         },
+         {
+          "t": " is the government's use of "
+         },
+         {
+          "t": "spending and taxation",
+          "b": true
+         },
+         {
+          "t": " to influence the economy. "
+         },
+         {
+          "t": "Monetary policy",
+          "b": true
+         },
+         {
+          "t": " is the central bank's use of interest rates and the money supply."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Roles",
+           "b": true
+          },
+          {
+           "t": ": stabilise aggregate demand, redistribute income and wealth, allocate resources to public goods."
+          }
+         ],
+         [
+          {
+           "t": "Automatic stabilisers",
+           "b": true
+          },
+          {
+           "t": " work without new decisions: progressive taxes and unemployment benefits cushion a downturn on their own."
+          }
+         ],
+         [
+          {
+           "t": "Discretionary policy",
+           "b": true
+          },
+          {
+           "t": " needs a deliberate decision, e.g. a stimulus package."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Spending tools",
+         "Revenue tools"
+        ],
+        "rows": [
+         [
+          "Transfer payments (pensions, subsidies)",
+          "Direct taxes: income, corporate, wealth"
+         ],
+         [
+          "Current spending (salaries, services)",
+          "Indirect taxes: GST, excise, customs"
+         ],
+         [
+          "Capital spending (roads, railways)",
+          ""
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A good tax is "
+         },
+         {
+          "t": "simple",
+          "b": true
+         },
+         {
+          "t": ", "
+         },
+         {
+          "t": "efficient",
+          "b": true
+         },
+         {
+          "t": " (distorts little), "
+         },
+         {
+          "t": "fair",
+          "b": true
+         },
+         {
+          "t": " and raises "
+         },
+         {
+          "t": "enough revenue",
+          "b": true
+         },
+         {
+          "t": ". "
+         },
+         {
+          "t": "Horizontal equity",
+          "b": true
+         },
+         {
+          "t": ": people in similar situations pay the same. "
+         },
+         {
+          "t": "Vertical equity",
+          "b": true
+         },
+         {
+          "t": ": those more able to pay pay more."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Indirect taxes can be changed quickly; capital projects take years to plan and build, so they act slowly."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "The multiplier, deficits and debt",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Fiscal multiplier = 1 ÷ [1 − MPC × (1 − t)]"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "MPC = 0.8 and t = 25%. Multiplier = 1 ÷ (1 − 0.8 × 0.75) = 1 ÷ 0.4 = "
+         },
+         {
+          "t": "2.5",
+          "b": true
+         },
+         {
+          "t": ". Extra spending of ₹10,000 crore can lift GDP by about ₹25,000 crore."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Debt matters because…",
+         "Debt may not matter because…"
+        ],
+        "rows": [
+         [
+          "Future taxes must rise to service it",
+          "Debt owed to citizens is a transfer within the country"
+         ],
+         [
+          "Borrowing can **crowd out** private investment",
+          "**Ricardian equivalence**: people save to pay future taxes"
+         ],
+         [
+          "It may be financed by printing money (inflation)",
+          "It may fund productive capital spending"
+         ],
+         [
+          "High debt limits room for future stimulus",
+          "It can push governments to reform taxes"
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Implementation and stance",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Recognition lag",
+           "b": true
+          },
+          {
+           "t": ": time to realise action is needed."
+          }
+         ],
+         [
+          {
+           "t": "Action lag",
+           "b": true
+          },
+          {
+           "t": ": time to decide and pass the measure."
+          }
+         ],
+         [
+          {
+           "t": "Impact lag",
+           "b": true
+          },
+          {
+           "t": ": time for the measure to affect the economy."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "To judge the stance, use the "
+         },
+         {
+          "t": "structural (cyclically adjusted) budget balance",
+          "b": true
+         },
+         {
+          "t": ", which strips out the effect of the cycle. A rising structural deficit means policy is "
+         },
+         {
+          "t": "expansionary",
+          "b": true
+         },
+         {
+          "t": "; a falling one means "
+         },
+         {
+          "t": "contractionary",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Fiscal stimulus with long lags is like ordering an umbrella online during the monsoon. By the time it arrives, it's Diwali."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Multiplier = 1 / [1 − MPC(1 − t)] · Stance: structural deficit ↑ = expansionary"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Fiscal policy",
+        "Government spending and taxes"
+       ],
+       [
+        "Automatic stabilisers",
+        "Progressive taxes, unemployment benefits"
+       ],
+       [
+        "Direct vs indirect",
+        "Income tax vs GST"
+       ],
+       [
+        "Vertical equity",
+        "Higher ability to pay, more tax"
+       ],
+       [
+        "Crowding out",
+        "Govt borrowing raises rates, cuts private investment"
+       ],
+       [
+        "Ricardian equivalence",
+        "Tax cut saved for future taxes"
+       ],
+       [
+        "Lags",
+        "Recognition, action, impact"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Fiscal policy refers to a government's use of:",
+     "o": [
+      "Spending and taxation to influence the economy",
+      "Interest rates and the money supply",
+      "Exchange rate intervention only"
+     ],
+     "a": 0,
+     "e": "Monetary policy uses rates and money; fiscal policy uses the budget.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "Which is an automatic stabiliser?",
+     "o": [
+      "A one-time infrastructure package",
+      "A progressive income tax system",
+      "A central bank rate cut"
+     ],
+     "a": 1,
+     "e": "Tax collections fall automatically as incomes fall, supporting spending without new decisions.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "The marginal propensity to consume is 0.8 and the tax rate is 25%. The fiscal multiplier is:",
+     "o": [
+      "5.0",
+      "2.5",
+      "1.25"
+     ],
+     "a": 1,
+     "e": "1 ÷ (1 − 0.8 × 0.75) = 1 ÷ 0.4 = 2.5.",
+     "los": "3.c"
+    },
+    {
+     "d": "M",
+     "q": "Ricardian equivalence suggests that a debt-financed tax cut:",
+     "o": [
+      "Always raises consumption by the full amount of the tax cut",
+      "Causes immediate inflation",
+      "Has little effect on demand, because people save to pay future taxes"
+     ],
+     "a": 2,
+     "e": "If households expect higher taxes later, they save the tax cut instead of spending it.",
+     "los": "3.b"
+    },
+    {
+     "d": "E",
+     "q": "Which is an indirect tax?",
+     "o": [
+      "Personal income tax",
+      "Goods and services tax (GST)",
+      "Corporate income tax"
+     ],
+     "a": 1,
+     "e": "Indirect taxes are levied on spending; direct taxes on income or wealth.",
+     "los": "3.c"
+    },
+    {
+     "d": "H",
+     "q": "Crowding out occurs when government borrowing:",
+     "o": [
+      "Raises interest rates and reduces private investment",
+      "Lowers interest rates and raises private investment",
+      "Increases exports"
+     ],
+     "a": 0,
+     "e": "The government competes with firms for savings, pushing rates up.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "The time it takes policymakers to realise the economy needs stimulus is the:",
+     "o": [
+      "Action lag",
+      "Recognition lag",
+      "Impact lag"
+     ],
+     "a": 1,
+     "e": "Data arrive with a delay, so recognising a slowdown takes time.",
+     "los": "3.d"
+    },
+    {
+     "d": "H",
+     "q": "An increase in the structural (cyclically adjusted) budget deficit indicates fiscal policy is:",
+     "o": [
+      "Expansionary",
+      "Contractionary",
+      "Neutral"
+     ],
+     "a": 0,
+     "e": "Removing cyclical effects isolates deliberate policy; a larger deficit means more stimulus.",
+     "los": "3.d"
+    },
+    {
+     "d": "H",
+     "q": "Vertical equity in taxation means that:",
+     "o": [
+      "People in similar situations pay the same tax",
+      "Everyone pays the same amount",
+      "People with a greater ability to pay pay more"
+     ],
+     "a": 2,
+     "e": "Horizontal equity is equal treatment of equals; vertical equity is about ability to pay.",
+     "los": "3.c"
+    },
+    {
+     "d": "M",
+     "q": "Compared with new capital spending, changes in indirect taxes:",
+     "o": [
+      "Take years to plan",
+      "Cannot affect spending",
+      "Can be implemented quickly"
+     ],
+     "a": 2,
+     "e": "Rate changes can take effect almost at once; infrastructure needs planning and construction.",
+     "los": "3.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Fiscal vs monetary policy",
+     "back": "Government spending and taxes vs central bank rates and money supply."
+    },
+    {
+     "front": "Fiscal multiplier",
+     "back": "1 ÷ [1 − MPC × (1 − t)]"
+    },
+    {
+     "front": "Automatic stabilisers",
+     "back": "Progressive taxes and unemployment benefits; no new decision needed."
+    },
+    {
+     "front": "Ricardian equivalence",
+     "back": "Debt-funded tax cuts are saved to pay expected future taxes."
+    },
+    {
+     "front": "Crowding out",
+     "back": "Government borrowing raises rates and displaces private investment."
+    },
+    {
+     "front": "Three fiscal lags",
+     "back": "Recognition, action, impact."
+    }
+   ]
+  },
+  {
+   "lm_no": 4,
+   "title": "Monetary Policy",
+   "summary": "Central bank roles and tools, transmission, targeting regimes, policy stance, policy mix.",
+   "los": [
+    {
+     "code": "4.a",
+     "command_word": "describe",
+     "statement": "Describe the roles and objectives of central banks."
+    },
+    {
+     "code": "4.b",
+     "command_word": "describe",
+     "statement": "Describe monetary policy tools and the transmission mechanism, and explain links between monetary policy and growth, inflation, interest and exchange rates."
+    },
+    {
+     "code": "4.c",
+     "command_word": "describe",
+     "statement": "Describe qualities of effective central banks and contrast inflation, interest rate and exchange rate targeting."
+    },
+    {
+     "code": "4.d",
+     "command_word": "determine",
+     "statement": "Determine whether a monetary policy is expansionary or contractionary."
+    },
+    {
+     "code": "4.e",
+     "command_word": "describe",
+     "statement": "Describe the interaction of monetary and fiscal policy."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Roles, objectives and tools",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Roles",
+           "b": true
+          },
+          {
+           "t": ": sole issuer of currency, banker to the government and banks, lender of last resort, supervisor of banks and payment systems, manager of foreign exchange reserves."
+          }
+         ],
+         [
+          {
+           "t": "Main objective",
+           "b": true
+          },
+          {
+           "t": ": price stability. The RBI, for example, targets CPI inflation of 4% within a band of 2% to 6%."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Tool",
+         "Expansionary use",
+         "Effect"
+        ],
+        "rows": [
+         [
+          "Policy rate (repo rate)",
+          "Cut it",
+          "Cheaper borrowing across the economy"
+         ],
+         [
+          "Reserve requirement (CRR)",
+          "Lower it",
+          "Banks can lend more"
+         ],
+         [
+          "Open market operations",
+          "Buy government bonds",
+          "Adds reserves and money"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Transmission",
+          "b": true
+         },
+         {
+          "t": ": a policy rate change moves bank rates, asset prices, expectations and the exchange rate, which in turn change spending, output and inflation."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A higher policy rate usually "
+         },
+         {
+          "t": "strengthens",
+          "b": true
+         },
+         {
+          "t": " the currency, as foreign investors seek higher returns. That makes imports cheaper and hurts exporters."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Effective central banks and targeting",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Effective central banks are "
+          },
+          {
+           "t": "independent",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "credible",
+           "b": true
+          },
+          {
+           "t": " and "
+          },
+          {
+           "t": "transparent",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Inflation targeting",
+           "b": true
+          },
+          {
+           "t": ": publicly announced inflation target, policy rate set to meet it."
+          }
+         ],
+         [
+          {
+           "t": "Interest rate targeting",
+           "b": true
+          },
+          {
+           "t": ": steer a short-term market rate."
+          }
+         ],
+         [
+          {
+           "t": "Exchange rate targeting",
+           "b": true
+          },
+          {
+           "t": ": hold a peg to another currency. The country effectively "
+          },
+          {
+           "t": "imports the anchor country's monetary policy",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Limits of monetary policy: in a "
+         },
+         {
+          "t": "liquidity trap",
+          "b": true
+         },
+         {
+          "t": ", extra money is simply held and rates near zero fail to stimulate. Central banks may then use "
+         },
+         {
+          "t": "quantitative easing",
+          "b": true
+         },
+         {
+          "t": ", buying assets on a large scale."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Stance and policy mix",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Neutral policy rate = trend real growth + inflation target. Policy rate above neutral = contractionary; below = expansionary."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Trend real growth is 3% and the inflation target is 4%, so the neutral rate is "
+         },
+         {
+          "t": "7%",
+          "b": true
+         },
+         {
+          "t": ". A policy rate of 6.5% is below neutral, so policy is "
+         },
+         {
+          "t": "expansionary",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "",
+         "Easy fiscal",
+         "Tight fiscal"
+        ],
+        "rows": [
+         [
+          "Easy monetary",
+          "Strong stimulus; demand rises",
+          "Low rates; private sector grows as a share"
+         ],
+         [
+          "Tight monetary",
+          "High rates; public sector grows as a share",
+          "Demand falls; contraction"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Monetary policy is like a pressure cooker whistle: the RBI raises rates to let out steam before inflation blows the lid off."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Neutral rate = trend real growth + inflation target · above = tight, below = easy"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Main objective",
+        "Price stability"
+       ],
+       [
+        "Expansionary tools",
+        "Cut repo/CRR, buy bonds"
+       ],
+       [
+        "Effective CB",
+        "Independent, credible, transparent"
+       ],
+       [
+        "Peg",
+        "Imports anchor country's policy"
+       ],
+       [
+        "Liquidity trap",
+        "Rate cuts and extra money don't stimulate"
+       ],
+       [
+        "Tight money + easy fiscal",
+        "High rates, bigger public sector"
+       ],
+       [
+        "Higher policy rate",
+        "Stronger currency"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Which is the primary objective of most central banks?",
+     "o": [
+      "Price stability",
+      "Maximising tax revenue",
+      "Fixing stock prices"
+     ],
+     "a": 0,
+     "e": "Most central banks target low, stable inflation.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "A central bank that buys government bonds through open market operations:",
+     "o": [
+      "Reduces bank reserves and the money supply",
+      "Increases bank reserves and the money supply",
+      "Has no effect on reserves"
+     ],
+     "a": 1,
+     "e": "Paying for the bonds credits banks' reserve accounts, adding liquidity.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Trend real growth is 3% and the inflation target is 4%. With a policy rate of 6.5%, monetary policy is:",
+     "o": [
+      "Contractionary",
+      "Neutral",
+      "Expansionary"
+     ],
+     "a": 2,
+     "e": "Neutral = 3% + 4% = 7%; a rate below neutral is expansionary.",
+     "los": "4.d"
+    },
+    {
+     "d": "E",
+     "q": "In India, the main policy rate set by the RBI's Monetary Policy Committee is the:",
+     "o": [
+      "Repo rate",
+      "Banks' prime lending rate",
+      "Government bond coupon"
+     ],
+     "a": 0,
+     "e": "The repo rate is the rate at which the RBI lends to banks against government securities.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Raising the reserve requirement most likely:",
+     "o": [
+      "Increases bank lending",
+      "Reduces the money multiplier and bank lending",
+      "Lowers the policy rate"
+     ],
+     "a": 1,
+     "e": "Banks must hold more reserves, so less of each deposit can be lent out.",
+     "los": "4.b"
+    },
+    {
+     "d": "H",
+     "q": "Which is least likely a quality of an effective central bank?",
+     "o": [
+      "Independence",
+      "Transparency",
+      "Frequent unexplained changes to its target"
+     ],
+     "a": 2,
+     "e": "Credibility depends on clear, consistent and well-explained policy.",
+     "los": "4.c"
+    },
+    {
+     "d": "M",
+     "q": "A country that pegs its currency to the US dollar effectively:",
+     "o": [
+      "Imports US monetary policy",
+      "Gains full monetary independence",
+      "Must run a budget surplus"
+     ],
+     "a": 0,
+     "e": "To hold the peg its interest rates must follow US policy.",
+     "los": "4.c"
+    },
+    {
+     "d": "H",
+     "q": "A liquidity trap describes a situation in which:",
+     "o": [
+      "Inflation is very high",
+      "Lower rates or more money fail to stimulate spending",
+      "Banks have too few reserves to lend"
+     ],
+     "a": 1,
+     "e": "Demand for cash is so high that extra money is hoarded, not spent.",
+     "los": "4.c"
+    },
+    {
+     "d": "H",
+     "q": "Tight monetary policy combined with loose fiscal policy most likely leads to:",
+     "o": [
+      "Higher interest rates and a larger public sector share of GDP",
+      "Lower interest rates and a smaller public sector",
+      "Falling demand from both sides"
+     ],
+     "a": 0,
+     "e": "Government spending rises while high rates squeeze private borrowing.",
+     "los": "4.e"
+    },
+    {
+     "d": "M",
+     "q": "A higher policy rate typically affects the domestic currency by:",
+     "o": [
+      "Weakening it",
+      "Leaving it unchanged",
+      "Strengthening it"
+     ],
+     "a": 2,
+     "e": "Higher returns attract foreign capital, raising demand for the currency.",
+     "los": "4.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Central bank's main objective",
+     "back": "Price stability (e.g. RBI: 4% CPI, band 2–6%)."
+    },
+    {
+     "front": "Three monetary tools",
+     "back": "Policy rate, reserve requirements, open market operations."
+    },
+    {
+     "front": "Neutral policy rate",
+     "back": "Trend real growth + inflation target."
+    },
+    {
+     "front": "Qualities of an effective central bank",
+     "back": "Independence, credibility, transparency."
+    },
+    {
+     "front": "Liquidity trap",
+     "back": "Rate cuts and more money fail to stimulate; cash is hoarded."
+    },
+    {
+     "front": "Tight money + loose fiscal",
+     "back": "Higher rates; public sector takes a bigger share of GDP."
+    }
+   ]
+  },
+  {
+   "lm_no": 5,
+   "title": "Introduction to Geopolitics",
+   "summary": "Cooperation vs competition, globalization, tools of geopolitics, geopolitical risk.",
+   "los": [
+    {
+     "code": "5.a",
+     "command_word": "describe",
+     "statement": "Describe geopolitics from a cooperation versus competition perspective."
+    },
+    {
+     "code": "5.b",
+     "command_word": "describe",
+     "statement": "Describe geopolitics and its relationship with globalization."
+    },
+    {
+     "code": "5.c",
+     "command_word": "describe",
+     "statement": "Describe the tools of geopolitics and their impact on regions and economies."
+    },
+    {
+     "code": "5.d",
+     "command_word": "describe",
+     "statement": "Describe geopolitical risk and its impact on investments."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Cooperation, competition and globalization",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Geopolitics",
+          "b": true
+         },
+         {
+          "t": " studies how geography, politics and economics shape relations between "
+         },
+         {
+          "t": "state actors",
+          "b": true
+         },
+         {
+          "t": " (governments) and "
+         },
+         {
+          "t": "non-state actors",
+          "b": true
+         },
+         {
+          "t": " (companies, NGOs, individuals)."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Countries "
+          },
+          {
+           "t": "cooperate",
+           "b": true
+          },
+          {
+           "t": " when it serves national interests: security, access to resources, common standards and rules."
+          }
+         ],
+         [
+          {
+           "t": "They "
+          },
+          {
+           "t": "compete",
+           "b": true
+          },
+          {
+           "t": " when interests clash, especially over strategic resources and technology."
+          }
+         ],
+         [
+          {
+           "t": "Globalization",
+           "b": true
+          },
+          {
+           "t": " spreads trade, capital, people and ideas across borders. Its opposite, "
+          },
+          {
+           "t": "nationalism",
+           "b": true
+          },
+          {
+           "t": ", puts domestic interests and self-reliance first."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Approach",
+         "What it looks like"
+        ],
+        "rows": [
+         [
+          "Autarky",
+          "Self-sufficiency; minimal trade; strong state control (non-cooperative, nationalist)"
+         ],
+         [
+          "Multilateralism",
+          "Many countries cooperating under shared rules (cooperative, globalized)"
+         ],
+         [
+          "Bilateralism",
+          "Agreements negotiated between two countries at a time"
+         ],
+         [
+          "Hegemony",
+          "A dominant power shapes the rules others follow"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Globalization lowers costs and widens markets, but it also "
+         },
+         {
+          "t": "transmits shocks",
+          "b": true
+         },
+         {
+          "t": " across borders faster."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Tools of geopolitics",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Tool",
+         "Examples"
+        ],
+        "rows": [
+         [
+          "National security",
+          "Armed conflict, alliances, espionage, military presence"
+         ],
+         [
+          "Economic",
+          "Trade agreements, tariffs, quotas, nationalisation, export controls"
+         ],
+         [
+          "Financial",
+          "Currency arrangements, capital controls, sanctions on financial transactions, limits on foreign investment"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Non-cooperation raises business costs: firms may duplicate supply chains, face tariffs and lose access to markets or technology."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Supply chains in a trade war are like a joint family splitting the kitchen: everyone suddenly needs their own pressure cooker."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Geopolitical risk",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Type",
+         "Meaning",
+         "Example"
+        ],
+        "rows": [
+         [
+          "Event risk",
+          "Known date, uncertain outcome",
+          "A scheduled national election"
+         ],
+         [
+          "Exogenous risk",
+          "Sudden and unanticipated",
+          "An unexpected invasion"
+         ],
+         [
+          "Thematic risk",
+          "Builds over a long period",
+          "Cyber threats, climate-related conflict"
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Assess each risk's "
+          },
+          {
+           "t": "likelihood",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "velocity",
+           "b": true
+          },
+          {
+           "t": " (how fast it hits markets) and "
+          },
+          {
+           "t": "size and nature",
+           "b": true
+          },
+          {
+           "t": " of impact."
+          }
+         ],
+         [
+          {
+           "t": "High-velocity risks hit prices immediately; low-velocity risks change fundamentals over years."
+          }
+         ],
+         [
+          {
+           "t": "Respond with scenario analysis, diversification and risk premia in valuation."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Risk = likelihood × velocity × size of impact (assess all three)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Geopolitics",
+        "Geography + politics + economics"
+       ],
+       [
+        "Autarky",
+        "Self-sufficient, nationalist, non-cooperative"
+       ],
+       [
+        "Multilateralism",
+        "Many countries, shared rules"
+       ],
+       [
+        "Financial tools",
+        "Capital controls, sanctions, FX arrangements"
+       ],
+       [
+        "Event risk",
+        "Known date (elections)"
+       ],
+       [
+        "Exogenous risk",
+        "Sudden shock"
+       ],
+       [
+        "Thematic risk",
+        "Long-running (cyber, climate)"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Geopolitics is best described as the study of how:",
+     "o": [
+      "Geography, politics and economics affect relations between countries and other actors",
+      "Companies allocate capital",
+      "Central banks manage balance sheets"
+     ],
+     "a": 0,
+     "e": "Geopolitics looks at how these forces shape cooperation and competition.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "A country that aims to produce everything it needs and keeps trade to a minimum follows:",
+     "o": [
+      "Multilateralism",
+      "Autarky",
+      "Hegemony"
+     ],
+     "a": 1,
+     "e": "Autarky is self-sufficiency with minimal external dependence.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "Multilateralism is characterised by:",
+     "o": [
+      "Many countries cooperating under common rules",
+      "Self-sufficiency with no trade",
+      "A single country acting alone"
+     ],
+     "a": 0,
+     "e": "Multilateral frameworks bind many countries to shared rules, e.g. on trade.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "Which is a financial tool of geopolitics?",
+     "o": [
+      "Military alliances",
+      "Capital controls and sanctions on financial transactions",
+      "Espionage"
+     ],
+     "a": 1,
+     "e": "Alliances and espionage are national security tools.",
+     "los": "5.c"
+    },
+    {
+     "d": "E",
+     "q": "A national election on a scheduled date is an example of:",
+     "o": [
+      "Exogenous risk",
+      "Thematic risk",
+      "Event risk"
+     ],
+     "a": 2,
+     "e": "The date is known in advance; only the outcome is uncertain.",
+     "los": "5.d"
+    },
+    {
+     "d": "H",
+     "q": "A sudden, unanticipated invasion is best classified as:",
+     "o": [
+      "Exogenous risk",
+      "Event risk",
+      "Thematic risk"
+     ],
+     "a": 0,
+     "e": "Exogenous risks arrive without warning and shock markets.",
+     "los": "5.d"
+    },
+    {
+     "d": "H",
+     "q": "Thematic geopolitical risks are those that:",
+     "o": [
+      "Occur on a known date",
+      "Evolve and expand over a long period, such as cyber threats",
+      "Affect only one company"
+     ],
+     "a": 1,
+     "e": "Thematic risks build gradually and persist.",
+     "los": "5.d"
+    },
+    {
+     "d": "M",
+     "q": "The velocity of a geopolitical risk refers to:",
+     "o": [
+      "The probability that it occurs",
+      "The number of countries involved",
+      "How quickly it affects markets or the economy"
+     ],
+     "a": 2,
+     "e": "High-velocity risks hit asset prices almost immediately.",
+     "los": "5.d"
+    },
+    {
+     "d": "H",
+     "q": "Rising non-cooperation between countries most likely leads companies to face:",
+     "o": [
+      "Higher costs from duplicating supply chains and lower efficiency",
+      "Lower tariffs",
+      "Greater access to foreign markets"
+     ],
+     "a": 0,
+     "e": "Firms must source from more places and lose economies of scale.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "Globalization most likely brings:",
+     "o": [
+      "Complete independence from foreign shocks",
+      "Wider access to markets and capital, and lower costs, but more exposure to foreign shocks",
+      "Higher tariffs"
+     ],
+     "a": 1,
+     "e": "Closer integration brings benefits but transmits shocks across borders.",
+     "los": "5.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "State vs non-state actors",
+     "back": "Governments vs companies, NGOs and individuals."
+    },
+    {
+     "front": "Autarky",
+     "back": "Self-sufficiency, minimal trade, nationalist and non-cooperative."
+    },
+    {
+     "front": "Three groups of geopolitical tools",
+     "back": "National security, economic, financial."
+    },
+    {
+     "front": "Event vs exogenous vs thematic risk",
+     "back": "Known date vs sudden shock vs long-running."
+    },
+    {
+     "front": "Velocity of geopolitical risk",
+     "back": "How fast the risk affects markets or the economy."
+    },
+    {
+     "front": "Cost of non-cooperation for firms",
+     "back": "Duplicate supply chains, tariffs, lost market access."
+    }
+   ]
+  },
+  {
+   "lm_no": 6,
+   "title": "International Trade",
+   "summary": "Comparative advantage, benefits and costs of trade, trade restrictions, trading blocs.",
+   "los": [
+    {
+     "code": "6.a",
+     "command_word": "describe",
+     "statement": "Describe the benefits and costs of international trade, including comparative advantage."
+    },
+    {
+     "code": "6.b",
+     "command_word": "compare",
+     "statement": "Compare types of trade restrictions and their economic implications."
+    },
+    {
+     "code": "6.c",
+     "command_word": "explain",
+     "statement": "Explain motivations for and advantages of trading blocs, common markets and economic unions."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Comparative advantage, benefits and costs",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A country has an "
+         },
+         {
+          "t": "absolute advantage",
+          "b": true
+         },
+         {
+          "t": " if it produces a good using fewer resources. It has a "
+         },
+         {
+          "t": "comparative advantage",
+          "b": true
+         },
+         {
+          "t": " if its "
+         },
+         {
+          "t": "opportunity cost",
+          "b": true
+         },
+         {
+          "t": " of producing the good is lower. Trade follows comparative advantage."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Per worker-day, Country A makes 6 cloth or 3 wheat; Country B makes 2 cloth or 2 wheat. A has an absolute advantage in both. But a cloth costs A 0.5 wheat and B 1 wheat, so "
+         },
+         {
+          "t": "A has the comparative advantage in cloth",
+          "b": true
+         },
+         {
+          "t": ". A wheat costs A 2 cloth and B 1 cloth, so "
+         },
+         {
+          "t": "B specialises in wheat",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Benefits",
+         "Costs"
+        ],
+        "rows": [
+         [
+          "Gains from specialisation and exchange",
+          "Job losses in import-competing industries"
+         ],
+         [
+          "Economies of scale, more variety",
+          "Wider income inequality"
+         ],
+         [
+          "Competition and technology transfer",
+          "Adjustment costs for workers and regions"
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Trade restrictions",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Restriction",
+         "How it works",
+         "Who gains"
+        ],
+        "rows": [
+         [
+          "Tariff",
+          "Tax on imports",
+          "Domestic producers and the government (revenue)"
+         ],
+         [
+          "Import quota",
+          "Limit on import quantity",
+          "Holders of import licences (quota rents)"
+         ],
+         [
+          "Voluntary export restraint",
+          "Exporting country limits its exports",
+          "Foreign producers capture the rents"
+         ],
+         [
+          "Export subsidy",
+          "Government pays exporters",
+          "Exporters; domestic price rises"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Compared with free trade, a tariff "
+         },
+         {
+          "t": "raises the domestic price",
+          "b": true
+         },
+         {
+          "t": ", "
+         },
+         {
+          "t": "increases domestic production",
+          "b": true
+         },
+         {
+          "t": ", "
+         },
+         {
+          "t": "reduces consumption and imports",
+          "b": true
+         },
+         {
+          "t": ", raises government revenue and creates a "
+         },
+         {
+          "t": "deadweight loss",
+          "b": true
+         },
+         {
+          "t": ". A large country may gain if the tariff improves its terms of trade."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A quota's rents go to whoever holds the import licences, not to the government, unless the licences are auctioned."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Trading blocs",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Level",
+         "What it adds"
+        ],
+        "rows": [
+         [
+          "Free trade area",
+          "No barriers among members; each keeps its own external policy"
+         ],
+         [
+          "Customs union",
+          "+ common external trade policy"
+         ],
+         [
+          "Common market",
+          "+ free movement of labour and capital"
+         ],
+         [
+          "Economic union",
+          "+ common economic institutions and policy coordination"
+         ],
+         [
+          "Monetary union",
+          "+ a common currency"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Blocs widen markets, raise competition and attract investment. But they can cause "
+         },
+         {
+          "t": "trade diversion",
+          "b": true
+         },
+         {
+          "t": ": imports shift from a cheaper non-member to a costlier member because only the non-member pays tariffs."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A customs union is a housing society that agrees on one rule for all outside vendors, while members borrow each other's ladders for free."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Comparative advantage = lower opportunity cost (not lower absolute cost)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Tariff effects",
+        "Price ↑, domestic output ↑, imports ↓, revenue ↑, deadweight loss"
+       ],
+       [
+        "Quota rent",
+        "Goes to licence holders"
+       ],
+       [
+        "VER",
+        "Exporter limits; foreign producers gain rents"
+       ],
+       [
+        "Export subsidy",
+        "Raises price in exporting country"
+       ],
+       [
+        "Customs union",
+        "FTA + common external policy"
+       ],
+       [
+        "Common market",
+        "+ free labour and capital movement"
+       ],
+       [
+        "Trade diversion",
+        "Switch to higher-cost member"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A country has a comparative advantage in a good when it:",
+     "o": [
+      "Has a lower opportunity cost of producing it",
+      "Produces more of it per worker",
+      "Exports more of it than any other country"
+     ],
+     "a": 0,
+     "e": "Comparative advantage is about opportunity cost, not output per worker.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "Per worker-day, Country A makes 6 cloth or 3 wheat and Country B makes 2 cloth or 2 wheat. Country A has a comparative advantage in:",
+     "o": [
+      "Wheat",
+      "Cloth",
+      "Neither good"
+     ],
+     "a": 1,
+     "e": "A cloth costs A 0.5 wheat but B 1 wheat, so A should specialise in cloth.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "Compared with free trade, an import tariff most likely:",
+     "o": [
+      "Lowers the domestic price",
+      "Raises domestic production and government revenue",
+      "Raises domestic consumption"
+     ],
+     "a": 1,
+     "e": "The higher price encourages local output and the tax raises revenue; consumption falls.",
+     "los": "6.b"
+    },
+    {
+     "d": "M",
+     "q": "Under an import quota, the gain from the higher domestic price that is not government revenue is called:",
+     "o": [
+      "Tariff revenue",
+      "A deadweight gain",
+      "Quota rent"
+     ],
+     "a": 2,
+     "e": "Licence holders buy at the world price and sell at the higher domestic price.",
+     "los": "6.b"
+    },
+    {
+     "d": "E",
+     "q": "A free trade area removes trade barriers among members, but:",
+     "o": [
+      "Each member keeps its own trade policy toward non-members",
+      "Members share a common currency",
+      "Labour moves freely between members"
+     ],
+     "a": 0,
+     "e": "A common external policy would make it a customs union.",
+     "los": "6.c"
+    },
+    {
+     "d": "H",
+     "q": "A common market adds which feature to a customs union?",
+     "o": [
+      "A common currency",
+      "Free movement of labour and capital",
+      "A common fiscal policy"
+     ],
+     "a": 1,
+     "e": "Currency and fiscal coordination come at the monetary and economic union stages.",
+     "los": "6.c"
+    },
+    {
+     "d": "H",
+     "q": "Trade diversion occurs when a trading bloc causes imports to:",
+     "o": [
+      "Shift from a low-cost non-member to a higher-cost member",
+      "Stop between members",
+      "Face higher tariffs between members"
+     ],
+     "a": 0,
+     "e": "Removing tariffs only for members can make a less efficient member's goods look cheaper.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "A voluntary export restraint differs from an import quota in that:",
+     "o": [
+      "The importing government collects tariff revenue",
+      "The quantity of trade is unlimited",
+      "The exporting country imposes the limit and its producers capture the rents"
+     ],
+     "a": 2,
+     "e": "With a VER, foreign exporters sell less but at a higher price, keeping the rents.",
+     "los": "6.b"
+    },
+    {
+     "d": "H",
+     "q": "An export subsidy most likely affects the exporting country by:",
+     "o": [
+      "Lowering the domestic price there",
+      "Raising the domestic price there and creating a deadweight loss",
+      "Having no welfare cost"
+     ],
+     "a": 1,
+     "e": "Producers divert output to export, so domestic consumers pay more.",
+     "los": "6.b"
+    },
+    {
+     "d": "M",
+     "q": "A cost of international trade for an economy is that:",
+     "o": [
+      "Consumers have less variety",
+      "Firms lose economies of scale",
+      "Workers in import-competing industries may lose jobs"
+     ],
+     "a": 2,
+     "e": "Trade's gains are broad but its losses are concentrated in exposed industries.",
+     "los": "6.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Absolute vs comparative advantage",
+     "back": "Fewer resources vs lower opportunity cost."
+    },
+    {
+     "front": "Effects of a tariff",
+     "back": "Domestic price, output and govt revenue rise; imports and consumption fall."
+    },
+    {
+     "front": "Who gets quota rents?",
+     "back": "Holders of import licences."
+    },
+    {
+     "front": "Voluntary export restraint",
+     "back": "The exporter limits sales; foreign producers keep the rents."
+    },
+    {
+     "front": "Trading bloc ladder",
+     "back": "FTA → customs union → common market → economic union → monetary union."
+    },
+    {
+     "front": "Trade diversion",
+     "back": "Imports switch from a cheaper non-member to a costlier member."
+    }
+   ]
+  },
+  {
+   "lm_no": 7,
+   "title": "Capital Flows and the FX Market",
+   "summary": "FX market participants, nominal and real exchange rates, regimes, capital restrictions.",
+   "los": [
+    {
+     "code": "7.a",
+     "command_word": "calculate",
+     "statement": "Describe the FX market and its participants, distinguish nominal and real exchange rates, and calculate the percentage change in a currency."
+    },
+    {
+     "code": "7.b",
+     "command_word": "describe",
+     "statement": "Describe exchange rate regimes and the effects of exchange rates on trade and capital flows."
+    },
+    {
+     "code": "7.c",
+     "command_word": "describe",
+     "statement": "Describe common objectives of capital restrictions imposed by governments."
+    }
+   ],
+   "topics": [
+    {
+     "title": "The FX market and exchange rates",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Sell side",
+           "b": true
+          },
+          {
+           "t": ": large dealing banks that make prices."
+          }
+         ],
+         [
+          {
+           "t": "Buy side",
+           "b": true
+          },
+          {
+           "t": ": corporations (exporters, importers), real-money investors (pension funds, insurers), leveraged funds, governments, central banks, sovereign wealth funds, retail."
+          }
+         ],
+         [
+          {
+           "t": "Instruments: "
+          },
+          {
+           "t": "spot",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "forwards",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "FX swaps",
+           "b": true
+          },
+          {
+           "t": " and options."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Quotes here are written as "
+         },
+         {
+          "t": "rupees per US dollar",
+          "b": true
+         },
+         {
+          "t": ". If the rate rises, the dollar has strengthened and the rupee has weakened."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "The rate moves from ₹80 to ₹84 per $. The "
+         },
+         {
+          "t": "dollar appreciates 5%",
+          "b": true
+         },
+         {
+          "t": " (84 ÷ 80 − 1). In dollar terms the rupee goes from 1/80 to 1/84, so it "
+         },
+         {
+          "t": "depreciates 4.76%",
+          "b": true
+         },
+         {
+          "t": " (80 ÷ 84 − 1)."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Real exchange rate (₹ per $) = nominal rate × (US price level ÷ Indian price level)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Nominal rate stays ₹80 per $. US prices rise 2%, Indian prices 6%. Real rate = 80 × 1.02 ÷ 1.06 = "
+         },
+         {
+          "t": "₹76.98",
+          "b": true
+         },
+         {
+          "t": ". In real terms the rupee has "
+         },
+         {
+          "t": "appreciated",
+          "b": true
+         },
+         {
+          "t": ": Indian goods became relatively dearer."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Appreciation of one currency and depreciation of the other are "
+         },
+         {
+          "t": "not equal percentages",
+          "b": true
+         },
+         {
+          "t": ". Always compute each from its own base."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Exchange rate regimes",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Regime (hardest to most flexible)",
+         "Feature"
+        ],
+        "rows": [
+         [
+          "No separate legal tender (dollarisation)",
+          "Uses another country's currency"
+         ],
+         [
+          "Monetary union",
+          "Shared currency, e.g. the euro"
+         ],
+         [
+          "Currency board",
+          "Legal commitment to a fixed rate, backed by reserves"
+         ],
+         [
+          "Conventional peg",
+          "Fixed rate within a narrow band"
+         ],
+         [
+          "Target zone",
+          "Fixed central rate, wider band"
+         ],
+         [
+          "Crawling peg",
+          "Peg adjusted periodically in small steps"
+         ],
+         [
+          "Managed float",
+          "Market-set, with intervention"
+         ],
+         [
+          "Independent float",
+          "Set by the market"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A weaker currency makes exports cheaper and imports dearer, which can improve the trade balance over time. Exchange rate expectations also drive "
+         },
+         {
+          "t": "capital flows",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Capital restrictions",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Objectives",
+           "b": true
+          },
+          {
+           "t": ": reduce volatility in domestic asset prices, maintain a fixed exchange rate, keep domestic interest rates low, protect strategic industries from foreign ownership."
+          }
+         ],
+         [
+          {
+           "t": "Forms",
+           "b": true
+          },
+          {
+           "t": ": taxes on flows (price controls), limits or outright bans (quantity controls)."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Capital controls are least likely used to "
+         },
+         {
+          "t": "encourage",
+          "b": true
+         },
+         {
+          "t": " foreign ownership of strategic industries; they usually restrict it."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Capital controls are the society watchman at the gate: great for keeping trouble out, but the pizza delivery takes longer too."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "% change = new ÷ old − 1 (compute each currency from its own base) · Real ₹/$ = nominal × P_US ÷ P_India"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Sell side",
+        "Dealing banks"
+       ],
+       [
+        "Rate ↑ (₹ per $)",
+        "Dollar stronger, rupee weaker"
+       ],
+       [
+        "Real rate",
+        "Adjusts for relative prices"
+       ],
+       [
+        "Currency board",
+        "Fixed rate backed by reserves"
+       ],
+       [
+        "Crawling peg",
+        "Small periodic adjustments"
+       ],
+       [
+        "Depreciation",
+        "Exports cheaper, imports dearer"
+       ],
+       [
+        "Capital controls aim to",
+        "Cut volatility, hold peg, keep rates low, protect industry"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The exchange rate moves from ₹80 to ₹84 per US dollar. The US dollar has:",
+     "o": [
+      "Appreciated 5% against the rupee",
+      "Depreciated 5% against the rupee",
+      "Appreciated 4.76% against the rupee"
+     ],
+     "a": 0,
+     "e": "84 ÷ 80 − 1 = 5%.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "For the same move (₹80 to ₹84 per $), the rupee's change against the dollar is closest to:",
+     "o": [
+      "+5.00%",
+      "−4.76%",
+      "−5.00%"
+     ],
+     "a": 1,
+     "e": "In dollars per rupee: (1/84) ÷ (1/80) − 1 = 80 ÷ 84 − 1 = −4.76%.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "The nominal rate stays at ₹80 per $. US prices rise 2% and Indian prices 6%. The real exchange rate (₹ per $) is closest to:",
+     "o": [
+      "83.14",
+      "80.00",
+      "76.98"
+     ],
+     "a": 2,
+     "e": "80 × 1.02 ÷ 1.06 = 76.98.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "A real exchange rate adjusts the nominal exchange rate for:",
+     "o": [
+      "Relative price levels in the two countries",
+      "Interest rate differences only",
+      "Transaction costs"
+     ],
+     "a": 0,
+     "e": "It measures the relative purchasing power of the two currencies.",
+     "los": "7.a"
+    },
+    {
+     "d": "E",
+     "q": "Which participant is on the sell side of the FX market?",
+     "o": [
+      "Exporters",
+      "Large dealing banks",
+      "Pension funds"
+     ],
+     "a": 1,
+     "e": "Dealing banks quote prices; the others are buy-side users.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "A currency board arrangement:",
+     "o": [
+      "Commits by law to exchanging domestic currency for a foreign currency at a fixed rate, backed by reserves",
+      "Lets the currency float freely",
+      "Needs no foreign reserves"
+     ],
+     "a": 0,
+     "e": "The board can issue domestic currency only when backed by foreign reserves.",
+     "los": "7.b"
+    },
+    {
+     "d": "H",
+     "q": "Under a crawling peg, the exchange rate:",
+     "o": [
+      "Floats freely",
+      "Is replaced by a foreign currency",
+      "Is adjusted periodically in small steps"
+     ],
+     "a": 2,
+     "e": "The peg 'crawls', often to offset inflation differences.",
+     "los": "7.b"
+    },
+    {
+     "d": "H",
+     "q": "A government is least likely to impose capital restrictions in order to:",
+     "o": [
+      "Reduce volatility in domestic asset prices",
+      "Maintain a fixed exchange rate",
+      "Encourage foreign ownership of strategic industries"
+     ],
+     "a": 2,
+     "e": "Restrictions usually limit foreign ownership of strategic industries.",
+     "los": "7.c"
+    },
+    {
+     "d": "M",
+     "q": "Other things equal, a depreciation of the rupee most likely:",
+     "o": [
+      "Makes Indian exports cheaper for foreign buyers",
+      "Makes imports cheaper for Indian buyers",
+      "Has no effect on trade"
+     ],
+     "a": 0,
+     "e": "Foreign buyers need fewer units of their own currency to buy Indian goods.",
+     "los": "7.b"
+    },
+    {
+     "d": "H",
+     "q": "Dollarisation is an exchange rate regime in which a country:",
+     "o": [
+      "Pegs within a wide band",
+      "Uses another country's currency as legal tender",
+      "Floats freely"
+     ],
+     "a": 1,
+     "e": "It gives up its own currency and monetary policy entirely.",
+     "los": "7.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Sell side vs buy side in FX",
+     "back": "Dealing banks vs corporates, investors, governments, retail."
+    },
+    {
+     "front": "Rupee change when ₹/$ goes 80 → 84",
+     "back": "80 ÷ 84 − 1 = −4.76% (the dollar rises 5%)."
+    },
+    {
+     "front": "Real exchange rate (₹ per $)",
+     "back": "Nominal × US prices ÷ Indian prices."
+    },
+    {
+     "front": "Currency board",
+     "back": "Legal commitment to a fixed rate, fully backed by foreign reserves."
+    },
+    {
+     "front": "Crawling peg",
+     "back": "Peg adjusted in small, periodic steps."
+    },
+    {
+     "front": "Objectives of capital controls",
+     "back": "Cut asset volatility, hold a peg, keep rates low, protect strategic industries."
+    }
+   ]
+  },
+  {
+   "lm_no": 8,
+   "title": "Exchange Rate Calculations",
+   "summary": "Cross rates, covered interest rate parity, forward points and forward premiums or discounts.",
+   "los": [
+    {
+     "code": "8.a",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret currency cross-rates."
+    },
+    {
+     "code": "8.b",
+     "command_word": "calculate",
+     "statement": "Explain the arbitrage link between spot rates, forward rates and interest rates; calculate a forward rate using points or percentages and interpret a forward premium or discount."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Cross rates",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "cross rate",
+          "b": true
+         },
+         {
+          "t": " is an exchange rate between two currencies derived through a third, usually the US dollar or here the rupee."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "₹/$ = 83.00 and ₹/€ = 90.00. Dollars per euro = 90.00 ÷ 83.00 = "
+         },
+         {
+          "t": "1.0843",
+          "b": true
+         },
+         {
+          "t": ". Euros per dollar = 83.00 ÷ 90.00 = "
+         },
+         {
+          "t": "0.9222",
+          "b": true
+         },
+         {
+          "t": ". Check: 1.0843 × 0.9222 ≈ 1."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Line the quotes up so the common currency "
+         },
+         {
+          "t": "cancels",
+          "b": true
+         },
+         {
+          "t": ". ₹ per € ÷ ₹ per $ = $ per €."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Cross rates are like converting cricket runs to football goals through the canteen's samosa price: the common unit cancels and the answer pops out."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Forward rates and interest rate parity",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Covered interest parity: F = S × (1 + i_price × days/360) ÷ (1 + i_base × days/360), where S and F are quoted as price currency per unit of base currency"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "S = ₹83.00 per $. One-year rates: 7% in India, 5% in the US. F = 83.00 × 1.07 ÷ 1.05 = "
+         },
+         {
+          "t": "₹84.58 per $",
+          "b": true
+         },
+         {
+          "t": ". The dollar trades at a "
+         },
+         {
+          "t": "forward premium",
+          "b": true
+         },
+         {
+          "t": " of 84.58 ÷ 83.00 − 1 ≈ "
+         },
+         {
+          "t": "1.90%",
+          "b": true
+         },
+         {
+          "t": ", because US rates are lower."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "The "
+          },
+          {
+           "t": "higher-interest currency trades at a forward discount",
+           "b": true
+          },
+          {
+           "t": "; the lower-interest currency at a premium. The forward rate offsets the interest gain, so there is no riskless profit."
+          }
+         ],
+         [
+          {
+           "t": "If the market forward differs from the parity rate, traders can earn "
+          },
+          {
+           "t": "riskless arbitrage",
+           "b": true
+          },
+          {
+           "t": " until prices realign."
+          }
+         ],
+         [
+          {
+           "t": "Forward points",
+           "b": true
+          },
+          {
+           "t": " are added to spot: S = 1.1000 $ per € with +25 points (4-decimal quote) gives F = 1.1000 + 0.0025 = "
+          },
+          {
+           "t": "1.1025",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "S = 1.2000 $ per £; 180-day rates: USD 4%, GBP 5% (actual/360). F = 1.2000 × (1 + 0.04 × 0.5) ÷ (1 + 0.05 × 0.5) = 1.2000 × 1.02 ÷ 1.025 = "
+         },
+         {
+          "t": "1.1941",
+          "b": true
+         },
+         {
+          "t": ": sterling, the higher-yielding currency, trades at a forward discount."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "F/S = (1 + i_price τ) ÷ (1 + i_base τ) · Forward premium % = F ÷ S − 1"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Cross rate",
+        "Divide quotes so the common currency cancels"
+       ],
+       [
+        "₹/€ ÷ ₹/$",
+        "= $ per €"
+       ],
+       [
+        "Higher interest currency",
+        "Forward discount"
+       ],
+       [
+        "Lower interest currency",
+        "Forward premium"
+       ],
+       [
+        "Forward points",
+        "Add to spot (÷10,000 for 4-decimal quotes)"
+       ],
+       [
+        "Parity breaks",
+        "Riskless arbitrage until it holds"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "₹/$ = 83.00 and ₹/€ = 90.00. The dollars-per-euro cross rate is closest to:",
+     "o": [
+      "1.0843",
+      "0.9222",
+      "7.00"
+     ],
+     "a": 0,
+     "e": "90.00 ÷ 83.00 = 1.0843.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "From the same quotes, the euros-per-dollar rate is closest to:",
+     "o": [
+      "1.0843",
+      "0.9222",
+      "0.9000"
+     ],
+     "a": 1,
+     "e": "83.00 ÷ 90.00 = 0.9222.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "Covered interest rate parity says the forward premium or discount reflects:",
+     "o": [
+      "Expected inflation only",
+      "Current account balances",
+      "The interest rate differential between the two currencies"
+     ],
+     "a": 2,
+     "e": "The forward rate offsets the interest gain from holding the higher-yielding currency.",
+     "los": "8.b"
+    },
+    {
+     "d": "M",
+     "q": "Spot is ₹83.00 per $. One-year rates are 7% in India and 5% in the US. The no-arbitrage one-year forward rate (₹ per $) is closest to:",
+     "o": [
+      "84.58",
+      "81.45",
+      "83.00"
+     ],
+     "a": 0,
+     "e": "83.00 × 1.07 ÷ 1.05 = 84.58. 81.45 inverts the interest ratio.",
+     "los": "8.b"
+    },
+    {
+     "d": "M",
+     "q": "In that example, the US dollar trades at a forward:",
+     "o": [
+      "Discount, because US rates are lower",
+      "Premium, because US rates are lower",
+      "Premium, because US rates are higher"
+     ],
+     "a": 1,
+     "e": "The lower-interest currency trades at a forward premium.",
+     "los": "8.b"
+    },
+    {
+     "d": "E",
+     "q": "A currency with higher interest rates typically trades at a forward:",
+     "o": [
+      "Discount",
+      "Premium",
+      "Par"
+     ],
+     "a": 0,
+     "e": "The forward discount offsets its interest advantage.",
+     "los": "8.b"
+    },
+    {
+     "d": "H",
+     "q": "Spot is 1.1000 US dollars per euro and 3-month forward points are +25 (4-decimal quote). The 3-month forward rate is:",
+     "o": [
+      "1.1250",
+      "1.0975",
+      "1.1025"
+     ],
+     "a": 2,
+     "e": "25 points = 0.0025, so F = 1.1000 + 0.0025 = 1.1025.",
+     "los": "8.b"
+    },
+    {
+     "d": "H",
+     "q": "Spot is ₹83.00 per $ and the forward is ₹84.58. The dollar's forward premium as a percentage of spot is closest to:",
+     "o": [
+      "1.90%",
+      "1.58%",
+      "0.19%"
+     ],
+     "a": 0,
+     "e": "84.58 ÷ 83.00 − 1 = 1.90%.",
+     "los": "8.b"
+    },
+    {
+     "d": "H",
+     "q": "Spot is 1.2000 USD per GBP. 180-day rates (actual/360): USD 4%, GBP 5%. The 180-day forward (USD per GBP) is closest to:",
+     "o": [
+      "1.2059",
+      "1.1941",
+      "1.2000"
+     ],
+     "a": 1,
+     "e": "1.2000 × 1.02 ÷ 1.025 = 1.1941; sterling trades at a forward discount.",
+     "los": "8.b"
+    },
+    {
+     "d": "M",
+     "q": "If the market forward rate differs from the rate implied by covered interest parity, traders can earn:",
+     "o": [
+      "Only a risky speculative return",
+      "A riskless arbitrage profit",
+      "Nothing, because forwards cannot be traded"
+     ],
+     "a": 1,
+     "e": "Borrowing in one currency, converting, investing and locking in the forward gives a riskless gain.",
+     "los": "8.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Cross rate $ per €",
+     "back": "(₹ per €) ÷ (₹ per $)."
+    },
+    {
+     "front": "Covered interest parity",
+     "back": "F = S × (1 + i_price τ) ÷ (1 + i_base τ)."
+    },
+    {
+     "front": "Which currency trades at a forward discount?",
+     "back": "The one with the higher interest rate."
+    },
+    {
+     "front": "Forward premium %",
+     "back": "F ÷ S − 1."
+    },
+    {
+     "front": "Forward points on a 4-decimal quote",
+     "back": "Divide by 10,000 and add to spot (e.g. +25 = +0.0025)."
+    },
+    {
+     "front": "What if parity fails?",
+     "back": "Riskless (covered) interest arbitrage until it holds."
+    }
+   ]
+  }
+ ],
+ "retag_proto": {}
+}

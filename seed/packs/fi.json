@@ -1,0 +1,7599 @@
+{
+ "subject": "fi",
+ "name": "Fixed Income",
+ "lms": [
+  {
+   "lm_no": 1,
+   "title": "Fixed-Income Instrument Features",
+   "summary": "The basic terms of a bond, the indenture and covenants, and credit enhancements.",
+   "los": [
+    {
+     "code": "1.a",
+     "command_word": "describe",
+     "statement": "Describe the features of a fixed-income security."
+    },
+    {
+     "code": "1.b",
+     "command_word": "describe",
+     "statement": "Describe the contents of a bond indenture and contrast affirmative and negative covenants."
+    },
+    {
+     "code": "1.c",
+     "command_word": "describe",
+     "statement": "Describe collateral and credit enhancements."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Basic features",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Feature",
+         "Meaning"
+        ],
+        "rows": [
+         [
+          "Issuer",
+          "Government, agency, supranational, company, SPE"
+         ],
+         [
+          "Maturity / tenor",
+          "Date principal is repaid; time remaining"
+         ],
+         [
+          "Par (face) value",
+          "Principal repaid at maturity"
+         ],
+         [
+          "Coupon rate",
+          "Annual interest as % of par; frequency (annual, semi-annual)"
+         ],
+         [
+          "Currency",
+          "Dual-currency bonds pay coupons in one currency and principal in another"
+         ],
+         [
+          "Seniority",
+          "Senior or subordinated; secured or unsecured"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A ₹1,000 face bond with a 7% annual coupon pays "
+         },
+         {
+          "t": "₹70 a year",
+          "b": true
+         },
+         {
+          "t": " and ₹1,000 at maturity. Semi-annually it would pay ₹35 every six months."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Bonds with maturities of one year or less trade in the "
+         },
+         {
+          "t": "money market",
+          "b": true
+         },
+         {
+          "t": "; longer ones are capital market securities."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Indenture, covenants and enhancements",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "The "
+          },
+          {
+           "t": "indenture",
+           "b": true
+          },
+          {
+           "t": " (trust deed) sets out the issuer's obligations and investors' rights; a "
+          },
+          {
+           "t": "trustee",
+           "b": true
+          },
+          {
+           "t": " acts for bondholders."
+          }
+         ],
+         [
+          {
+           "t": "Affirmative covenants",
+           "b": true
+          },
+          {
+           "t": ": what the issuer must do (pay on time, maintain insurance, file reports, pari passu)."
+          }
+         ],
+         [
+          {
+           "t": "Negative covenants",
+           "b": true
+          },
+          {
+           "t": ": what it must not do (extra debt above a limit, sell key assets, negative pledge, pay dividends beyond a limit)."
+          }
+         ],
+         [
+          {
+           "t": "Collateral",
+           "b": true
+          },
+          {
+           "t": ": secured bonds are backed by specific assets; "
+          },
+          {
+           "t": "debentures",
+           "b": true
+          },
+          {
+           "t": " in many markets are unsecured."
+          }
+         ],
+         [
+          {
+           "t": "Internal enhancements",
+           "b": true
+          },
+          {
+           "t": ": subordination (tranching), overcollateralisation, excess spread, reserve accounts."
+          }
+         ],
+         [
+          {
+           "t": "External enhancements",
+           "b": true
+          },
+          {
+           "t": ": guarantees, letters of credit, surety bonds."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Negative covenants are the 'no girlfriends till exams' rules of the bond world. The parents (bondholders) want their money back before anything fun happens."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Coupon payment = coupon rate × par ÷ payments per year"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Indenture",
+        "Legal contract; trustee represents holders"
+       ],
+       [
+        "Affirmative covenant",
+        "Must do"
+       ],
+       [
+        "Negative covenant",
+        "Must not do"
+       ],
+       [
+        "Secured bond",
+        "Backed by collateral"
+       ],
+       [
+        "Internal enhancement",
+        "Subordination, overcollateralisation, reserves"
+       ],
+       [
+        "External enhancement",
+        "Guarantee, letter of credit"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A bond with ₹1,000 face value and a 7% annual coupon pays an annual coupon of:",
+     "o": [
+      "₹700",
+      "₹70",
+      "₹7"
+     ],
+     "a": 1,
+     "e": "7% × 1,000 = 70.",
+     "los": "1.a"
+    },
+    {
+     "d": "M",
+     "q": "A covenant requiring the issuer to maintain insurance on its assets is:",
+     "o": [
+      "A credit enhancement",
+      "A negative covenant",
+      "An affirmative covenant"
+     ],
+     "a": 2,
+     "e": "It requires an action.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "A covenant limiting additional borrowing is:",
+     "o": [
+      "Negative",
+      "External",
+      "Affirmative"
+     ],
+     "a": 0,
+     "e": "It restricts the issuer.",
+     "los": "1.b"
+    },
+    {
+     "d": "E",
+     "q": "The party that represents bondholders' interests under the indenture is the:",
+     "o": [
+      "Underwriter",
+      "Trustee",
+      "Rating agency"
+     ],
+     "a": 1,
+     "e": "The trustee monitors compliance.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "Which is an internal credit enhancement?",
+     "o": [
+      "A parent company guarantee",
+      "A bank letter of credit",
+      "Overcollateralisation"
+     ],
+     "a": 2,
+     "e": "Overcollateralisation is built into the structure.",
+     "los": "1.c"
+    },
+    {
+     "d": "H",
+     "q": "A bond pays coupons in US dollars and principal in yen. It is a:",
+     "o": [
+      "Dual-currency bond",
+      "Floating-rate note",
+      "Covered bond"
+     ],
+     "a": 0,
+     "e": "Two currencies are used.",
+     "los": "1.a"
+    },
+    {
+     "d": "E",
+     "q": "A bank guarantee backing a bond is a(n):",
+     "o": [
+      "Internal credit enhancement",
+      "External credit enhancement",
+      "Negative covenant"
+     ],
+     "a": 1,
+     "e": "It comes from a third party.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "A ₹1,000 bond with a 6% coupon paid semi-annually pays each period:",
+     "o": [
+      "₹15",
+      "₹60",
+      "₹30"
+     ],
+     "a": 2,
+     "e": "6% × 1,000 ÷ 2 = 30.",
+     "los": "1.a"
+    },
+    {
+     "d": "H",
+     "q": "A negative pledge clause prevents the issuer from:",
+     "o": [
+      "Pledging assets to other lenders in a way that ranks them ahead",
+      "Filing financial statements",
+      "Paying coupons"
+     ],
+     "a": 0,
+     "e": "It protects unsecured holders' position.",
+     "los": "1.b"
+    },
+    {
+     "d": "E",
+     "q": "A fixed-income security with an original maturity of six months is a:",
+     "o": [
+      "Capital market security",
+      "Money market security",
+      "Perpetual bond"
+     ],
+     "a": 1,
+     "e": "One year or less is money market.",
+     "los": "1.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Basic bond features",
+     "back": "Issuer, maturity, par, coupon, currency, seniority."
+    },
+    {
+     "front": "Indenture and trustee",
+     "back": "Contract of terms; trustee acts for holders."
+    },
+    {
+     "front": "Affirmative vs negative covenant",
+     "back": "Must do vs must not do."
+    },
+    {
+     "front": "Internal enhancements",
+     "back": "Subordination, overcollateralisation, excess spread, reserves."
+    },
+    {
+     "front": "External enhancements",
+     "back": "Guarantees, letters of credit, surety."
+    },
+    {
+     "front": "Money vs capital market",
+     "back": "≤ 1 year vs > 1 year maturity."
+    }
+   ]
+  },
+  {
+   "lm_no": 2,
+   "title": "Fixed-Income Cash Flows and Types",
+   "summary": "Principal repayment structures, coupon structures, and bonds with embedded options.",
+   "los": [
+    {
+     "code": "2.a",
+     "command_word": "describe",
+     "statement": "Describe common cash flow structures of fixed-income instruments."
+    },
+    {
+     "code": "2.b",
+     "command_word": "describe",
+     "statement": "Describe coupon structures such as floating-rate, step-up, PIK and inflation-linked."
+    },
+    {
+     "code": "2.c",
+     "command_word": "describe",
+     "statement": "Describe contingency provisions: callable, putable and convertible bonds."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Principal and coupon structures",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Bullet",
+           "b": true
+          },
+          {
+           "t": ": all principal at maturity."
+          }
+         ],
+         [
+          {
+           "t": "Fully amortising",
+           "b": true
+          },
+          {
+           "t": ": equal payments repay principal over the life (like a home loan)."
+          }
+         ],
+         [
+          {
+           "t": "Partially amortising",
+           "b": true
+          },
+          {
+           "t": ": some principal repaid, a "
+          },
+          {
+           "t": "balloon",
+           "b": true
+          },
+          {
+           "t": " at the end."
+          }
+         ],
+         [
+          {
+           "t": "Sinking fund",
+           "b": true
+          },
+          {
+           "t": ": issuer retires part of the issue each year."
+          }
+         ],
+         [
+          {
+           "t": "Floating-rate note (FRN)",
+           "b": true
+          },
+          {
+           "t": ": coupon = market reference rate (MRR) + quoted margin, reset periodically."
+          }
+         ],
+         [
+          {
+           "t": "Step-up",
+           "b": true
+          },
+          {
+           "t": ": coupon rises on a schedule."
+          }
+         ],
+         [
+          {
+           "t": "Payment-in-kind (PIK)",
+           "b": true
+          },
+          {
+           "t": ": pays interest with more bonds."
+          }
+         ],
+         [
+          {
+           "t": "Deferred coupon",
+           "b": true
+          },
+          {
+           "t": ": no coupons for an initial period."
+          }
+         ],
+         [
+          {
+           "t": "Inflation-linked",
+           "b": true
+          },
+          {
+           "t": ": principal or coupon indexed to inflation."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "An FRN pays MRR + 1.5%, reset semi-annually. If MRR is 6.8% at reset, the next annual coupon rate is 8.3%, so a ₹100 face note pays "
+         },
+         {
+          "t": "₹4.15",
+          "b": true
+         },
+         {
+          "t": " for the half-year."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Embedded options",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Callable",
+           "b": true
+          },
+          {
+           "t": ": issuer can redeem early; benefits the "
+          },
+          {
+           "t": "issuer",
+           "b": true
+          },
+          {
+           "t": "; investors demand a higher yield."
+          }
+         ],
+         [
+          {
+           "t": "Putable",
+           "b": true
+          },
+          {
+           "t": ": holder can sell back early; benefits the "
+          },
+          {
+           "t": "investor",
+           "b": true
+          },
+          {
+           "t": "; lower yield."
+          }
+         ],
+         [
+          {
+           "t": "Convertible",
+           "b": true
+          },
+          {
+           "t": ": holder can convert into shares. Conversion value = conversion ratio × share price."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A ₹1,000 convertible has a conversion ratio of 20. With the share at ₹45, conversion value = 20 × 45 = "
+         },
+         {
+          "t": "₹900",
+          "b": true
+         },
+         {
+          "t": ". If the bond trades at ₹960, the conversion premium = 60."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Who owns the option? Callable → issuer. Putable and convertible → investor."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A callable bond is like lending your cousin money with a clause letting him repay early, which he will do the moment he finds a cheaper lender."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "FRN coupon = MRR + quoted margin · Conversion value = conversion ratio × share price"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Bullet",
+        "Principal at maturity"
+       ],
+       [
+        "Amortising",
+        "Principal repaid over life"
+       ],
+       [
+        "Sinking fund",
+        "Part of issue retired regularly"
+       ],
+       [
+        "PIK",
+        "Interest paid in more bonds"
+       ],
+       [
+        "Callable",
+        "Issuer's option; higher yield"
+       ],
+       [
+        "Putable",
+        "Investor's option; lower yield"
+       ],
+       [
+        "Convertible",
+        "Investor converts to shares"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A bond that repays all principal at maturity is a:",
+     "o": [
+      "Fully amortising bond",
+      "Sinking fund bond",
+      "Bullet bond"
+     ],
+     "a": 2,
+     "e": "Bullet = lump sum at the end.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "An FRN pays MRR + 1.5%. At reset MRR is 6.8%. The annualised coupon rate for the next period is:",
+     "o": [
+      "8.3%",
+      "5.3%",
+      "6.8%"
+     ],
+     "a": 0,
+     "e": "6.8 + 1.5 = 8.3%.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "Which bond gives the option to the investor?",
+     "o": [
+      "Callable bond",
+      "Putable bond",
+      "Sinking fund bond"
+     ],
+     "a": 1,
+     "e": "The holder can put the bond back.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "Compared with an otherwise identical straight bond, a callable bond has a:",
+     "o": [
+      "Identical yield",
+      "Lower yield",
+      "Higher yield"
+     ],
+     "a": 2,
+     "e": "Investors are compensated for the issuer's option.",
+     "los": "2.c"
+    },
+    {
+     "d": "H",
+     "q": "A convertible bond has a conversion ratio of 20 and the share trades at ₹45. The conversion value is:",
+     "o": [
+      "₹900",
+      "₹450",
+      "₹2,000"
+     ],
+     "a": 0,
+     "e": "20 × 45 = 900.",
+     "los": "2.c"
+    },
+    {
+     "d": "E",
+     "q": "A bond that pays interest in the form of additional bonds is a:",
+     "o": [
+      "Step-up bond",
+      "Payment-in-kind bond",
+      "Zero-coupon bond"
+     ],
+     "a": 1,
+     "e": "PIK bonds defer cash interest.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "A home-loan-style bond with equal payments that repay all principal by maturity is:",
+     "o": [
+      "Bullet",
+      "Partially amortising",
+      "Fully amortising"
+     ],
+     "a": 2,
+     "e": "Principal is repaid over the life.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "A partially amortising bond ends with:",
+     "o": [
+      "A balloon payment",
+      "Conversion into shares",
+      "No payment"
+     ],
+     "a": 0,
+     "e": "Remaining principal is paid at maturity.",
+     "los": "2.a"
+    },
+    {
+     "d": "H",
+     "q": "An inflation-linked bond protects investors mainly against:",
+     "o": [
+      "Default risk",
+      "Loss of purchasing power",
+      "Call risk"
+     ],
+     "a": 1,
+     "e": "Payments rise with inflation.",
+     "los": "2.b"
+    },
+    {
+     "d": "E",
+     "q": "A sinking fund provision requires the issuer to:",
+     "o": [
+      "Pay no coupons",
+      "Convert the bond to equity",
+      "Retire part of the issue over time"
+     ],
+     "a": 2,
+     "e": "It reduces credit risk at maturity.",
+     "los": "2.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Bullet vs amortising",
+     "back": "All principal at end vs repaid over life."
+    },
+    {
+     "front": "FRN coupon",
+     "back": "MRR + quoted margin, reset periodically."
+    },
+    {
+     "front": "PIK bond",
+     "back": "Interest paid with more bonds."
+    },
+    {
+     "front": "Callable bond",
+     "back": "Issuer's option; higher yield for investors."
+    },
+    {
+     "front": "Putable bond",
+     "back": "Investor's option; lower yield."
+    },
+    {
+     "front": "Conversion value",
+     "back": "Conversion ratio × share price."
+    }
+   ]
+  },
+  {
+   "lm_no": 3,
+   "title": "Fixed-Income Issuance and Trading",
+   "summary": "How bond markets are segmented, how bonds are issued, and how they trade.",
+   "los": [
+    {
+     "code": "3.a",
+     "command_word": "describe",
+     "statement": "Describe the classification of global fixed-income markets."
+    },
+    {
+     "code": "3.b",
+     "command_word": "describe",
+     "statement": "Describe the mechanisms by which fixed-income securities are issued."
+    },
+    {
+     "code": "3.c",
+     "command_word": "describe",
+     "statement": "Describe secondary markets for fixed-income securities and their liquidity."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Market classification",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "By "
+          },
+          {
+           "t": "issuer",
+           "b": true
+          },
+          {
+           "t": ": sovereign, non-sovereign government, quasi-government, supranational, corporate (financial and non-financial), securitised."
+          }
+         ],
+         [
+          {
+           "t": "By "
+          },
+          {
+           "t": "credit quality",
+           "b": true
+          },
+          {
+           "t": ": "
+          },
+          {
+           "t": "investment grade",
+           "b": true
+          },
+          {
+           "t": " (BBB− / Baa3 or better) vs "
+          },
+          {
+           "t": "high yield",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "By "
+          },
+          {
+           "t": "maturity",
+           "b": true
+          },
+          {
+           "t": ": money market (≤ 1 year) vs capital market."
+          }
+         ],
+         [
+          {
+           "t": "By "
+          },
+          {
+           "t": "currency",
+           "b": true
+          },
+          {
+           "t": " and "
+          },
+          {
+           "t": "geography",
+           "b": true
+          },
+          {
+           "t": ": domestic, foreign, "
+          },
+          {
+           "t": "Eurobond",
+           "b": true
+          },
+          {
+           "t": " (issued outside the currency's home country), global bonds; developed vs emerging markets."
+          }
+         ],
+         [
+          {
+           "t": "Green bonds",
+           "b": true
+          },
+          {
+           "t": " and other ESG-labelled bonds fund environmental projects."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "The investment-grade boundary matters: many funds may hold only IG bonds, so a downgrade to BB+ forces selling."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Primary and secondary markets",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Method",
+         "How it works"
+        ],
+        "rows": [
+         [
+          "Underwritten offering",
+          "Bank buys the whole issue and resells it, bearing the risk"
+         ],
+         [
+          "Best-efforts offering",
+          "Bank sells as much as it can; no guarantee"
+         ],
+         [
+          "Auction",
+          "Typical for government bonds"
+         ],
+         [
+          "Shelf registration",
+          "Register once, issue in tranches over time"
+         ],
+         [
+          "Private placement",
+          "Sold directly to a few qualified investors; less liquid"
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Most bonds trade "
+          },
+          {
+           "t": "over the counter",
+           "b": true
+          },
+          {
+           "t": " through dealers, not on exchanges."
+          }
+         ],
+         [
+          {
+           "t": "Liquidity is measured by the "
+          },
+          {
+           "t": "bid–ask spread",
+           "b": true
+          },
+          {
+           "t": "; on-the-run government bonds are the most liquid."
+          }
+         ],
+         [
+          {
+           "t": "Settlement: government bonds often T+1; corporates T+1 or T+2."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Buying a rarely traded corporate bond is like buying a vintage scooter: easy to buy from the enthusiast, hard to sell when you need cash on a Monday."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Investment grade = BBB− / Baa3 or higher"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Eurobond",
+        "Issued outside the home country of its currency"
+       ],
+       [
+        "Underwritten",
+        "Bank bears placement risk"
+       ],
+       [
+        "Best efforts",
+        "Bank acts as agent"
+       ],
+       [
+        "Shelf registration",
+        "Issue in tranches"
+       ],
+       [
+        "Private placement",
+        "Few investors, illiquid"
+       ],
+       [
+        "Secondary trading",
+        "Mostly OTC dealers"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A bond rated BBB− by a rating agency is:",
+     "o": [
+      "Investment grade",
+      "In default",
+      "High yield"
+     ],
+     "a": 0,
+     "e": "BBB− is the lowest investment-grade rating.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "A rupee-denominated bond issued in London by an Indian company is best described as a:",
+     "o": [
+      "Domestic bond",
+      "Eurobond",
+      "Municipal bond"
+     ],
+     "a": 1,
+     "e": "It is issued outside the home market of its currency.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "In an underwritten offering, the investment bank:",
+     "o": [
+      "Lends to the issuer",
+      "Acts only as an agent",
+      "Buys the entire issue and bears the risk of reselling it"
+     ],
+     "a": 2,
+     "e": "The underwriter guarantees the proceeds.",
+     "los": "3.b"
+    },
+    {
+     "d": "E",
+     "q": "Most corporate bonds trade in:",
+     "o": [
+      "Over-the-counter dealer markets",
+      "Auctions",
+      "Exchange order books"
+     ],
+     "a": 0,
+     "e": "Dealers make the market.",
+     "los": "3.c"
+    },
+    {
+     "d": "M",
+     "q": "Shelf registration allows an issuer to:",
+     "o": [
+      "Avoid all disclosure",
+      "Register once and sell bonds in tranches over time",
+      "Issue only to banks"
+     ],
+     "a": 1,
+     "e": "It speeds up later issues.",
+     "los": "3.b"
+    },
+    {
+     "d": "H",
+     "q": "Compared with a public offering, a private placement is typically:",
+     "o": [
+      "Always underwritten",
+      "More liquid",
+      "Less liquid and sold to fewer, qualified investors"
+     ],
+     "a": 2,
+     "e": "There is little secondary market.",
+     "los": "3.b"
+    },
+    {
+     "d": "E",
+     "q": "Government bonds are most commonly issued through:",
+     "o": [
+      "Auctions",
+      "Private placements",
+      "Best-efforts offerings"
+     ],
+     "a": 0,
+     "e": "Treasuries and G-secs are auctioned.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "A narrower bid–ask spread indicates:",
+     "o": [
+      "Lower liquidity",
+      "Higher liquidity",
+      "Higher credit risk"
+     ],
+     "a": 1,
+     "e": "Trading costs are lower.",
+     "los": "3.c"
+    },
+    {
+     "d": "M",
+     "q": "Bonds whose proceeds fund environmental projects are:",
+     "o": [
+      "PIK bonds",
+      "Covered bonds",
+      "Green bonds"
+     ],
+     "a": 2,
+     "e": "They are ESG-labelled bonds.",
+     "los": "3.a"
+    },
+    {
+     "d": "H",
+     "q": "Why does a downgrade from BBB− to BB+ often hurt a bond's price sharply?",
+     "o": [
+      "Many investors must sell non-investment-grade bonds",
+      "It becomes callable",
+      "Coupons stop"
+     ],
+     "a": 0,
+     "e": "Mandates restrict holdings to investment grade.",
+     "los": "3.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Investment grade cut-off",
+     "back": "BBB− (S&P/Fitch), Baa3 (Moody's)."
+    },
+    {
+     "front": "Eurobond",
+     "back": "Issued outside its currency's home country."
+    },
+    {
+     "front": "Underwritten vs best efforts",
+     "back": "Bank bears risk vs bank acts as agent."
+    },
+    {
+     "front": "Shelf registration",
+     "back": "Register once, issue tranches later."
+    },
+    {
+     "front": "Private placement",
+     "back": "Direct sale to few investors; illiquid."
+    },
+    {
+     "front": "Where bonds trade",
+     "back": "Mostly OTC dealer markets."
+    }
+   ]
+  },
+  {
+   "lm_no": 4,
+   "title": "Fixed-Income Markets for Corporate Issuers",
+   "summary": "Short-term funding through banks, commercial paper and repos, and long-term corporate debt.",
+   "los": [
+    {
+     "code": "4.a",
+     "command_word": "compare",
+     "statement": "Compare short-term funding alternatives available to corporations and financial institutions."
+    },
+    {
+     "code": "4.b",
+     "command_word": "describe",
+     "statement": "Describe repurchase agreements and their risks."
+    },
+    {
+     "code": "4.c",
+     "command_word": "contrast",
+     "statement": "Contrast long-term funding of investment-grade and high-yield corporate issuers."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Short-term funding",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Bank sources",
+           "b": true
+          },
+          {
+           "t": ": lines of credit (committed or uncommitted), revolving credit, secured loans, factoring of receivables."
+          }
+         ],
+         [
+          {
+           "t": "Commercial paper (CP)",
+           "b": true
+          },
+          {
+           "t": ": unsecured, short-term (up to 1 year, often under 90 days), usually issued at a discount by strong borrowers. "
+          },
+          {
+           "t": "Rollover risk",
+           "b": true
+          },
+          {
+           "t": " is covered by "
+          },
+          {
+           "t": "backup lines",
+           "b": true
+          },
+          {
+           "t": " of credit."
+          }
+         ],
+         [
+          {
+           "t": "Financial institutions",
+           "b": true
+          },
+          {
+           "t": " also fund via deposits, interbank loans, certificates of deposit and repos."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "CP is cheap but must be refinanced constantly. In a crisis, CP markets can freeze, which is why backup lines matter."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Repos and long-term debt",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "In a "
+         },
+         {
+          "t": "repurchase agreement",
+          "b": true
+         },
+         {
+          "t": ", one party sells a security and agrees to buy it back later at a higher price; economically a collateralised loan. The "
+         },
+         {
+          "t": "haircut (repo margin)",
+          "b": true
+         },
+         {
+          "t": " is the gap between the collateral's value and the loan."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Repurchase price = loan × (1 + repo rate × days/360)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A dealer repos bonds worth ₹102 crore for ₹100 crore (haircut ≈ 2%) for 30 days at 6%. Repurchase price = 100 × (1 + 0.06 × 30/360) = "
+         },
+         {
+          "t": "₹100.5 crore",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Repo rates are lower for high-quality, liquid collateral, short terms and strong counterparties."
+          }
+         ],
+         [
+          {
+           "t": "Investment-grade",
+           "b": true
+          },
+          {
+           "t": " issuers fund with long-term bullet bonds, often at fixed rates, and with "
+          },
+          {
+           "t": "medium-term notes",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "High-yield",
+           "b": true
+          },
+          {
+           "t": " issuers rely more on bank loans and secured debt, with tighter covenants and call features."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A repo is pawning your gold for a month. You get cash now, the jeweller keeps a margin, and you buy it back with a little interest."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Repurchase price = loan × (1 + repo rate × t/360) · Haircut = (collateral − loan)/collateral"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Commercial paper",
+        "Unsecured, short-term, discount, needs backup lines"
+       ],
+       [
+        "Rollover risk",
+        "Cannot refinance maturing CP"
+       ],
+       [
+        "Repo",
+        "Collateralised short-term loan"
+       ],
+       [
+        "Reverse repo",
+        "The lender's side"
+       ],
+       [
+        "Lower repo rate",
+        "Better collateral, shorter term"
+       ],
+       [
+        "IG long-term funding",
+        "Fixed-rate bonds, MTNs"
+       ],
+       [
+        "HY funding",
+        "Loans, secured debt, more covenants"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Commercial paper is best described as:",
+     "o": [
+      "Long-term secured debt",
+      "Short-term unsecured debt",
+      "Equity"
+     ],
+     "a": 1,
+     "e": "CP matures within a year.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "Issuers of commercial paper maintain backup lines of credit mainly to manage:",
+     "o": [
+      "Currency risk",
+      "Interest rate risk",
+      "Rollover risk"
+     ],
+     "a": 2,
+     "e": "Backup lines repay CP if it cannot be rolled.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "A ₹100 crore 30-day repo at 6% has a repurchase price closest to:",
+     "o": [
+      "₹100.5 crore",
+      "₹106.0 crore",
+      "₹101.0 crore"
+     ],
+     "a": 0,
+     "e": "100 × (1 + 0.06 × 30/360) = 100.5.",
+     "los": "4.b"
+    },
+    {
+     "d": "E",
+     "q": "Economically, a repurchase agreement is a:",
+     "o": [
+      "Credit default swap",
+      "Collateralised loan",
+      "Equity sale"
+     ],
+     "a": 1,
+     "e": "Securities are pledged against cash.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "The repo margin (haircut) is likely to be higher when the collateral is:",
+     "o": [
+      "Cash",
+      "A short-term government bill",
+      "A long-dated, illiquid corporate bond"
+     ],
+     "a": 2,
+     "e": "Riskier, less liquid collateral needs a bigger cushion.",
+     "los": "4.b"
+    },
+    {
+     "d": "H",
+     "q": "From the lender's perspective, the repo transaction is called a:",
+     "o": [
+      "Reverse repo",
+      "Swap",
+      "Repo"
+     ],
+     "a": 0,
+     "e": "The cash lender does a reverse repo.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Compared with investment-grade issuers, high-yield issuers typically rely more on:",
+     "o": [
+      "Unsecured long-term bullet bonds",
+      "Bank loans and secured debt with stricter covenants",
+      "Commercial paper"
+     ],
+     "a": 1,
+     "e": "Lenders want more protection.",
+     "los": "4.c"
+    },
+    {
+     "d": "E",
+     "q": "Selling receivables to a third party at a discount for immediate cash is:",
+     "o": [
+      "A repo",
+      "A sinking fund",
+      "Factoring"
+     ],
+     "a": 2,
+     "e": "A bank or factor buys the receivables.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "Medium-term notes are mainly used by:",
+     "o": [
+      "Investment-grade corporate issuers for flexible long-term funding",
+      "Retail savers",
+      "Central banks only"
+     ],
+     "a": 0,
+     "e": "MTN programmes let issuers sell notes continuously.",
+     "los": "4.c"
+    },
+    {
+     "d": "H",
+     "q": "Which factor lowers the repo rate?",
+     "o": [
+      "Weaker counterparty",
+      "High-quality, liquid collateral",
+      "Longer repo term"
+     ],
+     "a": 1,
+     "e": "Safer collateral, cheaper loan.",
+     "los": "4.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Commercial paper",
+     "back": "Short-term, unsecured, discount; needs backup lines."
+    },
+    {
+     "front": "Repo",
+     "back": "Sell and buy back later: a collateralised loan."
+    },
+    {
+     "front": "Repurchase price",
+     "back": "Loan × (1 + repo rate × days/360)."
+    },
+    {
+     "front": "Haircut",
+     "back": "Collateral value above the loan amount."
+    },
+    {
+     "front": "Lower repo rates when",
+     "back": "Collateral is high quality, term short, counterparty strong."
+    },
+    {
+     "front": "IG vs HY long-term funding",
+     "back": "Unsecured bonds/MTNs vs loans and secured debt."
+    }
+   ]
+  },
+  {
+   "lm_no": 5,
+   "title": "Fixed-Income Markets for Government Issuers",
+   "summary": "Sovereign, non-sovereign, agency and supranational bonds, and how governments issue debt.",
+   "los": [
+    {
+     "code": "5.a",
+     "command_word": "describe",
+     "statement": "Describe funding choices by sovereign and non-sovereign governments, agencies and supranationals."
+    },
+    {
+     "code": "5.b",
+     "command_word": "contrast",
+     "statement": "Contrast the issuance, trading and characteristics of sovereign and non-sovereign government debt."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Sovereign debt",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Issued by national governments to fund deficits; in "
+          },
+          {
+           "t": "local currency",
+           "b": true
+          },
+          {
+           "t": " they are usually seen as free of default risk, because the government can tax or print money."
+          }
+         ],
+         [
+          {
+           "t": "Foreign-currency",
+           "b": true
+          },
+          {
+           "t": " sovereign debt carries real default risk."
+          }
+         ],
+         [
+          {
+           "t": "Issued by "
+          },
+          {
+           "t": "auction",
+           "b": true
+          },
+          {
+           "t": ": competitive bids set the yield; non-competitive bids accept it."
+          }
+         ],
+         [
+          {
+           "t": "On-the-run",
+           "b": true
+          },
+          {
+           "t": " (newest) issues are most liquid and trade at slightly lower yields than "
+          },
+          {
+           "t": "off-the-run",
+           "b": true
+          },
+          {
+           "t": " issues."
+          }
+         ],
+         [
+          {
+           "t": "Types: bills (≤ 1 year), notes and bonds, inflation-linked, floating-rate."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "India issues G-secs in rupees through RBI auctions. A dollar bond issued by a weaker emerging market, by contrast, depends on that country earning enough foreign exchange."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Other government issuers",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Non-sovereign",
+           "b": true
+          },
+          {
+           "t": " (states, municipalities): "
+          },
+          {
+           "t": "general obligation (GO)",
+           "b": true
+          },
+          {
+           "t": " bonds backed by taxing power; "
+          },
+          {
+           "t": "revenue bonds",
+           "b": true
+          },
+          {
+           "t": " backed by a project's income (toll road, water utility), so riskier."
+          }
+         ],
+         [
+          {
+           "t": "Quasi-government / agencies",
+           "b": true
+          },
+          {
+           "t": ": government-sponsored entities, often with implicit support."
+          }
+         ],
+         [
+          {
+           "t": "Supranationals",
+           "b": true
+          },
+          {
+           "t": ": World Bank, Asian Development Bank; usually very highly rated."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Revenue bonds depend only on the project's cash flows. Analysts check the "
+         },
+         {
+          "t": "debt service coverage ratio",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A revenue bond on a toll road is fine until everyone discovers the free flyover next door."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Local-currency sovereign ≈ default-free · Revenue bond risk > GO bond risk"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Auction",
+        "Competitive bids set the yield"
+       ],
+       [
+        "On-the-run",
+        "Newest, most liquid, slightly lower yield"
+       ],
+       [
+        "Foreign-currency sovereign",
+        "Real default risk"
+       ],
+       [
+        "GO bond",
+        "Backed by taxing power"
+       ],
+       [
+        "Revenue bond",
+        "Backed by project income"
+       ],
+       [
+        "Supranational",
+        "Multilateral lenders, high ratings"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Sovereign bonds in a country's own currency are generally considered:",
+     "o": [
+      "Callable",
+      "Highly risky",
+      "Free of default risk"
+     ],
+     "a": 2,
+     "e": "The government can tax or create money.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "The most recently issued government bond of a given maturity is:",
+     "o": [
+      "On-the-run",
+      "A revenue bond",
+      "Off-the-run"
+     ],
+     "a": 0,
+     "e": "On-the-run bonds are the most liquid.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "A municipal bond backed by toll revenues from a bridge is a:",
+     "o": [
+      "General obligation bond",
+      "Revenue bond",
+      "Supranational bond"
+     ],
+     "a": 1,
+     "e": "It depends on the project's income.",
+     "los": "5.a"
+    },
+    {
+     "d": "H",
+     "q": "Compared with off-the-run issues, on-the-run government bonds typically have:",
+     "o": [
+      "No difference",
+      "Higher yields",
+      "Slightly lower yields due to greater liquidity"
+     ],
+     "a": 2,
+     "e": "Investors pay up for liquidity.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "The World Bank is an example of a:",
+     "o": [
+      "Supranational issuer",
+      "Municipal issuer",
+      "Sovereign issuer"
+     ],
+     "a": 0,
+     "e": "Owned by many governments.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "In a government bond auction, the yield is set by:",
+     "o": [
+      "Non-competitive bids",
+      "Competitive bids",
+      "The rating agency"
+     ],
+     "a": 1,
+     "e": "Competitive bids determine the clearing yield.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "Sovereign debt issued in a foreign currency:",
+     "o": [
+      "Is always AAA",
+      "Has no default risk",
+      "Carries default risk because the government cannot print that currency"
+     ],
+     "a": 2,
+     "e": "It must be repaid from foreign earnings.",
+     "los": "5.a"
+    },
+    {
+     "d": "H",
+     "q": "The key ratio analysts check for revenue bonds is the:",
+     "o": [
+      "Debt service coverage ratio",
+      "Current ratio",
+      "P/E ratio"
+     ],
+     "a": 0,
+     "e": "Project income ÷ debt service.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "Government securities maturing in one year or less are:",
+     "o": [
+      "Debentures",
+      "Bills",
+      "Bonds"
+     ],
+     "a": 1,
+     "e": "Bills are short-term.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "General obligation bonds are backed by:",
+     "o": [
+      "A bank guarantee",
+      "A single project",
+      "The issuer's taxing power"
+     ],
+     "a": 2,
+     "e": "Full faith and credit.",
+     "los": "5.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Local-currency sovereign debt",
+     "back": "Treated as default-free."
+    },
+    {
+     "front": "On-the-run vs off-the-run",
+     "back": "Newest and most liquid vs older issues."
+    },
+    {
+     "front": "GO vs revenue bond",
+     "back": "Taxing power vs project income."
+    },
+    {
+     "front": "Supranational",
+     "back": "World Bank, ADB; high ratings."
+    },
+    {
+     "front": "Government auction",
+     "back": "Competitive bids set the yield."
+    },
+    {
+     "front": "Foreign-currency sovereign risk",
+     "back": "Default risk is real."
+    }
+   ]
+  },
+  {
+   "lm_no": 6,
+   "title": "Fixed-Income Bond Valuation: Prices and Yields",
+   "summary": "Pricing bonds with a single yield or spot rates, price–yield relationships, accrued interest and matrix pricing.",
+   "los": [
+    {
+     "code": "6.a",
+     "command_word": "calculate",
+     "statement": "Calculate a bond's price given a yield to maturity or spot rates."
+    },
+    {
+     "code": "6.b",
+     "command_word": "identify",
+     "statement": "Identify the relationships among a bond's price, coupon rate, maturity and yield."
+    },
+    {
+     "code": "6.c",
+     "command_word": "describe",
+     "statement": "Describe flat price, accrued interest and full price."
+    },
+    {
+     "code": "6.d",
+     "command_word": "describe",
+     "statement": "Describe matrix pricing."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Pricing a bond",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Price = Σ CF_t ÷ (1 + r)^t  (single yield) · or each cash flow discounted at its own spot rate"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "3-year, 5% annual coupon, ₹100 face, yield 6%. Price = 5/1.06 + 5/1.06² + 105/1.06³ = 4.717 + 4.450 + 88.16 = "
+         },
+         {
+          "t": "₹97.33",
+          "b": true
+         },
+         {
+          "t": " (a discount, since coupon < yield)."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "With spot rates 4%, 5% and 6%: price = 5/1.04 + 5/1.05² + 105/1.06³ = 4.808 + 4.535 + 88.16 = "
+         },
+         {
+          "t": "₹97.50",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Price–yield relationships"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Price and yield move "
+          },
+          {
+           "t": "inversely",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Coupon < yield → "
+          },
+          {
+           "t": "discount",
+           "b": true
+          },
+          {
+           "t": "; coupon > yield → "
+          },
+          {
+           "t": "premium",
+           "b": true
+          },
+          {
+           "t": "; equal → par."
+          }
+         ],
+         [
+          {
+           "t": "For the same yield change, "
+          },
+          {
+           "t": "lower coupon",
+           "b": true
+          },
+          {
+           "t": " and "
+          },
+          {
+           "t": "longer maturity",
+           "b": true
+          },
+          {
+           "t": " bonds move more."
+          }
+         ],
+         [
+          {
+           "t": "The relationship is "
+          },
+          {
+           "t": "convex",
+           "b": true
+          },
+          {
+           "t": ": prices rise more for a yield fall than they fall for an equal rise."
+          }
+         ],
+         [
+          {
+           "t": "Pull to par",
+           "b": true
+          },
+          {
+           "t": ": a bond's price moves towards par as maturity approaches."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Accrued interest and matrix pricing",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Accrued interest = coupon per period × (days since last coupon ÷ days in period) · Full = flat + AI"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Semi-annual coupon ₹3 per ₹100; 60 of 180 days since the last coupon. AI = 3 × 60/180 = "
+         },
+         {
+          "t": "₹1.00",
+          "b": true
+         },
+         {
+          "t": ". If the flat (quoted) price is 98.50, the full price paid = "
+         },
+         {
+          "t": "₹99.50",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Matrix pricing",
+          "b": true
+         },
+         {
+          "t": " values bonds that rarely trade by interpolating yields of comparable, liquid bonds with similar credit quality, coupon and maturity."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Bonds are quoted at the "
+         },
+         {
+          "t": "flat",
+          "b": true
+         },
+         {
+          "t": " price; the buyer pays the "
+         },
+         {
+          "t": "full",
+          "b": true
+         },
+         {
+          "t": " (dirty) price."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Accrued interest is paying the previous tenant for the half month of electricity they already paid for. Fair is fair."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Price = Σ CF/(1 + r)^t · Full price = flat price + accrued interest"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Inverse relationship",
+        "Yield ↑, price ↓"
+       ],
+       [
+        "Discount bond",
+        "Coupon < yield"
+       ],
+       [
+        "Premium bond",
+        "Coupon > yield"
+       ],
+       [
+        "More sensitive",
+        "Lower coupon, longer maturity"
+       ],
+       [
+        "Convexity",
+        "Gains > losses for equal yield moves"
+       ],
+       [
+        "Matrix pricing",
+        "Interpolate from comparable bonds"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "When market yields rise, the price of an existing fixed-rate bond:",
+     "o": [
+      "Falls",
+      "Stays the same",
+      "Rises"
+     ],
+     "a": 0,
+     "e": "Price and yield move inversely.",
+     "los": "6.b"
+    },
+    {
+     "d": "M",
+     "q": "A 3-year, 5% annual coupon bond with ₹100 face value is priced at a 6% yield. Its price is closest to:",
+     "o": [
+      "₹102.67",
+      "₹97.33",
+      "₹100.00"
+     ],
+     "a": 1,
+     "e": "4.717 + 4.450 + 88.16 = 97.33.",
+     "los": "6.a"
+    },
+    {
+     "d": "E",
+     "q": "A bond whose coupon rate is above its yield to maturity trades at:",
+     "o": [
+      "A discount",
+      "Par",
+      "A premium"
+     ],
+     "a": 2,
+     "e": "Higher coupons than the market requires make it worth more.",
+     "los": "6.b"
+    },
+    {
+     "d": "H",
+     "q": "Using spot rates of 4%, 5% and 6%, a 3-year 5% annual coupon bond is priced closest to:",
+     "o": [
+      "₹97.50",
+      "₹97.33",
+      "₹100.00"
+     ],
+     "a": 0,
+     "e": "4.808 + 4.535 + 88.16 = 97.50.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "Semi-annual coupon ₹3, 60 of 180 days have passed and the flat price is 98.50. The full price is:",
+     "o": [
+      "₹98.50",
+      "₹99.50",
+      "₹101.50"
+     ],
+     "a": 1,
+     "e": "AI = 1.00; 98.50 + 1.00 = 99.50.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "For the same change in yield, which bond's price changes most?",
+     "o": [
+      "Short maturity, low coupon",
+      "Short maturity, high coupon",
+      "Long maturity, low coupon"
+     ],
+     "a": 2,
+     "e": "Long maturity and low coupon increase sensitivity.",
+     "los": "6.b"
+    },
+    {
+     "d": "E",
+     "q": "As a premium bond approaches maturity (yield unchanged), its price:",
+     "o": [
+      "Falls towards par",
+      "Stays constant",
+      "Rises"
+     ],
+     "a": 0,
+     "e": "Pull to par.",
+     "los": "6.b"
+    },
+    {
+     "d": "M",
+     "q": "Matrix pricing is used to:",
+     "o": [
+      "Set coupon rates",
+      "Value bonds that trade rarely",
+      "Calculate accrued interest"
+     ],
+     "a": 1,
+     "e": "It uses yields of comparable bonds.",
+     "los": "6.d"
+    },
+    {
+     "d": "H",
+     "q": "Because the price–yield curve is convex, a 1% fall in yield raises the price:",
+     "o": [
+      "By exactly the same amount",
+      "By less than a 1% rise lowers it",
+      "By more than a 1% rise lowers it"
+     ],
+     "a": 2,
+     "e": "Convexity favours price gains.",
+     "los": "6.b"
+    },
+    {
+     "d": "E",
+     "q": "The quoted price of a bond excluding accrued interest is the:",
+     "o": [
+      "Flat price",
+      "Dirty price",
+      "Full price"
+     ],
+     "a": 0,
+     "e": "Flat = clean price.",
+     "los": "6.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Bond price",
+     "back": "Sum of cash flows discounted at the yield or spot rates."
+    },
+    {
+     "front": "Discount vs premium",
+     "back": "Coupon < yield vs coupon > yield."
+    },
+    {
+     "front": "Most price-sensitive bonds",
+     "back": "Long maturity, low coupon."
+    },
+    {
+     "front": "Full price",
+     "back": "Flat price + accrued interest."
+    },
+    {
+     "front": "Pull to par",
+     "back": "Price converges to par at maturity."
+    },
+    {
+     "front": "Matrix pricing",
+     "back": "Value illiquid bonds from comparable bonds' yields."
+    }
+   ]
+  },
+  {
+   "lm_no": 7,
+   "title": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+   "summary": "Periodicity, current yield, yield to call and worst, and spreads over benchmarks.",
+   "los": [
+    {
+     "code": "7.a",
+     "command_word": "calculate",
+     "statement": "Calculate annual yields on a bond for varying compounding periods."
+    },
+    {
+     "code": "7.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret yield measures for fixed-rate bonds."
+    },
+    {
+     "code": "7.c",
+     "command_word": "compare",
+     "statement": "Compare, calculate and interpret yield spread measures."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Yield measures",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "(1 + APR_m/m)^m = (1 + APR_n/n)^n · Current yield = annual coupon ÷ price"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A 6% yield quoted semi-annually equals an effective annual yield of 1.03² − 1 = "
+         },
+         {
+          "t": "6.09%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A bond with a ₹60 coupon trades at ₹950. Current yield = 60/950 = "
+         },
+         {
+          "t": "6.32%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Yield to maturity",
+           "b": true
+          },
+          {
+           "t": ": IRR assuming held to maturity, coupons reinvested at the YTM, no default."
+          }
+         ],
+         [
+          {
+           "t": "Yield to call",
+           "b": true
+          },
+          {
+           "t": ": assumes redemption at the first (or each) call date and price."
+          }
+         ],
+         [
+          {
+           "t": "Yield to worst",
+           "b": true
+          },
+          {
+           "t": ": the lowest of YTM and all yields to call."
+          }
+         ],
+         [
+          {
+           "t": "Street convention",
+           "b": true
+          },
+          {
+           "t": " uses scheduled dates; the "
+          },
+          {
+           "t": "true yield",
+           "b": true
+          },
+          {
+           "t": " uses actual payment dates (weekends, holidays)."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Spreads",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Spread",
+         "Over"
+        ],
+        "rows": [
+         [
+          "G-spread",
+          "Government bond yield of the same maturity"
+         ],
+         [
+          "I-spread",
+          "Swap rate of the same maturity"
+         ],
+         [
+          "Z-spread",
+          "Constant spread over every point of the government spot curve"
+         ],
+         [
+          "OAS",
+          "Z-spread minus the value of embedded options"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A 5-year corporate bond yields 8.1%; the 5-year G-sec yields 7.2%. "
+         },
+         {
+          "t": "G-spread = 90 bp",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "For a "
+         },
+         {
+          "t": "callable",
+          "b": true
+         },
+         {
+          "t": " bond, OAS < Z-spread, because part of the spread pays for the issuer's call option."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "The G-spread is the extra interest you demand to lend to your friend rather than to the government. The worse his track record, the wider the spread."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "EAY = (1 + r/m)^m − 1 · Current yield = coupon/price · OAS = Z-spread − option value"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "YTM assumption",
+        "Held to maturity; reinvest at YTM; no default"
+       ],
+       [
+        "Yield to worst",
+        "Lowest of YTM and yields to call"
+       ],
+       [
+        "G-spread",
+        "Over government yield"
+       ],
+       [
+        "I-spread",
+        "Over swap rate"
+       ],
+       [
+        "Z-spread",
+        "Over entire spot curve"
+       ],
+       [
+        "Callable bond",
+        "OAS < Z-spread"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "A 6% yield with semi-annual compounding is equivalent to an annual yield of:",
+     "o": [
+      "6.00%",
+      "6.09%",
+      "5.91%"
+     ],
+     "a": 1,
+     "e": "1.03² − 1 = 6.09%.",
+     "los": "7.a"
+    },
+    {
+     "d": "E",
+     "q": "A bond paying a ₹60 annual coupon trades at ₹950. Its current yield is closest to:",
+     "o": [
+      "6.00%",
+      "5.70%",
+      "6.32%"
+     ],
+     "a": 2,
+     "e": "60/950 = 6.32%.",
+     "los": "7.b"
+    },
+    {
+     "d": "M",
+     "q": "The yield to worst of a callable bond is:",
+     "o": [
+      "The lowest of YTM and yields to each call date",
+      "Always the YTM",
+      "The highest of its yields"
+     ],
+     "a": 0,
+     "e": "It is the most conservative yield.",
+     "los": "7.b"
+    },
+    {
+     "d": "M",
+     "q": "A corporate bond yields 8.1% and a government bond of the same maturity yields 7.2%. The G-spread is:",
+     "o": [
+      "720 bp",
+      "90 bp",
+      "810 bp"
+     ],
+     "a": 1,
+     "e": "8.1 − 7.2 = 0.9%.",
+     "los": "7.c"
+    },
+    {
+     "d": "H",
+     "q": "For a callable bond, the option-adjusted spread is:",
+     "o": [
+      "Equal to the Z-spread",
+      "Greater than the Z-spread",
+      "Less than the Z-spread"
+     ],
+     "a": 2,
+     "e": "OAS removes the value of the call, which the investor is short.",
+     "los": "7.c"
+    },
+    {
+     "d": "E",
+     "q": "The I-spread is measured relative to:",
+     "o": [
+      "Swap rates",
+      "Equity yields",
+      "Government bond yields"
+     ],
+     "a": 0,
+     "e": "I = interpolated swap rate.",
+     "los": "7.c"
+    },
+    {
+     "d": "M",
+     "q": "YTM assumes that coupons are reinvested at:",
+     "o": [
+      "The current yield",
+      "The yield to maturity",
+      "Zero"
+     ],
+     "a": 1,
+     "e": "A key, and often unrealistic, assumption.",
+     "los": "7.b"
+    },
+    {
+     "d": "H",
+     "q": "The Z-spread is a constant spread that, added to each:",
+     "o": [
+      "Coupon, gives the yield",
+      "Swap rate, gives the coupon",
+      "Government spot rate, makes the PV of cash flows equal the price"
+     ],
+     "a": 2,
+     "e": "It uses the whole spot curve.",
+     "los": "7.c"
+    },
+    {
+     "d": "M",
+     "q": "A yield that uses the actual payment dates, adjusting for weekends and holidays, is the:",
+     "o": [
+      "True yield",
+      "Current yield",
+      "Street convention yield"
+     ],
+     "a": 0,
+     "e": "True yield reflects actual timing.",
+     "los": "7.b"
+    },
+    {
+     "d": "E",
+     "q": "Which yield measure ignores capital gains and losses?",
+     "o": [
+      "Yield to maturity",
+      "Current yield",
+      "Yield to call"
+     ],
+     "a": 1,
+     "e": "It uses only coupon and price.",
+     "los": "7.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Converting periodicity",
+     "back": "(1 + r_m/m)^m = (1 + r_n/n)^n."
+    },
+    {
+     "front": "Current yield",
+     "back": "Annual coupon ÷ price."
+    },
+    {
+     "front": "Yield to worst",
+     "back": "Lowest of YTM and yields to call."
+    },
+    {
+     "front": "G-spread vs I-spread",
+     "back": "Over government yield vs over swap rate."
+    },
+    {
+     "front": "Z-spread",
+     "back": "Constant spread over the whole spot curve."
+    },
+    {
+     "front": "OAS for callable bonds",
+     "back": "Z-spread minus the call option value; lower than Z."
+    }
+   ]
+  },
+  {
+   "lm_no": 8,
+   "title": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+   "summary": "Quoted and discount margins on FRNs, and money market yield conventions.",
+   "los": [
+    {
+     "code": "8.a",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret yield spread measures for floating-rate instruments."
+    },
+    {
+     "code": "8.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret yield measures for money market instruments."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Floating-rate notes",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Quoted margin (QM)",
+           "b": true
+          },
+          {
+           "t": ": spread over MRR set in the contract."
+          }
+         ],
+         [
+          {
+           "t": "Discount (required) margin (DM)",
+           "b": true
+          },
+          {
+           "t": ": spread the market now requires."
+          }
+         ],
+         [
+          {
+           "t": "DM = QM → FRN priced at "
+          },
+          {
+           "t": "par",
+           "b": true
+          },
+          {
+           "t": " on reset dates. DM > QM → "
+          },
+          {
+           "t": "discount",
+           "b": true
+          },
+          {
+           "t": ". DM < QM → "
+          },
+          {
+           "t": "premium",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "An FRN pays MRR + 1.0%. The issuer's credit worsens and investors now require MRR + 1.5%. The FRN trades "
+         },
+         {
+          "t": "below par",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "FRNs have little interest-rate risk (coupons reset), but they still carry "
+         },
+         {
+          "t": "credit",
+          "b": true
+         },
+         {
+          "t": " risk through changes in the required margin."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Money market yields",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Discount basis: PV = FV × (1 − days/year × DR) · Add-on basis: PV = FV ÷ (1 + days/year × AOR)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A 180-day T-bill with face ₹100 quoted at a 4% discount rate (360-day year): PV = 100 × (1 − 180/360 × 0.04) = "
+         },
+         {
+          "t": "₹98.00",
+          "b": true
+         },
+         {
+          "t": ". Its add-on yield = (100/98 − 1) × 360/180 = "
+         },
+         {
+          "t": "4.08%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "bond equivalent yield",
+          "b": true
+         },
+         {
+          "t": " is a money market rate restated on a 365-day add-on basis so it can be compared with bond yields."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A discount-rate quote is the shopkeeper's 'only 4% off!' sticker. The actual return you earn on your ₹98 is a bit more."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Discount: PV = FV(1 − t/360 × DR) · Add-on: PV = FV/(1 + t/360 × AOR)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Quoted margin",
+        "Contract spread over MRR"
+       ],
+       [
+        "Discount margin",
+        "Spread market requires"
+       ],
+       [
+        "DM > QM",
+        "FRN below par"
+       ],
+       [
+        "DM < QM",
+        "FRN above par"
+       ],
+       [
+        "Discount rate",
+        "Understates true yield"
+       ],
+       [
+        "Bond equivalent yield",
+        "365-day add-on basis"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "An FRN pays MRR + 1.0%. Investors now require MRR + 1.5%. The FRN trades:",
+     "o": [
+      "At a premium",
+      "At par",
+      "At a discount"
+     ],
+     "a": 2,
+     "e": "Required margin exceeds the quoted margin.",
+     "los": "8.a"
+    },
+    {
+     "d": "E",
+     "q": "On a reset date, an FRN whose discount margin equals its quoted margin trades:",
+     "o": [
+      "At par",
+      "Below par",
+      "Above par"
+     ],
+     "a": 0,
+     "e": "Coupons equal the required return.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "A 180-day ₹100 T-bill is quoted at a 4% discount rate (360-day year). Its price is:",
+     "o": [
+      "₹96.00",
+      "₹98.00",
+      "₹99.00"
+     ],
+     "a": 1,
+     "e": "100 × (1 − 0.5 × 0.04) = 98.",
+     "los": "8.b"
+    },
+    {
+     "d": "H",
+     "q": "The add-on yield on that T-bill (360-day basis) is closest to:",
+     "o": [
+      "3.92%",
+      "4.00%",
+      "4.08%"
+     ],
+     "a": 2,
+     "e": "(100/98 − 1) × 2 = 4.08%.",
+     "los": "8.b"
+    },
+    {
+     "d": "M",
+     "q": "Compared with fixed-rate bonds, FRNs have:",
+     "o": [
+      "Less interest rate risk",
+      "No credit risk",
+      "More interest rate risk"
+     ],
+     "a": 0,
+     "e": "Coupons reset to market rates.",
+     "los": "8.a"
+    },
+    {
+     "d": "E",
+     "q": "A money market rate quoted on a discount basis:",
+     "o": [
+      "Overstates the investor's return",
+      "Understates the investor's return",
+      "Equals the add-on yield"
+     ],
+     "a": 1,
+     "e": "It is based on face value, not the price paid.",
+     "los": "8.b"
+    },
+    {
+     "d": "M",
+     "q": "The bond equivalent yield restates money market yields on a:",
+     "o": [
+      "Monthly basis",
+      "360-day discount basis",
+      "365-day add-on basis"
+     ],
+     "a": 2,
+     "e": "To compare with bond yields.",
+     "los": "8.b"
+    },
+    {
+     "d": "H",
+     "q": "If an issuer's credit improves so the required margin falls below the quoted margin, its FRN:",
+     "o": [
+      "Rises above par",
+      "Stays at par",
+      "Falls below par"
+     ],
+     "a": 0,
+     "e": "Coupons now exceed the required return.",
+     "los": "8.a"
+    },
+    {
+     "d": "E",
+     "q": "The quoted margin on an FRN is:",
+     "o": [
+      "The coupon frequency",
+      "The spread over MRR set in the contract",
+      "The market's current required spread"
+     ],
+     "a": 1,
+     "e": "Fixed at issue.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "A certificate of deposit paying interest on top of the principal at maturity is quoted on:",
+     "o": [
+      "A yield-to-call basis",
+      "A discount basis",
+      "An add-on basis"
+     ],
+     "a": 2,
+     "e": "Interest is added on.",
+     "los": "8.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Quoted vs discount margin",
+     "back": "Contract spread vs required spread."
+    },
+    {
+     "front": "DM > QM",
+     "back": "FRN priced below par."
+    },
+    {
+     "front": "Discount-basis price",
+     "back": "FV × (1 − days/360 × DR)."
+    },
+    {
+     "front": "Add-on basis",
+     "back": "PV = FV ÷ (1 + days/year × rate)."
+    },
+    {
+     "front": "Bond equivalent yield",
+     "back": "365-day add-on rate."
+    },
+    {
+     "front": "FRN main risk",
+     "back": "Credit (margin) risk, not rate risk."
+    }
+   ]
+  },
+  {
+   "lm_no": 9,
+   "title": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+   "summary": "Spot, par and forward rates, the shapes of the yield curve and theories that explain them.",
+   "los": [
+    {
+     "code": "9.a",
+     "command_word": "define",
+     "statement": "Define spot rates, par rates and forward rates and the relationships among them."
+    },
+    {
+     "code": "9.b",
+     "command_word": "calculate",
+     "statement": "Calculate forward rates from spot rates and par rates from spot rates."
+    },
+    {
+     "code": "9.c",
+     "command_word": "explain",
+     "statement": "Explain theories of the term structure of interest rates."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Spot, par and forward rates",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Spot rate",
+           "b": true
+          },
+          {
+           "t": ": yield on a zero-coupon bond for a maturity."
+          }
+         ],
+         [
+          {
+           "t": "Par rate",
+           "b": true
+          },
+          {
+           "t": ": coupon that makes a bond priced at par using the spot rates."
+          }
+         ],
+         [
+          {
+           "t": "Forward rate",
+           "b": true
+          },
+          {
+           "t": ": rate for a loan starting in the future, implied by spot rates."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "(1 + z₂)² = (1 + z₁)(1 + f₁,₁) · Par rate p for 2 years: p/(1 + z₁) + (1 + p)/(1 + z₂)² = 1"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "z₁ = 3%, z₂ = 4%. f₁,₁ = 1.04² ÷ 1.03 − 1 = "
+         },
+         {
+          "t": "5.01%",
+          "b": true
+         },
+         {
+          "t": ". Par rate: p × (0.9709 + 0.9246) + 0.9246 = 1, so p = 0.0754 ÷ 1.8955 = "
+         },
+         {
+          "t": "3.98%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Upward-sloping spot curve: forward > spot > par. Downward-sloping: the reverse."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Shapes and theories",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Shapes: "
+          },
+          {
+           "t": "upward",
+           "b": true
+          },
+          {
+           "t": " (normal), "
+          },
+          {
+           "t": "flat",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "inverted",
+           "b": true
+          },
+          {
+           "t": " (often before recessions), humped."
+          }
+         ],
+         [
+          {
+           "t": "Unbiased expectations theory",
+           "b": true
+          },
+          {
+           "t": ": forward rates are unbiased forecasts of future spot rates."
+          }
+         ],
+         [
+          {
+           "t": "Local expectations",
+           "b": true
+          },
+          {
+           "t": ": all bonds earn the risk-free rate over short horizons."
+          }
+         ],
+         [
+          {
+           "t": "Liquidity preference",
+           "b": true
+          },
+          {
+           "t": ": investors demand a premium for longer maturities, so the curve slopes up even with flat expectations."
+          }
+         ],
+         [
+          {
+           "t": "Segmented markets",
+           "b": true
+          },
+          {
+           "t": ": separate supply and demand at each maturity."
+          }
+         ],
+         [
+          {
+           "t": "Preferred habitat",
+           "b": true
+          },
+          {
+           "t": ": investors prefer certain maturities but will move for enough extra yield."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "An inverted yield curve is the bond market's version of the dog refusing to go out before a storm. Not always right, but people pay attention."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "(1 + z_B)^B = (1 + z_A)^A (1 + f_A,B−A)^(B−A)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Spot rate",
+        "Zero-coupon yield"
+       ],
+       [
+        "Par rate",
+        "Coupon that prices bond at par"
+       ],
+       [
+        "Forward rate",
+        "Future-period rate implied today"
+       ],
+       [
+        "Upward curve",
+        "Forward > spot > par"
+       ],
+       [
+        "Liquidity preference",
+        "Term premium makes curve slope up"
+       ],
+       [
+        "Preferred habitat",
+        "Will move maturity for extra yield"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "One-year spot 3%, two-year spot 4%. The one-year forward rate one year from now is closest to:",
+     "o": [
+      "5.01%",
+      "4.00%",
+      "3.50%"
+     ],
+     "a": 0,
+     "e": "1.04²/1.03 − 1 = 5.01%.",
+     "los": "9.b"
+    },
+    {
+     "d": "E",
+     "q": "A spot rate is the yield on a:",
+     "o": [
+      "Coupon bond at par",
+      "Zero-coupon bond",
+      "Floating-rate note"
+     ],
+     "a": 1,
+     "e": "Spot rates are zero-coupon yields.",
+     "los": "9.a"
+    },
+    {
+     "d": "H",
+     "q": "With z₁ = 3% and z₂ = 4%, the two-year par rate is closest to:",
+     "o": [
+      "4.00%",
+      "5.01%",
+      "3.98%"
+     ],
+     "a": 2,
+     "e": "p = (1 − 0.9246)/(0.9709 + 0.9246) = 3.98%.",
+     "los": "9.b"
+    },
+    {
+     "d": "M",
+     "q": "When the spot curve slopes upward, forward rates are:",
+     "o": [
+      "Above spot rates",
+      "Equal to spot rates",
+      "Below spot rates"
+     ],
+     "a": 0,
+     "e": "Forward > spot > par.",
+     "los": "9.a"
+    },
+    {
+     "d": "M",
+     "q": "The theory that forward rates are unbiased predictors of future spot rates is the:",
+     "o": [
+      "Liquidity preference theory",
+      "Unbiased expectations theory",
+      "Segmented markets theory"
+     ],
+     "a": 1,
+     "e": "That is its definition.",
+     "los": "9.c"
+    },
+    {
+     "d": "H",
+     "q": "Under the liquidity preference theory, an upward-sloping yield curve:",
+     "o": [
+      "Is impossible",
+      "Must mean rates will rise",
+      "May reflect a term premium even if rates are expected to stay flat"
+     ],
+     "a": 2,
+     "e": "The premium alone can create upward slope.",
+     "los": "9.c"
+    },
+    {
+     "d": "E",
+     "q": "An inverted yield curve means:",
+     "o": [
+      "Short rates are above long rates",
+      "All rates are zero",
+      "Long rates are above short rates"
+     ],
+     "a": 0,
+     "e": "It slopes downward.",
+     "los": "9.a"
+    },
+    {
+     "d": "M",
+     "q": "The preferred habitat theory says investors:",
+     "o": [
+      "Never leave their preferred maturity",
+      "Will move to other maturities if paid enough extra yield",
+      "Only buy short-term bonds"
+     ],
+     "a": 1,
+     "e": "It blends segmentation with yield incentives.",
+     "los": "9.c"
+    },
+    {
+     "d": "M",
+     "q": "The coupon rate that prices a bond at par given the spot curve is the:",
+     "o": [
+      "Forward rate",
+      "Discount margin",
+      "Par rate"
+     ],
+     "a": 2,
+     "e": "Par rates are derived from spot rates.",
+     "los": "9.a"
+    },
+    {
+     "d": "E",
+     "q": "Under the segmented markets theory, each maturity's yield is set by:",
+     "o": [
+      "Supply and demand within that maturity segment",
+      "Forward rates only",
+      "Central bank only"
+     ],
+     "a": 0,
+     "e": "Segments are independent.",
+     "los": "9.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Spot rate",
+     "back": "Zero-coupon yield for a maturity."
+    },
+    {
+     "front": "Par rate",
+     "back": "Coupon pricing a bond at par from spot rates."
+    },
+    {
+     "front": "Forward from spots",
+     "back": "(1 + z₂)² = (1 + z₁)(1 + f₁,₁)."
+    },
+    {
+     "front": "Upward curve ordering",
+     "back": "Forward > spot > par."
+    },
+    {
+     "front": "Unbiased expectations",
+     "back": "Forwards forecast future spot rates."
+    },
+    {
+     "front": "Liquidity preference",
+     "back": "Term premium for longer maturities."
+    }
+   ]
+  },
+  {
+   "lm_no": 10,
+   "title": "Interest Rate Risk and Return",
+   "summary": "Sources of bond return, reinvestment versus price risk, and the investment horizon.",
+   "los": [
+    {
+     "code": "10.a",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret the sources of return from investing in a fixed-rate bond."
+    },
+    {
+     "code": "10.b",
+     "command_word": "describe",
+     "statement": "Describe the relationships among a bond's holding period return, its Macaulay duration and the investment horizon."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Sources of return",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "Coupon",
+           "b": true
+          },
+          {
+           "t": " and principal payments."
+          }
+         ],
+         [
+          {
+           "t": "Reinvestment income",
+           "b": true
+          },
+          {
+           "t": " on coupons."
+          }
+         ],
+         [
+          {
+           "t": "Capital gain or loss",
+           "b": true
+          },
+          {
+           "t": " if sold before maturity."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Buy a 3-year 6% annual coupon bond at par (₹100). Rates fall to 5% right after purchase and stay there. Held to maturity, coupons are reinvested at 5%: total = 6 × 1.05² + 6 × 1.05 + 106 = 6.615 + 6.3 + 106 = ₹118.92, a horizon yield of (118.92/100)^(1/3) − 1 = "
+         },
+         {
+          "t": "5.94%",
+          "b": true
+         },
+         {
+          "t": ", below the 6% YTM because of lower reinvestment income."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "The YTM is realised only if the bond is held to maturity, there is no default, and coupons are reinvested at the YTM."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Two opposing risks and duration",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "When rates "
+          },
+          {
+           "t": "rise",
+           "b": true
+          },
+          {
+           "t": ": reinvestment income "
+          },
+          {
+           "t": "rises",
+           "b": true
+          },
+          {
+           "t": ", but the sale price "
+          },
+          {
+           "t": "falls",
+           "b": true
+          },
+          {
+           "t": " (market price risk)."
+          }
+         ],
+         [
+          {
+           "t": "When rates "
+          },
+          {
+           "t": "fall",
+           "b": true
+          },
+          {
+           "t": ": the reverse."
+          }
+         ],
+         [
+          {
+           "t": "Short horizon",
+           "b": true
+          },
+          {
+           "t": " → price risk dominates. "
+          },
+          {
+           "t": "Long horizon",
+           "b": true
+          },
+          {
+           "t": " → reinvestment risk dominates."
+          }
+         ],
+         [
+          {
+           "t": "If the "
+          },
+          {
+           "t": "investment horizon = Macaulay duration",
+           "b": true
+          },
+          {
+           "t": ", the two effects roughly "
+          },
+          {
+           "t": "offset",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Duration gap",
+           "b": true
+          },
+          {
+           "t": " = Macaulay duration − investment horizon. Positive gap → exposed to rising rates."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Rates rising is like rain for a farmer who also sells umbrellas: the crop suffers, the umbrella shop booms. Macaulay duration tells you when the two cancel out."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Duration gap = Macaulay duration − investment horizon"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Return sources",
+        "Coupons, reinvestment, capital gain/loss"
+       ],
+       [
+        "Rates up",
+        "Reinvestment ↑, price ↓"
+       ],
+       [
+        "Short horizon",
+        "Price risk dominates"
+       ],
+       [
+        "Long horizon",
+        "Reinvestment risk dominates"
+       ],
+       [
+        "Horizon = MacDur",
+        "Risks roughly offset"
+       ],
+       [
+        "Positive gap",
+        "Hurt by rising rates"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Which is a source of return on a fixed-rate bond?",
+     "o": [
+      "Dividends",
+      "Reinvestment of coupons",
+      "Stock splits"
+     ],
+     "a": 1,
+     "e": "Coupons, reinvestment and capital gains.",
+     "los": "10.a"
+    },
+    {
+     "d": "M",
+     "q": "An investor with a short horizon is mainly exposed to:",
+     "o": [
+      "No risk",
+      "Reinvestment risk",
+      "Market price risk"
+     ],
+     "a": 2,
+     "e": "The bond must be sold soon.",
+     "los": "10.b"
+    },
+    {
+     "d": "M",
+     "q": "When the investment horizon equals the Macaulay duration, an immediate one-time change in rates:",
+     "o": [
+      "Has roughly offsetting effects on price and reinvestment income",
+      "Doubles the return",
+      "Only affects coupons"
+     ],
+     "a": 0,
+     "e": "That is the immunisation idea.",
+     "los": "10.b"
+    },
+    {
+     "d": "H",
+     "q": "A 3-year 6% bond is bought at par; rates fall to 5% at once and stay there. Held to maturity, the horizon yield is closest to:",
+     "o": [
+      "6.00%",
+      "5.94%",
+      "5.00%"
+     ],
+     "a": 1,
+     "e": "Future value 118.92 → 5.94% a year.",
+     "los": "10.a"
+    },
+    {
+     "d": "M",
+     "q": "A bond portfolio has a Macaulay duration of 7 years and the investor's horizon is 4 years. The duration gap is:",
+     "o": [
+      "−3 years",
+      "11 years",
+      "+3 years"
+     ],
+     "a": 2,
+     "e": "7 − 4 = 3.",
+     "los": "10.b"
+    },
+    {
+     "d": "H",
+     "q": "With a positive duration gap, the investor is mainly hurt by:",
+     "o": [
+      "Rising rates",
+      "Lower coupons only",
+      "Falling rates"
+     ],
+     "a": 0,
+     "e": "Price risk outweighs reinvestment gains.",
+     "los": "10.b"
+    },
+    {
+     "d": "E",
+     "q": "If rates rise after purchase, reinvestment income on coupons will:",
+     "o": [
+      "Fall",
+      "Rise",
+      "Not change"
+     ],
+     "a": 1,
+     "e": "Coupons are reinvested at higher rates.",
+     "los": "10.b"
+    },
+    {
+     "d": "M",
+     "q": "A bond held to maturity with no default earns exactly its YTM only if:",
+     "o": [
+      "Rates rise",
+      "It is callable",
+      "Coupons are reinvested at the YTM"
+     ],
+     "a": 2,
+     "e": "Reinvestment assumption.",
+     "los": "10.a"
+    },
+    {
+     "d": "M",
+     "q": "A long-horizon investor is mainly exposed to:",
+     "o": [
+      "Reinvestment risk",
+      "Price risk",
+      "Liquidity risk only"
+     ],
+     "a": 0,
+     "e": "Many coupons will be reinvested.",
+     "los": "10.b"
+    },
+    {
+     "d": "E",
+     "q": "Selling a bond for more than its carrying value at the time produces a:",
+     "o": [
+      "Coupon",
+      "Capital gain",
+      "Capital loss"
+     ],
+     "a": 1,
+     "e": "Price exceeded the amortised value.",
+     "los": "10.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Bond return sources",
+     "back": "Coupons, reinvestment income, capital gain/loss."
+    },
+    {
+     "front": "Rates rise effect",
+     "back": "Reinvestment income up, price down."
+    },
+    {
+     "front": "Short vs long horizon risk",
+     "back": "Price risk vs reinvestment risk."
+    },
+    {
+     "front": "Horizon = Macaulay duration",
+     "back": "Price and reinvestment effects roughly offset."
+    },
+    {
+     "front": "Duration gap",
+     "back": "Macaulay duration − horizon."
+    },
+    {
+     "front": "Positive duration gap",
+     "back": "Vulnerable to rising rates."
+    }
+   ]
+  },
+  {
+   "lm_no": 11,
+   "title": "Yield-Based Bond Duration Measures and Properties",
+   "summary": "Macaulay, modified and approximate duration, money duration, PVBP and the properties of duration.",
+   "los": [
+    {
+     "code": "11.a",
+     "command_word": "define",
+     "statement": "Define, calculate and interpret Macaulay, modified and effective durations."
+    },
+    {
+     "code": "11.b",
+     "command_word": "calculate",
+     "statement": "Calculate the percentage price change for a given change in yield, money duration and the price value of a basis point."
+    },
+    {
+     "code": "11.c",
+     "command_word": "explain",
+     "statement": "Explain how coupon, maturity and yield affect duration."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Duration measures",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Macaulay duration",
+           "b": true
+          },
+          {
+           "t": ": weighted average time to receive cash flows (weights = PV share)."
+          }
+         ],
+         [
+          {
+           "t": "Modified duration",
+           "b": true
+          },
+          {
+           "t": " = Macaulay ÷ (1 + yield per period): % price change for a 1% yield change."
+          }
+         ],
+         [
+          {
+           "t": "Approximate modified duration",
+           "b": true
+          },
+          {
+           "t": " = (PV₋ − PV₊) ÷ (2 × Δy × PV₀)."
+          }
+         ],
+         [
+          {
+           "t": "Money duration",
+           "b": true
+          },
+          {
+           "t": " = modified duration × full price."
+          }
+         ],
+         [
+          {
+           "t": "PVBP",
+           "b": true
+          },
+          {
+           "t": " (price value of a basis point) = price change for a 1 bp change in yield."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "%ΔP ≈ −ModDur × Δy · ModDur = MacDur ÷ (1 + r)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Macaulay duration 5.2 years, annual yield 4%. ModDur = 5.2/1.04 = "
+         },
+         {
+          "t": "5.0",
+          "b": true
+         },
+         {
+          "t": ". If yields rise 50 bp, price falls ≈ 5.0 × 0.5% = "
+         },
+         {
+          "t": "2.5%",
+          "b": true
+         },
+         {
+          "t": ". On a ₹10 crore holding, money duration = ₹50 crore and PVBP ≈ ₹50,000."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Properties",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Longer maturity",
+           "b": true
+          },
+          {
+           "t": " → higher duration (usually)."
+          }
+         ],
+         [
+          {
+           "t": "Higher coupon",
+           "b": true
+          },
+          {
+           "t": " → lower duration (more cash early)."
+          }
+         ],
+         [
+          {
+           "t": "Higher yield",
+           "b": true
+          },
+          {
+           "t": " → lower duration."
+          }
+         ],
+         [
+          {
+           "t": "Zero-coupon",
+           "b": true
+          },
+          {
+           "t": " bond: Macaulay duration = maturity."
+          }
+         ],
+         [
+          {
+           "t": "Perpetuity",
+           "b": true
+          },
+          {
+           "t": ": Macaulay duration = (1 + r)/r."
+          }
+         ],
+         [
+          {
+           "t": "Portfolio duration ≈ weighted average of the holdings' durations."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A perpetual bond at 5%: Macaulay duration = 1.05/0.05 = "
+         },
+         {
+          "t": "21 years",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Duration is a linear approximation. For big yield changes it underestimates price rises and overestimates price falls: add convexity."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Macaulay duration is the bond's centre of gravity. A zero-coupon bond keeps all its weight at the end, like someone saving every rupee for one big holiday."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "%ΔP ≈ −ModDur × Δy · ModDur = MacDur/(1 + r) · ApproxModDur = (PV₋ − PV₊)/(2ΔyPV₀)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Zero-coupon",
+        "MacDur = maturity"
+       ],
+       [
+        "Perpetuity",
+        "MacDur = (1 + r)/r"
+       ],
+       [
+        "Higher coupon",
+        "Lower duration"
+       ],
+       [
+        "Higher yield",
+        "Lower duration"
+       ],
+       [
+        "Money duration",
+        "ModDur × full price"
+       ],
+       [
+        "PVBP",
+        "Price change per 1 bp"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "For a given yield change, which bond has the largest price change?",
+     "o": [
+      "5-year 6% coupon",
+      "2-year 8% coupon",
+      "10-year zero-coupon"
+     ],
+     "a": 2,
+     "e": "Long maturity and no coupons give the highest duration.",
+     "los": "11.c"
+    },
+    {
+     "d": "M",
+     "q": "Macaulay duration 5.2 and annual yield 4% give a modified duration of:",
+     "o": [
+      "5.00",
+      "5.41",
+      "5.20"
+     ],
+     "a": 0,
+     "e": "5.2/1.04 = 5.0.",
+     "los": "11.a"
+    },
+    {
+     "d": "M",
+     "q": "A bond with modified duration 5.0 sees yields rise 50 bp. Its price changes by about:",
+     "o": [
+      "+2.5%",
+      "−2.5%",
+      "−5.0%"
+     ],
+     "a": 1,
+     "e": "−5 × 0.5% = −2.5%.",
+     "los": "11.b"
+    },
+    {
+     "d": "E",
+     "q": "The Macaulay duration of a 7-year zero-coupon bond is:",
+     "o": [
+      "More than 7",
+      "Less than 7",
+      "Exactly 7"
+     ],
+     "a": 2,
+     "e": "All cash comes at maturity.",
+     "los": "11.c"
+    },
+    {
+     "d": "M",
+     "q": "Other things equal, a higher coupon rate gives:",
+     "o": [
+      "Lower duration",
+      "No change",
+      "Higher duration"
+     ],
+     "a": 0,
+     "e": "More cash is received earlier.",
+     "los": "11.c"
+    },
+    {
+     "d": "H",
+     "q": "A bond's price is 100; it would be 102.10 if yields fell 50 bp and 97.95 if they rose 50 bp. Approximate modified duration is:",
+     "o": [
+      "2.08",
+      "4.15",
+      "8.30"
+     ],
+     "a": 1,
+     "e": "(102.10 − 97.95)/(2 × 0.005 × 100) = 4.15.",
+     "los": "11.a"
+    },
+    {
+     "d": "M",
+     "q": "The Macaulay duration of a perpetual bond yielding 5% is:",
+     "o": [
+      "Infinite",
+      "20 years",
+      "21 years"
+     ],
+     "a": 2,
+     "e": "(1.05)/0.05 = 21.",
+     "los": "11.c"
+    },
+    {
+     "d": "H",
+     "q": "A ₹10 crore position has modified duration 5.0. Its PVBP is closest to:",
+     "o": [
+      "₹50,000",
+      "₹5 lakh",
+      "₹5,000"
+     ],
+     "a": 0,
+     "e": "ModDur × value × 0.0001 = 5 × ₹10 crore × 0.0001 = ₹50,000.",
+     "los": "11.b"
+    },
+    {
+     "d": "E",
+     "q": "Higher market yields, other things equal, make duration:",
+     "o": [
+      "Higher",
+      "Lower",
+      "Unchanged"
+     ],
+     "a": 1,
+     "e": "Distant cash flows are discounted more heavily.",
+     "los": "11.c"
+    },
+    {
+     "d": "M",
+     "q": "Money duration is:",
+     "o": [
+      "Macaulay duration × coupon",
+      "Price ÷ duration",
+      "Modified duration × full price"
+     ],
+     "a": 2,
+     "e": "It gives the currency change for a 1% yield change.",
+     "los": "11.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Macaulay duration",
+     "back": "PV-weighted average time to cash flows."
+    },
+    {
+     "front": "Modified duration",
+     "back": "MacDur ÷ (1 + r); % price change per 1% yield."
+    },
+    {
+     "front": "Approximate ModDur",
+     "back": "(PV₋ − PV₊)/(2 × Δy × PV₀)."
+    },
+    {
+     "front": "Duration properties",
+     "back": "Up with maturity; down with coupon and yield."
+    },
+    {
+     "front": "Perpetuity duration",
+     "back": "(1 + r)/r."
+    },
+    {
+     "front": "PVBP",
+     "back": "Price change for a 1 bp yield move."
+    }
+   ]
+  },
+  {
+   "lm_no": 12,
+   "title": "Yield-Based Bond Convexity and Portfolio Properties",
+   "summary": "Convexity, combining duration and convexity, and duration and convexity of portfolios.",
+   "los": [
+    {
+     "code": "12.a",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret approximate convexity and the price change using duration and convexity."
+    },
+    {
+     "code": "12.b",
+     "command_word": "describe",
+     "statement": "Describe the duration and convexity of a bond portfolio and their limitations."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Convexity",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "%ΔP ≈ −ModDur × Δy + ½ × Convexity × (Δy)² · ApproxCon = (PV₋ + PV₊ − 2PV₀) ÷ ((Δy)² × PV₀)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "ModDur 5, convexity 40, yields rise 100 bp: %ΔP ≈ −5 × 0.01 + 0.5 × 40 × 0.0001 = −5% + 0.2% = "
+         },
+         {
+          "t": "−4.8%",
+          "b": true
+         },
+         {
+          "t": ". If yields fall 100 bp: +5% + 0.2% = "
+         },
+         {
+          "t": "+5.2%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Positive convexity helps the holder either way: gains are bigger and losses smaller than duration alone predicts."
+          }
+         ],
+         [
+          {
+           "t": "Convexity rises with maturity, lower coupons and lower yields; and with a more "
+          },
+          {
+           "t": "dispersed",
+           "b": true
+          },
+          {
+           "t": " cash flow pattern (a barbell has more convexity than a bullet of the same duration)."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Portfolios",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Portfolio duration and convexity ≈ "
+          },
+          {
+           "t": "market-value-weighted",
+           "b": true
+          },
+          {
+           "t": " averages of the holdings'."
+          }
+         ],
+         [
+          {
+           "t": "This assumes a "
+          },
+          {
+           "t": "parallel",
+           "b": true
+          },
+          {
+           "t": " shift in the yield curve, which rarely happens exactly."
+          }
+         ],
+         [
+          {
+           "t": "Alternatively, use the portfolio's cash flow yield, which is harder to compute and interpret."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "₹60 crore in a bond with ModDur 4 and ₹40 crore in one with ModDur 9. Portfolio ModDur = 0.6 × 4 + 0.4 × 9 = "
+         },
+         {
+          "t": "6.0",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Weighted-average duration ignores non-parallel moves. Use key rate durations for twists."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Convexity is the airbag in a bond: you hardly notice it on a small bump, but on a big crash you are very glad it's there."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "%ΔP ≈ −ModDur Δy + ½ Con (Δy)²"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Positive convexity",
+        "Bigger gains, smaller losses"
+       ],
+       [
+        "More convex",
+        "Longer, lower coupon, lower yield, dispersed cash flows"
+       ],
+       [
+        "Barbell vs bullet",
+        "Barbell more convex"
+       ],
+       [
+        "Portfolio duration",
+        "Value-weighted average"
+       ],
+       [
+        "Limitation",
+        "Assumes parallel shifts"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "ModDur 5, convexity 40, and yields rise 100 bp. The estimated price change is:",
+     "o": [
+      "−4.8%",
+      "−5.2%",
+      "−5.0%"
+     ],
+     "a": 0,
+     "e": "−5% + 0.5 × 40 × 0.0001 = −4.8%.",
+     "los": "12.a"
+    },
+    {
+     "d": "M",
+     "q": "With the same bond, if yields fall 100 bp, the estimated price change is:",
+     "o": [
+      "+5.0%",
+      "+5.2%",
+      "+4.8%"
+     ],
+     "a": 1,
+     "e": "+5% + 0.2% = +5.2%.",
+     "los": "12.a"
+    },
+    {
+     "d": "E",
+     "q": "Positive convexity means that for equal yield moves:",
+     "o": [
+      "Price losses exceed gains",
+      "Prices do not change",
+      "Price gains exceed price losses"
+     ],
+     "a": 2,
+     "e": "The price–yield curve bends upward.",
+     "los": "12.a"
+    },
+    {
+     "d": "M",
+     "q": "A portfolio holds ₹60 crore of a bond with ModDur 4 and ₹40 crore with ModDur 9. Its duration is:",
+     "o": [
+      "6.0",
+      "5.0",
+      "6.5"
+     ],
+     "a": 0,
+     "e": "0.6 × 4 + 0.4 × 9 = 6.0.",
+     "los": "12.b"
+    },
+    {
+     "d": "H",
+     "q": "Compared with a bullet portfolio of the same duration, a barbell portfolio has:",
+     "o": [
+      "Lower convexity",
+      "Higher convexity",
+      "Identical convexity"
+     ],
+     "a": 1,
+     "e": "Cash flows are more dispersed.",
+     "los": "12.a"
+    },
+    {
+     "d": "M",
+     "q": "Using a weighted average of holdings' durations for a portfolio assumes:",
+     "o": [
+      "No coupons",
+      "Equal maturities",
+      "A parallel shift in the yield curve"
+     ],
+     "a": 2,
+     "e": "It ignores curve twists.",
+     "los": "12.b"
+    },
+    {
+     "d": "H",
+     "q": "Prices are 100 (current), 102.12 (yield −50 bp) and 97.92 (yield +50 bp). Approximate convexity is:",
+     "o": [
+      "16",
+      "160",
+      "1.6"
+     ],
+     "a": 0,
+     "e": "(102.12 + 97.92 − 200)/(0.005² × 100) = 0.04/0.0025 = 16.",
+     "los": "12.a"
+    },
+    {
+     "d": "E",
+     "q": "Duration alone tends to:",
+     "o": [
+      "Overestimate price rises",
+      "Underestimate price rises and overestimate price falls",
+      "Be exact"
+     ],
+     "a": 1,
+     "e": "For positively convex bonds.",
+     "los": "12.a"
+    },
+    {
+     "d": "M",
+     "q": "Which bond generally has the most convexity?",
+     "o": [
+      "Floating-rate",
+      "Short, high-coupon",
+      "Long, low-coupon"
+     ],
+     "a": 2,
+     "e": "Longer, lower-coupon bonds are more convex.",
+     "los": "12.a"
+    },
+    {
+     "d": "E",
+     "q": "Convexity measures:",
+     "o": [
+      "The curvature of the price–yield relationship",
+      "Credit risk",
+      "Liquidity"
+     ],
+     "a": 0,
+     "e": "A second-order effect.",
+     "los": "12.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Price change with convexity",
+     "back": "−ModDur Δy + ½ Con (Δy)²."
+    },
+    {
+     "front": "Approximate convexity",
+     "back": "(PV₋ + PV₊ − 2PV₀)/((Δy)² PV₀)."
+    },
+    {
+     "front": "Positive convexity benefit",
+     "back": "Gains larger, losses smaller."
+    },
+    {
+     "front": "Barbell vs bullet",
+     "back": "Barbell is more convex."
+    },
+    {
+     "front": "Portfolio duration",
+     "back": "Market-value-weighted average."
+    },
+    {
+     "front": "Weighted duration limitation",
+     "back": "Assumes parallel shifts."
+    }
+   ]
+  },
+  {
+   "lm_no": 13,
+   "title": "Curve-Based and Empirical Fixed-Income Risk Measures",
+   "summary": "Effective duration and convexity for bonds with options, key rate durations and empirical duration.",
+   "los": [
+    {
+     "code": "13.a",
+     "command_word": "explain",
+     "statement": "Explain why effective duration and effective convexity are the right measures for bonds with embedded options."
+    },
+    {
+     "code": "13.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret effective duration and effective convexity."
+    },
+    {
+     "code": "13.c",
+     "command_word": "define",
+     "statement": "Define key rate duration and describe its use."
+    },
+    {
+     "code": "13.d",
+     "command_word": "explain",
+     "statement": "Explain how empirical duration differs from analytical duration."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Effective duration and convexity",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "For bonds whose cash flows change with rates (callable, putable, MBS), yield-based duration is wrong. "
+         },
+         {
+          "t": "Effective duration",
+          "b": true
+         },
+         {
+          "t": " shifts the "
+         },
+         {
+          "t": "benchmark curve",
+          "b": true
+         },
+         {
+          "t": " and reprices with a model."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "EffDur = (PV₋ − PV₊) ÷ (2 × ΔCurve × PV₀) · EffCon = (PV₋ + PV₊ − 2PV₀) ÷ ((ΔCurve)² × PV₀)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A callable bond priced at 101.0 would be 102.0 if the curve fell 25 bp and 99.8 if it rose 25 bp. EffDur = (102.0 − 99.8)/(2 × 0.0025 × 101) = "
+         },
+         {
+          "t": "4.36",
+          "b": true
+         },
+         {
+          "t": ". EffCon = (102.0 + 99.8 − 202)/(0.0025² × 101) = "
+         },
+         {
+          "t": "−317",
+          "b": true
+         },
+         {
+          "t": ": negative convexity."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Callable bonds show "
+         },
+         {
+          "t": "negative convexity",
+          "b": true
+         },
+         {
+          "t": " at low yields: as rates fall, the price is capped near the call price. Putable bonds have more positive convexity."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Key rate and empirical duration",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Key rate (partial) duration",
+           "b": true
+          },
+          {
+           "t": ": sensitivity to a change in one maturity point of the curve. The sum of key rate durations ≈ effective duration. Captures "
+          },
+          {
+           "t": "shaping risk",
+           "b": true
+          },
+          {
+           "t": " (twists)."
+          }
+         ],
+         [
+          {
+           "t": "Empirical duration",
+           "b": true
+          },
+          {
+           "t": ": estimated from historical price changes against rate changes."
+          }
+         ],
+         [
+          {
+           "t": "For "
+          },
+          {
+           "t": "high-yield",
+           "b": true
+          },
+          {
+           "t": " bonds, credit spreads often narrow when government rates rise (better economy), so empirical duration is "
+          },
+          {
+           "t": "lower",
+           "b": true
+          },
+          {
+           "t": " than analytical duration."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Key rate duration is checking each tyre's pressure separately rather than just asking whether the car feels bumpy."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "EffDur = (PV₋ − PV₊)/(2 ΔCurve PV₀) · EffCon = (PV₋ + PV₊ − 2PV₀)/((ΔCurve)² PV₀)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "When to use effective",
+        "Bonds with embedded options, MBS"
+       ],
+       [
+        "Callable bond",
+        "Negative convexity at low yields"
+       ],
+       [
+        "Putable bond",
+        "Extra positive convexity"
+       ],
+       [
+        "Key rate duration",
+        "Sensitivity to one curve point"
+       ],
+       [
+        "Sum of key rates",
+        "≈ effective duration"
+       ],
+       [
+        "Empirical duration (HY)",
+        "Lower than analytical"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The appropriate duration measure for a callable bond is:",
+     "o": [
+      "Modified duration",
+      "Effective duration",
+      "Macaulay duration"
+     ],
+     "a": 1,
+     "e": "Its cash flows change with rates.",
+     "los": "13.a"
+    },
+    {
+     "d": "H",
+     "q": "A callable bond is priced at 101.0; it would be 102.0 if the curve fell 25 bp and 99.8 if it rose 25 bp. Effective duration is closest to:",
+     "o": [
+      "8.71",
+      "2.18",
+      "4.36"
+     ],
+     "a": 2,
+     "e": "(102.0 − 99.8)/(2 × 0.0025 × 101) = 4.36.",
+     "los": "13.b"
+    },
+    {
+     "d": "M",
+     "q": "At low yields, a callable bond typically exhibits:",
+     "o": [
+      "Negative convexity",
+      "Zero duration",
+      "Positive convexity"
+     ],
+     "a": 0,
+     "e": "Price upside is capped near the call price.",
+     "los": "13.a"
+    },
+    {
+     "d": "M",
+     "q": "Key rate duration measures sensitivity to:",
+     "o": [
+      "A parallel shift in the curve",
+      "A change in one specific maturity point",
+      "Credit spreads only"
+     ],
+     "a": 1,
+     "e": "It isolates shaping risk.",
+     "los": "13.c"
+    },
+    {
+     "d": "M",
+     "q": "The sum of a bond's key rate durations is approximately equal to its:",
+     "o": [
+      "Convexity",
+      "Yield to maturity",
+      "Effective duration"
+     ],
+     "a": 2,
+     "e": "Partial durations add up.",
+     "los": "13.c"
+    },
+    {
+     "d": "H",
+     "q": "For high-yield bonds, empirical duration is often lower than analytical duration because:",
+     "o": [
+      "Credit spreads tend to narrow when benchmark rates rise",
+      "They have no maturity",
+      "Coupons are low"
+     ],
+     "a": 0,
+     "e": "Spread changes partly offset rate changes.",
+     "los": "13.d"
+    },
+    {
+     "d": "E",
+     "q": "Empirical duration is estimated using:",
+     "o": [
+      "The bond's par value",
+      "Historical price and rate data",
+      "Only the coupon rate"
+     ],
+     "a": 1,
+     "e": "Statistical regression.",
+     "los": "13.d"
+    },
+    {
+     "d": "M",
+     "q": "Effective duration is computed by shifting:",
+     "o": [
+      "The coupon rate",
+      "The bond's own yield",
+      "The benchmark yield curve"
+     ],
+     "a": 2,
+     "e": "Curve-based, not yield-based.",
+     "los": "13.b"
+    },
+    {
+     "d": "M",
+     "q": "Compared with an otherwise identical straight bond, a putable bond has:",
+     "o": [
+      "More positive convexity",
+      "Negative convexity",
+      "Less positive convexity"
+     ],
+     "a": 0,
+     "e": "The put sets a price floor.",
+     "los": "13.a"
+    },
+    {
+     "d": "E",
+     "q": "Shaping risk refers to the risk from:",
+     "o": [
+      "Currency moves",
+      "Non-parallel changes in the yield curve",
+      "Default"
+     ],
+     "a": 1,
+     "e": "Twists and humps.",
+     "los": "13.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Effective duration",
+     "back": "Curve-based, model-priced duration for bonds with options."
+    },
+    {
+     "front": "Callable bond convexity",
+     "back": "Negative at low yields."
+    },
+    {
+     "front": "Putable bond convexity",
+     "back": "More positive than a straight bond."
+    },
+    {
+     "front": "Key rate duration",
+     "back": "Sensitivity to one curve point; sum ≈ effective duration."
+    },
+    {
+     "front": "Empirical duration",
+     "back": "Estimated from historical data."
+    },
+    {
+     "front": "High-yield empirical duration",
+     "back": "Lower than analytical; spreads offset rate moves."
+    }
+   ]
+  },
+  {
+   "lm_no": 14,
+   "title": "Credit Risk",
+   "summary": "Default probability, loss given default, expected loss, the four Cs, ratings and credit spreads.",
+   "los": [
+    {
+     "code": "14.a",
+     "command_word": "describe",
+     "statement": "Describe credit risk and its components: probability of default and loss given default."
+    },
+    {
+     "code": "14.b",
+     "command_word": "describe",
+     "statement": "Describe the uses of ratings and the risks of relying on them."
+    },
+    {
+     "code": "14.c",
+     "command_word": "describe",
+     "statement": "Describe qualitative and quantitative factors used in credit analysis."
+    },
+    {
+     "code": "14.d",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret the effect of credit spread changes on bond prices."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Components of credit risk",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Expected loss = Probability of default × Loss given default · LGD = 1 − recovery rate"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "PD 2% a year, recovery 40% → LGD 60%. Expected loss = 0.02 × 0.60 = "
+         },
+         {
+          "t": "1.2%",
+          "b": true
+         },
+         {
+          "t": " a year."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Seniority ranking (highest recovery first): first lien / senior secured → second lien → senior unsecured → subordinated."
+          }
+         ],
+         [
+          {
+           "t": "Pari passu",
+           "b": true
+          },
+          {
+           "t": ": claims of the same rank share equally."
+          }
+         ],
+         [
+          {
+           "t": "Other credit-related risks: "
+          },
+          {
+           "t": "spread risk",
+           "b": true
+          },
+          {
+           "t": " (downgrade or wider spreads), "
+          },
+          {
+           "t": "liquidity risk",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "The "
+         },
+         {
+          "t": "absolute priority",
+          "b": true
+         },
+         {
+          "t": " rule is not always followed in bankruptcy; junior creditors sometimes get something in negotiated settlements."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Ratings and analysis",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Ratings",
+           "b": true
+          },
+          {
+           "t": ": AAA to D; investment grade is BBB− (Baa3) and above. "
+          },
+          {
+           "t": "Notching",
+           "b": true
+          },
+          {
+           "t": ": lower ratings for subordinated issues of the same issuer."
+          }
+         ],
+         [
+          {
+           "t": "Risks of ratings: they change, lag market prices, and can be wrong."
+          }
+         ],
+         [
+          {
+           "t": "Four Cs",
+           "b": true
+          },
+          {
+           "t": ": "
+          },
+          {
+           "t": "capacity",
+           "b": true
+          },
+          {
+           "t": " (cash flow), "
+          },
+          {
+           "t": "collateral",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "covenants",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "character",
+           "b": true
+          },
+          {
+           "t": " (management)."
+          }
+         ],
+         [
+          {
+           "t": "Credit spread = yield on risky bond − benchmark yield ≈ expected loss + compensation for uncertainty and illiquidity."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "%ΔP ≈ −ModDur × Δspread + ½ × Convexity × (Δspread)²"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A bond with ModDur 6 and convexity 50 sees its spread widen 50 bp. %ΔP ≈ −6 × 0.005 + 0.5 × 50 × 0.000025 = −3.0% + 0.06% = "
+         },
+         {
+          "t": "−2.94%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A credit rating is like a cricket selector's opinion: very useful, sometimes late, and the market often knows the player is out of form before the selectors do."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "EL = PD × LGD · %ΔP ≈ −ModDur × Δspread + ½ Con (Δspread)²"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "LGD",
+        "1 − recovery rate"
+       ],
+       [
+        "Seniority",
+        "Secured > senior unsecured > subordinated"
+       ],
+       [
+        "Notching",
+        "Lower ratings for junior issues"
+       ],
+       [
+        "Four Cs",
+        "Capacity, collateral, covenants, character"
+       ],
+       [
+        "Investment grade",
+        "BBB− and above"
+       ],
+       [
+        "Rating risks",
+        "Lag, change, can be wrong"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "A bond has a 2% default probability and an expected 40% recovery. Its expected loss is:",
+     "o": [
+      "2.0%",
+      "0.8%",
+      "1.2%"
+     ],
+     "a": 2,
+     "e": "0.02 × 0.60 = 1.2%.",
+     "los": "14.a"
+    },
+    {
+     "d": "E",
+     "q": "Loss given default equals:",
+     "o": [
+      "1 − recovery rate",
+      "Probability of default",
+      "The coupon rate"
+     ],
+     "a": 0,
+     "e": "It is the share not recovered.",
+     "los": "14.a"
+    },
+    {
+     "d": "M",
+     "q": "Which ranks highest in priority of claims?",
+     "o": [
+      "Senior unsecured debt",
+      "First-lien senior secured debt",
+      "Subordinated debt"
+     ],
+     "a": 1,
+     "e": "Secured by specific assets.",
+     "los": "14.a"
+    },
+    {
+     "d": "M",
+     "q": "Notching refers to:",
+     "o": [
+      "Rounding yields",
+      "A coupon schedule",
+      "Rating junior issues of an issuer lower than its senior debt"
+     ],
+     "a": 2,
+     "e": "Lower recovery means a lower issue rating.",
+     "los": "14.b"
+    },
+    {
+     "d": "H",
+     "q": "A bond with ModDur 6 and convexity 50 sees its spread widen 50 bp. Its price changes by about:",
+     "o": [
+      "−2.94%",
+      "−3.06%",
+      "−3.00%"
+     ],
+     "a": 0,
+     "e": "−3% + 0.06% = −2.94%.",
+     "los": "14.d"
+    },
+    {
+     "d": "E",
+     "q": "Which is one of the four Cs of credit analysis?",
+     "o": [
+      "Convexity",
+      "Capacity",
+      "Currency"
+     ],
+     "a": 1,
+     "e": "Capacity, collateral, covenants, character.",
+     "los": "14.c"
+    },
+    {
+     "d": "M",
+     "q": "A risk of relying on credit ratings is that they:",
+     "o": [
+      "Are always conservative",
+      "Never change",
+      "Can lag market prices"
+     ],
+     "a": 2,
+     "e": "Markets often move first.",
+     "los": "14.b"
+    },
+    {
+     "d": "M",
+     "q": "Claims of equal rank that share equally in recoveries are:",
+     "o": [
+      "Pari passu",
+      "Secured",
+      "Subordinated"
+     ],
+     "a": 0,
+     "e": "Pari passu = on equal footing.",
+     "los": "14.a"
+    },
+    {
+     "d": "H",
+     "q": "The credit spread on a corporate bond compensates investors for:",
+     "o": [
+      "Only expected loss",
+      "Expected loss plus uncertainty and illiquidity",
+      "Inflation only"
+     ],
+     "a": 1,
+     "e": "Spreads also include risk and liquidity premiums.",
+     "los": "14.d"
+    },
+    {
+     "d": "E",
+     "q": "The lowest investment-grade rating on the S&P scale is:",
+     "o": [
+      "A−",
+      "BB+",
+      "BBB−"
+     ],
+     "a": 2,
+     "e": "BBB− is the cut-off.",
+     "los": "14.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Expected loss",
+     "back": "PD × LGD."
+    },
+    {
+     "front": "LGD",
+     "back": "1 − recovery rate."
+    },
+    {
+     "front": "Priority of claims",
+     "back": "Secured → senior unsecured → subordinated."
+    },
+    {
+     "front": "Four Cs",
+     "back": "Capacity, collateral, covenants, character."
+    },
+    {
+     "front": "Notching",
+     "back": "Junior issues rated below senior debt."
+    },
+    {
+     "front": "Spread price effect",
+     "back": "−ModDur × Δspread + ½ Con (Δspread)²."
+    }
+   ]
+  },
+  {
+   "lm_no": 15,
+   "title": "Credit Analysis for Government Issuers",
+   "summary": "Assessing sovereign and non-sovereign credit: institutional, economic, fiscal, monetary and external factors.",
+   "los": [
+    {
+     "code": "15.a",
+     "command_word": "explain",
+     "statement": "Explain special considerations when evaluating the credit of sovereign and non-sovereign government issuers."
+    },
+    {
+     "code": "15.b",
+     "command_word": "describe",
+     "statement": "Describe the qualitative and quantitative factors used in sovereign credit analysis."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Sovereign credit factors",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Factor",
+         "What analysts look at"
+        ],
+        "rows": [
+         [
+          "Institutional",
+          "Rule of law, political stability, corruption, willingness to pay"
+         ],
+         [
+          "Economic",
+          "GDP per capita, growth, diversification"
+         ],
+         [
+          "Fiscal",
+          "Debt-to-GDP, deficits, interest burden"
+         ],
+         [
+          "Monetary",
+          "Central bank independence, inflation track record, exchange rate regime"
+         ],
+         [
+          "External",
+          "Reserve currency status, current account, FX reserves, external debt"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Sovereigns can be "
+         },
+         {
+          "t": "able but unwilling",
+          "b": true
+         },
+         {
+          "t": " to pay. Willingness matters as much as ability, and bondholders have limited legal recourse."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Country A: debt/GDP 55%, deficit 3%, FX reserves cover 12 months of imports, independent central bank. Country B: debt/GDP 90%, deficit 8%, reserves cover 2 months, history of default. Country A deserves the higher rating."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Non-sovereign government credit",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "GO bonds",
+           "b": true
+          },
+          {
+           "t": ": rely on the taxing power and economy of the region: population, income, unemployment, debt per capita, pension liabilities."
+          }
+         ],
+         [
+          {
+           "t": "Revenue bonds",
+           "b": true
+          },
+          {
+           "t": ": analysed like a business: demand for the service, pricing, "
+          },
+          {
+           "t": "debt service coverage ratio",
+           "b": true
+          },
+          {
+           "t": " (DSCR = net revenue ÷ debt service)."
+          }
+         ],
+         [
+          {
+           "t": "Non-sovereigns usually "
+          },
+          {
+           "t": "cannot print money",
+           "b": true
+          },
+          {
+           "t": ", so they are riskier than their national government."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A water utility bond: net revenues ₹120 crore, annual debt service ₹80 crore. DSCR = "
+         },
+         {
+          "t": "1.5×",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A sovereign can print its own currency, which is like a family that owns the ATM. A state government just has a very large credit card."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "DSCR = net revenue ÷ debt service · Sovereign = ability + willingness to pay"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Institutional",
+        "Rule of law, stability, willingness"
+       ],
+       [
+        "Fiscal",
+        "Debt/GDP, deficits"
+       ],
+       [
+        "Monetary",
+        "Independence, inflation"
+       ],
+       [
+        "External",
+        "Reserves, current account, reserve currency"
+       ],
+       [
+        "GO bonds",
+        "Tax base and economy"
+       ],
+       [
+        "Revenue bonds",
+        "Project cash flow, DSCR"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Debt-to-GDP is mainly a measure of a sovereign's:",
+     "o": [
+      "Fiscal position",
+      "Monetary policy",
+      "Institutional strength"
+     ],
+     "a": 0,
+     "e": "It reflects fiscal burden.",
+     "los": "15.b"
+    },
+    {
+     "d": "M",
+     "q": "A country whose currency is a global reserve currency usually has:",
+     "o": [
+      "Weaker external flexibility",
+      "Greater flexibility to borrow in its own currency",
+      "Higher inflation"
+     ],
+     "a": 1,
+     "e": "Demand for its currency supports borrowing.",
+     "los": "15.b"
+    },
+    {
+     "d": "M",
+     "q": "A revenue bond with net revenues of ₹120 crore and debt service of ₹80 crore has a DSCR of:",
+     "o": [
+      "2.0×",
+      "0.67×",
+      "1.5×"
+     ],
+     "a": 2,
+     "e": "120 ÷ 80 = 1.5.",
+     "los": "15.a"
+    },
+    {
+     "d": "H",
+     "q": "A key difference between sovereign and corporate credit is that sovereigns:",
+     "o": [
+      "May be able but unwilling to pay, and enforcement is limited",
+      "Have no tax base",
+      "Always repay"
+     ],
+     "a": 0,
+     "e": "Willingness to pay is crucial.",
+     "los": "15.a"
+    },
+    {
+     "d": "E",
+     "q": "Central bank independence and inflation history are part of which factor?",
+     "o": [
+      "Economic",
+      "Monetary",
+      "External"
+     ],
+     "a": 1,
+     "e": "They shape monetary credibility.",
+     "los": "15.b"
+    },
+    {
+     "d": "M",
+     "q": "General obligation bonds are analysed mainly on the:",
+     "o": [
+      "Price of oil",
+      "Revenue of one project",
+      "Issuer's tax base and regional economy"
+     ],
+     "a": 2,
+     "e": "Backed by taxing power.",
+     "los": "15.a"
+    },
+    {
+     "d": "M",
+     "q": "Large foreign exchange reserves relative to imports strengthen a sovereign's:",
+     "o": [
+      "External position",
+      "Fiscal position",
+      "Institutional score"
+     ],
+     "a": 0,
+     "e": "Reserves meet external obligations.",
+     "los": "15.b"
+    },
+    {
+     "d": "H",
+     "q": "Non-sovereign governments are typically riskier than their national government because they:",
+     "o": [
+      "Have higher GDP",
+      "Cannot print money",
+      "Always have revenue bonds"
+     ],
+     "a": 1,
+     "e": "They lack monetary control.",
+     "los": "15.a"
+    },
+    {
+     "d": "E",
+     "q": "Political stability and rule of law are examples of:",
+     "o": [
+      "Fiscal factors",
+      "External factors",
+      "Institutional factors"
+     ],
+     "a": 2,
+     "e": "They affect willingness and ability.",
+     "los": "15.b"
+    },
+    {
+     "d": "M",
+     "q": "A persistent large current account deficit financed by short-term foreign debt is a weakness in a sovereign's:",
+     "o": [
+      "External position",
+      "Monetary policy",
+      "GDP growth"
+     ],
+     "a": 0,
+     "e": "It creates refinancing vulnerability.",
+     "los": "15.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Five sovereign factors",
+     "back": "Institutional, economic, fiscal, monetary, external."
+    },
+    {
+     "front": "Sovereign-specific risk",
+     "back": "Willingness to pay; limited enforcement."
+    },
+    {
+     "front": "Reserve currency benefit",
+     "back": "Easier borrowing in own currency."
+    },
+    {
+     "front": "GO bond analysis",
+     "back": "Tax base, economy, debt per capita."
+    },
+    {
+     "front": "Revenue bond analysis",
+     "back": "DSCR = net revenue ÷ debt service."
+    },
+    {
+     "front": "Why non-sovereigns are riskier",
+     "back": "They cannot print money."
+    }
+   ]
+  },
+  {
+   "lm_no": 16,
+   "title": "Credit Analysis for Corporate Issuers",
+   "summary": "Qualitative and quantitative corporate credit analysis, leverage and coverage ratios, and seniority.",
+   "los": [
+    {
+     "code": "16.a",
+     "command_word": "describe",
+     "statement": "Describe qualitative factors in assessing a corporate issuer's credit."
+    },
+    {
+     "code": "16.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret financial ratios used in corporate credit analysis."
+    },
+    {
+     "code": "16.c",
+     "command_word": "explain",
+     "statement": "Explain how seniority, structural subordination and covenants affect credit."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Qualitative and quantitative factors",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Business model",
+           "b": true
+          },
+          {
+           "t": " and industry: cyclicality, competition, pricing power, scale."
+          }
+         ],
+         [
+          {
+           "t": "Management",
+           "b": true
+          },
+          {
+           "t": " and governance; "
+          },
+          {
+           "t": "ESG",
+           "b": true
+          },
+          {
+           "t": " risks such as pollution liabilities."
+          }
+         ],
+         [
+          {
+           "t": "Profitability",
+           "b": true
+          },
+          {
+           "t": ": EBITDA margin, stability of cash flow."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Ratio",
+         "Formula",
+         "Better when"
+        ],
+        "rows": [
+         [
+          "Debt / EBITDA",
+          "Total debt ÷ EBITDA",
+          "Lower"
+         ],
+         [
+          "EBITDA / interest",
+          "EBITDA ÷ interest expense",
+          "Higher"
+         ],
+         [
+          "FFO / debt",
+          "Funds from operations ÷ total debt",
+          "Higher"
+         ],
+         [
+          "Debt / capital",
+          "Debt ÷ (debt + equity)",
+          "Lower"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Rajhans Chemicals: debt ₹600 crore, EBITDA ₹200 crore, interest ₹40 crore. Debt/EBITDA = "
+         },
+         {
+          "t": "3.0×",
+          "b": true
+         },
+         {
+          "t": "; EBITDA/interest = "
+         },
+         {
+          "t": "5.0×",
+          "b": true
+         },
+         {
+          "t": ". A peer at 5.5× leverage and 2× coverage would be rated lower."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Seniority, structure and covenants",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Higher seniority and security → higher expected recovery → higher issue rating."
+          }
+         ],
+         [
+          {
+           "t": "Structural subordination",
+           "b": true
+          },
+          {
+           "t": ": holding-company debt is paid only from dividends of operating subsidiaries, after the subsidiaries' own creditors. So holdco debt ranks effectively below opco debt."
+          }
+         ],
+         [
+          {
+           "t": "Covenants",
+           "b": true
+          },
+          {
+           "t": " (limits on leverage, asset sales, dividends) protect bondholders; high-yield bonds carry more of them."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A holdco's 'senior' bond can still be riskier than an opco's senior bond of the same group."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Structural subordination is being the cousin who gets wedding sweets only after the immediate family has eaten. Technically invited, practically last in line."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Leverage: Debt/EBITDA (lower better) · Coverage: EBITDA/interest (higher better)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Qualitative",
+        "Business model, industry, management, ESG"
+       ],
+       [
+        "FFO / debt",
+        "Cash flow capacity"
+       ],
+       [
+        "Seniority",
+        "Higher → better recovery"
+       ],
+       [
+        "Structural subordination",
+        "Holdco ranks behind opco creditors"
+       ],
+       [
+        "Covenants",
+        "Protect lenders; stricter for HY"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "Debt ₹600 crore and EBITDA ₹200 crore give debt/EBITDA of:",
+     "o": [
+      "4.0×",
+      "3.0×",
+      "0.33×"
+     ],
+     "a": 1,
+     "e": "600 ÷ 200 = 3.0.",
+     "los": "16.b"
+    },
+    {
+     "d": "M",
+     "q": "EBITDA ₹200 crore and interest expense ₹40 crore give interest coverage of:",
+     "o": [
+      "0.2×",
+      "8.0×",
+      "5.0×"
+     ],
+     "a": 2,
+     "e": "200 ÷ 40 = 5.",
+     "los": "16.b"
+    },
+    {
+     "d": "E",
+     "q": "Which indicates stronger credit quality?",
+     "o": [
+      "Higher EBITDA/interest",
+      "Lower FFO/debt",
+      "Higher debt/EBITDA"
+     ],
+     "a": 0,
+     "e": "More coverage is better.",
+     "los": "16.b"
+    },
+    {
+     "d": "H",
+     "q": "Debt of a holding company that depends on dividends from subsidiaries is:",
+     "o": [
+      "Structurally senior to subsidiary debt",
+      "Structurally subordinated to subsidiary debt",
+      "Always secured"
+     ],
+     "a": 1,
+     "e": "Subsidiary creditors are paid first.",
+     "los": "16.c"
+    },
+    {
+     "d": "M",
+     "q": "Which is a qualitative factor in corporate credit analysis?",
+     "o": [
+      "Coupon rate",
+      "Debt/EBITDA",
+      "Competitive position and industry structure"
+     ],
+     "a": 2,
+     "e": "Business risk matters.",
+     "los": "16.a"
+    },
+    {
+     "d": "E",
+     "q": "Funds from operations ÷ total debt measures:",
+     "o": [
+      "Leverage relative to cash flow",
+      "Liquidity only",
+      "Profit margin"
+     ],
+     "a": 0,
+     "e": "Higher is better.",
+     "los": "16.b"
+    },
+    {
+     "d": "M",
+     "q": "Compared with investment-grade bonds, high-yield bonds usually have:",
+     "o": [
+      "Fewer covenants",
+      "More and stricter covenants",
+      "No indenture"
+     ],
+     "a": 1,
+     "e": "Lenders need more protection.",
+     "los": "16.c"
+    },
+    {
+     "d": "M",
+     "q": "Higher seniority of a bond within a company's capital structure generally means:",
+     "o": [
+      "No difference",
+      "Lower expected recovery",
+      "Higher expected recovery"
+     ],
+     "a": 2,
+     "e": "Senior claims are paid first.",
+     "los": "16.c"
+    },
+    {
+     "d": "H",
+     "q": "A highly cyclical company with volatile cash flows should be assessed with:",
+     "o": [
+      "Ratios across the cycle, including downturns",
+      "Equity valuation only",
+      "Only one year of peak data"
+     ],
+     "a": 0,
+     "e": "Credit depends on the worst years.",
+     "los": "16.a"
+    },
+    {
+     "d": "E",
+     "q": "Debt ÷ (debt + equity) is the:",
+     "o": [
+      "Current ratio",
+      "Debt-to-capital ratio",
+      "Coverage ratio"
+     ],
+     "a": 1,
+     "e": "A leverage measure.",
+     "los": "16.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Debt / EBITDA",
+     "back": "Leverage; lower is better."
+    },
+    {
+     "front": "EBITDA / interest",
+     "back": "Coverage; higher is better."
+    },
+    {
+     "front": "FFO / debt",
+     "back": "Cash flow capacity to repay."
+    },
+    {
+     "front": "Structural subordination",
+     "back": "Holdco debt ranks behind opco creditors."
+    },
+    {
+     "front": "Qualitative credit factors",
+     "back": "Business model, industry, management, ESG."
+    },
+    {
+     "front": "HY covenants",
+     "back": "More and stricter."
+    }
+   ]
+  },
+  {
+   "lm_no": 17,
+   "title": "Fixed-Income Securitization",
+   "summary": "Why assets are securitised, the parties and structure, credit tranching and covered bonds.",
+   "los": [
+    {
+     "code": "17.a",
+     "command_word": "explain",
+     "statement": "Explain benefits of securitisation for issuers, investors, economies and markets."
+    },
+    {
+     "code": "17.b",
+     "command_word": "describe",
+     "statement": "Describe securitisation, including the parties and their roles."
+    },
+    {
+     "code": "17.c",
+     "command_word": "describe",
+     "statement": "Describe typical structures of securitisations, including credit tranching."
+    },
+    {
+     "code": "17.d",
+     "command_word": "describe",
+     "statement": "Describe covered bonds and contrast them with ABS."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Why and how",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Benefits",
+           "b": true
+          },
+          {
+           "t": ": lowers funding cost, frees bank capital to lend more, gives investors access to diversified loan pools, improves liquidity."
+          }
+         ],
+         [
+          {
+           "t": "Originator / seller",
+           "b": true
+          },
+          {
+           "t": ": makes the loans and sells them."
+          }
+         ],
+         [
+          {
+           "t": "Special purpose entity (SPE)",
+           "b": true
+          },
+          {
+           "t": ": buys the loans and issues securities; it is "
+          },
+          {
+           "t": "bankruptcy remote",
+           "b": true
+          },
+          {
+           "t": " from the originator."
+          }
+         ],
+         [
+          {
+           "t": "Servicer",
+           "b": true
+          },
+          {
+           "t": ": collects payments; "
+          },
+          {
+           "t": "trustee",
+           "b": true
+          },
+          {
+           "t": " protects investors."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Shakti Finance has ₹500 crore of auto loans. It sells them to an SPE, which issues ₹500 crore of ABS. Shakti gets cash to make new loans; if Shakti later fails, the loan cash flows still go to the ABS holders."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Bankruptcy remoteness is the key: the ABS rating depends on the loan pool, not on the originator."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Structures and covered bonds",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Credit tranching",
+           "b": true
+          },
+          {
+           "t": ": senior, mezzanine and junior (equity) tranches. Losses hit the most junior first ("
+          },
+          {
+           "t": "subordination",
+           "b": true
+          },
+          {
+           "t": ") — a waterfall."
+          }
+         ],
+         [
+          {
+           "t": "Time tranching",
+           "b": true
+          },
+          {
+           "t": ": tranches receive principal in sequence, spreading prepayment risk."
+          }
+         ],
+         [
+          {
+           "t": "Covered bonds",
+           "b": true
+          },
+          {
+           "t": ": issued by a bank, backed by a "
+          },
+          {
+           "t": "cover pool",
+           "b": true
+          },
+          {
+           "t": " that stays "
+          },
+          {
+           "t": "on the bank's balance sheet",
+           "b": true
+          },
+          {
+           "t": ". Investors have "
+          },
+          {
+           "t": "dual recourse",
+           "b": true
+          },
+          {
+           "t": " (the bank and the pool). The pool is "
+          },
+          {
+           "t": "dynamic",
+           "b": true
+          },
+          {
+           "t": ": bad loans must be replaced."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A ₹100 crore pool funds: senior ₹80 crore, mezzanine ₹15 crore, junior ₹5 crore. Losses of ₹8 crore wipe out the junior tranche and take ₹3 crore from the mezzanine; the senior tranche is untouched."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Credit tranching is the family seating at a crowded wedding: the junior cousins stand at the back and leave first when the hall gets too full; the grandparents keep their chairs."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Losses hit junior → mezzanine → senior"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Originator",
+        "Makes and sells loans"
+       ],
+       [
+        "SPE",
+        "Buys pool, issues ABS; bankruptcy remote"
+       ],
+       [
+        "Servicer",
+        "Collects loan payments"
+       ],
+       [
+        "Credit tranching",
+        "Redistributes credit risk"
+       ],
+       [
+        "Time tranching",
+        "Redistributes prepayment risk"
+       ],
+       [
+        "Covered bond",
+        "On balance sheet, dual recourse, dynamic pool"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The entity that buys the loans and issues the securities in a securitisation is the:",
+     "o": [
+      "Trustee",
+      "Servicer",
+      "Special purpose entity"
+     ],
+     "a": 2,
+     "e": "The SPE holds the pool.",
+     "los": "17.b"
+    },
+    {
+     "d": "M",
+     "q": "Bankruptcy remoteness means that if the originator fails:",
+     "o": [
+      "The SPE's assets are protected for ABS investors",
+      "The servicer must repay investors",
+      "ABS investors lose everything"
+     ],
+     "a": 0,
+     "e": "The pool is legally separate.",
+     "los": "17.b"
+    },
+    {
+     "d": "M",
+     "q": "A ₹100 crore pool has senior ₹80 crore, mezzanine ₹15 crore and junior ₹5 crore. Losses of ₹8 crore reduce the mezzanine tranche by:",
+     "o": [
+      "₹8 crore",
+      "₹3 crore",
+      "₹0"
+     ],
+     "a": 1,
+     "e": "Junior absorbs 5, mezzanine 3.",
+     "los": "17.c"
+    },
+    {
+     "d": "E",
+     "q": "Which is a benefit of securitisation for banks?",
+     "o": [
+      "It eliminates all risk",
+      "It increases deposits",
+      "It frees capital to make new loans"
+     ],
+     "a": 2,
+     "e": "Selling loans recycles capital.",
+     "los": "17.a"
+    },
+    {
+     "d": "M",
+     "q": "Covered bonds differ from ABS because the assets:",
+     "o": [
+      "Stay on the issuing bank's balance sheet",
+      "Must be equity",
+      "Are sold to an SPE"
+     ],
+     "a": 0,
+     "e": "Investors have recourse to the bank and the pool.",
+     "los": "17.d"
+    },
+    {
+     "d": "H",
+     "q": "In a covered bond, non-performing loans in the cover pool are:",
+     "o": [
+      "Left in place",
+      "Replaced with performing loans",
+      "Converted into equity"
+     ],
+     "a": 1,
+     "e": "The pool is dynamic.",
+     "los": "17.d"
+    },
+    {
+     "d": "M",
+     "q": "Time tranching mainly redistributes:",
+     "o": [
+      "Currency risk",
+      "Credit risk",
+      "Prepayment (timing) risk"
+     ],
+     "a": 2,
+     "e": "Sequential principal payments.",
+     "los": "17.c"
+    },
+    {
+     "d": "E",
+     "q": "The party that collects payments from borrowers is the:",
+     "o": [
+      "Servicer",
+      "Underwriter",
+      "Rating agency"
+     ],
+     "a": 0,
+     "e": "It services the loans.",
+     "los": "17.b"
+    },
+    {
+     "d": "H",
+     "q": "Dual recourse in a covered bond means investors can claim on:",
+     "o": [
+      "Two SPEs",
+      "Both the issuing bank and the cover pool",
+      "The government and the bank"
+     ],
+     "a": 1,
+     "e": "This makes covered bonds very safe.",
+     "los": "17.d"
+    },
+    {
+     "d": "M",
+     "q": "Credit tranching works by:",
+     "o": [
+      "Paying all tranches equally",
+      "Giving juniors priority",
+      "Allocating losses first to junior tranches"
+     ],
+     "a": 2,
+     "e": "Subordination protects senior tranches.",
+     "los": "17.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Securitisation parties",
+     "back": "Originator, SPE, servicer, trustee."
+    },
+    {
+     "front": "Bankruptcy remote",
+     "back": "SPE assets safe if the originator fails."
+    },
+    {
+     "front": "Credit tranching",
+     "back": "Losses hit junior first."
+    },
+    {
+     "front": "Time tranching",
+     "back": "Sequential principal; spreads prepayment risk."
+    },
+    {
+     "front": "Covered bond",
+     "back": "On balance sheet; dual recourse; dynamic pool."
+    },
+    {
+     "front": "Securitisation benefit",
+     "back": "Cheaper funding; frees bank capital."
+    }
+   ]
+  },
+  {
+   "lm_no": 18,
+   "title": "Asset-Backed Security (ABS) Instrument and Market Features",
+   "summary": "Auto loan ABS, credit card ABS, and collateralised debt obligations.",
+   "los": [
+    {
+     "code": "18.a",
+     "command_word": "describe",
+     "statement": "Describe characteristics and risks of covered bonds and ABS backed by auto loans and credit card receivables."
+    },
+    {
+     "code": "18.b",
+     "command_word": "describe",
+     "statement": "Describe collateralised debt obligations, including their structure and risks."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Auto loan and credit card ABS",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Auto loan ABS",
+           "b": true
+          },
+          {
+           "t": ": "
+          },
+          {
+           "t": "amortising",
+           "b": true
+          },
+          {
+           "t": " pools; cash flows include interest, scheduled principal and "
+          },
+          {
+           "t": "prepayments",
+           "b": true
+          },
+          {
+           "t": ". Credit enhancement via subordination, overcollateralisation, reserve accounts and "
+          },
+          {
+           "t": "excess spread",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Credit card ABS",
+           "b": true
+          },
+          {
+           "t": ": "
+          },
+          {
+           "t": "non-amortising",
+           "b": true
+          },
+          {
+           "t": " revolving pools. During the "
+          },
+          {
+           "t": "lockout (revolving) period",
+           "b": true
+          },
+          {
+           "t": ", principal collected buys new receivables; investors get only interest. Then principal is paid out. "
+          },
+          {
+           "t": "Early amortisation",
+           "b": true
+          },
+          {
+           "t": " triggers (e.g. high losses) start repayment early."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A card ABS has a 3-year lockout. In those years investors receive only finance charges; principal repayments from cardholders are reinvested in new card balances."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Credit card ABS have little prepayment risk during the lockout, because the pool keeps revolving."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Collateralised debt obligations",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "A "
+          },
+          {
+           "t": "CDO",
+           "b": true
+          },
+          {
+           "t": " is backed by a pool of debt: corporate bonds, loans ("
+          },
+          {
+           "t": "CLO",
+           "b": true
+          },
+          {
+           "t": "), or other structured securities."
+          }
+         ],
+         [
+          {
+           "t": "A "
+          },
+          {
+           "t": "collateral manager",
+           "b": true
+          },
+          {
+           "t": " actively buys and sells the collateral."
+          }
+         ],
+         [
+          {
+           "t": "Tranches: senior, mezzanine, subordinated (equity). The equity tranche earns what is left after paying the others: high return, high risk."
+          }
+         ],
+         [
+          {
+           "t": "Key risk: "
+          },
+          {
+           "t": "correlation",
+           "b": true
+          },
+          {
+           "t": " of defaults. If defaults cluster, even mezzanine tranches can lose."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A CLO holds ₹1,000 crore of loans yielding 9%; it pays 6% on ₹900 crore of debt tranches. Excess: 90 − 54 = ₹36 crore minus fees goes to the ₹100 crore equity tranche: a potential "
+         },
+         {
+          "t": "~36% gross",
+          "b": true
+         },
+         {
+          "t": " return, wiped out quickly if loans default."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A CDO equity tranche is the friend who offers to pay for everyone's dinner if he can keep the change from a very big tip. Great evening, until someone orders the lobster."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Card ABS: lockout → only interest; then principal · Auto ABS: amortising, prepayments"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Auto loan ABS",
+        "Amortising; prepayment risk"
+       ],
+       [
+        "Credit card ABS",
+        "Non-amortising, revolving"
+       ],
+       [
+        "Lockout period",
+        "Principal reinvested"
+       ],
+       [
+        "Early amortisation",
+        "Triggered by poor performance"
+       ],
+       [
+        "CLO",
+        "CDO backed by leveraged loans"
+       ],
+       [
+        "CDO key risk",
+        "Default correlation"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Credit card receivable ABS are typically:",
+     "o": [
+      "Non-amortising",
+      "Zero-coupon",
+      "Amortising"
+     ],
+     "a": 0,
+     "e": "Receivables revolve.",
+     "los": "18.a"
+    },
+    {
+     "d": "M",
+     "q": "During the lockout period of a credit card ABS, principal collected is:",
+     "o": [
+      "Paid to investors",
+      "Used to buy new receivables",
+      "Paid to the servicer as a fee"
+     ],
+     "a": 1,
+     "e": "Investors receive only interest.",
+     "los": "18.a"
+    },
+    {
+     "d": "M",
+     "q": "Auto loan ABS cash flows include:",
+     "o": [
+      "Dividends",
+      "Only interest",
+      "Interest, scheduled principal and prepayments"
+     ],
+     "a": 2,
+     "e": "They amortise.",
+     "los": "18.a"
+    },
+    {
+     "d": "H",
+     "q": "An early amortisation provision in a credit card ABS is triggered by:",
+     "o": [
+      "Events such as rising losses that threaten investors",
+      "A fall in interest rates",
+      "Strong collateral performance"
+     ],
+     "a": 0,
+     "e": "It returns principal early to protect investors.",
+     "los": "18.a"
+    },
+    {
+     "d": "E",
+     "q": "A CDO backed by leveraged bank loans is a:",
+     "o": [
+      "CMO",
+      "CLO",
+      "Covered bond"
+     ],
+     "a": 1,
+     "e": "Collateralised loan obligation.",
+     "los": "18.b"
+    },
+    {
+     "d": "M",
+     "q": "The tranche of a CDO that absorbs losses first is the:",
+     "o": [
+      "Senior tranche",
+      "Mezzanine tranche",
+      "Equity (subordinated) tranche"
+     ],
+     "a": 2,
+     "e": "It is paid last.",
+     "los": "18.b"
+    },
+    {
+     "d": "H",
+     "q": "The key risk that can cause losses even on mezzanine CDO tranches is:",
+     "o": [
+      "High default correlation",
+      "Low coupons",
+      "Low default correlation"
+     ],
+     "a": 0,
+     "e": "Clustered defaults overwhelm subordination.",
+     "los": "18.b"
+    },
+    {
+     "d": "M",
+     "q": "Excess spread in an auto ABS refers to:",
+     "o": [
+      "Prepayments",
+      "Interest collected on loans above what is paid on the ABS and fees",
+      "The price of the ABS"
+     ],
+     "a": 1,
+     "e": "It absorbs losses as a credit enhancement.",
+     "los": "18.a"
+    },
+    {
+     "d": "E",
+     "q": "A CDO's collateral manager:",
+     "o": [
+      "Issues the original loans",
+      "Collects card payments",
+      "Actively buys and sells the collateral"
+     ],
+     "a": 2,
+     "e": "CDOs are often actively managed.",
+     "los": "18.b"
+    },
+    {
+     "d": "M",
+     "q": "Compared with auto loan ABS, credit card ABS during the lockout have:",
+     "o": [
+      "Less prepayment risk",
+      "Identical prepayment risk",
+      "More prepayment risk"
+     ],
+     "a": 0,
+     "e": "Principal is reinvested, not passed through.",
+     "los": "18.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Auto loan ABS",
+     "back": "Amortising; interest, principal, prepayments."
+    },
+    {
+     "front": "Credit card ABS",
+     "back": "Non-amortising; revolving receivables."
+    },
+    {
+     "front": "Lockout period",
+     "back": "Principal reinvested; only interest paid."
+    },
+    {
+     "front": "Early amortisation",
+     "back": "Trigger returns principal early."
+    },
+    {
+     "front": "CLO",
+     "back": "CDO backed by leveraged loans."
+    },
+    {
+     "front": "CDO key risk",
+     "back": "Default correlation."
+    }
+   ]
+  },
+  {
+   "lm_no": 19,
+   "title": "Mortgage-Backed Security (MBS) Instrument and Market Features",
+   "summary": "Mortgage loan features, pass-throughs, prepayment risk, CMOs and commercial MBS.",
+   "los": [
+    {
+     "code": "19.a",
+     "command_word": "define",
+     "statement": "Define prepayment risk and describe the prepayment risk of mortgage-backed securities."
+    },
+    {
+     "code": "19.b",
+     "command_word": "describe",
+     "statement": "Describe characteristics and risks of residential mortgage-backed securities, including pass-throughs and CMOs."
+    },
+    {
+     "code": "19.c",
+     "command_word": "describe",
+     "statement": "Describe characteristics and risks of commercial mortgage-backed securities."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Mortgages and prepayment",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Features: fixed or adjustable rate; amortising; "
+          },
+          {
+           "t": "prepayment",
+           "b": true
+          },
+          {
+           "t": " option (sometimes with penalties); "
+          },
+          {
+           "t": "recourse",
+           "b": true
+          },
+          {
+           "t": " (lender can claim beyond the property) or non-recourse; "
+          },
+          {
+           "t": "loan-to-value (LTV)",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Contraction risk",
+           "b": true
+          },
+          {
+           "t": ": rates fall → borrowers refinance → principal comes back early, to reinvest at lower rates."
+          }
+         ],
+         [
+          {
+           "t": "Extension risk",
+           "b": true
+          },
+          {
+           "t": ": rates rise → prepayments slow → the investor is stuck with a below-market security for longer."
+          }
+         ],
+         [
+          {
+           "t": "Prepayment speed: "
+          },
+          {
+           "t": "CPR",
+           "b": true
+          },
+          {
+           "t": " (annual) and "
+          },
+          {
+           "t": "SMM",
+           "b": true
+          },
+          {
+           "t": " (monthly): SMM = 1 − (1 − CPR)^(1/12)."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "CPR of 6% → SMM = 1 − 0.94^(1/12) = "
+         },
+         {
+          "t": "0.514%",
+          "b": true
+         },
+         {
+          "t": " a month. With ₹100 crore of principal outstanding after scheduled repayment of ₹0.5 crore, prepayment = 0.00514 × 99.5 ≈ "
+         },
+         {
+          "t": "₹0.51 crore",
+          "b": true
+         },
+         {
+          "t": " this month."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "MBS have "
+         },
+         {
+          "t": "negative convexity",
+          "b": true
+         },
+         {
+          "t": ": falling rates bring faster prepayments, capping price gains."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Pass-throughs, CMOs and CMBS",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Agency RMBS",
+           "b": true
+          },
+          {
+           "t": " carry a government-backed guarantee; "
+          },
+          {
+           "t": "non-agency",
+           "b": true
+          },
+          {
+           "t": " need credit enhancement."
+          }
+         ],
+         [
+          {
+           "t": "Pass-through",
+           "b": true
+          },
+          {
+           "t": ": investors get a share of all cash flows, less servicing and guarantee fees."
+          }
+         ],
+         [
+          {
+           "t": "CMOs",
+           "b": true
+          },
+          {
+           "t": " redistribute prepayment risk: "
+          },
+          {
+           "t": "sequential-pay",
+           "b": true
+          },
+          {
+           "t": " tranches receive principal in order; "
+          },
+          {
+           "t": "PAC",
+           "b": true
+          },
+          {
+           "t": " tranches get a stable schedule while "
+          },
+          {
+           "t": "support",
+           "b": true
+          },
+          {
+           "t": " tranches absorb prepayment variation; Z-tranches accrue interest."
+          }
+         ],
+         [
+          {
+           "t": "CMBS",
+           "b": true
+          },
+          {
+           "t": ": backed by commercial property loans; key ratios "
+          },
+          {
+           "t": "DSCR",
+           "b": true
+          },
+          {
+           "t": " and "
+          },
+          {
+           "t": "LTV",
+           "b": true
+          },
+          {
+           "t": "; strong "
+          },
+          {
+           "t": "call protection",
+           "b": true
+          },
+          {
+           "t": " (prepayment lockouts, "
+          },
+          {
+           "t": "defeasance",
+           "b": true
+          },
+          {
+           "t": ", prepayment penalties, "
+          },
+          {
+           "t": "yield maintenance",
+           "b": true
+          },
+          {
+           "t": "); "
+          },
+          {
+           "t": "balloon risk",
+           "b": true
+          },
+          {
+           "t": " at maturity."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Prepayment risk is the guest who leaves your party the moment a better party starts nearby, and stays forever when it's raining outside."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "SMM = 1 − (1 − CPR)^(1/12) · rates ↓ → contraction · rates ↑ → extension"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Recourse loan",
+        "Lender can claim beyond the property"
+       ],
+       [
+        "Pass-through",
+        "Pro-rata share of pool cash flows"
+       ],
+       [
+        "Sequential CMO",
+        "Principal tranche by tranche"
+       ],
+       [
+        "PAC / support",
+        "Stable schedule / absorbs variation"
+       ],
+       [
+        "CMBS call protection",
+        "Lockout, defeasance, penalties, yield maintenance"
+       ],
+       [
+        "CMBS ratios",
+        "DSCR, LTV; balloon risk"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "When interest rates fall sharply, MBS investors face mainly:",
+     "o": [
+      "Extension risk",
+      "Contraction risk",
+      "No prepayment risk"
+     ],
+     "a": 1,
+     "e": "Borrowers refinance and prepay.",
+     "los": "19.a"
+    },
+    {
+     "d": "M",
+     "q": "A CPR of 6% corresponds to a single monthly mortality rate closest to:",
+     "o": [
+      "6.00%",
+      "0.50%",
+      "0.51%"
+     ],
+     "a": 2,
+     "e": "1 − 0.94^(1/12) = 0.514%.",
+     "los": "19.a"
+    },
+    {
+     "d": "M",
+     "q": "Rising interest rates slow prepayments and expose investors to:",
+     "o": [
+      "Extension risk",
+      "Call risk",
+      "Contraction risk"
+     ],
+     "a": 0,
+     "e": "The MBS lasts longer at a below-market rate.",
+     "los": "19.a"
+    },
+    {
+     "d": "E",
+     "q": "In a mortgage pass-through security, investors receive:",
+     "o": [
+      "A fixed coupon only",
+      "A pro-rata share of the pool's cash flows, less fees",
+      "Equity dividends"
+     ],
+     "a": 1,
+     "e": "Cash flows are passed through.",
+     "los": "19.b"
+    },
+    {
+     "d": "M",
+     "q": "In a CMO with PAC and support tranches, prepayment variation is absorbed mainly by:",
+     "o": [
+      "The servicer",
+      "The PAC tranche",
+      "The support tranche"
+     ],
+     "a": 2,
+     "e": "Support tranches protect the PAC schedule.",
+     "los": "19.b"
+    },
+    {
+     "d": "H",
+     "q": "Which provides call protection in CMBS?",
+     "o": [
+      "Defeasance and yield maintenance charges",
+      "Adjustable rates",
+      "Recourse"
+     ],
+     "a": 0,
+     "e": "They discourage or neutralise prepayment.",
+     "los": "19.c"
+    },
+    {
+     "d": "M",
+     "q": "Two key ratios for analysing commercial mortgage loans are:",
+     "o": [
+      "P/E and P/B",
+      "DSCR and LTV",
+      "Current and quick ratios"
+     ],
+     "a": 1,
+     "e": "Income coverage and leverage.",
+     "los": "19.c"
+    },
+    {
+     "d": "H",
+     "q": "MBS exhibit negative convexity because:",
+     "o": [
+      "They have no maturity",
+      "Coupons are floating",
+      "Falling rates increase prepayments, limiting price gains"
+     ],
+     "a": 2,
+     "e": "The prepayment option caps upside.",
+     "los": "19.a"
+    },
+    {
+     "d": "E",
+     "q": "A mortgage where the lender can claim the borrower's other assets after foreclosure is:",
+     "o": [
+      "Recourse",
+      "Interest-only",
+      "Non-recourse"
+     ],
+     "a": 0,
+     "e": "Recourse loans reduce strategic default.",
+     "los": "19.b"
+    },
+    {
+     "d": "M",
+     "q": "Balloon risk in CMBS is the risk that:",
+     "o": [
+      "Tenants pay early",
+      "Borrowers cannot refinance the large final payment at maturity",
+      "Rates fall"
+     ],
+     "a": 1,
+     "e": "Many commercial loans have balloon maturities.",
+     "los": "19.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Contraction risk",
+     "back": "Rates fall → faster prepayments."
+    },
+    {
+     "front": "Extension risk",
+     "back": "Rates rise → slower prepayments."
+    },
+    {
+     "front": "SMM from CPR",
+     "back": "1 − (1 − CPR)^(1/12)."
+    },
+    {
+     "front": "Sequential-pay CMO",
+     "back": "Principal to tranches in order."
+    },
+    {
+     "front": "PAC vs support tranche",
+     "back": "Stable schedule vs absorbs prepayment variation."
+    },
+    {
+     "front": "CMBS call protection",
+     "back": "Lockouts, defeasance, penalties, yield maintenance."
+    }
+   ]
+  }
+ ],
+ "retag_proto": {
+  "49": 6,
+  "50": 1,
+  "51": 11
+ }
+}

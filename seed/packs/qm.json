@@ -1,0 +1,5057 @@
+{
+ "subject": "qm",
+ "name": "Quantitative Methods",
+ "lms": [
+  {
+   "lm_no": 1,
+   "title": "Rates and Returns",
+   "summary": "Interest rate components, return measures, money- vs time-weighted returns, annualising.",
+   "los": [
+    {
+     "code": "1.a",
+     "command_word": "interpret",
+     "statement": "Interpret interest rates as required returns, discount rates or opportunity costs and as a real risk-free rate plus risk premiums."
+    },
+    {
+     "code": "1.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret approaches to measuring returns over time and their uses."
+    },
+    {
+     "code": "1.c",
+     "command_word": "compare",
+     "statement": "Compare money-weighted and time-weighted returns and evaluate portfolio performance with them."
+    },
+    {
+     "code": "1.d",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret annualised and continuously compounded returns."
+    },
+    {
+     "code": "1.e",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret gross, net, real and leveraged returns."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Interest rates and return measures",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "An interest rate can be read as a "
+         },
+         {
+          "t": "required rate of return",
+          "b": true
+         },
+         {
+          "t": ", a "
+         },
+         {
+          "t": "discount rate",
+          "b": true
+         },
+         {
+          "t": " or an "
+         },
+         {
+          "t": "opportunity cost",
+          "b": true
+         },
+         {
+          "t": ". It is built from a real risk-free rate plus premiums for risk."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Required return ≈ real risk-free rate + inflation premium + default premium + liquidity premium + maturity premium"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Holding period return = (P1 − P0 + income) ÷ P0"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Returns of +50% then −50%. Arithmetic mean = 0%, but ₹100 becomes 150 and then 75. Geometric mean = √(1.5 × 0.5) − 1 = "
+         },
+         {
+          "t": "−13.4%",
+          "b": true
+         },
+         {
+          "t": ", the true compound growth rate."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Arithmetic mean",
+           "b": true
+          },
+          {
+           "t": ": best single-period estimate; overstates multi-period growth."
+          }
+         ],
+         [
+          {
+           "t": "Geometric mean",
+           "b": true
+          },
+          {
+           "t": ": compound growth rate; always ≤ arithmetic mean."
+          }
+         ],
+         [
+          {
+           "t": "Harmonic mean",
+           "b": true
+          },
+          {
+           "t": ": average cost under rupee-cost averaging. Buying ₹1,000 of stock at ₹10 and at ₹20 gives an average cost of 2 ÷ (1/10 + 1/20) = "
+          },
+          {
+           "t": "₹13.33",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Trimmed / winsorised means",
+           "b": true
+          },
+          {
+           "t": " reduce the effect of outliers."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Money-weighted vs time-weighted returns",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Money-weighted return (MWR)",
+           "b": true
+          },
+          {
+           "t": " is the IRR of the investor's cash flows. It is affected by the "
+          },
+          {
+           "t": "timing and size of contributions",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Time-weighted return (TWR)",
+           "b": true
+          },
+          {
+           "t": " links sub-period returns geometrically and ignores external flows. It is the standard for "
+          },
+          {
+           "t": "judging managers",
+           "b": true
+          },
+          {
+           "t": ", who don't control client cash flows."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "₹100 grows to ₹120 in year 1 (+20%). The investor adds ₹100, so ₹220 is invested; it falls to ₹198 in year 2 (−10%). TWR = √(1.20 × 0.90) − 1 = "
+         },
+         {
+          "t": "3.92%",
+          "b": true
+         },
+         {
+          "t": " a year. MWR solves −100 − 100/(1 + r) + 198/(1 + r)² = 0, giving "
+         },
+         {
+          "t": "−0.67%",
+          "b": true
+         },
+         {
+          "t": ": more money was invested just before the bad year."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Don't blame a manager for a low MWR caused by the client adding money at the wrong time. Use TWR for manager evaluation."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Annualising, continuous compounding and real returns",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "EAR = (1 + stated rate ÷ m)^m − 1 · Continuous: r_cc = ln(1 + HPR), EAR = e^r − 1 · Annualised = (1 + period return)^(periods per year) − 1"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "12% compounded monthly: (1.01)¹² − 1 = "
+         },
+         {
+          "t": "12.68%",
+          "b": true
+         },
+         {
+          "t": ". Compounded continuously: e^0.12 − 1 = "
+         },
+         {
+          "t": "12.75%",
+          "b": true
+         },
+         {
+          "t": ". A 10% holding period return equals ln(1.10) = "
+         },
+         {
+          "t": "9.53%",
+          "b": true
+         },
+         {
+          "t": " continuously compounded."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Real return = (1 + nominal) ÷ (1 + inflation) − 1"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Nominal 9%, inflation 4%: 1.09 ÷ 1.04 − 1 = "
+         },
+         {
+          "t": "4.81%",
+          "b": true
+         },
+         {
+          "t": ", a little less than the 5% shortcut."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Gross return",
+          "b": true
+         },
+         {
+          "t": " is before fees; "
+         },
+         {
+          "t": "net return",
+          "b": true
+         },
+         {
+          "t": " is after them. "
+         },
+         {
+          "t": "Leveraged returns",
+          "b": true
+         },
+         {
+          "t": " magnify gains and losses on the investor's own equity."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Arithmetic mean is the friend who says 'up 50%, down 50%, so we're even'. Geometric mean is the bank statement that says otherwise."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "HPR = (P1 − P0 + D)/P0 · EAR = (1 + r/m)^m − 1 · r_cc = ln(1 + HPR) · Real = (1 + n)/(1 + i) − 1"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Geometric ≤ arithmetic",
+        "Use geometric for compound growth"
+       ],
+       [
+        "Harmonic mean",
+        "Average cost in rupee-cost averaging"
+       ],
+       [
+        "MWR",
+        "IRR; sensitive to cash-flow timing"
+       ],
+       [
+        "TWR",
+        "Manager evaluation; ignores flows"
+       ],
+       [
+        "Continuous",
+        "Returns are additive over time"
+       ],
+       [
+        "Rate components",
+        "Real rf + inflation + default + liquidity + maturity"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A nominal risk-free rate is approximately the real risk-free rate plus:",
+     "o": [
+      "An inflation premium",
+      "A default risk premium",
+      "A liquidity premium"
+     ],
+     "a": 0,
+     "e": "Risk-free government debt carries no default premium; only expected inflation is added.",
+     "los": "1.a"
+    },
+    {
+     "d": "M",
+     "q": "A share bought at ₹200 pays a ₹10 dividend and is sold for ₹220. The holding period return is:",
+     "o": [
+      "10%",
+      "15%",
+      "5%"
+     ],
+     "a": 1,
+     "e": "(220 − 200 + 10) ÷ 200 = 15%.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "Returns over two years are +50% and −50%. The geometric mean annual return is closest to:",
+     "o": [
+      "0.0%",
+      "−25.0%",
+      "−13.4%"
+     ],
+     "a": 2,
+     "e": "√(1.5 × 0.5) − 1 = −13.4%.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "Which measure is most appropriate for evaluating a manager who does not control client cash flows?",
+     "o": [
+      "Time-weighted return",
+      "Money-weighted return",
+      "Arithmetic mean of cash flows"
+     ],
+     "a": 0,
+     "e": "TWR removes the effect of the timing of client contributions and withdrawals.",
+     "los": "1.c"
+    },
+    {
+     "d": "H",
+     "q": "₹100 grows to ₹120 in year 1. The investor adds ₹100 and the portfolio ends year 2 at ₹198. The time-weighted annual return is closest to:",
+     "o": [
+      "−0.67%",
+      "3.92%",
+      "10.00%"
+     ],
+     "a": 1,
+     "e": "Sub-period returns are +20% and −10%: √(1.2 × 0.9) − 1 = 3.92%. −0.67% is the MWR.",
+     "los": "1.c"
+    },
+    {
+     "d": "H",
+     "q": "In that example, the money-weighted return is below the time-weighted return because:",
+     "o": [
+      "The manager charged higher fees",
+      "Dividends were reinvested",
+      "More money was invested just before the weaker period"
+     ],
+     "a": 2,
+     "e": "MWR weights periods by money invested, and the larger sum was exposed to the −10% year.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "A stated annual rate of 12% compounded monthly gives an effective annual rate closest to:",
+     "o": [
+      "12.00%",
+      "12.68%",
+      "12.75%"
+     ],
+     "a": 1,
+     "e": "(1 + 0.12/12)¹² − 1 = 12.68%; 12.75% is continuous.",
+     "los": "1.d"
+    },
+    {
+     "d": "M",
+     "q": "A holding period return of 10% corresponds to a continuously compounded return closest to:",
+     "o": [
+      "9.53%",
+      "10.00%",
+      "10.52%"
+     ],
+     "a": 0,
+     "e": "ln(1.10) = 0.0953.",
+     "los": "1.d"
+    },
+    {
+     "d": "H",
+     "q": "Nominal return is 9% and inflation is 4%. The real return is closest to:",
+     "o": [
+      "5.00%",
+      "4.81%",
+      "13.36%"
+     ],
+     "a": 1,
+     "e": "1.09 ÷ 1.04 − 1 = 4.81%.",
+     "los": "1.e"
+    },
+    {
+     "d": "E",
+     "q": "An investor buys ₹1,000 of a stock each month at prices of ₹10 and then ₹20. The average cost per share is the:",
+     "o": [
+      "Arithmetic mean, ₹15.00",
+      "Geometric mean, ₹14.14",
+      "Harmonic mean, ₹13.33"
+     ],
+     "a": 2,
+     "e": "More shares are bought at the lower price, so the harmonic mean gives the true average cost.",
+     "los": "1.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Components of a required return",
+     "back": "Real risk-free + inflation + default + liquidity + maturity premiums."
+    },
+    {
+     "front": "Geometric vs arithmetic mean",
+     "back": "Geometric = compound growth, always ≤ arithmetic."
+    },
+    {
+     "front": "Money-weighted return",
+     "back": "IRR of the investor's cash flows; affected by timing of flows."
+    },
+    {
+     "front": "Time-weighted return",
+     "back": "Geometric link of sub-period returns; used to evaluate managers."
+    },
+    {
+     "front": "Continuously compounded return",
+     "back": "ln(1 + HPR); additive across periods."
+    },
+    {
+     "front": "Real return",
+     "back": "(1 + nominal) ÷ (1 + inflation) − 1."
+    }
+   ]
+  },
+  {
+   "lm_no": 2,
+   "title": "Time Value of Money in Finance",
+   "summary": "Valuing bonds and shares from cash flows, implied returns and growth, no-arbitrage pricing.",
+   "los": [
+    {
+     "code": "2.a",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret the present value of fixed-income and equity instruments from expected cash flows."
+    },
+    {
+     "code": "2.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret implied returns of fixed-income instruments and the required return and implied growth of equities."
+    },
+    {
+     "code": "2.c",
+     "command_word": "explain",
+     "statement": "Explain cash flow additivity and its use in no-arbitrage pricing of forward rates, forward exchange rates and options."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Valuing fixed income",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "PV = FV ÷ (1 + r)^n · Bond price = Σ coupon ÷ (1 + r)^t + face ÷ (1 + r)^n · Perpetuity = C ÷ r"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "3-year bond, 8% annual coupon, ₹1,000 face, yield 10%: 80/1.10 + 80/1.10² + 1,080/1.10³ = 72.73 + 66.12 + 811.42 = "
+         },
+         {
+          "t": "₹950.26",
+          "b": true
+         },
+         {
+          "t": ". The coupon is below the yield, so it trades at a discount."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A zero-coupon bond paying ₹1,000 in 5 years costs ₹713. Implied yield = (1,000 ÷ 713)^(1/5) − 1 = "
+         },
+         {
+          "t": "7.0%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Coupon < yield → "
+         },
+         {
+          "t": "discount",
+          "b": true
+         },
+         {
+          "t": "; coupon = yield → "
+         },
+         {
+          "t": "par",
+          "b": true
+         },
+         {
+          "t": "; coupon > yield → "
+         },
+         {
+          "t": "premium",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Valuing equity",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Constant growth (Gordon): P0 = D1 ÷ (r − g) · Required return r = D1 ÷ P0 + g · Implied growth g = r − D1 ÷ P0"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Next dividend ₹20, growth 7%, required return 12%: P0 = 20 ÷ 0.05 = "
+         },
+         {
+          "t": "₹400",
+          "b": true
+         },
+         {
+          "t": ". If the share trades at ₹500 instead, implied growth = 12% − 20/500 = "
+         },
+         {
+          "t": "8%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "preferred share",
+          "b": true
+         },
+         {
+          "t": " with a fixed dividend and no maturity is a perpetuity: ₹9 a year at 10% is worth ₹90."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "The Gordon model is like valuing a mango tree: next season's mangoes, divided by how impatient you are minus how fast the tree grows."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Cash flow additivity and no-arbitrage",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Cash flow additivity",
+          "b": true
+         },
+         {
+          "t": ": the PV of a stream of cash flows equals the sum of the PVs of each flow. Two portfolios with identical future cash flows must have the same price, or there is a "
+         },
+         {
+          "t": "riskless arbitrage",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Implied forward rate: (1 + z₂)² = (1 + z₁)(1 + f₁,₁)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "One-year spot rate 5%, two-year spot rate 6%. f₁,₁ = 1.06² ÷ 1.05 − 1 = 1.1236 ÷ 1.05 − 1 = "
+         },
+         {
+          "t": "7.01%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "The same idea prices "
+         },
+         {
+          "t": "forward exchange rates",
+          "b": true
+         },
+         {
+          "t": " (covered interest parity) and "
+         },
+         {
+          "t": "options",
+          "b": true
+         },
+         {
+          "t": " (a replicating portfolio of the underlying and borrowing must cost the same as the option)."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "PV = FV/(1 + r)^n · P0 = D1/(r − g) · (1 + z₂)² = (1 + z₁)(1 + f)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Coupon < yield",
+        "Discount"
+       ],
+       [
+        "Perpetuity",
+        "C ÷ r"
+       ],
+       [
+        "Implied required return",
+        "D1/P0 + g"
+       ],
+       [
+        "Implied growth",
+        "r − D1/P0"
+       ],
+       [
+        "Additivity",
+        "PV of total = sum of PVs"
+       ],
+       [
+        "No-arbitrage",
+        "Same cash flows, same price"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The present value of ₹1,000 received in 3 years at a 10% annual discount rate is closest to:",
+     "o": [
+      "₹751.31",
+      "₹909.09",
+      "₹729.00"
+     ],
+     "a": 0,
+     "e": "1,000 ÷ 1.10³ = 1,000 ÷ 1.331 = ₹751.31.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "A 3-year bond pays an 8% annual coupon on ₹1,000 face value. If the yield is 10%, its price is closest to:",
+     "o": [
+      "₹1,000.00",
+      "₹950.26",
+      "₹1,050.25"
+     ],
+     "a": 1,
+     "e": "72.73 + 66.12 + 811.42 = ₹950.26.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "When a bond's coupon rate is below its yield, the bond trades:",
+     "o": [
+      "At a premium",
+      "At par",
+      "At a discount"
+     ],
+     "a": 2,
+     "e": "Investors pay less than face value to earn the higher market yield.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "A share's next dividend is ₹20, growing at 7% forever. With a 12% required return its value is:",
+     "o": [
+      "₹400",
+      "₹285.71",
+      "₹166.67"
+     ],
+     "a": 0,
+     "e": "20 ÷ (0.12 − 0.07) = ₹400.",
+     "los": "2.a"
+    },
+    {
+     "d": "H",
+     "q": "A share trades at ₹500, its next dividend is ₹20 and the required return is 12%. The implied constant growth rate is:",
+     "o": [
+      "4%",
+      "8%",
+      "12%"
+     ],
+     "a": 1,
+     "e": "g = 12% − 20 ÷ 500 = 12% − 4% = 8%.",
+     "los": "2.b"
+    },
+    {
+     "d": "E",
+     "q": "A preferred share pays ₹9 a year forever. At a 10% required return its value is:",
+     "o": [
+      "₹99",
+      "₹9",
+      "₹90"
+     ],
+     "a": 2,
+     "e": "Perpetuity: 9 ÷ 0.10 = ₹90.",
+     "los": "2.a"
+    },
+    {
+     "d": "H",
+     "q": "The one-year spot rate is 5% and the two-year spot rate is 6%. The implied one-year rate one year from now is closest to:",
+     "o": [
+      "6.00%",
+      "7.01%",
+      "5.50%"
+     ],
+     "a": 1,
+     "e": "1.06² ÷ 1.05 − 1 = 7.01%.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "The cash flow additivity principle states that:",
+     "o": [
+      "The PV of a series of cash flows equals the sum of their individual PVs",
+      "Cash flows must be equal to be valued",
+      "Future values cannot be added"
+     ],
+     "a": 0,
+     "e": "Each flow is discounted separately and the results are summed.",
+     "los": "2.c"
+    },
+    {
+     "d": "H",
+     "q": "If two portfolios with identical future cash flows trade at different prices:",
+     "o": [
+      "Both prices are correct",
+      "The cheaper one must carry more risk",
+      "An arbitrage opportunity exists"
+     ],
+     "a": 2,
+     "e": "Buy the cheaper, sell the dearer and lock in a riskless profit.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "A zero-coupon bond paying ₹1,000 in 5 years trades at ₹713. Its implied annual yield is closest to:",
+     "o": [
+      "5.7%",
+      "7.0%",
+      "8.1%"
+     ],
+     "a": 1,
+     "e": "(1,000 ÷ 713)^(1/5) − 1 = 7.0%.",
+     "los": "2.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Bond price vs yield",
+     "back": "Coupon < yield → discount; = → par; > → premium."
+    },
+    {
+     "front": "Gordon growth model",
+     "back": "P0 = D1 ÷ (r − g)."
+    },
+    {
+     "front": "Implied growth from price",
+     "back": "g = r − D1 ÷ P0."
+    },
+    {
+     "front": "Perpetuity value",
+     "back": "Payment ÷ discount rate."
+    },
+    {
+     "front": "Implied 1-year forward rate",
+     "back": "(1 + z₂)² ÷ (1 + z₁) − 1."
+    },
+    {
+     "front": "Cash flow additivity",
+     "back": "PV of a stream = sum of PVs of each flow; basis for no-arbitrage."
+    }
+   ]
+  },
+  {
+   "lm_no": 3,
+   "title": "Statistical Measures of Asset Returns",
+   "summary": "Central tendency, location, dispersion, skewness, kurtosis and correlation.",
+   "los": [
+    {
+     "code": "3.a",
+     "command_word": "calculate",
+     "statement": "Calculate, interpret and evaluate measures of central tendency and location."
+    },
+    {
+     "code": "3.b",
+     "command_word": "calculate",
+     "statement": "Calculate, interpret and evaluate measures of dispersion."
+    },
+    {
+     "code": "3.c",
+     "command_word": "interpret",
+     "statement": "Interpret and evaluate measures of skewness and kurtosis."
+    },
+    {
+     "code": "3.d",
+     "command_word": "interpret",
+     "statement": "Interpret correlation between two variables."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Central tendency and location",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Returns of 2%, 4%, 6%, 8% and 30%: mean = 50 ÷ 5 = "
+         },
+         {
+          "t": "10%",
+          "b": true
+         },
+         {
+          "t": ", median = "
+         },
+         {
+          "t": "6%",
+          "b": true
+         },
+         {
+          "t": ". One outlier pulls the mean far above the typical value."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Median",
+           "b": true
+          },
+          {
+           "t": " and "
+          },
+          {
+           "t": "trimmed or winsorised means",
+           "b": true
+          },
+          {
+           "t": " resist outliers."
+          }
+         ],
+         [
+          {
+           "t": "Mode",
+           "b": true
+          },
+          {
+           "t": ": most frequent value."
+          }
+         ],
+         [
+          {
+           "t": "Quantiles",
+           "b": true
+          },
+          {
+           "t": " split sorted data: quartiles (4), quintiles (5), deciles (10), percentiles (100)."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Position of the y-th percentile: L = (n + 1) × y ÷ 100"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "With 19 sorted observations, the 25th percentile is at position (19 + 1) × 25 ÷ 100 = "
+         },
+         {
+          "t": "5",
+          "b": true
+         },
+         {
+          "t": ". The interquartile range (Q3 − Q1) is the middle 50% shown by a box plot."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Dispersion",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Sample variance s² = Σ(x − x̄)² ÷ (n − 1) · Coefficient of variation = s ÷ x̄"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Returns of 2%, 4% and 6%: mean 4%; squared deviations 4, 0, 4; s² = 8 ÷ 2 = 4; "
+         },
+         {
+          "t": "s = 2%",
+          "b": true
+         },
+         {
+          "t": ". A fund with mean 8% and s = 12% has CV = "
+         },
+         {
+          "t": "1.5",
+          "b": true
+         },
+         {
+          "t": ": 1.5 units of risk per unit of return."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Range",
+           "b": true
+          },
+          {
+           "t": " and "
+          },
+          {
+           "t": "mean absolute deviation",
+           "b": true
+          },
+          {
+           "t": " are simpler but less used."
+          }
+         ],
+         [
+          {
+           "t": "Target downside deviation",
+           "b": true
+          },
+          {
+           "t": " measures only returns "
+          },
+          {
+           "t": "below a chosen target",
+           "b": true
+          },
+          {
+           "t": ", matching investors' focus on losses."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Use "
+         },
+         {
+          "t": "n − 1",
+          "b": true
+         },
+         {
+          "t": " for a sample variance. Dividing by n gives the population formula and understates sample dispersion."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Skewness, kurtosis and correlation",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Shape",
+         "Tail",
+         "Order of measures"
+        ],
+        "rows": [
+         [
+          "Positive skew",
+          "Long right tail",
+          "Mean > median > mode"
+         ],
+         [
+          "Negative skew",
+          "Long left tail",
+          "Mean < median < mode"
+         ],
+         [
+          "Symmetric",
+          "Balanced",
+          "Mean = median = mode"
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Kurtosis",
+           "b": true
+          },
+          {
+           "t": " measures tail weight. Normal kurtosis = 3. "
+          },
+          {
+           "t": "Leptokurtic",
+           "b": true
+          },
+          {
+           "t": ": fat tails, excess kurtosis > 0. "
+          },
+          {
+           "t": "Platykurtic",
+           "b": true
+          },
+          {
+           "t": ": thin tails, excess kurtosis < 0."
+          }
+         ],
+         [
+          {
+           "t": "Correlation",
+           "b": true
+          },
+          {
+           "t": " runs from −1 to +1 and measures "
+          },
+          {
+           "t": "linear",
+           "b": true
+          },
+          {
+           "t": " association only. Zero correlation does not rule out a non-linear relationship."
+          }
+         ],
+         [
+          {
+           "t": "Beware "
+          },
+          {
+           "t": "spurious correlation",
+           "b": true
+          },
+          {
+           "t": " and outliers; correlation is not causation."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Positive skew is the lottery-ticket stock: mostly small losses, with the rare jackpot stretching the right tail."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "s² = Σ(x − x̄)²/(n − 1) · CV = s/x̄ · Percentile position = (n + 1)y/100"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Outliers",
+        "Prefer median or trimmed mean"
+       ],
+       [
+        "Positive skew",
+        "Mean > median, long right tail"
+       ],
+       [
+        "Leptokurtic",
+        "Fat tails, excess kurtosis > 0"
+       ],
+       [
+        "Downside deviation",
+        "Only returns below target"
+       ],
+       [
+        "Correlation",
+        "−1 to +1, linear only"
+       ],
+       [
+        "Zero correlation",
+        "No linear link; not independence"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Returns are 2%, 4%, 6%, 8% and 30%. The median is:",
+     "o": [
+      "6%",
+      "10%",
+      "8%"
+     ],
+     "a": 0,
+     "e": "The middle of five sorted values is the third, 6%. 10% is the mean.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "When data contain an extreme outlier, the best measure of central tendency is usually the:",
+     "o": [
+      "Arithmetic mean",
+      "Median",
+      "Range"
+     ],
+     "a": 1,
+     "e": "The median depends only on the middle value, so outliers barely affect it.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "Sample returns of 2%, 4% and 6% have a sample standard deviation of:",
+     "o": [
+      "1.63%",
+      "4.00%",
+      "2.00%"
+     ],
+     "a": 2,
+     "e": "s² = (4 + 0 + 4) ÷ 2 = 4, s = 2%. 1.63% divides by n instead of n − 1.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "A fund has a mean return of 8% and a standard deviation of 12%. Its coefficient of variation is:",
+     "o": [
+      "1.5",
+      "0.67",
+      "4.0"
+     ],
+     "a": 0,
+     "e": "12 ÷ 8 = 1.5.",
+     "los": "3.b"
+    },
+    {
+     "d": "E",
+     "q": "A positively skewed distribution has:",
+     "o": [
+      "A long left tail with the mean below the median",
+      "A long right tail with the mean above the median",
+      "Equal mean and median"
+     ],
+     "a": 1,
+     "e": "Large positive values in the right tail pull the mean up.",
+     "los": "3.c"
+    },
+    {
+     "d": "H",
+     "q": "A return distribution with excess kurtosis greater than zero is:",
+     "o": [
+      "Platykurtic, with thin tails",
+      "Leptokurtic, with fat tails",
+      "Mesokurtic, like the normal"
+     ],
+     "a": 1,
+     "e": "Fat tails mean extreme outcomes are more likely than under a normal distribution.",
+     "los": "3.c"
+    },
+    {
+     "d": "M",
+     "q": "A correlation coefficient of −1 means the two variables:",
+     "o": [
+      "Have no relationship",
+      "Always move in the same direction",
+      "Move in exactly opposite directions in a perfect linear relationship"
+     ],
+     "a": 2,
+     "e": "−1 is perfect negative linear correlation.",
+     "los": "3.d"
+    },
+    {
+     "d": "H",
+     "q": "A correlation of zero between two variables means:",
+     "o": [
+      "There is no linear relationship, although a non-linear one may exist",
+      "The variables are independent in every way",
+      "One variable causes the other"
+     ],
+     "a": 0,
+     "e": "Correlation captures only linear association.",
+     "los": "3.d"
+    },
+    {
+     "d": "H",
+     "q": "For 19 observations sorted from smallest to largest, the 25th percentile is at position:",
+     "o": [
+      "4.75",
+      "5",
+      "5.25"
+     ],
+     "a": 1,
+     "e": "(19 + 1) × 25 ÷ 100 = 5.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "Target downside deviation measures:",
+     "o": [
+      "Total variability around the mean",
+      "The average absolute deviation of all returns",
+      "Variability of returns below a chosen target"
+     ],
+     "a": 2,
+     "e": "It ignores returns above the target and focuses on shortfalls.",
+     "los": "3.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Best centre measure with outliers",
+     "back": "Median (or trimmed / winsorised mean)."
+    },
+    {
+     "front": "Sample variance",
+     "back": "Σ(x − x̄)² ÷ (n − 1)."
+    },
+    {
+     "front": "Coefficient of variation",
+     "back": "Standard deviation ÷ mean: risk per unit of return."
+    },
+    {
+     "front": "Positive skew",
+     "back": "Long right tail; mean > median > mode."
+    },
+    {
+     "front": "Leptokurtic",
+     "back": "Fat tails; excess kurtosis > 0."
+    },
+    {
+     "front": "Percentile position",
+     "back": "(n + 1) × y ÷ 100."
+    }
+   ]
+  },
+  {
+   "lm_no": 4,
+   "title": "Probability Trees and Conditional Expectations",
+   "summary": "Expected value and variance, probability trees, total probability, Bayes' formula.",
+   "los": [
+    {
+     "code": "4.a",
+     "command_word": "calculate",
+     "statement": "Calculate expected values, variances and standard deviations for investment problems."
+    },
+    {
+     "code": "4.b",
+     "command_word": "explain",
+     "statement": "Formulate an investment problem as a probability tree and explain conditional expectations."
+    },
+    {
+     "code": "4.c",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret an updated probability using Bayes' formula."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Expected value and variance",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "E(X) = Σ p × x · Var(X) = Σ p × (x − E(X))² · σ = √Var"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "EPS will be ₹10 (p = 0.3), ₹8 (p = 0.5) or ₹5 (p = 0.2). E(EPS) = 3.0 + 4.0 + 1.0 = "
+         },
+         {
+          "t": "₹8.00",
+          "b": true
+         },
+         {
+          "t": ". Var = 0.3 × 2² + 0.5 × 0² + 0.2 × (−3)² = 1.2 + 0 + 1.8 = "
+         },
+         {
+          "t": "3.00",
+          "b": true
+         },
+         {
+          "t": ", so σ = "
+         },
+         {
+          "t": "₹1.73",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Standard deviation is in the "
+         },
+         {
+          "t": "same units",
+          "b": true
+         },
+         {
+          "t": " as the variable (rupees here); variance is in squared units, which is harder to interpret."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Probability trees and conditional expectations",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "probability tree",
+          "b": true
+         },
+         {
+          "t": " lays out scenarios as branches. Probabilities on the branches leaving any node must "
+         },
+         {
+          "t": "sum to 1",
+          "b": true
+         },
+         {
+          "t": ". A "
+         },
+         {
+          "t": "conditional expectation",
+          "b": true
+         },
+         {
+          "t": " is the expected value given that a scenario occurs."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Total probability rule: E(X) = Σ E(X | Sᵢ) × P(Sᵢ)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Good economy (p = 0.6): expected EPS ₹12. Bad economy (p = 0.4): ₹6. Unconditional E(EPS) = 0.6 × 12 + 0.4 × 6 = "
+         },
+         {
+          "t": "₹9.60",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A probability tree is your exam plan: if the paper is easy (60%), relax; if it's tough (40%), at least the expected marks still add up."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Bayes' formula",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "P(A | B) = P(B | A) × P(A) ÷ P(B), where P(B) = Σ P(B | Aᵢ) × P(Aᵢ)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Prior: a company beats estimates with p = 0.4. It gives positive guidance with p = 0.8 if it beats and 0.3 if not. P(positive) = 0.4 × 0.8 + 0.6 × 0.3 = 0.32 + 0.18 = "
+         },
+         {
+          "t": "0.50",
+          "b": true
+         },
+         {
+          "t": ". P(beat | positive) = 0.32 ÷ 0.50 = "
+         },
+         {
+          "t": "0.64",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Bayes' formula "
+         },
+         {
+          "t": "updates a prior probability",
+          "b": true
+         },
+         {
+          "t": " when new information arrives, the way analysts revise views after a news release."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "E(X) = Σpx · Var = Σp(x − E)² · E(X) = ΣE(X|S)P(S) · P(A|B) = P(B|A)P(A)/P(B)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Branches at a node",
+        "Sum to 1"
+       ],
+       [
+        "Conditional expectation",
+        "Expected value given a scenario"
+       ],
+       [
+        "Total probability",
+        "Weight conditional values by scenario probabilities"
+       ],
+       [
+        "Bayes",
+        "Prior → posterior with new information"
+       ],
+       [
+        "σ vs variance",
+        "σ in original units"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "EPS will be ₹10 (probability 0.3), ₹8 (0.5) or ₹5 (0.2). Expected EPS is:",
+     "o": [
+      "₹7.67",
+      "₹8.00",
+      "₹8.50"
+     ],
+     "a": 1,
+     "e": "0.3 × 10 + 0.5 × 8 + 0.2 × 5 = 3 + 4 + 1 = ₹8.00.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "For the same EPS distribution, the variance is closest to:",
+     "o": [
+      "3.00",
+      "1.73",
+      "9.00"
+     ],
+     "a": 0,
+     "e": "0.3 × 4 + 0.5 × 0 + 0.2 × 9 = 3.00; 1.73 is the standard deviation.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "Good economy (probability 0.6): expected EPS ₹12. Bad economy (0.4): ₹6. Unconditional expected EPS is:",
+     "o": [
+      "₹9.00",
+      "₹9.60",
+      "₹10.80"
+     ],
+     "a": 1,
+     "e": "0.6 × 12 + 0.4 × 6 = 9.60.",
+     "los": "4.b"
+    },
+    {
+     "d": "E",
+     "q": "A conditional expected value is:",
+     "o": [
+      "The expected value given that a particular scenario occurs",
+      "The most likely value",
+      "The average of outcomes ignoring probabilities"
+     ],
+     "a": 0,
+     "e": "It is computed using probabilities conditional on that scenario.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "The total probability rule for expected value states that E(X) equals:",
+     "o": [
+      "The product of the conditional expected values",
+      "The largest conditional expected value",
+      "The sum of conditional expected values weighted by scenario probabilities"
+     ],
+     "a": 2,
+     "e": "E(X) = Σ E(X | Sᵢ) × P(Sᵢ).",
+     "los": "4.b"
+    },
+    {
+     "d": "H",
+     "q": "Prior probability of beating estimates is 0.4. Positive guidance occurs with probability 0.8 if the firm beats and 0.3 if not. Given positive guidance, the updated probability of beating is:",
+     "o": [
+      "0.64",
+      "0.80",
+      "0.50"
+     ],
+     "a": 0,
+     "e": "0.32 ÷ (0.32 + 0.18) = 0.64.",
+     "los": "4.c"
+    },
+    {
+     "d": "H",
+     "q": "Bayes' formula is used to:",
+     "o": [
+      "Calculate a portfolio's standard deviation",
+      "Update a probability in light of new information",
+      "Discount future cash flows"
+     ],
+     "a": 1,
+     "e": "It turns a prior into a posterior probability.",
+     "los": "4.c"
+    },
+    {
+     "d": "M",
+     "q": "In the Bayes example above, the unconditional probability of positive guidance is:",
+     "o": [
+      "0.32",
+      "0.50",
+      "0.18"
+     ],
+     "a": 1,
+     "e": "0.4 × 0.8 + 0.6 × 0.3 = 0.50.",
+     "los": "4.c"
+    },
+    {
+     "d": "H",
+     "q": "Standard deviation is often preferred to variance for interpretation because it:",
+     "o": [
+      "Is always smaller than variance",
+      "Ignores extreme outcomes",
+      "Is in the same units as the variable"
+     ],
+     "a": 2,
+     "e": "Variance is in squared units; σ is in rupees or percent.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "In a probability tree, the probabilities on the branches leaving any node must:",
+     "o": [
+      "Be equal",
+      "Each exceed 0.5",
+      "Sum to 1"
+     ],
+     "a": 2,
+     "e": "The branches cover every possible outcome.",
+     "los": "4.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Expected value",
+     "back": "Σ probability × outcome."
+    },
+    {
+     "front": "Variance of a random variable",
+     "back": "Σ p × (x − E(X))²."
+    },
+    {
+     "front": "Total probability rule",
+     "back": "E(X) = Σ E(X | Sᵢ) × P(Sᵢ)."
+    },
+    {
+     "front": "Bayes' formula",
+     "back": "P(A | B) = P(B | A) × P(A) ÷ P(B)."
+    },
+    {
+     "front": "Branches at a node in a probability tree",
+     "back": "Their probabilities sum to 1."
+    },
+    {
+     "front": "Prior vs posterior",
+     "back": "Before vs after updating for new information."
+    }
+   ]
+  },
+  {
+   "lm_no": 5,
+   "title": "Portfolio Mathematics",
+   "summary": "Portfolio expected return and risk, covariance from joint probabilities, safety-first.",
+   "los": [
+    {
+     "code": "5.a",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret the expected value, variance, standard deviation, covariance and correlation of portfolio returns."
+    },
+    {
+     "code": "5.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret covariance and correlation using a joint probability function."
+    },
+    {
+     "code": "5.c",
+     "command_word": "calculate",
+     "statement": "Define shortfall risk, calculate the safety-first ratio and choose a portfolio using Roy's safety-first criterion."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Portfolio return and risk",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "E(Rp) = Σ wᵢ E(Rᵢ) · σp² = w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂ · Cov = ρσ₁σ₂"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "60% in a stock (E = 10%, σ = 20%) and 40% in a bond (E = 6%, σ = 10%), ρ = 0.2. E(Rp) = "
+         },
+         {
+          "t": "8.4%",
+          "b": true
+         },
+         {
+          "t": ". σp² = 0.36 × 0.04 + 0.16 × 0.01 + 2 × 0.6 × 0.4 × 0.2 × 0.20 × 0.10 = 0.0144 + 0.0016 + 0.00192 = 0.01792, so "
+         },
+         {
+          "t": "σp = 13.4%",
+          "b": true
+         },
+         {
+          "t": ", below the 16% weighted average of the two σs."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Diversification benefit comes from "
+         },
+         {
+          "t": "correlation below +1",
+          "b": true
+         },
+         {
+          "t": ". The lower the correlation, the lower portfolio risk for the same weights."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Covariance from a joint probability function",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Cov(A, B) = Σ p × (R_A − E_A)(R_B − E_B) · ρ = Cov ÷ (σ_A σ_B)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Two equally likely scenarios. A returns 20% or 0% (mean 10%); B returns 10% or 4% (mean 7%). Cov = 0.5 × (10)(3) + 0.5 × (−10)(−3) = "
+         },
+         {
+          "t": "30",
+          "b": true
+         },
+         {
+          "t": " (in %²), i.e. 0.0030."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Covariance is the cricket and samosa sales at a stadium: when one goes up, so does the other."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Shortfall risk and safety-first",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Shortfall risk",
+          "b": true
+         },
+         {
+          "t": " is the probability that the portfolio return falls below a minimum acceptable level, R_L. "
+         },
+         {
+          "t": "Roy's safety-first",
+          "b": true
+         },
+         {
+          "t": " rule picks the portfolio that minimises it, which (for normal returns) is the one with the "
+         },
+         {
+          "t": "highest SFRatio",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "SFRatio = [E(Rp) − R_L] ÷ σp"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "R_L = 3%. Portfolio Y: E = 7%, σ = 6%: SFRatio = 4 ÷ 6 = "
+         },
+         {
+          "t": "0.67",
+          "b": true
+         },
+         {
+          "t": ". Portfolio Z: E = 9%, σ = 12%: 6 ÷ 12 = "
+         },
+         {
+          "t": "0.50",
+          "b": true
+         },
+         {
+          "t": ". Choose "
+         },
+         {
+          "t": "Y",
+          "b": true
+         },
+         {
+          "t": ", despite its lower expected return."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "When R_L equals the risk-free rate, the SFRatio "
+         },
+         {
+          "t": "is the Sharpe ratio",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "σp² = w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂ · SFRatio = (E(Rp) − R_L)/σp"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Portfolio return",
+        "Weighted average of returns"
+       ],
+       [
+        "ρ < 1",
+        "Portfolio σ below weighted average σ"
+       ],
+       [
+        "Covariance",
+        "ρσ₁σ₂ or Σp(R_A − E_A)(R_B − E_B)"
+       ],
+       [
+        "Shortfall risk",
+        "P(return < R_L)"
+       ],
+       [
+        "Safety-first",
+        "Choose highest SFRatio"
+       ],
+       [
+        "R_L = risk-free",
+        "SFRatio = Sharpe ratio"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A portfolio is 60% in a stock with expected return 10% and 40% in a bond with expected return 6%. Its expected return is:",
+     "o": [
+      "8.0%",
+      "8.4%",
+      "7.6%"
+     ],
+     "a": 1,
+     "e": "0.6 × 10 + 0.4 × 6 = 8.4%.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "Same weights; σ stock 20%, σ bond 10%, correlation 0.2. The portfolio standard deviation is closest to:",
+     "o": [
+      "13.4%",
+      "16.0%",
+      "17.9%"
+     ],
+     "a": 0,
+     "e": "√0.01792 = 13.4%. 16% would apply only with correlation of +1.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "Holding everything else constant, a lower correlation between two assets:",
+     "o": [
+      "Raises portfolio standard deviation",
+      "Lowers portfolio standard deviation",
+      "Has no effect"
+     ],
+     "a": 1,
+     "e": "The covariance term shrinks, reducing portfolio variance.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "Two assets have standard deviations of 20% and 10% and a correlation of 0.5. Their covariance is:",
+     "o": [
+      "0.0200",
+      "0.0050",
+      "0.0100"
+     ],
+     "a": 2,
+     "e": "0.5 × 0.20 × 0.10 = 0.0100.",
+     "los": "5.a"
+    },
+    {
+     "d": "H",
+     "q": "Two equally likely scenarios: Asset A returns 20% or 0%; Asset B returns 10% or 4% in the same scenarios. The covariance of returns (in %²) is:",
+     "o": [
+      "30",
+      "15",
+      "−30"
+     ],
+     "a": 0,
+     "e": "Means 10% and 7%: 0.5 × (10 × 3) + 0.5 × (−10 × −3) = 30.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "Shortfall risk is the:",
+     "o": [
+      "Probability that portfolio return falls below a minimum acceptable level",
+      "Standard deviation of returns",
+      "Expected return minus the risk-free rate"
+     ],
+     "a": 0,
+     "e": "It focuses on the chance of missing a required threshold.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "The threshold return is 3%. Portfolio X has an expected return of 9% and σ of 12%. Its safety-first ratio is:",
+     "o": [
+      "0.75",
+      "0.50",
+      "0.25"
+     ],
+     "a": 1,
+     "e": "(9 − 3) ÷ 12 = 0.50.",
+     "los": "5.c"
+    },
+    {
+     "d": "H",
+     "q": "Under Roy's safety-first criterion, an investor prefers the portfolio with the:",
+     "o": [
+      "Lowest standard deviation",
+      "Highest expected return",
+      "Highest safety-first ratio"
+     ],
+     "a": 2,
+     "e": "The highest SFRatio minimises the probability of falling below the threshold.",
+     "los": "5.c"
+    },
+    {
+     "d": "H",
+     "q": "Threshold 3%. Portfolio Y: expected 7%, σ 6%. Portfolio Z: expected 9%, σ 12%. Which is preferred under safety-first?",
+     "o": [
+      "Y, ratio 0.67",
+      "Z, ratio 0.50",
+      "Z, because its return is higher"
+     ],
+     "a": 0,
+     "e": "Y: 4 ÷ 6 = 0.67; Z: 6 ÷ 12 = 0.50.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "When the threshold return equals the risk-free rate, the safety-first ratio equals the:",
+     "o": [
+      "Coefficient of variation",
+      "Sharpe ratio",
+      "Treynor ratio"
+     ],
+     "a": 1,
+     "e": "(E(Rp) − Rf) ÷ σp is the Sharpe ratio.",
+     "los": "5.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Two-asset portfolio variance",
+     "back": "w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂."
+    },
+    {
+     "front": "Covariance from correlation",
+     "back": "Cov = ρ × σ₁ × σ₂."
+    },
+    {
+     "front": "Covariance from a joint probability table",
+     "back": "Σ p × (R_A − E_A)(R_B − E_B)."
+    },
+    {
+     "front": "Shortfall risk",
+     "back": "Probability the return falls below a minimum acceptable level."
+    },
+    {
+     "front": "Safety-first ratio",
+     "back": "(E(Rp) − R_L) ÷ σp; choose the highest."
+    },
+    {
+     "front": "SFRatio with R_L = risk-free rate",
+     "back": "Equals the Sharpe ratio."
+    }
+   ]
+  },
+  {
+   "lm_no": 6,
+   "title": "Simulation Methods",
+   "summary": "Normal and lognormal returns, Monte Carlo simulation, bootstrap resampling.",
+   "los": [
+    {
+     "code": "6.a",
+     "command_word": "explain",
+     "statement": "Explain the relationship between normally distributed returns and lognormally distributed prices."
+    },
+    {
+     "code": "6.b",
+     "command_word": "describe",
+     "statement": "Describe Monte Carlo simulation and its investment applications."
+    },
+    {
+     "code": "6.c",
+     "command_word": "describe",
+     "statement": "Describe bootstrap resampling for simulations based on observed data."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Normal returns, lognormal prices",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "If "
+         },
+         {
+          "t": "continuously compounded returns are normal",
+          "b": true
+         },
+         {
+          "t": ", prices are "
+         },
+         {
+          "t": "lognormal",
+          "b": true
+         },
+         {
+          "t": ": bounded below by zero and "
+         },
+         {
+          "t": "skewed to the right",
+          "b": true
+         },
+         {
+          "t": ". That suits asset prices, which can't go negative."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Continuously compounded returns of +5% and −2% add to +3%. A ₹100 price becomes 100 × e^0.03 = "
+         },
+         {
+          "t": "₹103.05",
+          "b": true
+         },
+         {
+          "t": ". Multiplying 1.05 × 0.98 would wrongly treat them as simple returns."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Continuously compounded returns are additive",
+          "b": true
+         },
+         {
+          "t": " over time; simple returns must be compounded (multiplied)."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Monte Carlo simulation",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "Specify the model and the probability distributions of its risk factors."
+          }
+         ],
+         [
+          {
+           "t": "Draw random values for each factor and compute the outcome."
+          }
+         ],
+         [
+          {
+           "t": "Repeat thousands of times."
+          }
+         ],
+         [
+          {
+           "t": "Analyse the distribution of outcomes: mean, percentiles, probability of loss."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Uses: valuing complex securities, estimating "
+         },
+         {
+          "t": "value at risk",
+          "b": true
+         },
+         {
+          "t": ", retirement planning (the probability a corpus lasts 30 years), stress testing."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Monte Carlo is only as good as its "
+         },
+         {
+          "t": "assumed distributions and inputs",
+          "b": true
+         },
+         {
+          "t": ": garbage in, garbage out. It gives statistical estimates, not exact answers."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Monte Carlo is like asking 10,000 parallel versions of yourself how retirement went, then averaging their complaints."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Bootstrap resampling",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Bootstrapping",
+          "b": true
+         },
+         {
+          "t": " draws repeated samples "
+         },
+         {
+          "t": "with replacement",
+          "b": true
+         },
+         {
+          "t": " from the observed data. It needs "
+         },
+         {
+          "t": "no assumed parametric distribution",
+          "b": true
+         },
+         {
+          "t": ", so it preserves the real features of history such as fat tails."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "",
+         "Monte Carlo",
+         "Bootstrap"
+        ],
+        "rows": [
+         [
+          "Source of draws",
+          "Assumed distributions",
+          "Observed historical data"
+         ],
+         [
+          "Distribution assumption",
+          "Required",
+          "Not required"
+         ],
+         [
+          "Main weakness",
+          "Wrong assumptions",
+          "Limited to what history contains"
+         ]
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Normal ln-returns ⇒ lognormal prices · Price_T = Price_0 × e^(Σ r_cc)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Lognormal",
+        "Bounded at 0, right-skewed"
+       ],
+       [
+        "Continuous returns",
+        "Additive"
+       ],
+       [
+        "Monte Carlo",
+        "Random draws from assumed distributions"
+       ],
+       [
+        "MC weakness",
+        "Garbage in, garbage out"
+       ],
+       [
+        "Bootstrap",
+        "Resample observed data with replacement"
+       ],
+       [
+        "Bootstrap weakness",
+        "Can't go beyond history"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "If continuously compounded returns are normally distributed, asset prices are:",
+     "o": [
+      "Lognormally distributed",
+      "Normally distributed",
+      "Uniformly distributed"
+     ],
+     "a": 0,
+     "e": "The exponential of a normal variable is lognormal.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "A lognormal distribution is:",
+     "o": [
+      "Symmetric and unbounded",
+      "Bounded below by zero and skewed to the right",
+      "Bounded above by zero"
+     ],
+     "a": 1,
+     "e": "That is why it fits prices, which cannot be negative.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "Continuously compounded returns are +5% in year 1 and −2% in year 2. A ₹100 price becomes closest to:",
+     "o": [
+      "₹102.90",
+      "₹103.00",
+      "₹103.05"
+     ],
+     "a": 2,
+     "e": "100 × e^(0.05 − 0.02) = 100 × e^0.03 = ₹103.05.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "Continuously compounded returns over several periods are:",
+     "o": [
+      "Additive",
+      "Only multiplicative",
+      "Always equal to holding period returns"
+     ],
+     "a": 0,
+     "e": "ln(P_T/P_0) is the sum of the period log returns.",
+     "los": "6.a"
+    },
+    {
+     "d": "E",
+     "q": "Monte Carlo simulation generates outcomes by:",
+     "o": [
+      "Using only actual historical returns in order",
+      "Repeatedly drawing random values from assumed distributions of the risk factors",
+      "Solving a single closed-form equation"
+     ],
+     "a": 1,
+     "e": "Thousands of random trials build a distribution.",
+     "los": "6.b"
+    },
+    {
+     "d": "H",
+     "q": "A key limitation of Monte Carlo simulation is that:",
+     "o": [
+      "Results are only as good as the assumed distributions and inputs",
+      "It cannot handle more than one variable",
+      "It always overstates risk"
+     ],
+     "a": 0,
+     "e": "Wrong distributional assumptions give wrong answers.",
+     "los": "6.b"
+    },
+    {
+     "d": "M",
+     "q": "Bootstrap resampling draws samples:",
+     "o": [
+      "From an assumed normal distribution",
+      "Without replacement from a theoretical model",
+      "With replacement from the observed data"
+     ],
+     "a": 2,
+     "e": "Each draw comes from the actual sample, and values can repeat.",
+     "los": "6.c"
+    },
+    {
+     "d": "H",
+     "q": "Compared with Monte Carlo simulation, bootstrapping:",
+     "o": [
+      "Requires more distributional assumptions",
+      "Does not require assuming a parametric distribution",
+      "Cannot be used for investment problems"
+     ],
+     "a": 1,
+     "e": "It uses the empirical distribution of the data.",
+     "los": "6.c"
+    },
+    {
+     "d": "H",
+     "q": "A limitation of bootstrapping is that it:",
+     "o": [
+      "Requires a normal distribution",
+      "Uses no data",
+      "Cannot produce outcomes beyond what the historical sample contains"
+     ],
+     "a": 2,
+     "e": "If history lacks a type of event, the resamples will too.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "Which is a common investment use of Monte Carlo simulation?",
+     "o": [
+      "Estimating the probability a retirement portfolio lasts 30 years",
+      "Calculating book value",
+      "Recording dividends"
+     ],
+     "a": 0,
+     "e": "Simulating many return paths gives a probability of success.",
+     "los": "6.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Normal returns imply…",
+     "back": "Lognormal prices: bounded at zero, right-skewed."
+    },
+    {
+     "front": "Adding continuously compounded returns",
+     "back": "Total r_cc = sum of period r_cc; price = P0 × e^(sum)."
+    },
+    {
+     "front": "Monte Carlo steps",
+     "back": "Specify distributions, draw randomly, compute, repeat, analyse."
+    },
+    {
+     "front": "Main weakness of Monte Carlo",
+     "back": "Results depend on assumed distributions and inputs."
+    },
+    {
+     "front": "Bootstrap",
+     "back": "Resampling observed data with replacement; no distribution assumed."
+    },
+    {
+     "front": "Main weakness of bootstrapping",
+     "back": "Cannot generate events history doesn't contain."
+    }
+   ]
+  },
+  {
+   "lm_no": 7,
+   "title": "Estimation and Inference",
+   "summary": "Sampling methods and error, the central limit theorem, standard error, bootstrap and jackknife.",
+   "los": [
+    {
+     "code": "7.a",
+     "command_word": "compare",
+     "statement": "Compare simple random, stratified random, cluster, convenience and judgmental sampling and their effect on sampling error."
+    },
+    {
+     "code": "7.b",
+     "command_word": "explain",
+     "statement": "Explain the central limit theorem and its importance for the distribution and standard error of the sample mean."
+    },
+    {
+     "code": "7.c",
+     "command_word": "describe",
+     "statement": "Describe resampling (bootstrap, jackknife) to estimate a statistic's sampling distribution."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Sampling methods",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Method",
+         "How",
+         "Note"
+        ],
+        "rows": [
+         [
+          "Simple random",
+          "Every member has an equal chance",
+          "Baseline method"
+         ],
+         [
+          "Stratified random",
+          "Split into strata, sample each in proportion",
+          "Used to replicate bond indices; more precise"
+         ],
+         [
+          "Cluster",
+          "Split into clusters, sample whole clusters",
+          "Cheaper but less precise"
+         ],
+         [
+          "Convenience",
+          "Whatever is easy to access",
+          "Non-probability; may be biased"
+         ],
+         [
+          "Judgmental",
+          "Analyst picks the sample",
+          "Non-probability; selection bias"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Sampling error",
+          "b": true
+         },
+         {
+          "t": " = sample statistic − population parameter. It exists even with a perfect random sample."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Central limit theorem and standard error",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "The "
+         },
+         {
+          "t": "central limit theorem",
+          "b": true
+         },
+         {
+          "t": ": for a large sample (n ≥ 30), the sample mean is approximately "
+         },
+         {
+          "t": "normally distributed",
+          "b": true
+         },
+         {
+          "t": ", whatever the population's distribution, with mean μ and variance σ² ÷ n."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Standard error of the sample mean = σ ÷ √n (or s ÷ √n when σ is unknown)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "100 monthly returns with s = 20%: standard error = 20% ÷ √100 = "
+         },
+         {
+          "t": "2%",
+          "b": true
+         },
+         {
+          "t": ". To halve the standard error to 1%, you need "
+         },
+         {
+          "t": "four times",
+          "b": true
+         },
+         {
+          "t": " the data: 400 observations."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "The CLT is the hostel mess: individual dishes vary wildly, but the average taste over 30 meals is reassuringly predictable."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Resampling",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Bootstrap",
+           "b": true
+          },
+          {
+           "t": ": draw many samples of size n "
+          },
+          {
+           "t": "with replacement",
+           "b": true
+          },
+          {
+           "t": " from the data, compute the statistic each time, and use the spread as its standard error."
+          }
+         ],
+         [
+          {
+           "t": "Jackknife",
+           "b": true
+          },
+          {
+           "t": ": recompute the statistic "
+          },
+          {
+           "t": "leaving out one observation at a time",
+           "b": true
+          },
+          {
+           "t": " (n samples). Useful for estimating bias and standard error."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Resampling is most useful when "
+         },
+         {
+          "t": "no analytical formula",
+          "b": true
+         },
+         {
+          "t": " exists for a statistic's standard error, e.g. for a median or a ratio."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "SE(x̄) = s/√n · CLT: x̄ ~ approx. normal (μ, σ²/n) for n ≥ 30"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Stratified",
+        "Proportional sampling within groups"
+       ],
+       [
+        "Cluster",
+        "Cheaper, less precise"
+       ],
+       [
+        "Sampling error",
+        "Statistic − parameter"
+       ],
+       [
+        "Halve the SE",
+        "Quadruple n"
+       ],
+       [
+        "Bootstrap",
+        "With replacement, many resamples"
+       ],
+       [
+        "Jackknife",
+        "Leave one out"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "In simple random sampling, each member of the population:",
+     "o": [
+      "Has an equal chance of being selected",
+      "Is chosen by the analyst's judgement",
+      "Is grouped into clusters first"
+     ],
+     "a": 0,
+     "e": "Equal probability of selection defines simple random sampling.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "A bond index manager who divides the index by maturity and credit rating and samples each group in proportion is using:",
+     "o": [
+      "Cluster sampling",
+      "Stratified random sampling",
+      "Convenience sampling"
+     ],
+     "a": 1,
+     "e": "Sampling within each stratum in proportion is stratified random sampling.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "Compared with stratified random sampling, cluster sampling is generally:",
+     "o": [
+      "More precise but costlier",
+      "Identical in precision",
+      "Cheaper but less precise"
+     ],
+     "a": 2,
+     "e": "Sampling whole clusters saves time and cost but captures less variation.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "Sampling error is:",
+     "o": [
+      "The difference between a sample statistic and the population parameter",
+      "A mistake in recording data",
+      "Bias from using the wrong formula"
+     ],
+     "a": 0,
+     "e": "It arises because a sample is only part of the population.",
+     "los": "7.a"
+    },
+    {
+     "d": "E",
+     "q": "The central limit theorem states that, for large samples, the distribution of the sample mean is approximately:",
+     "o": [
+      "Uniform",
+      "Normal, whatever the population's distribution",
+      "Identical to the population distribution"
+     ],
+     "a": 1,
+     "e": "This lets analysts use z- and t-based inference on means.",
+     "los": "7.b"
+    },
+    {
+     "d": "M",
+     "q": "A sample of 100 monthly returns has a standard deviation of 20%. The standard error of the sample mean is:",
+     "o": [
+      "0.2%",
+      "2.0%",
+      "20.0%"
+     ],
+     "a": 1,
+     "e": "20% ÷ √100 = 2%.",
+     "los": "7.b"
+    },
+    {
+     "d": "H",
+     "q": "To halve the standard error of the sample mean, the sample size must be:",
+     "o": [
+      "Doubled",
+      "Halved",
+      "Quadrupled"
+     ],
+     "a": 2,
+     "e": "SE falls with √n, so n must rise fourfold.",
+     "los": "7.b"
+    },
+    {
+     "d": "H",
+     "q": "The jackknife method estimates a statistic's variability by:",
+     "o": [
+      "Repeatedly leaving out one observation and recalculating",
+      "Sampling with replacement many times",
+      "Assuming a normal distribution"
+     ],
+     "a": 0,
+     "e": "It creates n samples, each missing one observation.",
+     "los": "7.c"
+    },
+    {
+     "d": "H",
+     "q": "Judgmental sampling is most likely to suffer from:",
+     "o": [
+      "No sampling error",
+      "Bias from the researcher's selection",
+      "Excessive randomness"
+     ],
+     "a": 1,
+     "e": "The analyst's choices can make the sample unrepresentative.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "Bootstrap resampling is especially useful when:",
+     "o": [
+      "The population is fully known",
+      "The sample size is zero",
+      "No analytical formula exists for a statistic's standard error"
+     ],
+     "a": 2,
+     "e": "The spread across resamples approximates the sampling distribution.",
+     "los": "7.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Stratified random sampling",
+     "back": "Split into strata and sample each in proportion."
+    },
+    {
+     "front": "Cluster vs stratified",
+     "back": "Cluster: cheaper, less precise. Stratified: more precise."
+    },
+    {
+     "front": "Central limit theorem",
+     "back": "For n ≥ 30, the sample mean is approx. normal with variance σ²/n."
+    },
+    {
+     "front": "Standard error of the mean",
+     "back": "s ÷ √n."
+    },
+    {
+     "front": "Bootstrap vs jackknife",
+     "back": "Resample with replacement vs leave one out."
+    },
+    {
+     "front": "Sampling error",
+     "back": "Sample statistic − population parameter."
+    }
+   ]
+  },
+  {
+   "lm_no": 8,
+   "title": "Hypothesis Testing",
+   "summary": "Steps of a test, Type I and II errors, power, p-values, tests of means and variances.",
+   "los": [
+    {
+     "code": "8.a",
+     "command_word": "explain",
+     "statement": "Explain hypothesis testing and its components, including significance, Type I and Type II errors and power."
+    },
+    {
+     "code": "8.b",
+     "command_word": "construct",
+     "statement": "Construct hypothesis tests and determine their significance, errors and power at a given significance level."
+    },
+    {
+     "code": "8.c",
+     "command_word": "compare",
+     "statement": "Compare parametric and nonparametric tests and when each is appropriate."
+    }
+   ],
+   "topics": [
+    {
+     "title": "The logic of a test",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "State H₀ (always includes =, ≤ or ≥) and Hₐ."
+          }
+         ],
+         [
+          {
+           "t": "Choose the test statistic and its distribution."
+          }
+         ],
+         [
+          {
+           "t": "Set the significance level α."
+          }
+         ],
+         [
+          {
+           "t": "State the decision rule (critical values)."
+          }
+         ],
+         [
+          {
+           "t": "Compute the statistic from the sample."
+          }
+         ],
+         [
+          {
+           "t": "Decide: reject or fail to reject H₀."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "",
+         "H₀ true",
+         "H₀ false"
+        ],
+        "rows": [
+         [
+          "Reject H₀",
+          "**Type I error** (probability α)",
+          "Correct (power = 1 − β)"
+         ],
+         [
+          "Fail to reject H₀",
+          "Correct",
+          "**Type II error** (probability β)"
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "The "
+          },
+          {
+           "t": "p-value",
+           "b": true
+          },
+          {
+           "t": " is the smallest significance level at which H₀ can be rejected. Reject if p-value < α."
+          }
+         ],
+         [
+          {
+           "t": "Lowering α reduces Type I errors but "
+          },
+          {
+           "t": "raises Type II errors",
+           "b": true
+          },
+          {
+           "t": ", for a given sample size."
+          }
+         ],
+         [
+          {
+           "t": "H₀: μ ≤ 0 vs Hₐ: μ > 0 is a "
+          },
+          {
+           "t": "one-tailed",
+           "b": true
+          },
+          {
+           "t": " (right-tail) test; H₀: μ = 0 is two-tailed."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "We 'fail to reject' H₀; we never 'accept' it. The data may simply lack the power to detect a difference."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Common tests",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "t = (x̄ − μ₀) ÷ (s ÷ √n), df = n − 1"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Mean monthly alpha 1.2%, s = 4%, n = 36, H₀: μ = 0. SE = 4 ÷ 6 = 0.667%, t = "
+         },
+         {
+          "t": "1.80",
+          "b": true
+         },
+         {
+          "t": ". Two-tailed 5% critical value ≈ 2.03: "
+         },
+         {
+          "t": "fail to reject",
+          "b": true
+         },
+         {
+          "t": ". One-tailed (Hₐ: μ > 0) critical ≈ 1.69: "
+         },
+         {
+          "t": "reject",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Hypothesis about",
+         "Test"
+        ],
+        "rows": [
+         [
+          "One mean (σ unknown)",
+          "t-test"
+         ],
+         [
+          "Difference in means (independent samples)",
+          "t-test of difference in means"
+         ],
+         [
+          "Mean difference (paired samples)",
+          "Paired comparisons t-test"
+         ],
+         [
+          "One variance",
+          "Chi-square test"
+         ],
+         [
+          "Equality of two variances",
+          "F-test (larger variance on top)"
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Parametric vs nonparametric tests",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Parametric",
+          "b": true
+         },
+         {
+          "t": " tests concern population parameters and rely on distribution assumptions. "
+         },
+         {
+          "t": "Nonparametric",
+          "b": true
+         },
+         {
+          "t": " tests are used when those assumptions fail, data are "
+         },
+         {
+          "t": "ranks",
+          "b": true
+         },
+         {
+          "t": ", there are "
+         },
+         {
+          "t": "outliers",
+          "b": true
+         },
+         {
+          "t": ", or the hypothesis isn't about a parameter (e.g. randomness)."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Wilcoxon signed-rank test (single mean or paired data), Mann–Whitney U (two independent samples), Spearman rank correlation, runs test."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Type I error: the fire alarm rings for burnt toast. Type II error: it stays quiet while the kitchen is actually on fire."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "t = (x̄ − μ₀)/(s/√n) · Reject if |stat| > critical, or p-value < α · Power = 1 − β"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Type I",
+        "Reject true H₀ (α)"
+       ],
+       [
+        "Type II",
+        "Fail to reject false H₀ (β)"
+       ],
+       [
+        "Lower α",
+        "More Type II errors"
+       ],
+       [
+        "p-value",
+        "Smallest α to reject"
+       ],
+       [
+        "Variance tests",
+        "Chi-square (one), F (two)"
+       ],
+       [
+        "Nonparametric",
+        "Ranks, outliers, non-normal data"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A Type I error occurs when:",
+     "o": [
+      "A true null hypothesis is rejected",
+      "A false null hypothesis is not rejected",
+      "The sample is too small"
+     ],
+     "a": 0,
+     "e": "Its probability equals the significance level α.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "The power of a test is:",
+     "o": [
+      "The probability of a Type I error",
+      "1 minus the probability of a Type II error",
+      "The significance level"
+     ],
+     "a": 1,
+     "e": "Power is the probability of correctly rejecting a false H₀.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "The p-value is:",
+     "o": [
+      "The probability that the null is true",
+      "Always 5%",
+      "The smallest significance level at which the null can be rejected"
+     ],
+     "a": 2,
+     "e": "Reject H₀ when the p-value is below α.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "Sample mean return 1.2%, s 4%, n 36, H₀: μ = 0. The t-statistic is:",
+     "o": [
+      "1.80",
+      "0.30",
+      "10.80"
+     ],
+     "a": 0,
+     "e": "1.2 ÷ (4 ÷ √36) = 1.2 ÷ 0.667 = 1.80.",
+     "los": "8.b"
+    },
+    {
+     "d": "H",
+     "q": "With t = 1.80 and a 5% two-tailed critical value of about 2.03, the analyst should:",
+     "o": [
+      "Reject H₀",
+      "Fail to reject H₀",
+      "Accept the alternative with certainty"
+     ],
+     "a": 1,
+     "e": "|1.80| < 2.03, so the evidence is not strong enough at 5% two-tailed.",
+     "los": "8.b"
+    },
+    {
+     "d": "H",
+     "q": "Reducing the significance level from 5% to 1%, all else equal:",
+     "o": [
+      "Raises the probability of a Type II error",
+      "Raises the probability of a Type I error",
+      "Increases the power of the test"
+     ],
+     "a": 0,
+     "e": "A stricter rejection rule means false nulls are rejected less often.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "Which test compares the variances of two normally distributed populations?",
+     "o": [
+      "t-test",
+      "F-test",
+      "Chi-square test of independence"
+     ],
+     "a": 1,
+     "e": "The F-statistic is the ratio of the two sample variances.",
+     "los": "8.b"
+    },
+    {
+     "d": "H",
+     "q": "A nonparametric test is most appropriate when:",
+     "o": [
+      "The population is normal with known variance",
+      "The sample is large and normally distributed",
+      "Data are ranks or the assumptions of a parametric test are not met"
+     ],
+     "a": 2,
+     "e": "Nonparametric tests need fewer distributional assumptions.",
+     "los": "8.c"
+    },
+    {
+     "d": "E",
+     "q": "For H₀: μ ≤ 0 versus Hₐ: μ > 0, the test is:",
+     "o": [
+      "One-tailed (right tail)",
+      "Two-tailed",
+      "One-tailed (left tail)"
+     ],
+     "a": 0,
+     "e": "Only large positive values of the statistic lead to rejection.",
+     "los": "8.b"
+    },
+    {
+     "d": "M",
+     "q": "A chi-square test is used for hypotheses about:",
+     "o": [
+      "The means of two populations",
+      "The slope of a regression",
+      "The variance of a single normal population"
+     ],
+     "a": 2,
+     "e": "χ² = (n − 1)s² ÷ σ₀² with n − 1 degrees of freedom.",
+     "los": "8.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Type I vs Type II error",
+     "back": "Reject a true H₀ (α) vs fail to reject a false H₀ (β)."
+    },
+    {
+     "front": "Power of a test",
+     "back": "1 − β: probability of rejecting a false H₀."
+    },
+    {
+     "front": "p-value",
+     "back": "Smallest significance level at which H₀ is rejected."
+    },
+    {
+     "front": "t-statistic for a mean",
+     "back": "(x̄ − μ₀) ÷ (s ÷ √n), df n − 1."
+    },
+    {
+     "front": "Tests of variance",
+     "back": "Chi-square for one variance; F-test for two."
+    },
+    {
+     "front": "When to go nonparametric",
+     "back": "Ranks, outliers, failed assumptions, non-parameter hypotheses."
+    }
+   ]
+  },
+  {
+   "lm_no": 9,
+   "title": "Tests of Independence",
+   "summary": "Parametric and rank-correlation tests of zero correlation; chi-square contingency tables.",
+   "los": [
+    {
+     "code": "9.a",
+     "command_word": "explain",
+     "statement": "Explain parametric and nonparametric tests of whether a population correlation is zero, and decide whether to reject at a given significance level."
+    },
+    {
+     "code": "9.b",
+     "command_word": "explain",
+     "statement": "Explain tests of independence based on contingency table data."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Testing correlation",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "t = r√(n − 2) ÷ √(1 − r²), df = n − 2"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "r = 0.4 with n = 27: t = 0.4 × √25 ÷ √0.84 = 2.0 ÷ 0.9165 = "
+         },
+         {
+          "t": "2.18",
+          "b": true
+         },
+         {
+          "t": ". The 5% two-tailed critical value with 25 df is about 2.06, so "
+         },
+         {
+          "t": "reject H₀: ρ = 0",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "For a given r, a "
+          },
+          {
+           "t": "larger sample",
+           "b": true
+          },
+          {
+           "t": " gives a larger t, making it easier to reject ρ = 0."
+          }
+         ],
+         [
+          {
+           "t": "Spearman rank correlation",
+           "b": true
+          },
+          {
+           "t": " is the nonparametric alternative, used with outliers or non-normal data."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Spearman r_s = 1 − 6Σd² ÷ [n(n² − 1)]"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Five pairs of ranks with Σd² = 4: r_s = 1 − 24 ÷ (5 × 24) = 1 − 0.2 = "
+         },
+         {
+          "t": "0.80",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Contingency tables and chi-square",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "contingency table",
+          "b": true
+         },
+         {
+          "t": " counts observations by two categorical variables, e.g. fund style versus size. The test asks whether the two are "
+         },
+         {
+          "t": "independent",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Expected frequency = row total × column total ÷ grand total · χ² = Σ (O − E)² ÷ E · df = (rows − 1)(columns − 1)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A cell with row total 60, column total 50 and grand total 200 has expected frequency 60 × 50 ÷ 200 = "
+         },
+         {
+          "t": "15",
+          "b": true
+         },
+         {
+          "t": ". A 3 × 4 table has (3 − 1)(4 − 1) = "
+         },
+         {
+          "t": "6",
+          "b": true
+         },
+         {
+          "t": " degrees of freedom."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "large",
+          "b": true
+         },
+         {
+          "t": " χ² means observed counts are far from what independence predicts, so "
+         },
+         {
+          "t": "reject independence",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A contingency table is a wedding seating chart: if all of the bride's side sits on one side, the seating was not independent."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "t = r√(n − 2)/√(1 − r²) · r_s = 1 − 6Σd²/[n(n² − 1)] · E = row × col ÷ total · df = (r − 1)(c − 1)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Correlation test df",
+        "n − 2"
+       ],
+       [
+        "Larger n",
+        "Bigger t for the same r"
+       ],
+       [
+        "Spearman",
+        "Nonparametric, rank-based"
+       ],
+       [
+        "Large χ²",
+        "Reject independence"
+       ],
+       [
+        "Expected count",
+        "Row total × column total ÷ grand total"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The t-test of H₀: ρ = 0 uses degrees of freedom of:",
+     "o": [
+      "n − 2",
+      "n − 1",
+      "n"
+     ],
+     "a": 0,
+     "e": "The test statistic has n − 2 degrees of freedom.",
+     "los": "9.a"
+    },
+    {
+     "d": "M",
+     "q": "A sample correlation of 0.4 is based on n = 27. The t-statistic is closest to:",
+     "o": [
+      "2.00",
+      "2.18",
+      "1.53"
+     ],
+     "a": 1,
+     "e": "0.4 × √25 ÷ √(1 − 0.16) = 2.0 ÷ 0.9165 = 2.18.",
+     "los": "9.a"
+    },
+    {
+     "d": "M",
+     "q": "Holding r constant, a larger sample size:",
+     "o": [
+      "Increases the t-statistic, making it easier to reject ρ = 0",
+      "Decreases the t-statistic",
+      "Has no effect"
+     ],
+     "a": 0,
+     "e": "t grows with √(n − 2).",
+     "los": "9.a"
+    },
+    {
+     "d": "M",
+     "q": "Five pairs of ranks have Σd² = 4. The Spearman rank correlation is:",
+     "o": [
+      "0.20",
+      "0.96",
+      "0.80"
+     ],
+     "a": 2,
+     "e": "1 − 6 × 4 ÷ (5 × 24) = 0.80.",
+     "los": "9.a"
+    },
+    {
+     "d": "E",
+     "q": "The Spearman rank correlation test is preferred to the parametric test when:",
+     "o": [
+      "The data are perfectly normal",
+      "The data contain outliers or are not normally distributed",
+      "There are no ranks available"
+     ],
+     "a": 1,
+     "e": "Ranks reduce the influence of extreme values.",
+     "los": "9.a"
+    },
+    {
+     "d": "M",
+     "q": "In a contingency table, a cell's row total is 60, its column total is 50 and the grand total is 200. Its expected frequency is:",
+     "o": [
+      "15",
+      "30",
+      "3,000"
+     ],
+     "a": 0,
+     "e": "60 × 50 ÷ 200 = 15.",
+     "los": "9.b"
+    },
+    {
+     "d": "H",
+     "q": "A contingency table has 3 rows and 4 columns. The chi-square test of independence has degrees of freedom of:",
+     "o": [
+      "12",
+      "6",
+      "7"
+     ],
+     "a": 1,
+     "e": "(3 − 1) × (4 − 1) = 6.",
+     "los": "9.b"
+    },
+    {
+     "d": "H",
+     "q": "In a chi-square test of independence, a large test statistic suggests:",
+     "o": [
+      "The variables are independent",
+      "The sample is too small",
+      "The variables are not independent"
+     ],
+     "a": 2,
+     "e": "Observed counts differ greatly from what independence would predict.",
+     "los": "9.b"
+    },
+    {
+     "d": "M",
+     "q": "The chi-square test of independence compares:",
+     "o": [
+      "Observed frequencies with those expected if the variables were independent",
+      "Two sample means",
+      "Two population variances"
+     ],
+     "a": 0,
+     "e": "χ² sums (O − E)² ÷ E across cells.",
+     "los": "9.b"
+    },
+    {
+     "d": "H",
+     "q": "r = 0.4, n = 27, t = 2.18 and the 5% two-tailed critical value is 2.06. The conclusion is:",
+     "o": [
+      "Fail to reject H₀",
+      "Reject H₀: the correlation is significantly different from zero",
+      "The test is invalid"
+     ],
+     "a": 1,
+     "e": "2.18 > 2.06, so reject ρ = 0 at the 5% level.",
+     "los": "9.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "t-test for correlation",
+     "back": "t = r√(n − 2) ÷ √(1 − r²), df n − 2."
+    },
+    {
+     "front": "Spearman rank correlation",
+     "back": "1 − 6Σd² ÷ [n(n² − 1)]; nonparametric."
+    },
+    {
+     "front": "Contingency table expected count",
+     "back": "Row total × column total ÷ grand total."
+    },
+    {
+     "front": "Chi-square statistic",
+     "back": "Σ (O − E)² ÷ E."
+    },
+    {
+     "front": "df for a contingency table",
+     "back": "(rows − 1) × (columns − 1)."
+    },
+    {
+     "front": "Large chi-square means…",
+     "back": "Reject independence."
+    }
+   ]
+  },
+  {
+   "lm_no": 10,
+   "title": "Simple Linear Regression",
+   "summary": "Least squares, assumptions, ANOVA, R², F-test, standard error of estimate, prediction, functional forms.",
+   "los": [
+    {
+     "code": "10.a",
+     "command_word": "describe",
+     "statement": "Describe simple linear regression, how least squares estimates the coefficients, and how to interpret them."
+    },
+    {
+     "code": "10.b",
+     "command_word": "explain",
+     "statement": "Explain the assumptions of the model and how residual plots reveal violations."
+    },
+    {
+     "code": "10.c",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret measures of fit and test the fit and the coefficients."
+    },
+    {
+     "code": "10.d",
+     "command_word": "describe",
+     "statement": "Describe ANOVA in regression and calculate the standard error of estimate."
+    },
+    {
+     "code": "10.e",
+     "command_word": "calculate",
+     "statement": "Calculate a predicted value of the dependent variable and its prediction interval."
+    },
+    {
+     "code": "10.f",
+     "command_word": "describe",
+     "statement": "Describe different functional forms of simple linear regression."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Estimating the line",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Y = b₀ + b₁X + ε · b₁ = Cov(X, Y) ÷ Var(X) · b₀ = Ȳ − b₁X̄"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Cov(X, Y) = 0.0018 and Var(X) = 0.0012, so b₁ = "
+         },
+         {
+          "t": "1.5",
+          "b": true
+         },
+         {
+          "t": ". With X̄ = 2% and Ȳ = 3.5%, b₀ = 3.5 − 1.5 × 2 = "
+         },
+         {
+          "t": "0.5%",
+          "b": true
+         },
+         {
+          "t": ". For X = 4%, predicted Ŷ = 0.5 + 1.5 × 4 = "
+         },
+         {
+          "t": "6.5%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Ordinary least squares",
+          "b": true
+         },
+         {
+          "t": " picks b₀ and b₁ to "
+         },
+         {
+          "t": "minimise the sum of squared residuals",
+          "b": true
+         },
+         {
+          "t": ". The slope is the change in Y for a one-unit change in X."
+         }
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Assumptions"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Linearity",
+           "b": true
+          },
+          {
+           "t": " between X and Y."
+          }
+         ],
+         [
+          {
+           "t": "Homoskedasticity",
+           "b": true
+          },
+          {
+           "t": ": residual variance is constant for all X."
+          }
+         ],
+         [
+          {
+           "t": "Independence",
+           "b": true
+          },
+          {
+           "t": " of residuals (no serial correlation)."
+          }
+         ],
+         [
+          {
+           "t": "Normality",
+           "b": true
+          },
+          {
+           "t": " of residuals."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A residual plot that "
+         },
+         {
+          "t": "fans out",
+          "b": true
+         },
+         {
+          "t": " as X rises shows "
+         },
+         {
+          "t": "heteroskedasticity",
+          "b": true
+         },
+         {
+          "t": ". A pattern over time suggests the errors aren't independent."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "ANOVA and measures of fit",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "SST = SSR + SSE · R² = SSR ÷ SST · MSR = SSR ÷ 1 · MSE = SSE ÷ (n − 2) · F = MSR ÷ MSE · SEE = √MSE"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "n = 32, SSR = 60, SSE = 40. SST = 100, so "
+         },
+         {
+          "t": "R² = 0.60",
+          "b": true
+         },
+         {
+          "t": ". MSE = 40 ÷ 30 = 1.333, "
+         },
+         {
+          "t": "F = 60 ÷ 1.333 = 45",
+          "b": true
+         },
+         {
+          "t": ", and "
+         },
+         {
+          "t": "SEE = √1.333 = 1.15",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Test the slope with t = (b₁ − B₁) ÷ s_b₁, df = n − 2. In simple regression, F = t² for H₀: b₁ = 0."
+          }
+         ],
+         [
+          {
+           "t": "A "
+          },
+          {
+           "t": "prediction interval",
+           "b": true
+          },
+          {
+           "t": " is Ŷ ± t_c × s_f. It widens the further X is from its mean."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Functional forms",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Form",
+         "Model",
+         "Slope means"
+        ],
+        "rows": [
+         [
+          "Log-lin",
+          "ln Y = b₀ + b₁X",
+          "% change in Y for a one-unit change in X"
+         ],
+         [
+          "Lin-log",
+          "Y = b₀ + b₁ ln X",
+          "Change in Y for a % change in X"
+         ],
+         [
+          "Log-log",
+          "ln Y = b₀ + b₁ ln X",
+          "Elasticity: % change in Y for a 1% change in X"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Regression is drawing the one straight line through a scatter of dots that annoys all the dots the least, squared."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "b₁ = Cov/Var(X) · b₀ = Ȳ − b₁X̄ · R² = SSR/SST · F = MSR/MSE · SEE = √(SSE/(n − 2))"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "OLS",
+        "Minimise sum of squared residuals"
+       ],
+       [
+        "Homoskedasticity",
+        "Constant residual variance"
+       ],
+       [
+        "Fanning residuals",
+        "Heteroskedasticity"
+       ],
+       [
+        "Slope test df",
+        "n − 2"
+       ],
+       [
+        "Simple regression",
+        "F = t²"
+       ],
+       [
+        "Log-log slope",
+        "Elasticity"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "In Y = b₀ + b₁X, the slope b₁ is estimated as:",
+     "o": [
+      "Cov(X, Y) ÷ Var(X)",
+      "Var(X) ÷ Cov(X, Y)",
+      "Mean of Y ÷ mean of X"
+     ],
+     "a": 0,
+     "e": "OLS slope = covariance over the variance of X.",
+     "los": "10.a"
+    },
+    {
+     "d": "M",
+     "q": "Cov(X, Y) = 0.0018 and Var(X) = 0.0012. The mean of X is 2% and the mean of Y is 3.5%. The intercept is:",
+     "o": [
+      "1.5%",
+      "0.5%",
+      "3.5%"
+     ],
+     "a": 1,
+     "e": "b₁ = 1.5; b₀ = 3.5 − 1.5 × 2 = 0.5%.",
+     "los": "10.a"
+    },
+    {
+     "d": "M",
+     "q": "With b₀ = 0.5% and b₁ = 1.5, the predicted Y when X = 4% is:",
+     "o": [
+      "6.0%",
+      "6.5%",
+      "2.5%"
+     ],
+     "a": 1,
+     "e": "0.5 + 1.5 × 4 = 6.5%.",
+     "los": "10.e"
+    },
+    {
+     "d": "M",
+     "q": "Homoskedasticity means the residuals:",
+     "o": [
+      "Have constant variance across all values of X",
+      "Are correlated with each other",
+      "Have a mean of one"
+     ],
+     "a": 0,
+     "e": "Their spread does not change with X.",
+     "los": "10.b"
+    },
+    {
+     "d": "M",
+     "q": "SSR = 60 and SSE = 40. R² is:",
+     "o": [
+      "0.40",
+      "1.50",
+      "0.60"
+     ],
+     "a": 2,
+     "e": "60 ÷ (60 + 40) = 0.60.",
+     "los": "10.c"
+    },
+    {
+     "d": "H",
+     "q": "n = 32, SSR = 60 and SSE = 40 in a simple regression. The F-statistic is:",
+     "o": [
+      "45.0",
+      "1.5",
+      "30.0"
+     ],
+     "a": 0,
+     "e": "MSE = 40 ÷ 30 = 1.333; F = 60 ÷ 1.333 = 45.",
+     "los": "10.d"
+    },
+    {
+     "d": "H",
+     "q": "For the same regression, the standard error of estimate is closest to:",
+     "o": [
+      "1.33",
+      "1.15",
+      "0.67"
+     ],
+     "a": 1,
+     "e": "√(40 ÷ 30) = √1.333 = 1.15.",
+     "los": "10.d"
+    },
+    {
+     "d": "E",
+     "q": "Ordinary least squares chooses coefficients that minimise:",
+     "o": [
+      "The sum of residuals",
+      "The largest residual",
+      "The sum of squared residuals"
+     ],
+     "a": 2,
+     "e": "Squaring stops positive and negative residuals cancelling.",
+     "los": "10.a"
+    },
+    {
+     "d": "H",
+     "q": "In a log-log regression, the slope coefficient is interpreted as:",
+     "o": [
+      "An elasticity: the % change in Y for a 1% change in X",
+      "The change in Y for a one-unit change in X",
+      "The % change in Y for a one-unit change in X"
+     ],
+     "a": 0,
+     "e": "Both variables are in logs, so the slope is a ratio of percentage changes.",
+     "los": "10.f"
+    },
+    {
+     "d": "M",
+     "q": "A residual plot that fans out as X increases suggests:",
+     "o": [
+      "A perfect fit",
+      "Independent errors",
+      "Heteroskedasticity"
+     ],
+     "a": 2,
+     "e": "Residual variance growing with X breaks the constant-variance assumption.",
+     "los": "10.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "OLS slope and intercept",
+     "back": "b₁ = Cov(X, Y) ÷ Var(X); b₀ = Ȳ − b₁X̄."
+    },
+    {
+     "front": "Regression assumptions",
+     "back": "Linearity, homoskedasticity, independence, normal residuals."
+    },
+    {
+     "front": "R²",
+     "back": "SSR ÷ SST: share of variation in Y explained by X."
+    },
+    {
+     "front": "F-statistic in simple regression",
+     "back": "MSR ÷ MSE, with MSE = SSE ÷ (n − 2); equals t²."
+    },
+    {
+     "front": "Standard error of estimate",
+     "back": "√MSE."
+    },
+    {
+     "front": "Log-log slope",
+     "back": "Elasticity of Y with respect to X."
+    }
+   ]
+  },
+  {
+   "lm_no": 11,
+   "title": "Introduction to Big Data Techniques",
+   "summary": "Fintech, Big Data, artificial intelligence and machine learning, and their investment uses.",
+   "los": [
+    {
+     "code": "11.a",
+     "command_word": "describe",
+     "statement": "Describe aspects of fintech relevant to gathering and analysing financial data."
+    },
+    {
+     "code": "11.b",
+     "command_word": "describe",
+     "statement": "Describe Big Data, artificial intelligence and machine learning."
+    },
+    {
+     "code": "11.c",
+     "command_word": "describe",
+     "statement": "Describe applications of Big Data and data science in investment management."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Big Data and alternative data",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Big Data",
+          "b": true
+         },
+         {
+          "t": " is defined by "
+         },
+         {
+          "t": "volume",
+          "b": true
+         },
+         {
+          "t": " (huge size), "
+         },
+         {
+          "t": "velocity",
+          "b": true
+         },
+         {
+          "t": " (arrives fast, often in real time) and "
+         },
+         {
+          "t": "variety",
+          "b": true
+         },
+         {
+          "t": " (many formats). "
+         },
+         {
+          "t": "Veracity",
+          "b": true
+         },
+         {
+          "t": ", the reliability of the data, is often added as a fourth V."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Source",
+         "Examples"
+        ],
+        "rows": [
+         [
+          "Traditional",
+          "Financial statements, prices, economic statistics"
+         ],
+         [
+          "Individuals",
+          "Social media posts, product reviews, web searches"
+         ],
+         [
+          "Business processes",
+          "Credit card transactions, corporate exhaust, supply chain data"
+         ],
+         [
+          "Sensors",
+          "Satellite images, IoT devices, mobile location data"
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Structured data",
+           "b": true
+          },
+          {
+           "t": " fits rows and columns. "
+          },
+          {
+           "t": "Unstructured data",
+           "b": true
+          },
+          {
+           "t": ", such as text, images and audio, has no predefined format and needs extra processing."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Artificial intelligence and machine learning",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Supervised learning",
+           "b": true
+          },
+          {
+           "t": " learns from "
+          },
+          {
+           "t": "labelled",
+           "b": true
+          },
+          {
+           "t": " data to predict an output, e.g. which loans will default."
+          }
+         ],
+         [
+          {
+           "t": "Unsupervised learning",
+           "b": true
+          },
+          {
+           "t": " finds structure in "
+          },
+          {
+           "t": "unlabelled",
+           "b": true
+          },
+          {
+           "t": " data, e.g. clustering similar companies."
+          }
+         ],
+         [
+          {
+           "t": "Deep learning",
+           "b": true
+          },
+          {
+           "t": " uses "
+          },
+          {
+           "t": "neural networks with many layers",
+           "b": true
+          },
+          {
+           "t": ", e.g. for image or speech recognition."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Overfitting",
+          "b": true
+         },
+         {
+          "t": ": a model that memorises noise looks brilliant on training data and fails on new data. "
+         },
+         {
+          "t": "Underfitting",
+          "b": true
+         },
+         {
+          "t": ": too simple to capture the pattern. Hold out validation and test sets to check."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "An overfitted model is the student who memorised last year's paper word for word, then met a new question."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Uses in investment management",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Text analytics and NLP",
+           "b": true
+          },
+          {
+           "t": ": sentiment in earnings calls, news and filings."
+          }
+         ],
+         [
+          {
+           "t": "Alternative data",
+           "b": true
+          },
+          {
+           "t": " forecasts: card spending to predict a retailer's sales, satellite photos of car parks, shipping traffic."
+          }
+         ],
+         [
+          {
+           "t": "Robo-advisers",
+           "b": true
+          },
+          {
+           "t": ": automated portfolio advice and rebalancing with little human involvement."
+          }
+         ],
+         [
+          {
+           "t": "Algorithmic trading",
+           "b": true
+          },
+          {
+           "t": ", risk management and fraud detection."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Data processing steps: "
+         },
+         {
+          "t": "capture",
+          "b": true
+         },
+         {
+          "t": ", "
+         },
+         {
+          "t": "curation",
+          "b": true
+         },
+         {
+          "t": " (cleaning), "
+         },
+         {
+          "t": "storage",
+          "b": true
+         },
+         {
+          "t": ", "
+         },
+         {
+          "t": "search",
+          "b": true
+         },
+         {
+          "t": " and "
+         },
+         {
+          "t": "transfer",
+          "b": true
+         },
+         {
+          "t": ". Visualisation tools such as word clouds help present unstructured data."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Big Data = volume + velocity + variety (+ veracity)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Alternative data",
+        "Individuals, business processes, sensors"
+       ],
+       [
+        "Unstructured",
+        "Text, images, audio"
+       ],
+       [
+        "Supervised",
+        "Labelled data → prediction"
+       ],
+       [
+        "Unsupervised",
+        "No labels → clustering"
+       ],
+       [
+        "Deep learning",
+        "Multi-layer neural networks"
+       ],
+       [
+        "Overfitting",
+        "Great in-sample, poor out-of-sample"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The three original characteristics of Big Data are:",
+     "o": [
+      "Volume, velocity and variety",
+      "Value, vision and variance",
+      "Validity, volatility and voice"
+     ],
+     "a": 0,
+     "e": "Veracity is often added as a fourth.",
+     "los": "11.b"
+    },
+    {
+     "d": "M",
+     "q": "Satellite images of retailers' car parks are an example of:",
+     "o": [
+      "Traditional financial statement data",
+      "Alternative data from sensors",
+      "Data from corporate filings"
+     ],
+     "a": 1,
+     "e": "Sensor-based data is a major type of alternative data.",
+     "los": "11.a"
+    },
+    {
+     "d": "M",
+     "q": "Supervised machine learning:",
+     "o": [
+      "Learns from labelled data to predict an output",
+      "Finds structure in data without labels",
+      "Requires no data"
+     ],
+     "a": 0,
+     "e": "The model is trained on inputs paired with known outputs.",
+     "los": "11.b"
+    },
+    {
+     "d": "M",
+     "q": "Grouping companies with similar characteristics, without predefined labels, is an example of:",
+     "o": [
+      "Supervised learning",
+      "Unsupervised learning (clustering)",
+      "Linear regression"
+     ],
+     "a": 1,
+     "e": "No target variable is given; the algorithm finds the groups.",
+     "los": "11.b"
+    },
+    {
+     "d": "H",
+     "q": "A model that performs very well on training data but poorly on new data is:",
+     "o": [
+      "Underfitted",
+      "Well generalised",
+      "Overfitted"
+     ],
+     "a": 2,
+     "e": "It has learned noise in the training data rather than the true pattern.",
+     "los": "11.b"
+    },
+    {
+     "d": "E",
+     "q": "Natural language processing would most likely be used to:",
+     "o": [
+      "Analyse the sentiment of earnings call transcripts",
+      "Calculate a bond's duration",
+      "Count shares outstanding"
+     ],
+     "a": 0,
+     "e": "NLP turns text into measurable signals.",
+     "los": "11.c"
+    },
+    {
+     "d": "H",
+     "q": "Unstructured data is best described as data that:",
+     "o": [
+      "Is organised in rows and columns",
+      "Comes only from stock exchanges",
+      "Does not follow a predefined format, such as text, images or audio"
+     ],
+     "a": 2,
+     "e": "It needs processing before it can be analysed like a table.",
+     "los": "11.a"
+    },
+    {
+     "d": "M",
+     "q": "Deep learning algorithms are based on:",
+     "o": [
+      "Neural networks with many layers",
+      "Simple averages",
+      "Manual rule books"
+     ],
+     "a": 0,
+     "e": "Stacked layers learn increasingly complex features.",
+     "los": "11.b"
+    },
+    {
+     "d": "H",
+     "q": "Which is a typical use of Big Data in investment management?",
+     "o": [
+      "Replacing financial statements with guesswork",
+      "Using credit card transaction data to forecast a retailer's sales",
+      "Removing the need for risk management"
+     ],
+     "a": 1,
+     "e": "Transaction data can lead official sales figures.",
+     "los": "11.c"
+    },
+    {
+     "d": "M",
+     "q": "A robo-adviser is best described as:",
+     "o": [
+      "A trading floor robot",
+      "A type of bond",
+      "An automated platform that gives portfolio advice and management with little human involvement"
+     ],
+     "a": 2,
+     "e": "Robo-advisers use algorithms to build and rebalance portfolios.",
+     "los": "11.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Three Vs of Big Data",
+     "back": "Volume, velocity, variety (plus veracity)."
+    },
+    {
+     "front": "Sources of alternative data",
+     "back": "Individuals, business processes, sensors."
+    },
+    {
+     "front": "Supervised vs unsupervised learning",
+     "back": "Labelled data to predict vs unlabelled data to find structure."
+    },
+    {
+     "front": "Deep learning",
+     "back": "Neural networks with many layers."
+    },
+    {
+     "front": "Overfitting",
+     "back": "Fits noise: strong in-sample, weak out-of-sample."
+    },
+    {
+     "front": "NLP in investing",
+     "back": "Sentiment analysis of calls, news and filings."
+    }
+   ]
+  }
+ ],
+ "retag_proto": {
+  "37": 2,
+  "39": 2
+ }
+}

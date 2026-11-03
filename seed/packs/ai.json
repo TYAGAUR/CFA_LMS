@@ -1,0 +1,3135 @@
+{
+ "subject": "ai",
+ "name": "Alternative Investments",
+ "lms": [
+  {
+   "lm_no": 1,
+   "title": "Alternative Investment Features, Methods and Structures",
+   "summary": "What makes an investment 'alternative', how investors get access, and how fund fees work.",
+   "los": [
+    {
+     "code": "1.a",
+     "command_word": "describe",
+     "statement": "Describe the features and categories of alternative investments."
+    },
+    {
+     "code": "1.b",
+     "command_word": "compare",
+     "statement": "Compare direct investment, co-investment and fund investment methods."
+    },
+    {
+     "code": "1.c",
+     "command_word": "describe",
+     "statement": "Describe investment ownership and compensation structures commonly used in alternative investments."
+    }
+   ],
+   "topics": [
+    {
+     "title": "What makes an investment alternative",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Illiquid",
+           "b": true
+          },
+          {
+           "t": " and often "
+          },
+          {
+           "t": "long-horizon",
+           "b": true
+          },
+          {
+           "t": ": lock-ups, few buyers."
+          }
+         ],
+         [
+          {
+           "t": "Specialised",
+           "b": true
+          },
+          {
+           "t": " knowledge needed to value and manage."
+          }
+         ],
+         [
+          {
+           "t": "Low correlation",
+           "b": true
+          },
+          {
+           "t": " with stocks and bonds, which helps diversification."
+          }
+         ],
+         [
+          {
+           "t": "Less regulation and transparency",
+           "b": true
+          },
+          {
+           "t": ", and "
+          },
+          {
+           "t": "high fees",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Returns often based on "
+          },
+          {
+           "t": "appraisals",
+           "b": true
+          },
+          {
+           "t": ", so reported volatility looks lower than reality."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Category",
+         "Examples"
+        ],
+        "rows": [
+         [
+          "Private capital",
+          "Private equity, private debt"
+         ],
+         [
+          "Real assets",
+          "Real estate, infrastructure, natural resources"
+         ],
+         [
+          "Hedge funds",
+          "Long/short, event-driven, macro, relative value"
+         ],
+         [
+          "Digital assets",
+          "Cryptocurrencies, tokens"
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Ways to invest",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Method",
+         "How",
+         "Pros",
+         "Cons"
+        ],
+        "rows": [
+         [
+          "Fund investing",
+          "Invest in a GP's fund as an LP",
+          "Diversified, needs little expertise",
+          "Highest fees, no say over deals"
+         ],
+         [
+          "Co-investing",
+          "Invest in a fund plus directly alongside it in chosen deals",
+          "Lower fees on co-invested deals, learn from the GP",
+          "Adverse selection: GP may offer weaker deals"
+         ],
+         [
+          "Direct investing",
+          "Buy assets yourself",
+          "No external fees, full control",
+          "Needs large teams and capital, concentrated"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Co-investment fees are lower, but the investor still needs the skill to judge whether the deal being offered is any good."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Fund structures and fees",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Most funds are "
+         },
+         {
+          "t": "limited partnerships",
+          "b": true
+         },
+         {
+          "t": ": the "
+         },
+         {
+          "t": "GP",
+          "b": true
+         },
+         {
+          "t": " manages and has unlimited liability; "
+         },
+         {
+          "t": "LPs",
+          "b": true
+         },
+         {
+          "t": " commit capital and have limited liability. Terms are set out in the "
+         },
+         {
+          "t": "limited partnership agreement",
+          "b": true
+         },
+         {
+          "t": ", often with "
+         },
+         {
+          "t": "side letters",
+          "b": true
+         },
+         {
+          "t": " for large LPs."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Management fee",
+           "b": true
+          },
+          {
+           "t": ": 1–2% a year on committed or invested capital (or AUM)."
+          }
+         ],
+         [
+          {
+           "t": "Incentive (performance) fee / carried interest",
+           "b": true
+          },
+          {
+           "t": ": typically 20% of profits."
+          }
+         ],
+         [
+          {
+           "t": "Hurdle rate",
+           "b": true
+          },
+          {
+           "t": ": minimum return before any incentive fee. A "
+          },
+          {
+           "t": "soft",
+           "b": true
+          },
+          {
+           "t": " hurdle lets the GP earn on all profit once it is beaten (via "
+          },
+          {
+           "t": "catch-up",
+           "b": true
+          },
+          {
+           "t": "); a "
+          },
+          {
+           "t": "hard",
+           "b": true
+          },
+          {
+           "t": " hurdle pays only on profit above it."
+          }
+         ],
+         [
+          {
+           "t": "High-water mark",
+           "b": true
+          },
+          {
+           "t": ": no incentive fee until previous losses are recovered."
+          }
+         ],
+         [
+          {
+           "t": "Clawback",
+           "b": true
+          },
+          {
+           "t": ": GP returns incentive fees paid earlier if later results fall short."
+          }
+         ],
+         [
+          {
+           "t": "Waterfall",
+           "b": true
+          },
+          {
+           "t": ": "
+          },
+          {
+           "t": "European",
+           "b": true
+          },
+          {
+           "t": " (whole-of-fund: LPs get capital back first, LP-friendly) vs "
+          },
+          {
+           "t": "American",
+           "b": true
+          },
+          {
+           "t": " (deal-by-deal, GP-friendly)."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A fund starts at ₹100 crore and ends the year at ₹120 crore gross. Fees are 2 and 20, management fee on year-end value, incentive fee on profit net of the management fee. Management fee = 2% × 120 = ₹2.4 crore. Incentive = 20% × (120 − 100 − 2.4) = ₹3.52 crore. Net value = 120 − 2.4 − 3.52 = ₹114.08 crore, a "
+         },
+         {
+          "t": "14.08%",
+          "b": true
+         },
+         {
+          "t": " net return versus 20% gross."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "'2 and 20' means the manager gets paid when you win and still gets paid when you lose, just a bit less. Like a wedding caterer who bills per plate whether or not anyone enjoyed the food."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Net value = Gross − Mgmt fee − Incentive fee (on gain above hurdle / HWM)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Alternative features",
+        "Illiquid, specialised, low correlation, high fees, less transparent"
+       ],
+       [
+        "Fund investing",
+        "Easy access, highest fees"
+       ],
+       [
+        "Co-investing",
+        "Lower fees on some deals; adverse-selection risk"
+       ],
+       [
+        "Direct investing",
+        "Cheapest, needs most skill and capital"
+       ],
+       [
+        "Hard hurdle",
+        "Incentive fee only on profit above hurdle"
+       ],
+       [
+        "High-water mark",
+        "Recover past losses before new incentive fee"
+       ],
+       [
+        "European waterfall",
+        "Whole-of-fund, LP-friendly"
+       ],
+       [
+        "American waterfall",
+        "Deal-by-deal, GP-friendly"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Which is a typical feature of alternative investments?",
+     "o": [
+      "Low fees",
+      "Low correlation with traditional assets",
+      "High liquidity"
+     ],
+     "a": 1,
+     "e": "Alternatives often diversify because their returns move differently from stocks and bonds.",
+     "los": "1.a"
+    },
+    {
+     "d": "M",
+     "q": "An investor who commits to a private equity fund and also invests directly in one of the fund's deals is using:",
+     "o": [
+      "Direct investing only",
+      "Fund-of-funds investing",
+      "Co-investing"
+     ],
+     "a": 2,
+     "e": "Co-investment means investing alongside the fund in selected deals.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "The main disadvantage of co-investing is:",
+     "o": [
+      "Adverse selection in the deals offered",
+      "No access to the GP",
+      "Very high fees"
+     ],
+     "a": 0,
+     "e": "The GP may offer co-investments in deals it is less keen to fund fully.",
+     "los": "1.b"
+    },
+    {
+     "d": "E",
+     "q": "In a limited partnership fund, the party that manages the fund is the:",
+     "o": [
+      "Custodian",
+      "General partner",
+      "Limited partner"
+     ],
+     "a": 1,
+     "e": "The GP manages the fund; LPs supply capital.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "A fund starts the year at ₹100 crore and ends at ₹120 crore before fees. It charges a 2% management fee on year-end value and a 20% incentive fee on profit net of the management fee. The investor's net return is closest to:",
+     "o": [
+      "17.6%",
+      "16.0%",
+      "14.1%"
+     ],
+     "a": 2,
+     "e": "Mgmt fee 2.4; incentive 0.2 × 17.6 = 3.52; net 114.08, a 14.08% return.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "A high-water mark provision means the manager:",
+     "o": [
+      "Earns incentive fees only on gains above the previous peak value",
+      "Always earns the incentive fee",
+      "Earns no management fee after a loss"
+     ],
+     "a": 0,
+     "e": "Losses must be recovered before a new incentive fee is earned.",
+     "los": "1.c"
+    },
+    {
+     "d": "H",
+     "q": "Compared with an American waterfall, a European waterfall:",
+     "o": [
+      "Pays carried interest deal by deal",
+      "Pays carried interest only after LPs recover all capital and the preferred return",
+      "Has no hurdle rate"
+     ],
+     "a": 1,
+     "e": "Whole-of-fund (European) distribution is more favourable to LPs.",
+     "los": "1.c"
+    },
+    {
+     "d": "H",
+     "q": "A clawback provision requires the:",
+     "o": [
+      "Fund to pay a hurdle rate in cash",
+      "LPs to return excess distributions",
+      "GP to return previously paid incentive fees if later results do not justify them"
+     ],
+     "a": 2,
+     "e": "Clawback protects LPs from overpaid carried interest.",
+     "los": "1.c"
+    },
+    {
+     "d": "E",
+     "q": "Direct investing is most suitable for investors who:",
+     "o": [
+      "Have large capital and in-house expertise",
+      "Have little capital",
+      "Want the highest diversification"
+     ],
+     "a": 0,
+     "e": "Direct investing avoids fees but needs scale and skill.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "Reported returns on appraisal-based alternatives tend to:",
+     "o": [
+      "Be identical to market prices",
+      "Understate true volatility",
+      "Overstate true volatility"
+     ],
+     "a": 1,
+     "e": "Appraisals smooth values, making reported volatility too low.",
+     "los": "1.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Features of alternatives",
+     "back": "Illiquid, specialised, low correlation, high fees, less transparent."
+    },
+    {
+     "front": "Fund vs co- vs direct investing",
+     "back": "Fund: easy, costly. Co: cheaper on some deals. Direct: cheapest, hardest."
+    },
+    {
+     "front": "GP vs LP",
+     "back": "GP manages with unlimited liability; LPs supply capital with limited liability."
+    },
+    {
+     "front": "Hard vs soft hurdle",
+     "back": "Hard: fee only above hurdle. Soft: fee on all profit once hurdle is beaten."
+    },
+    {
+     "front": "High-water mark",
+     "back": "No incentive fee until the fund regains its previous peak."
+    },
+    {
+     "front": "European vs American waterfall",
+     "back": "Whole-of-fund (LP-friendly) vs deal-by-deal (GP-friendly)."
+    }
+   ]
+  },
+  {
+   "lm_no": 2,
+   "title": "Alternative Investment Performance and Returns",
+   "summary": "The life cycle of a fund, IRR and multiples, fee effects, and biases in reported returns.",
+   "los": [
+    {
+     "code": "2.a",
+     "command_word": "describe",
+     "statement": "Describe the performance appraisal of alternative investments."
+    },
+    {
+     "code": "2.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret returns of alternative investments on both a before-fee and after-fee basis."
+    },
+    {
+     "code": "2.c",
+     "command_word": "describe",
+     "statement": "Describe biases and other issues in measuring alternative investment performance."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Fund life cycle and the J-curve",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Private funds draw capital in stages ("
+         },
+         {
+          "t": "capital calls",
+          "b": true
+         },
+         {
+          "t": ") during an investment period, then harvest and return cash. Early years show negative returns because fees and set-up costs come before gains: the "
+         },
+         {
+          "t": "J-curve",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "IRR",
+           "b": true
+          },
+          {
+           "t": ": the money-weighted return that sets the NPV of all calls and distributions to zero."
+          }
+         ],
+         [
+          {
+           "t": "MOIC",
+           "b": true
+          },
+          {
+           "t": " (multiple of invested capital) = (realised + unrealised value) ÷ invested capital."
+          }
+         ],
+         [
+          {
+           "t": "Ratios like Sharpe can mislead when returns are smoothed or skewed; Sortino and drawdown help."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "An LP invests ₹10 crore and receives ₹6 crore in year 3 and ₹12 crore in year 5. MOIC = (6 + 12) ÷ 10 = "
+         },
+         {
+          "t": "1.8×",
+          "b": true
+         },
+         {
+          "t": ". The MOIC ignores timing; IRR does not."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A high MOIC earned over 12 years may be a worse IRR than a modest MOIC over 3 years."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Fees, hurdles and the high-water mark",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Fund value ₹200 crore at start, high-water mark ₹210 crore (after a loss last year). It ends this year at ₹230 crore gross; management fee 1% of year-end value = ₹2.3 crore. With the HWM, incentive = 20% × (230 − 2.3 − 210) = 20% × 17.7 = "
+         },
+         {
+          "t": "₹3.54 crore",
+          "b": true
+         },
+         {
+          "t": ", not 20% of the full 27.7 crore gain since the start of the year."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Incentive fee = rate × max(0, value after mgmt fee − max(HWM, hurdle level))"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Check the exact terms: fees may be charged on beginning or ending value, and the incentive may be calculated before or after the management fee."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Biases and measurement issues",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Survivorship bias",
+           "b": true
+          },
+          {
+           "t": ": failed funds drop out of databases, so averages look too good."
+          }
+         ],
+         [
+          {
+           "t": "Backfill bias",
+           "b": true
+          },
+          {
+           "t": ": funds add their history only after a good run."
+          }
+         ],
+         [
+          {
+           "t": "Appraisal smoothing",
+           "b": true
+          },
+          {
+           "t": ": valuations lag market moves, lowering reported volatility and correlation."
+          }
+         ],
+         [
+          {
+           "t": "Illiquidity",
+           "b": true
+          },
+          {
+           "t": ": there may be no market price at all; the realised value can differ."
+          }
+         ],
+         [
+          {
+           "t": "Leverage and fat tails",
+           "b": true
+          },
+          {
+           "t": ": normal-distribution risk measures underestimate crash risk."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A hedge fund index with survivorship bias is like rating a cricket academy using only the students who made the national team."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "MOIC = (realised + unrealised) ÷ invested · IRR sets NPV of all flows to 0"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "J-curve",
+        "Negative early returns, gains later"
+       ],
+       [
+        "Capital call",
+        "GP draws committed capital in stages"
+       ],
+       [
+        "IRR vs MOIC",
+        "IRR uses timing; MOIC does not"
+       ],
+       [
+        "Survivorship bias",
+        "Dead funds missing: returns overstated"
+       ],
+       [
+        "Backfill bias",
+        "Good histories added later"
+       ],
+       [
+        "Smoothing",
+        "Appraisals understate volatility and correlation"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The J-curve effect in private equity describes:",
+     "o": [
+      "Constant returns",
+      "Returns that fall over the fund's life",
+      "Negative returns in early years followed by positive returns later"
+     ],
+     "a": 2,
+     "e": "Fees and costs arrive before gains, so early returns are negative.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "An investor puts ₹10 crore into a fund and later receives a total of ₹18 crore. The MOIC is:",
+     "o": [
+      "1.8×",
+      "2.8×",
+      "0.8×"
+     ],
+     "a": 0,
+     "e": "MOIC = 18 ÷ 10 = 1.8.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "The main weakness of MOIC compared with IRR is that MOIC:",
+     "o": [
+      "Always exceeds IRR",
+      "Ignores the timing of cash flows",
+      "Cannot be computed for private equity"
+     ],
+     "a": 1,
+     "e": "MOIC is a simple multiple; it does not account for how long money was invested.",
+     "los": "2.a"
+    },
+    {
+     "d": "H",
+     "q": "A fund with a high-water mark of ₹210 crore ends the year at ₹230 crore gross, pays a ₹2.3 crore management fee and charges 20% incentive on gains above the HWM net of the management fee. The incentive fee is closest to:",
+     "o": [
+      "₹5.54 crore",
+      "₹4.00 crore",
+      "₹3.54 crore"
+     ],
+     "a": 2,
+     "e": "20% × (230 − 2.3 − 210) = 20% × 17.7 = ₹3.54 crore.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "Survivorship bias causes hedge fund index returns to be:",
+     "o": [
+      "Overstated",
+      "Unaffected",
+      "Understated"
+     ],
+     "a": 0,
+     "e": "Funds that failed are dropped, so the survivors' average looks better than reality.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "Backfill bias arises when:",
+     "o": [
+      "Funds are removed after closing",
+      "Funds add past returns to a database after a strong record",
+      "Funds report daily prices"
+     ],
+     "a": 1,
+     "e": "Managers choose to report only once they have good history to show.",
+     "los": "2.c"
+    },
+    {
+     "d": "H",
+     "q": "Appraisal-based valuations in real estate most likely cause:",
+     "o": [
+      "Reported volatility to be too high",
+      "No bias in risk measures",
+      "Reported correlation with equities to be too low"
+     ],
+     "a": 2,
+     "e": "Smoothed valuations lower measured volatility and correlation.",
+     "los": "2.c"
+    },
+    {
+     "d": "E",
+     "q": "When a private equity GP asks LPs to provide part of their committed capital, it is a:",
+     "o": [
+      "Capital call",
+      "Clawback",
+      "Distribution"
+     ],
+     "a": 0,
+     "e": "Capital calls (draw-downs) fund investments as they are made.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "For alternatives with skewed, fat-tailed returns, which risk measure is more informative than the standard deviation?",
+     "o": [
+      "Dividend yield",
+      "Maximum drawdown",
+      "Beta to a bond index"
+     ],
+     "a": 1,
+     "e": "Drawdown and downside measures capture tail losses better.",
+     "los": "2.a"
+    },
+    {
+     "d": "E",
+     "q": "The IRR of a private fund is best described as a:",
+     "o": [
+      "Holding-period dividend yield",
+      "Time-weighted return",
+      "Money-weighted return"
+     ],
+     "a": 2,
+     "e": "IRR weights by the cash actually invested over time.",
+     "los": "2.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "J-curve",
+     "back": "Early negative returns from fees and costs, gains later."
+    },
+    {
+     "front": "MOIC",
+     "back": "(Realised + unrealised value) ÷ invested capital; ignores timing."
+    },
+    {
+     "front": "IRR in private funds",
+     "back": "Money-weighted return over calls and distributions."
+    },
+    {
+     "front": "Survivorship bias",
+     "back": "Failed funds drop out; returns look too high."
+    },
+    {
+     "front": "Backfill bias",
+     "back": "Funds report history only after a good run."
+    },
+    {
+     "front": "Appraisal smoothing",
+     "back": "Understates volatility and correlation."
+    }
+   ]
+  },
+  {
+   "lm_no": 3,
+   "title": "Investments in Private Capital: Equity and Debt",
+   "summary": "Private equity strategies and exits, private debt types, and their risk and return.",
+   "los": [
+    {
+     "code": "3.a",
+     "command_word": "explain",
+     "statement": "Explain features of private equity and its investment characteristics."
+    },
+    {
+     "code": "3.b",
+     "command_word": "explain",
+     "statement": "Explain features of private debt and its investment characteristics."
+    },
+    {
+     "code": "3.c",
+     "command_word": "describe",
+     "statement": "Describe the diversification benefits that private capital can provide."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Private equity",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Strategy",
+         "Target",
+         "Notes"
+        ],
+        "rows": [
+         [
+          "Leveraged buyout (LBO)",
+          "Mature, cash-generative companies",
+          "Funded mostly with debt; MBO when existing managers buy, MBI when outsiders come in"
+         ],
+         [
+          "Venture capital",
+          "Start-ups",
+          "Stages: pre-seed/seed → early (Series A) → later stage"
+         ],
+         [
+          "Growth equity",
+          "Established, growing firms",
+          "Usually minority stakes, little debt"
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Exit routes"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Trade sale",
+           "b": true
+          },
+          {
+           "t": " to a strategic buyer, often the highest price."
+          }
+         ],
+         [
+          {
+           "t": "IPO",
+           "b": true
+          },
+          {
+           "t": ": highest value in strong markets, but costly and slow."
+          }
+         ],
+         [
+          {
+           "t": "Secondary sale",
+           "b": true
+          },
+          {
+           "t": " to another PE fund."
+          }
+         ],
+         [
+          {
+           "t": "Recapitalisation",
+           "b": true
+          },
+          {
+           "t": ": re-lever the company and pay a dividend to the fund."
+          }
+         ],
+         [
+          {
+           "t": "Write-off",
+           "b": true
+          },
+          {
+           "t": " if it fails."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "An LBO fund buys Kaveri Foods for ₹500 crore using ₹150 crore equity and ₹350 crore debt. Five years later it sells for ₹700 crore and debt has been paid down to ₹250 crore. Equity value = 700 − 250 = ₹450 crore, a "
+         },
+         {
+          "t": "3× multiple",
+          "b": true
+         },
+         {
+          "t": " on ₹150 crore. Leverage turned a 40% rise in enterprise value into a 200% equity gain."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Private debt",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Direct lending",
+           "b": true
+          },
+          {
+           "t": ": senior loans from non-banks to mid-sized firms, often floating rate."
+          }
+         ],
+         [
+          {
+           "t": "Mezzanine debt",
+           "b": true
+          },
+          {
+           "t": ": subordinated, higher coupon, often with "
+          },
+          {
+           "t": "warrants",
+           "b": true
+          },
+          {
+           "t": " or conversion rights."
+          }
+         ],
+         [
+          {
+           "t": "Venture debt",
+           "b": true
+          },
+          {
+           "t": ": loans to start-ups backed by VCs, often with warrants."
+          }
+         ],
+         [
+          {
+           "t": "Distressed debt",
+           "b": true
+          },
+          {
+           "t": ": buy debt of troubled firms cheaply, sometimes to gain control in restructuring."
+          }
+         ],
+         [
+          {
+           "t": "Unitranche",
+           "b": true
+          },
+          {
+           "t": ": one loan blending senior and subordinated tranches at a single rate."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Mezzanine sits "
+         },
+         {
+          "t": "between",
+          "b": true
+         },
+         {
+          "t": " senior debt and equity in the capital structure; higher return comes from that lower priority."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Risk, return and diversification",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Private equity aims to beat public equity with higher risk (leverage, illiquidity, concentration). Private debt offers higher yields than public bonds as compensation for illiquidity and credit risk. Both have only partial correlation with listed markets, though smoothing exaggerates the diversification benefit."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Venture capital is a cricket team where nine batters get out for a duck, one scores 50 and one hits a triple century. The triple century pays for the whole season."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "LBO equity multiple = (Exit EV − remaining debt) ÷ equity invested"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "LBO",
+        "Debt-funded buyout of a mature firm"
+       ],
+       [
+        "MBO / MBI",
+        "Insiders / outsiders buy the firm"
+       ],
+       [
+        "VC stages",
+        "Pre-seed, seed, early, later"
+       ],
+       [
+        "Exits",
+        "Trade sale, IPO, secondary, recap, write-off"
+       ],
+       [
+        "Mezzanine",
+        "Subordinated debt with warrants"
+       ],
+       [
+        "Unitranche",
+        "Senior + junior in one loan"
+       ],
+       [
+        "Distressed",
+        "Buy troubled debt cheaply, maybe gain control"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A buyout in which a company's existing managers acquire the business is a:",
+     "o": [
+      "Management buyout",
+      "Venture round",
+      "Management buy-in"
+     ],
+     "a": 0,
+     "e": "MBO = insiders buy; MBI = outside managers come in.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "An LBO fund invests ₹150 crore of equity and ₹350 crore of debt to buy a firm. It exits at ₹700 crore with ₹250 crore of debt outstanding. The equity multiple is:",
+     "o": [
+      "4.7×",
+      "3.0×",
+      "1.4×"
+     ],
+     "a": 1,
+     "e": "Equity = 700 − 250 = 450; 450 ÷ 150 = 3.0×.",
+     "los": "3.a"
+    },
+    {
+     "d": "E",
+     "q": "Venture capital mainly invests in:",
+     "o": [
+      "Mature cash-cow companies",
+      "Government bonds",
+      "Start-ups and early-stage firms"
+     ],
+     "a": 2,
+     "e": "VC funds back young companies with high growth potential.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "Which exit route is usually the slowest and most costly but can achieve high valuations in strong markets?",
+     "o": [
+      "Initial public offering",
+      "Write-off",
+      "Trade sale"
+     ],
+     "a": 0,
+     "e": "IPOs take time and fees but can deliver high prices when markets are buoyant.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "Mezzanine debt is best described as:",
+     "o": [
+      "Senior secured bank debt",
+      "Subordinated debt, often with warrants",
+      "Common equity"
+     ],
+     "a": 1,
+     "e": "Mezzanine ranks below senior debt and usually carries equity kickers.",
+     "los": "3.b"
+    },
+    {
+     "d": "H",
+     "q": "A loan that combines senior and subordinated debt into a single facility at one blended rate is:",
+     "o": [
+      "Venture debt",
+      "A recapitalisation",
+      "A unitranche loan"
+     ],
+     "a": 2,
+     "e": "Unitranche blends tranches into one loan.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "Distressed debt investors typically aim to:",
+     "o": [
+      "Buy debt of troubled firms at a discount and profit from recovery or restructuring",
+      "Lend only to start-ups",
+      "Hold AAA bonds to maturity"
+     ],
+     "a": 0,
+     "e": "They buy cheaply and may influence or take control in restructuring.",
+     "los": "3.b"
+    },
+    {
+     "d": "H",
+     "q": "The diversification benefit of private capital measured from reported returns is likely:",
+     "o": [
+      "Exactly correct",
+      "Overstated because of appraisal smoothing",
+      "Understated because of daily pricing"
+     ],
+     "a": 1,
+     "e": "Smoothed valuations lower measured correlation with public markets.",
+     "los": "3.c"
+    },
+    {
+     "d": "E",
+     "q": "Compared with listed equity, private equity is mainly characterised by:",
+     "o": [
+      "Lower fees",
+      "Daily liquidity",
+      "Illiquidity and long holding periods"
+     ],
+     "a": 2,
+     "e": "PE investments are locked up for years.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "A recapitalisation as an exit strategy involves:",
+     "o": [
+      "Adding debt to the company to pay a dividend to the fund",
+      "Listing the shares on an exchange",
+      "Selling the company to a competitor"
+     ],
+     "a": 0,
+     "e": "Recaps return cash to the fund while it keeps ownership.",
+     "los": "3.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "LBO",
+     "back": "Buyout of a mature company funded mostly with debt."
+    },
+    {
+     "front": "VC stages",
+     "back": "Pre-seed, seed, early (Series A), later stage."
+    },
+    {
+     "front": "PE exit routes",
+     "back": "Trade sale, IPO, secondary sale, recapitalisation, write-off."
+    },
+    {
+     "front": "Mezzanine debt",
+     "back": "Subordinated debt with warrants or conversion rights."
+    },
+    {
+     "front": "Direct lending",
+     "back": "Non-bank senior loans to mid-sized firms, often floating."
+    },
+    {
+     "front": "Unitranche",
+     "back": "Single loan blending senior and junior debt."
+    }
+   ]
+  },
+  {
+   "lm_no": 4,
+   "title": "Real Estate and Infrastructure",
+   "summary": "Forms of real estate investment, REITs, valuation approaches, and infrastructure assets.",
+   "los": [
+    {
+     "code": "4.a",
+     "command_word": "explain",
+     "statement": "Explain features and characteristics of real estate."
+    },
+    {
+     "code": "4.b",
+     "command_word": "explain",
+     "statement": "Explain the investment characteristics of real estate investments."
+    },
+    {
+     "code": "4.c",
+     "command_word": "explain",
+     "statement": "Explain features and characteristics of infrastructure."
+    },
+    {
+     "code": "4.d",
+     "command_word": "explain",
+     "statement": "Explain the investment characteristics of infrastructure investments."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Real estate: forms and features",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "",
+         "Private",
+         "Public"
+        ],
+        "rows": [
+         [
+          "Equity",
+          "Direct ownership, private funds",
+          "REITs, real estate company shares"
+         ],
+         [
+          "Debt",
+          "Mortgages, private loans",
+          "Mortgage-backed securities"
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Each property is "
+          },
+          {
+           "t": "unique",
+           "b": true
+          },
+          {
+           "t": " (location), "
+          },
+          {
+           "t": "indivisible",
+           "b": true
+          },
+          {
+           "t": " and expensive, with high transaction costs and low liquidity."
+          }
+         ],
+         [
+          {
+           "t": "Returns come from "
+          },
+          {
+           "t": "rental income",
+           "b": true
+          },
+          {
+           "t": " and "
+          },
+          {
+           "t": "capital appreciation",
+           "b": true
+          },
+          {
+           "t": "; leases give fairly stable income and some inflation protection."
+          }
+         ],
+         [
+          {
+           "t": "REITs",
+           "b": true
+          },
+          {
+           "t": " pay out most of their income, trade on exchanges and give liquidity, but behave more like equities in the short run."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Listed REITs are liquid and priced daily; direct property is appraised, so its returns look smoother."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Valuing property",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Income approach",
+           "b": true
+          },
+          {
+           "t": ": value = NOI ÷ cap rate (direct capitalisation) or DCF of future cash flows."
+          }
+         ],
+         [
+          {
+           "t": "Cost approach",
+           "b": true
+          },
+          {
+           "t": ": replacement cost of the building plus land, minus depreciation."
+          }
+         ],
+         [
+          {
+           "t": "Sales comparison approach",
+           "b": true
+          },
+          {
+           "t": ": prices of similar recent transactions, adjusted for differences."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Value = NOI ÷ Cap rate · NOI = rental income − operating expenses (before interest and tax)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A Pune office block earns ₹12 crore a year in rent with ₹2 crore of operating expenses. NOI = ₹10 crore. At an 8% cap rate, value = 10 ÷ 0.08 = "
+         },
+         {
+          "t": "₹125 crore",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "NOI excludes financing costs (interest) and income tax. Subtracting interest would mix capital structure into property value."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Infrastructure",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Economic",
+           "b": true
+          },
+          {
+           "t": " infrastructure (roads, ports, power, telecom) vs "
+          },
+          {
+           "t": "social",
+           "b": true
+          },
+          {
+           "t": " infrastructure (schools, hospitals)."
+          }
+         ],
+         [
+          {
+           "t": "Greenfield",
+           "b": true
+          },
+          {
+           "t": ": build new; higher risk and return. "
+          },
+          {
+           "t": "Brownfield",
+           "b": true
+          },
+          {
+           "t": ": buy existing assets with operating history; lower risk."
+          }
+         ],
+         [
+          {
+           "t": "Long lives, high entry barriers, often regulated or contracted cash flows, monopoly-like features."
+          }
+         ],
+         [
+          {
+           "t": "Access via direct stakes, unlisted funds, or listed infrastructure companies and funds (InvITs in India)."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A toll road is the only business where customers queue up and pay you to make them wait."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Value = NOI ÷ Cap rate · NOI excludes interest and tax"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Four quadrants",
+        "Private/public × equity/debt"
+       ],
+       [
+        "REIT",
+        "Listed, high payout, equity-like volatility"
+       ],
+       [
+        "Income approach",
+        "Direct cap or DCF"
+       ],
+       [
+        "Cost approach",
+        "Replacement cost less depreciation"
+       ],
+       [
+        "Sales comparison",
+        "Recent similar deals"
+       ],
+       [
+        "Greenfield",
+        "New build: higher risk"
+       ],
+       [
+        "Brownfield",
+        "Existing asset: lower risk"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Compared with listed shares, direct real estate is generally:",
+     "o": [
+      "More liquid",
+      "Less liquid with higher transaction costs",
+      "Free of valuation issues"
+     ],
+     "a": 1,
+     "e": "Property is indivisible, unique and costly to trade.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "A property has rental income of ₹12 crore and operating expenses of ₹2 crore. At an 8% cap rate its value is closest to:",
+     "o": [
+      "₹150 crore",
+      "₹100 crore",
+      "₹125 crore"
+     ],
+     "a": 2,
+     "e": "NOI = 10; 10 ÷ 0.08 = 125.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Net operating income for a property excludes:",
+     "o": [
+      "Interest expense",
+      "Rental income",
+      "Maintenance costs"
+     ],
+     "a": 0,
+     "e": "NOI is before financing costs and income taxes.",
+     "los": "4.b"
+    },
+    {
+     "d": "E",
+     "q": "An investment in commercial mortgage-backed securities is a form of:",
+     "o": [
+      "Public real estate equity",
+      "Public real estate debt",
+      "Private real estate equity"
+     ],
+     "a": 1,
+     "e": "CMBS are traded securities backed by property loans.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "The cost approach to property valuation estimates value as:",
+     "o": [
+      "The average of recent comparable sales",
+      "NOI divided by cap rate",
+      "Replacement cost of the building plus land, less depreciation"
+     ],
+     "a": 2,
+     "e": "It asks what it would cost to rebuild the property today.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Compared with direct property, REITs typically offer:",
+     "o": [
+      "Higher liquidity and daily pricing",
+      "Lower liquidity",
+      "Smoother reported returns"
+     ],
+     "a": 0,
+     "e": "REITs trade on exchanges.",
+     "los": "4.b"
+    },
+    {
+     "d": "E",
+     "q": "Building a new airport from scratch is an example of:",
+     "o": [
+      "Brownfield investment",
+      "Greenfield investment",
+      "Social infrastructure only"
+     ],
+     "a": 1,
+     "e": "Greenfield means new construction.",
+     "los": "4.c"
+    },
+    {
+     "d": "H",
+     "q": "Compared with greenfield projects, brownfield infrastructure investments typically have:",
+     "o": [
+      "Higher construction risk",
+      "No regulatory risk",
+      "Lower risk because of operating history"
+     ],
+     "a": 2,
+     "e": "Existing assets have known cash flows and no construction risk.",
+     "los": "4.d"
+    },
+    {
+     "d": "M",
+     "q": "Hospitals and schools are examples of:",
+     "o": [
+      "Social infrastructure",
+      "Timberland",
+      "Economic infrastructure"
+     ],
+     "a": 0,
+     "e": "Social infrastructure serves community needs.",
+     "los": "4.c"
+    },
+    {
+     "d": "H",
+     "q": "Infrastructure assets are often attractive to pension funds because they offer:",
+     "o": [
+      "Short lives and volatile cash flows",
+      "Long-lived, stable and often inflation-linked cash flows",
+      "High liquidity"
+     ],
+     "a": 1,
+     "e": "Long, predictable cash flows suit long-term liabilities.",
+     "los": "4.d"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Real estate quadrants",
+     "back": "Private/public × equity/debt."
+    },
+    {
+     "front": "NOI",
+     "back": "Rent minus operating expenses; before interest and tax."
+    },
+    {
+     "front": "Direct capitalisation",
+     "back": "Value = NOI ÷ cap rate."
+    },
+    {
+     "front": "Three valuation approaches",
+     "back": "Income, cost, sales comparison."
+    },
+    {
+     "front": "Greenfield vs brownfield",
+     "back": "New build (riskier) vs existing asset (safer)."
+    },
+    {
+     "front": "Economic vs social infrastructure",
+     "back": "Roads, ports, power vs schools, hospitals."
+    }
+   ]
+  },
+  {
+   "lm_no": 5,
+   "title": "Natural Resources",
+   "summary": "Commodities, farmland and timberland, and the three sources of commodity futures returns.",
+   "los": [
+    {
+     "code": "5.a",
+     "command_word": "explain",
+     "statement": "Explain features of raw land, timberland, farmland and commodities."
+    },
+    {
+     "code": "5.b",
+     "command_word": "explain",
+     "statement": "Explain the investment characteristics of natural resources."
+    },
+    {
+     "code": "5.c",
+     "command_word": "describe",
+     "statement": "Describe the components of commodity futures returns."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Land, timber and farms",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Timberland",
+           "b": true
+          },
+          {
+           "t": ": returns from biological growth, timber price changes and land value. Harvests can be delayed when prices are low, a built-in option."
+          }
+         ],
+         [
+          {
+           "t": "Farmland",
+           "b": true
+          },
+          {
+           "t": ": crops each season plus land value; exposed to weather and crop prices; harvest cannot be delayed."
+          }
+         ],
+         [
+          {
+           "t": "Raw land",
+           "b": true
+          },
+          {
+           "t": ": no income, a bet on future development or rezoning."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Timber can be left growing when prices are low; crops cannot. That flexibility makes timberland returns less tied to the current commodity price."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Commodities and futures",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Most investors get commodity exposure through "
+         },
+         {
+          "t": "futures",
+          "b": true
+         },
+         {
+          "t": ", ETFs or commodity-producer shares rather than storing barrels of oil. Categories: energy, metals (industrial, precious), agriculture, livestock."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Contango",
+           "b": true
+          },
+          {
+           "t": ": futures price > spot. Rolling into a pricier contract gives a "
+          },
+          {
+           "t": "negative roll return",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Backwardation",
+           "b": true
+          },
+          {
+           "t": ": futures price < spot. Rolling gives a "
+          },
+          {
+           "t": "positive roll return",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Total futures return = Spot price return + Roll return + Collateral (interest) return"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Gold futures: spot rises 3%, the roll costs 1% because the curve is in contango, and the cash collateral earns 5%. Total ≈ 3 − 1 + 5 = "
+         },
+         {
+          "t": "7%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Why investors hold natural resources",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Inflation hedge",
+           "b": true
+          },
+          {
+           "t": ": commodity prices often rise with inflation."
+          }
+         ],
+         [
+          {
+           "t": "Diversification",
+           "b": true
+          },
+          {
+           "t": ": low or negative correlation with stocks and bonds at times."
+          }
+         ],
+         [
+          {
+           "t": "Risks: price volatility, weather, geopolitics, storage costs, ESG concerns (land use, water)."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Timberland is the only investment that keeps growing while you sleep, literally. Your mutual fund cannot photosynthesise."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Futures return = spot return + roll return + collateral return"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Contango",
+        "Futures > spot; negative roll"
+       ],
+       [
+        "Backwardation",
+        "Futures < spot; positive roll"
+       ],
+       [
+        "Timberland",
+        "Can delay harvest; growth adds value"
+       ],
+       [
+        "Farmland",
+        "Harvest fixed; weather risk"
+       ],
+       [
+        "Raw land",
+        "No income; development option"
+       ],
+       [
+        "Why hold",
+        "Inflation hedge, diversification"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A commodity futures market where futures prices are above the spot price is in:",
+     "o": [
+      "Equilibrium",
+      "Backwardation",
+      "Contango"
+     ],
+     "a": 2,
+     "e": "Contango means futures exceed spot.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "In backwardation, the roll return for a long futures investor is:",
+     "o": [
+      "Positive",
+      "Negative",
+      "Always zero"
+     ],
+     "a": 0,
+     "e": "The investor rolls into a cheaper contract that converges up to spot.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "A commodity futures position has a 3% spot return, a −1% roll return and a 5% collateral return. The total return is closest to:",
+     "o": [
+      "2%",
+      "7%",
+      "9%"
+     ],
+     "a": 1,
+     "e": "3 − 1 + 5 = 7%.",
+     "los": "5.c"
+    },
+    {
+     "d": "E",
+     "q": "Which is not a component of commodity futures returns?",
+     "o": [
+      "Roll return",
+      "Collateral return",
+      "Dividend return"
+     ],
+     "a": 2,
+     "e": "Futures return = spot + roll + collateral; there are no dividends.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "An advantage of timberland over farmland is that:",
+     "o": [
+      "Harvests can be delayed when prices are low",
+      "It produces income every month",
+      "Timber cannot be harvested"
+     ],
+     "a": 0,
+     "e": "Trees keep growing, so the owner can wait for better prices.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "Raw land as an investment mainly offers:",
+     "o": [
+      "Regular rental income",
+      "Potential gains from development or rezoning",
+      "Fixed coupons"
+     ],
+     "a": 1,
+     "e": "Raw land earns nothing until it is developed or sold.",
+     "los": "5.a"
+    },
+    {
+     "d": "H",
+     "q": "Commodities are often included in portfolios mainly for:",
+     "o": [
+      "Steady dividend income",
+      "Their low cost of storage",
+      "Inflation hedging and diversification"
+     ],
+     "a": 2,
+     "e": "Commodity prices tend to rise with inflation and move differently from financial assets.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "Most institutional investors gain commodity exposure through:",
+     "o": [
+      "Futures contracts and related funds",
+      "Real estate",
+      "Storing physical goods"
+     ],
+     "a": 0,
+     "e": "Futures avoid storage and handling costs.",
+     "los": "5.b"
+    },
+    {
+     "d": "H",
+     "q": "The collateral return on a fully collateralised commodity futures position comes from:",
+     "o": [
+      "Rolling contracts",
+      "Interest earned on cash held as margin",
+      "Changes in the spot price"
+     ],
+     "a": 1,
+     "e": "Cash backing the position earns the short-term rate.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "A key risk of farmland that timberland largely avoids is:",
+     "o": [
+      "Exposure to land values",
+      "Long holding periods",
+      "Having to harvest at a fixed time regardless of price"
+     ],
+     "a": 2,
+     "e": "Crops must be harvested when ripe, so price timing risk is higher.",
+     "los": "5.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Futures return components",
+     "back": "Spot + roll + collateral."
+    },
+    {
+     "front": "Contango",
+     "back": "Futures above spot; roll return negative."
+    },
+    {
+     "front": "Backwardation",
+     "back": "Futures below spot; roll return positive."
+    },
+    {
+     "front": "Timberland advantage",
+     "back": "Harvest can be delayed; trees keep growing."
+    },
+    {
+     "front": "Raw land return source",
+     "back": "Development or rezoning gains; no income."
+    },
+    {
+     "front": "Why add commodities",
+     "back": "Inflation hedge and diversification."
+    }
+   ]
+  },
+  {
+   "lm_no": 6,
+   "title": "Hedge Funds",
+   "summary": "Hedge fund strategies, fund terms that limit liquidity, and the risks of investing.",
+   "los": [
+    {
+     "code": "6.a",
+     "command_word": "explain",
+     "statement": "Explain investment characteristics of hedge funds."
+    },
+    {
+     "code": "6.b",
+     "command_word": "explain",
+     "statement": "Explain investment forms and vehicles for hedge fund investments."
+    },
+    {
+     "code": "6.c",
+     "command_word": "describe",
+     "statement": "Describe hedge fund strategy categories and their risk and return."
+    }
+   ],
+   "topics": [
+    {
+     "title": "What hedge funds are",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Private, lightly regulated funds that can use "
+          },
+          {
+           "t": "leverage, short selling and derivatives",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Aim for "
+          },
+          {
+           "t": "absolute returns",
+           "b": true
+          },
+          {
+           "t": " rather than beating an index."
+          }
+         ],
+         [
+          {
+           "t": "High fees (management + incentive), high minimum investment, limited transparency."
+          }
+         ],
+         [
+          {
+           "t": "Lock-up",
+           "b": true
+          },
+          {
+           "t": " periods, "
+          },
+          {
+           "t": "notice periods",
+           "b": true
+          },
+          {
+           "t": " for redemption, "
+          },
+          {
+           "t": "gates",
+           "b": true
+          },
+          {
+           "t": " that cap withdrawals, and "
+          },
+          {
+           "t": "side pockets",
+           "b": true
+          },
+          {
+           "t": " for illiquid holdings."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A gate limits how much investors can withdraw at once, protecting the remaining investors from forced fire sales."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Strategy families",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Category",
+         "Examples",
+         "Typical risk"
+        ],
+        "rows": [
+         [
+          "Equity hedge",
+          "Long/short, market neutral, short bias",
+          "Stock-picking, some market beta"
+         ],
+         [
+          "Event-driven",
+          "Merger arbitrage, distressed securities, activism",
+          "Deal failure, credit"
+         ],
+         [
+          "Relative value",
+          "Fixed-income arbitrage, convertible arbitrage",
+          "Leverage, liquidity, spreads"
+         ],
+         [
+          "Opportunistic",
+          "Global macro, managed futures (CTAs)",
+          "Directional macro bets"
+         ],
+         [
+          "Multi-manager",
+          "Multi-strategy, fund of funds",
+          "Extra fee layer (FoF)"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Merger arbitrage: Tara Pharma bids ₹500 a share for Lotus Labs, which trades at ₹470. The manager buys Lotus at ₹470. If the deal closes, the gain is 30 ÷ 470 ≈ "
+         },
+         {
+          "t": "6.4%",
+          "b": true
+         },
+         {
+          "t": ". If it fails, Lotus may fall back to ₹400. Small, steady gains with occasional large losses."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Ways to invest",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Master–feeder",
+           "b": true
+          },
+          {
+           "t": " structure: onshore and offshore feeders invest in one master fund."
+          }
+         ],
+         [
+          {
+           "t": "Fund of funds",
+           "b": true
+          },
+          {
+           "t": ": diversified and gives access to closed managers, but adds a second layer of fees."
+          }
+         ],
+         [
+          {
+           "t": "Separately managed accounts",
+           "b": true
+          },
+          {
+           "t": ": transparency and control, but higher minimums."
+          }
+         ],
+         [
+          {
+           "t": "Liquid alternatives",
+           "b": true
+          },
+          {
+           "t": ": regulated mutual-fund versions with daily liquidity and limits on leverage."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A 'market-neutral' fund in a crash is like a 'waterproof' phone in the sea. The label is true right up until it isn't."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Merger arb gain = (offer price − current price) ÷ current price, if the deal closes"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Equity hedge",
+        "Long/short stock picking"
+       ],
+       [
+        "Event-driven",
+        "Mergers, distress, activism"
+       ],
+       [
+        "Relative value",
+        "Mispricings between related securities"
+       ],
+       [
+        "Opportunistic",
+        "Global macro, managed futures"
+       ],
+       [
+        "Fund of funds",
+        "Diversified, double fees"
+       ],
+       [
+        "Lock-up / gate",
+        "Limits on when and how much you can redeem"
+       ],
+       [
+        "Side pocket",
+        "Illiquid assets ring-fenced"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A hedge fund charging '2 and 20' takes:",
+     "o": [
+      "2% of assets and 20% of profits",
+      "20% of assets only",
+      "2% of profits and 20% of assets"
+     ],
+     "a": 0,
+     "e": "2% management fee on assets and a 20% incentive fee on profits.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "A redemption gate in a hedge fund:",
+     "o": [
+      "Charges a fee on new subscriptions",
+      "Limits the amount investors can withdraw in a period",
+      "Guarantees daily liquidity"
+     ],
+     "a": 1,
+     "e": "Gates protect the fund from forced selling.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "Merger arbitrage is part of which strategy category?",
+     "o": [
+      "Opportunistic",
+      "Relative value",
+      "Event-driven"
+     ],
+     "a": 2,
+     "e": "It profits from corporate events.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "An acquirer offers ₹500 a share for a target trading at ₹470. A merger arbitrageur's gain if the deal closes is closest to:",
+     "o": [
+      "6.4%",
+      "3.0%",
+      "6.0%"
+     ],
+     "a": 0,
+     "e": "30 ÷ 470 = 6.4%.",
+     "los": "6.c"
+    },
+    {
+     "d": "E",
+     "q": "A fund that takes directional bets on interest rates, currencies and indices based on economic views follows:",
+     "o": [
+      "Equity market neutral",
+      "Global macro",
+      "Convertible arbitrage"
+     ],
+     "a": 1,
+     "e": "Global macro is an opportunistic strategy.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "The main drawback of a fund of hedge funds is:",
+     "o": [
+      "Too much transparency",
+      "No diversification",
+      "An extra layer of fees"
+     ],
+     "a": 2,
+     "e": "FoFs charge their own fees on top of the underlying funds' fees.",
+     "los": "6.b"
+    },
+    {
+     "d": "H",
+     "q": "Convertible arbitrage typically involves:",
+     "o": [
+      "Buying a convertible bond and shorting the issuer's stock",
+      "Buying both the bond and the stock",
+      "Shorting government bonds only"
+     ],
+     "a": 0,
+     "e": "The manager hedges the equity exposure of an underpriced convertible.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "Separately managed accounts offer investors:",
+     "o": [
+      "Lower minimums than funds",
+      "Greater transparency and control",
+      "Exemption from fees"
+     ],
+     "a": 1,
+     "e": "Assets sit in the investor's own account.",
+     "los": "6.b"
+    },
+    {
+     "d": "H",
+     "q": "Which statement about liquid alternative funds is most accurate?",
+     "o": [
+      "They are only for institutions",
+      "They have unlimited leverage",
+      "They offer daily liquidity but face limits on leverage and illiquid holdings"
+     ],
+     "a": 2,
+     "e": "Regulated vehicles trade off flexibility for liquidity.",
+     "los": "6.b"
+    },
+    {
+     "d": "E",
+     "q": "A side pocket is used to:",
+     "o": [
+      "Separate illiquid investments from the main fund",
+      "Pay the hurdle rate",
+      "Hold the manager's fees"
+     ],
+     "a": 0,
+     "e": "Illiquid assets are ring-fenced until they can be realised.",
+     "los": "6.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Hedge fund aim",
+     "back": "Absolute returns using leverage, shorts and derivatives."
+    },
+    {
+     "front": "Five strategy families",
+     "back": "Equity hedge, event-driven, relative value, opportunistic, multi-manager."
+    },
+    {
+     "front": "Merger arbitrage",
+     "back": "Buy target below the offer; risk is deal failure."
+    },
+    {
+     "front": "Gate",
+     "back": "Cap on withdrawals in a period."
+    },
+    {
+     "front": "Fund of funds",
+     "back": "Diversified access, but double fees."
+    },
+    {
+     "front": "Master–feeder",
+     "back": "Onshore and offshore feeders invest in one master fund."
+    }
+   ]
+  },
+  {
+   "lm_no": 7,
+   "title": "Introduction to Digital Assets",
+   "summary": "Blockchain basics, types of digital assets, and how investors gain exposure.",
+   "los": [
+    {
+     "code": "7.a",
+     "command_word": "describe",
+     "statement": "Describe financial applications of distributed ledger technology."
+    },
+    {
+     "code": "7.b",
+     "command_word": "explain",
+     "statement": "Explain how digital assets differ from traditional assets."
+    },
+    {
+     "code": "7.c",
+     "command_word": "describe",
+     "statement": "Describe different types of digital assets."
+    },
+    {
+     "code": "7.d",
+     "command_word": "describe",
+     "statement": "Describe investment forms and vehicles for digital assets."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Distributed ledgers and blockchain",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "distributed ledger",
+          "b": true
+         },
+         {
+          "t": " is a database shared across many computers (nodes). A "
+         },
+         {
+          "t": "blockchain",
+          "b": true
+         },
+         {
+          "t": " groups transactions into blocks linked by cryptographic hashes, so changing history is extremely hard."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Permissionless",
+           "b": true
+          },
+          {
+           "t": " (public, anyone can join, e.g. Bitcoin) vs "
+          },
+          {
+           "t": "permissioned",
+           "b": true
+          },
+          {
+           "t": " (only approved nodes, used by banks)."
+          }
+         ],
+         [
+          {
+           "t": "Consensus",
+           "b": true
+          },
+          {
+           "t": ": "
+          },
+          {
+           "t": "proof of work",
+           "b": true
+          },
+          {
+           "t": " (miners spend energy solving puzzles) vs "
+          },
+          {
+           "t": "proof of stake",
+           "b": true
+          },
+          {
+           "t": " (validators lock up coins; far less energy)."
+          }
+         ],
+         [
+          {
+           "t": "Uses: payments, settlement, tokenisation of real assets, smart contracts."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Proof of stake is the energy-efficient method; proof of work is the energy-hungry one."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Types of digital assets",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Type",
+         "What it is"
+        ],
+        "rows": [
+         [
+          "Cryptocurrency",
+          "Native coin of a blockchain, e.g. Bitcoin, Ether"
+         ],
+         [
+          "Stablecoin",
+          "Token pegged to a fiat currency or asset, backed by reserves or algorithms"
+         ],
+         [
+          "Utility token",
+          "Gives access to a platform's service"
+         ],
+         [
+          "Security token",
+          "Represents ownership or a claim; regulated like securities"
+         ],
+         [
+          "NFT",
+          "Unique, non-interchangeable token for one item"
+         ],
+         [
+          "CBDC",
+          "Digital currency issued by a central bank, e.g. the e-rupee"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "DeFi",
+          "b": true
+         },
+         {
+          "t": " (decentralised finance) runs lending, trading and exchange through smart contracts without traditional intermediaries."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Investing in digital assets",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Direct",
+           "b": true
+          },
+          {
+           "t": ": buy and hold in a wallet, via an exchange. Custody and key loss are real risks."
+          }
+         ],
+         [
+          {
+           "t": "Indirect",
+           "b": true
+          },
+          {
+           "t": ": exchange-traded products, futures, trusts, and shares of crypto-related companies."
+          }
+         ],
+         [
+          {
+           "t": "Characteristics: no cash flows for most coins (value rests on adoption and scarcity), extreme volatility, evolving regulation, fraud and hacking risk, 24/7 trading."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Losing your private key is like losing the only key to a bank locker that also has no bank, no manager, and no complaints desk."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "No cash flows → value depends on adoption, scarcity and trust in the network"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Blockchain",
+        "Hash-linked blocks on a distributed ledger"
+       ],
+       [
+        "Permissionless vs permissioned",
+        "Open to all vs approved nodes"
+       ],
+       [
+        "PoW vs PoS",
+        "Energy-heavy mining vs staked validators"
+       ],
+       [
+        "Stablecoin",
+        "Pegged to fiat or assets"
+       ],
+       [
+        "Security token",
+        "Ownership claim; regulated"
+       ],
+       [
+        "NFT",
+        "Unique, non-fungible token"
+       ],
+       [
+        "Indirect access",
+        "ETPs, futures, crypto-company shares"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A blockchain that anyone can join and validate transactions on is:",
+     "o": [
+      "Permissioned",
+      "Permissionless",
+      "Centralised"
+     ],
+     "a": 1,
+     "e": "Public blockchains are open to all.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "Compared with proof of work, proof of stake:",
+     "o": [
+      "Requires more mining hardware",
+      "Has no validators",
+      "Uses much less energy"
+     ],
+     "a": 2,
+     "e": "Validators stake coins instead of solving energy-intensive puzzles.",
+     "los": "7.a"
+    },
+    {
+     "d": "E",
+     "q": "A token pegged to the value of the US dollar is a:",
+     "o": [
+      "Stablecoin",
+      "Utility token",
+      "Non-fungible token"
+     ],
+     "a": 0,
+     "e": "Stablecoins aim to hold a fixed value.",
+     "los": "7.c"
+    },
+    {
+     "d": "M",
+     "q": "A token that represents a share of ownership in a real estate project is best classified as a:",
+     "o": [
+      "Cryptocurrency",
+      "Security token",
+      "Utility token"
+     ],
+     "a": 1,
+     "e": "Ownership claims are securities and regulated as such.",
+     "los": "7.c"
+    },
+    {
+     "d": "M",
+     "q": "A key way most cryptocurrencies differ from shares and bonds is that they:",
+     "o": [
+      "Are issued by companies",
+      "Pay regular coupons",
+      "Generate no cash flows, so value depends on adoption and demand"
+     ],
+     "a": 2,
+     "e": "Without cash flows, fundamental valuation is difficult.",
+     "los": "7.b"
+    },
+    {
+     "d": "E",
+     "q": "An NFT is:",
+     "o": [
+      "A unique token that cannot be exchanged one-for-one with another",
+      "A government bond",
+      "A coin backed by gold"
+     ],
+     "a": 0,
+     "e": "Non-fungible means each token is distinct.",
+     "los": "7.c"
+    },
+    {
+     "d": "M",
+     "q": "Decentralised finance (DeFi) refers to:",
+     "o": [
+      "Central bank digital currencies",
+      "Financial services run through smart contracts without traditional intermediaries",
+      "Bank-issued credit cards"
+     ],
+     "a": 1,
+     "e": "DeFi replaces intermediaries with code.",
+     "los": "7.a"
+    },
+    {
+     "d": "H",
+     "q": "An investor who wants bitcoin exposure without managing private keys would most likely use:",
+     "o": [
+      "A hardware wallet",
+      "Direct purchase on a peer-to-peer network",
+      "An exchange-traded product or futures"
+     ],
+     "a": 2,
+     "e": "Indirect vehicles avoid self-custody.",
+     "los": "7.d"
+    },
+    {
+     "d": "H",
+     "q": "Which is a risk particular to holding digital assets directly?",
+     "o": [
+      "Loss of private keys or exchange hacks",
+      "Coupon reinvestment risk",
+      "Prepayment risk"
+     ],
+     "a": 0,
+     "e": "Lost keys mean lost assets, with no recourse.",
+     "los": "7.d"
+    },
+    {
+     "d": "M",
+     "q": "A digital currency issued by a country's central bank is a:",
+     "o": [
+      "Stablecoin",
+      "CBDC",
+      "Utility token"
+     ],
+     "a": 1,
+     "e": "Central bank digital currency, such as the e-rupee.",
+     "los": "7.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Blockchain",
+     "back": "Distributed ledger of hash-linked blocks."
+    },
+    {
+     "front": "PoW vs PoS",
+     "back": "Mining with energy vs validators staking coins."
+    },
+    {
+     "front": "Stablecoin",
+     "back": "Token pegged to fiat or another asset."
+    },
+    {
+     "front": "Security vs utility token",
+     "back": "Ownership claim vs access to a service."
+    },
+    {
+     "front": "NFT",
+     "back": "Unique, non-interchangeable token."
+    },
+    {
+     "front": "Digital asset risks",
+     "back": "Volatility, key loss, hacks, fraud, regulation."
+    }
+   ]
+  }
+ ],
+ "retag_proto": {
+  "55": 4,
+  "56": 1,
+  "57": 3
+ }
+}

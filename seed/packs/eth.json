@@ -1,0 +1,2392 @@
+{
+ "subject": "eth",
+ "name": "Ethical and Professional Standards",
+ "lms": [
+  {
+   "lm_no": 1,
+   "title": "Ethics and Trust in the Investment Profession",
+   "summary": "Why trust matters in finance, what makes a profession, and a framework for ethical decisions.",
+   "los": [
+    {
+     "code": "1.a",
+     "command_word": "explain",
+     "statement": "Explain ethics and the role of a code of ethics in a profession."
+    },
+    {
+     "code": "1.b",
+     "command_word": "identify",
+     "statement": "Identify challenges to ethical behaviour."
+    },
+    {
+     "code": "1.c",
+     "command_word": "describe",
+     "statement": "Describe the features of a profession and the need for trust in investment management."
+    },
+    {
+     "code": "1.d",
+     "command_word": "distinguish",
+     "statement": "Distinguish between ethical and legal standards."
+    },
+    {
+     "code": "1.e",
+     "command_word": "describe",
+     "statement": "Describe and apply a framework for ethical decision-making."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Ethics, trust and professions",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Ethics",
+          "b": true
+         },
+         {
+          "t": " is a set of moral principles that guide behaviour: deciding what is right when no one is checking. A "
+         },
+         {
+          "t": "code of ethics",
+          "b": true
+         },
+         {
+          "t": " writes those principles down so that members, clients and regulators all know the standard expected."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Clients hand investment professionals their savings and cannot easily judge the quality of the advice. That information gap is why "
+         },
+         {
+          "t": "trust",
+          "b": true
+         },
+         {
+          "t": " is the product the profession really sells."
+         }
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "What makes a profession"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "A body of "
+          },
+          {
+           "t": "specialist knowledge",
+           "b": true
+          },
+          {
+           "t": " and high entry standards (exams, experience)."
+          }
+         ],
+         [
+          {
+           "t": "A "
+          },
+          {
+           "t": "code of ethics",
+           "b": true
+          },
+          {
+           "t": " and standards of conduct that members agree to follow."
+          }
+         ],
+         [
+          {
+           "t": "Monitoring and enforcement",
+           "b": true
+          },
+          {
+           "t": ": members who break the code can be disciplined."
+          }
+         ],
+         [
+          {
+           "t": "Commitment to "
+          },
+          {
+           "t": "continuing education",
+           "b": true
+          },
+          {
+           "t": " and to serving clients and society, not just oneself."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Imagine a dentist who says 'Trust me, that tooth has to go' and also owns the tooth-pulling franchise. You would want a code of ethics too."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Challenges to ethical behaviour",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Overconfidence",
+           "b": true
+          },
+          {
+           "t": ": 'I am a good person, so whatever I decide must be ethical.'"
+          }
+         ],
+         [
+          {
+           "t": "Situational influences",
+           "b": true
+          },
+          {
+           "t": ": money, prestige, deadlines, loyalty to a boss or team."
+          }
+         ],
+         [
+          {
+           "t": "Short-term focus",
+           "b": true
+          },
+          {
+           "t": ": chasing this quarter's bonus at the cost of long-term reputation."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Legal is not the same as ethical.",
+          "b": true
+         },
+         {
+          "t": " Laws set a minimum, lag behind new products and differ between countries. Some legal acts are unethical (exploiting a loophole to mislead clients), and occasionally an ethical act can break a bad rule (whistle-blowing on fraud)."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Exam questions often describe an action that is legal and ask if it is acceptable. Being legal is "
+         },
+         {
+          "t": "not enough",
+          "b": true
+         },
+         {
+          "t": "; the Code and Standards may still be breached."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "A framework for ethical decisions",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "Identify",
+           "b": true
+          },
+          {
+           "t": ": the facts, the stakeholders and duties owed, the ethical principles and any conflicts of interest."
+          }
+         ],
+         [
+          {
+           "t": "Consider",
+           "b": true
+          },
+          {
+           "t": ": situational influences, alternative actions, and seek guidance (compliance, a trusted colleague, the Standards)."
+          }
+         ],
+         [
+          {
+           "t": "Decide and act",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Reflect",
+           "b": true
+          },
+          {
+           "t": ": was the outcome as expected? What would you do differently?"
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Riya, an analyst, is asked by her manager to raise a target price because the bank is pitching for the company's bond issue. Identify: duty to clients relying on the research; conflict with the banking team. Consider: pressure from her boss; options are to refuse, escalate to compliance, or disclose. Act: keep the target her analysis supports and escalate. Reflect: propose a firewall between research and banking."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "The framework is a loop, not a checklist. Reflection feeds the next decision."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Ethical decision framework: Identify → Consider → Decide and act → Reflect"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Ethics",
+        "Moral principles guiding behaviour"
+       ],
+       [
+        "Code of ethics",
+        "Written principles that members commit to"
+       ],
+       [
+        "Trust",
+        "The core product in investment management"
+       ],
+       [
+        "Profession",
+        "Knowledge, entry standards, code, enforcement, CPD, service"
+       ],
+       [
+        "Overconfidence",
+        "Assuming your own choices are ethical"
+       ],
+       [
+        "Situational influence",
+        "Money, prestige, pressure from others"
+       ],
+       [
+        "Legal vs ethical",
+        "Law is the minimum; ethics often asks for more"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A written set of moral principles that members of a profession agree to follow is best called a:",
+     "o": [
+      "Service-level agreement",
+      "Code of ethics",
+      "Regulatory filing"
+     ],
+     "a": 1,
+     "e": "A code of ethics communicates the principles and conduct expected of members.",
+     "los": "1.a"
+    },
+    {
+     "d": "E",
+     "q": "Which is a feature of a profession?",
+     "o": [
+      "Members serve only their own interests",
+      "No entry requirements",
+      "Monitoring and enforcement of a code of conduct"
+     ],
+     "a": 2,
+     "e": "Professions set entry standards, adopt a code and discipline members who breach it.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "An analyst believes that because she has always been honest, any decision she makes is ethical. This is an example of:",
+     "o": [
+      "Overconfidence bias",
+      "A situational influence",
+      "Short-termism"
+     ],
+     "a": 0,
+     "e": "Overestimating one's own morality is overconfidence, a common barrier to ethical decisions.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "Which statement about legal and ethical standards is most accurate?",
+     "o": [
+      "Any legal action is ethical",
+      "Laws often set a minimum and ethical conduct can require more",
+      "Ethical standards never conflict with the law"
+     ],
+     "a": 1,
+     "e": "Laws lag, vary across countries and set only minimum conduct; ethics often demands more.",
+     "los": "1.d"
+    },
+    {
+     "d": "E",
+     "q": "The first step in the ethical decision-making framework is to:",
+     "o": [
+      "Act immediately",
+      "Reflect on the outcome",
+      "Identify the facts, stakeholders and duties"
+     ],
+     "a": 2,
+     "e": "The framework runs Identify, Consider, Decide and act, Reflect.",
+     "los": "1.e"
+    },
+    {
+     "d": "M",
+     "q": "A portfolio manager is offered a large bonus if she sells a high-fee fund to all her clients this quarter. The bonus is best described as a:",
+     "o": [
+      "Situational influence",
+      "Professional standard",
+      "Regulatory requirement"
+     ],
+     "a": 0,
+     "e": "Money and incentives are situational influences that can bias decisions.",
+     "los": "1.b"
+    },
+    {
+     "d": "H",
+     "q": "Trust is especially important in investment management mainly because:",
+     "o": [
+      "Regulators guarantee returns",
+      "Clients find it hard to judge the quality of advice they receive",
+      "Fees are always fixed"
+     ],
+     "a": 1,
+     "e": "Information asymmetry means clients rely on the professional's integrity.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "In the 'Consider' step of the framework, a member would most likely:",
+     "o": [
+      "Record lessons learned",
+      "Publish the decision",
+      "Seek guidance and weigh alternative actions"
+     ],
+     "a": 2,
+     "e": "Considering means evaluating influences and alternatives, and seeking advice where useful.",
+     "los": "1.e"
+    },
+    {
+     "d": "H",
+     "q": "An action is permitted in the country where a member works but is prohibited by the Code and Standards. The member should:",
+     "o": [
+      "Follow the stricter standard, the Code",
+      "Choose whichever is more profitable for clients",
+      "Follow the local law because it is legal"
+     ],
+     "a": 0,
+     "e": "Members follow the stricter of applicable law and the Code and Standards.",
+     "los": "1.d"
+    },
+    {
+     "d": "E",
+     "q": "Which is the last step of the ethical decision-making framework?",
+     "o": [
+      "Consider",
+      "Reflect",
+      "Identify"
+     ],
+     "a": 1,
+     "e": "Reflecting on the outcome closes the loop and improves future decisions.",
+     "los": "1.e"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Ethics",
+     "back": "Moral principles that guide behaviour, even when no one is watching."
+    },
+    {
+     "front": "Why trust matters in investing",
+     "back": "Clients cannot easily judge advice quality, so they rely on integrity."
+    },
+    {
+     "front": "Features of a profession",
+     "back": "Specialist knowledge, entry standards, code, enforcement, CPD, service."
+    },
+    {
+     "front": "Two big barriers to ethics",
+     "back": "Overconfidence and situational influences."
+    },
+    {
+     "front": "Legal vs ethical",
+     "back": "Law is a minimum; ethical conduct may require more."
+    },
+    {
+     "front": "Ethical decision framework",
+     "back": "Identify → Consider → Decide and act → Reflect."
+    }
+   ]
+  },
+  {
+   "lm_no": 2,
+   "title": "Code of Ethics and Standards of Professional Conduct",
+   "summary": "The six components of the Code, the seven Standards, and the professional conduct process.",
+   "los": [
+    {
+     "code": "2.a",
+     "command_word": "describe",
+     "statement": "Describe the structure of the CFA Institute professional conduct programme."
+    },
+    {
+     "code": "2.b",
+     "command_word": "identify",
+     "statement": "Identify the six components of the Code of Ethics and the seven Standards."
+    },
+    {
+     "code": "2.c",
+     "command_word": "explain",
+     "statement": "Explain the ethical responsibilities required by the Code and Standards."
+    }
+   ],
+   "topics": [
+    {
+     "title": "The Code of Ethics",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Members and candidates must:"
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "Act with "
+          },
+          {
+           "t": "integrity, competence, diligence, respect",
+           "b": true
+          },
+          {
+           "t": " and in an ethical manner with the public, clients, employers, colleagues and others in the markets."
+          }
+         ],
+         [
+          {
+           "t": "Place the "
+          },
+          {
+           "t": "integrity of the profession and the interests of clients above their own",
+           "b": true
+          },
+          {
+           "t": " personal interests."
+          }
+         ],
+         [
+          {
+           "t": "Use "
+          },
+          {
+           "t": "reasonable care and independent professional judgement",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Practise and encourage others to practise in a "
+          },
+          {
+           "t": "professional and ethical",
+           "b": true
+          },
+          {
+           "t": " manner."
+          }
+         ],
+         [
+          {
+           "t": "Promote the "
+          },
+          {
+           "t": "integrity and viability of global capital markets",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Maintain and improve",
+           "b": true
+          },
+          {
+           "t": " their professional competence and that of others."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "The six-part Code is the 'be a good human' list. The Standards are the fine print that tells you what 'good' means when your boss, your client and your bonus all want different things."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "The seven Standards",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Standard",
+         "Covers"
+        ],
+        "rows": [
+         [
+          "I Professionalism",
+          "Knowledge of the law, independence and objectivity, misrepresentation, misconduct, competence"
+         ],
+         [
+          "II Integrity of capital markets",
+          "Material non-public information, market manipulation"
+         ],
+         [
+          "III Duties to clients",
+          "Loyalty, prudence and care; fair dealing; suitability; performance presentation; confidentiality"
+         ],
+         [
+          "IV Duties to employers",
+          "Loyalty, additional compensation, supervisors' responsibilities"
+         ],
+         [
+          "V Investment analysis, recommendations and actions",
+          "Diligence and reasonable basis, communication with clients, record retention"
+         ],
+         [
+          "VI Conflicts of interest",
+          "Avoid or disclose, priority of transactions, referral fees"
+         ],
+         [
+          "VII Responsibilities as a member or candidate",
+          "Conduct in the programme, references to the designation and the programme"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Clients come first, then the employer, then the member: the priority of transactions under VI(B) follows the same order."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "The professional conduct programme",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Professional conduct staff investigate possible breaches. Inquiries can start from a member's annual "
+         },
+         {
+          "t": "self-disclosure",
+          "b": true
+         },
+         {
+          "t": " statement, a written "
+         },
+         {
+          "t": "complaint",
+          "b": true
+         },
+         {
+          "t": ", "
+         },
+         {
+          "t": "media reports",
+          "b": true
+         },
+         {
+          "t": ", or analysis of "
+         },
+         {
+          "t": "exam proctor",
+          "b": true
+         },
+         {
+          "t": " reports."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Staff may conclude no action is needed, issue a "
+          },
+          {
+           "t": "cautionary letter",
+           "b": true
+          },
+          {
+           "t": ", or propose "
+          },
+          {
+           "t": "sanctions",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Sanctions range from public censure to "
+          },
+          {
+           "t": "suspension or revocation",
+           "b": true
+          },
+          {
+           "t": " of membership and the right to use the designation."
+          }
+         ],
+         [
+          {
+           "t": "A member who rejects the proposed sanction can ask for a "
+          },
+          {
+           "t": "hearing panel",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "The disciplinary review committee oversees the process; the member is not convicted by complaint alone. There is always a chance to respond."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Priority: clients → employer → member"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Code of Ethics",
+        "Six principles: integrity, clients first, care, encourage, markets, competence"
+       ],
+       [
+        "Standard I",
+        "Professionalism"
+       ],
+       [
+        "Standard II",
+        "Integrity of capital markets"
+       ],
+       [
+        "Standard III",
+        "Duties to clients"
+       ],
+       [
+        "Standard IV",
+        "Duties to employers"
+       ],
+       [
+        "Standard V",
+        "Investment analysis, recommendations and actions"
+       ],
+       [
+        "Standard VI",
+        "Conflicts of interest"
+       ],
+       [
+        "Standard VII",
+        "Responsibilities as member or candidate"
+       ],
+       [
+        "Conduct inquiry triggers",
+        "Self-disclosure, complaints, media, proctor reports"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Under the Code of Ethics, members must place the integrity of the profession and the interests of clients:",
+     "o": [
+      "Below their employer's interests",
+      "Equal to their own interests",
+      "Above their own personal interests"
+     ],
+     "a": 2,
+     "e": "This is the second component of the Code of Ethics.",
+     "los": "2.b"
+    },
+    {
+     "d": "E",
+     "q": "Material non-public information is dealt with under which Standard?",
+     "o": [
+      "II Integrity of capital markets",
+      "IV Duties to employers",
+      "I Professionalism"
+     ],
+     "a": 0,
+     "e": "Standard II(A) covers MNPI and II(B) market manipulation.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "Suitability and fair dealing fall under:",
+     "o": [
+      "Standard VI Conflicts of interest",
+      "Standard III Duties to clients",
+      "Standard V Investment analysis"
+     ],
+     "a": 1,
+     "e": "III(B) Fair dealing and III(C) Suitability are duties to clients.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "Record retention is part of which Standard?",
+     "o": [
+      "III Duties to clients",
+      "IV Duties to employers",
+      "V Investment analysis, recommendations and actions"
+     ],
+     "a": 2,
+     "e": "V(C) Record retention sits with diligence and communication under Standard V.",
+     "los": "2.b"
+    },
+    {
+     "d": "E",
+     "q": "Which is not a way a professional conduct inquiry can begin?",
+     "o": [
+      "A rise in the member's salary",
+      "A written complaint",
+      "A member's annual self-disclosure"
+     ],
+     "a": 0,
+     "e": "Inquiries start from self-disclosure, complaints, media reports or proctor reports.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "A member who does not accept the sanction proposed by professional conduct staff may:",
+     "o": [
+      "Only appeal to a national court",
+      "Request a hearing before a panel",
+      "Ignore it with no consequence"
+     ],
+     "a": 1,
+     "e": "The member can reject the proposal, and the matter goes to a hearing panel.",
+     "los": "2.a"
+    },
+    {
+     "d": "H",
+     "q": "The most severe sanction available under the professional conduct programme is:",
+     "o": [
+      "A fine paid to the client",
+      "A private warning",
+      "Revocation of membership and the right to use the designation"
+     ],
+     "a": 2,
+     "e": "Revocation removes membership and the right to use the designation.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "'Use reasonable care and exercise independent professional judgement' is:",
+     "o": [
+      "A component of the Code of Ethics",
+      "A local securities law",
+      "A GIPS requirement"
+     ],
+     "a": 0,
+     "e": "It is the third principle of the Code of Ethics.",
+     "los": "2.b"
+    },
+    {
+     "d": "H",
+     "q": "Which ordering of priorities is consistent with the Code and Standards?",
+     "o": [
+      "Employer, client, member",
+      "Client, employer, member",
+      "Member, employer, client"
+     ],
+     "a": 1,
+     "e": "Clients come first, then the employer, then the member's own interests.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "Avoiding or disclosing conflicts and referral fees are covered under:",
+     "o": [
+      "Standard II",
+      "Standard VII",
+      "Standard VI"
+     ],
+     "a": 2,
+     "e": "VI(A) Avoid or disclose conflicts, VI(B) Priority of transactions, VI(C) Referral fees.",
+     "los": "2.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Six components of the Code",
+     "back": "Integrity; clients first; reasonable care; encourage ethics; market integrity; competence."
+    },
+    {
+     "front": "Seven Standards (I–VII)",
+     "back": "Professionalism; Markets; Clients; Employers; Analysis; Conflicts; Member/Candidate."
+    },
+    {
+     "front": "Order of priority",
+     "back": "Clients, then employer, then yourself."
+    },
+    {
+     "front": "How a conduct inquiry starts",
+     "back": "Self-disclosure, complaint, media report, proctor report."
+    },
+    {
+     "front": "Possible outcomes of an inquiry",
+     "back": "No action, cautionary letter, or sanctions up to revocation."
+    },
+    {
+     "front": "Rejecting a proposed sanction",
+     "back": "The member can ask for a hearing panel."
+    }
+   ]
+  },
+  {
+   "lm_no": 3,
+   "title": "Guidance for Standards I–VII",
+   "summary": "What each Standard requires in practice, with the recommended procedures and common traps.",
+   "los": [
+    {
+     "code": "3.a",
+     "command_word": "demonstrate",
+     "statement": "Demonstrate the application of the Code and Standards to situations involving issues of professional integrity."
+    },
+    {
+     "code": "3.b",
+     "command_word": "distinguish",
+     "statement": "Distinguish between conduct that conforms to the Code and Standards and conduct that violates them."
+    },
+    {
+     "code": "3.c",
+     "command_word": "recommend",
+     "statement": "Recommend practices and procedures to prevent violations."
+    }
+   ],
+   "topics": [
+    {
+     "title": "I Professionalism and II Integrity of capital markets",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "I(A) Knowledge of the law",
+           "b": true
+          },
+          {
+           "t": ": follow the "
+          },
+          {
+           "t": "stricter",
+           "b": true
+          },
+          {
+           "t": " of the law and the Code. If you know of a violation, "
+          },
+          {
+           "t": "dissociate",
+           "b": true
+          },
+          {
+           "t": " (stop working on it) and, if needed, report to compliance; you need not report to regulators, though it may be appropriate."
+          }
+         ],
+         [
+          {
+           "t": "I(B) Independence and objectivity",
+           "b": true
+          },
+          {
+           "t": ": modest gifts are fine; client gifts must be disclosed to the employer; gifts from issuers that could sway research are not."
+          }
+         ],
+         [
+          {
+           "t": "I(C) Misrepresentation",
+           "b": true
+          },
+          {
+           "t": ": no false claims, no plagiarism. Cite sources (recognised financial and statistical reporting services can be used without naming each)."
+          }
+         ],
+         [
+          {
+           "t": "I(D) Misconduct",
+           "b": true
+          },
+          {
+           "t": ": no dishonesty, fraud or deceit that reflects badly on the profession."
+          }
+         ],
+         [
+          {
+           "t": "I(E) Competence",
+           "b": true
+          },
+          {
+           "t": ": act with and keep up competence."
+          }
+         ],
+         [
+          {
+           "t": "II(A) MNPI",
+           "b": true
+          },
+          {
+           "t": ": do not act or cause others to act on material non-public information. The "
+          },
+          {
+           "t": "mosaic theory",
+           "b": true
+          },
+          {
+           "t": " allows conclusions from public and non-material non-public pieces."
+          }
+         ],
+         [
+          {
+           "t": "II(B) Market manipulation",
+           "b": true
+          },
+          {
+           "t": ": no distorting prices or inflating volume to mislead."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "An analyst overhears in a lift that a client company will miss earnings badly. It is material and not public. She must not trade, nor tip her family. She should encourage the company to disclose it publicly."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Material = would likely move the price, or a reasonable investor would want it. Non-public = not yet disseminated to the market. Both must hold."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "III Duties to clients and IV Duties to employers",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "III(A) Loyalty, prudence and care",
+           "b": true
+          },
+          {
+           "t": ": the duty is owed to the "
+          },
+          {
+           "t": "client",
+           "b": true
+          },
+          {
+           "t": " (for a pension plan, the beneficiaries). Proxy voting is part of it. Soft-dollar benefits must benefit the client."
+          }
+         ],
+         [
+          {
+           "t": "III(B) Fair dealing",
+           "b": true
+          },
+          {
+           "t": ": treat all clients "
+          },
+          {
+           "t": "fairly",
+           "b": true
+          },
+          {
+           "t": ", not necessarily equally. Disseminate recommendations at the same time; allocate block trades pro rata."
+          }
+         ],
+         [
+          {
+           "t": "III(C) Suitability",
+           "b": true
+          },
+          {
+           "t": ": know the client, write an IPS, review at least annually."
+          }
+         ],
+         [
+          {
+           "t": "III(D) Performance presentation",
+           "b": true
+          },
+          {
+           "t": ": fair, accurate, complete. GIPS compliance is one way to meet it."
+          }
+         ],
+         [
+          {
+           "t": "III(E) Confidentiality",
+           "b": true
+          },
+          {
+           "t": ": keep client information private unless it reveals illegal activity or the law requires disclosure."
+          }
+         ],
+         [
+          {
+           "t": "IV(A) Loyalty to employer",
+           "b": true
+          },
+          {
+           "t": ": you may prepare to leave, but not take client lists or files, or solicit clients before you leave."
+          }
+         ],
+         [
+          {
+           "t": "IV(B) Additional compensation",
+           "b": true
+          },
+          {
+           "t": ": get "
+          },
+          {
+           "t": "written consent",
+           "b": true
+          },
+          {
+           "t": " from the employer before accepting outside pay that competes with it."
+          }
+         ],
+         [
+          {
+           "t": "IV(C) Supervisors",
+           "b": true
+          },
+          {
+           "t": ": make reasonable efforts to prevent and detect violations, with adequate compliance procedures."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Fair dealing allows different service levels (premium tiers) "
+         },
+         {
+          "t": "if",
+          "b": true
+         },
+         {
+          "t": " they are disclosed and available to all clients who pay for them."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "V Analysis, VI Conflicts and VII Membership",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "V(A) Diligence and reasonable basis",
+           "b": true
+          },
+          {
+           "t": ": thorough research; you may rely on third-party research after reasonable checks."
+          }
+         ],
+         [
+          {
+           "t": "V(B) Communication",
+           "b": true
+          },
+          {
+           "t": ": disclose the investment process, risks and limitations; separate "
+          },
+          {
+           "t": "fact from opinion",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "V(C) Record retention",
+           "b": true
+          },
+          {
+           "t": ": keep records supporting recommendations. Absent rules, "
+          },
+          {
+           "t": "seven years",
+           "b": true
+          },
+          {
+           "t": " is recommended. Records belong to the employer."
+          }
+         ],
+         [
+          {
+           "t": "VI(A) Avoid or disclose conflicts",
+           "b": true
+          },
+          {
+           "t": ": prominent, plain-language disclosure."
+          }
+         ],
+         [
+          {
+           "t": "VI(B) Priority of transactions",
+           "b": true
+          },
+          {
+           "t": ": clients and employer before personal trades; family accounts that are clients are treated like any client."
+          }
+         ],
+         [
+          {
+           "t": "VI(C) Referral fees",
+           "b": true
+          },
+          {
+           "t": ": disclose to clients and employer any compensation for referrals."
+          }
+         ],
+         [
+          {
+           "t": "VII(A) Conduct in the programme",
+           "b": true
+          },
+          {
+           "t": ": no cheating, no disclosing exam questions; general opinions on the exam are fine."
+          }
+         ],
+         [
+          {
+           "t": "VII(B) References to the designation",
+           "b": true
+          },
+          {
+           "t": ": 'CFA' is an adjective, never a noun; no claims that the designation guarantees superior returns. 'Passed Level I' is fine; 'CFA Level I' is not a designation."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Saying 'I am a CFA' is like saying 'I am an MBBS'. Say 'I am a CFA charterholder' and the grammar police (and the Standards) will leave you alone."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Stricter of law and Code · Dissociate · Disclose · Seven years of records"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "I(A)",
+        "Follow the stricter rule; dissociate from violations"
+       ],
+       [
+        "I(B)",
+        "Disclose client gifts; refuse issuer pressure"
+       ],
+       [
+        "II(A)",
+        "Material + non-public = do not trade; mosaic theory allowed"
+       ],
+       [
+        "III(B)",
+        "Fair, not equal; same-time dissemination; pro-rata allocation"
+       ],
+       [
+        "III(C)",
+        "Know the client; IPS; review annually"
+       ],
+       [
+        "IV(A)",
+        "Prepare to leave, but no client lists or early solicitation"
+       ],
+       [
+        "IV(B)",
+        "Written consent for competing outside pay"
+       ],
+       [
+        "V(C)",
+        "Records: seven years if no regulation"
+       ],
+       [
+        "VI(B)",
+        "Clients, then employer, then personal trades"
+       ],
+       [
+        "VII(B)",
+        "'CFA' is an adjective, never a noun"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "A member learns her firm's product is being sold in breach of local regulation. Her first obligation under Standard I(A) is to:",
+     "o": [
+      "Dissociate from the activity",
+      "Report directly to the media",
+      "Resign immediately"
+     ],
+     "a": 0,
+     "e": "Members must dissociate; reporting to compliance is advised; resignation may be needed if it continues.",
+     "los": "3.a"
+    },
+    {
+     "d": "E",
+     "q": "An analyst uses public data plus non-material non-public observations to conclude a stock is overvalued. Under II(A) this is:",
+     "o": [
+      "A violation because the conclusion is material",
+      "Permitted under the mosaic theory",
+      "Permitted only with client consent"
+     ],
+     "a": 1,
+     "e": "The mosaic theory allows material conclusions built from public and non-material information.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "Under Standard III(B) Fair dealing, a firm that offers a premium service tier:",
+     "o": [
+      "Violates the Standard",
+      "Must charge all clients the same fee",
+      "Complies if the tier is disclosed and available to all clients"
+     ],
+     "a": 2,
+     "e": "Fair dealing means fair, not equal; differing service levels are fine when disclosed and open to all.",
+     "los": "3.b"
+    },
+    {
+     "d": "H",
+     "q": "A portfolio manager for a company pension plan owes the duty of loyalty primarily to:",
+     "o": [
+      "The plan's beneficiaries",
+      "The company's management",
+      "The plan's trustees personally"
+     ],
+     "a": 0,
+     "e": "For a pension plan, the client is the beneficiaries.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "A member plans to start a competing firm. While still employed she may:",
+     "o": [
+      "Solicit current clients to move with her",
+      "Make preparations such as registering the new firm",
+      "Copy client contact lists for later use"
+     ],
+     "a": 1,
+     "e": "Preparing to leave is allowed; taking records or soliciting clients before leaving is not.",
+     "los": "3.b"
+    },
+    {
+     "d": "E",
+     "q": "If no regulation applies, the Standards recommend keeping records for at least:",
+     "o": [
+      "Twenty years",
+      "Two years",
+      "Seven years"
+     ],
+     "a": 2,
+     "e": "Seven years is the recommended minimum when no regulation sets a period.",
+     "los": "3.c"
+    },
+    {
+     "d": "M",
+     "q": "A member accepts paid board work for a company that competes with his employer without telling the employer. This violates:",
+     "o": [
+      "Standard IV(B) Additional compensation",
+      "Standard III(E) Confidentiality",
+      "Standard VII(A) Conduct in the programme"
+     ],
+     "a": 0,
+     "e": "Outside pay that could compete requires written consent from all parties.",
+     "los": "3.b"
+    },
+    {
+     "d": "H",
+     "q": "Which statement about references to the designation complies with Standard VII(B)?",
+     "o": [
+      "'He is a CFA.'",
+      "'She is a CFA charterholder.'",
+      "'CFA charterholders always earn higher returns.'"
+     ],
+     "a": 1,
+     "e": "'CFA' must be used as an adjective, and no superior performance can be implied.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "A client's confidential information may be disclosed when:",
+     "o": [
+      "Another client asks for it",
+      "It would help win new business",
+      "The law requires it or it concerns illegal activity"
+     ],
+     "a": 2,
+     "e": "III(E) allows disclosure only when required by law, it involves illegal activity, or the client permits.",
+     "los": "3.a"
+    },
+    {
+     "d": "H",
+     "q": "To meet Standard IV(C), a supervisor who discovers a likely violation by a subordinate should first:",
+     "o": [
+      "Respond promptly, investigate and limit the employee's activity",
+      "Report only at the annual review",
+      "Wait for the employee to admit it"
+     ],
+     "a": 0,
+     "e": "Supervisors must act promptly to investigate and prevent further violations.",
+     "los": "3.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Stricter of the two",
+     "back": "Follow whichever is stricter: the law or the Code and Standards."
+    },
+    {
+     "front": "Mosaic theory",
+     "back": "Material conclusions from public plus non-material non-public data are allowed."
+    },
+    {
+     "front": "Fair dealing",
+     "back": "Fair, not equal: same-time dissemination, pro-rata allocation, disclosed tiers."
+    },
+    {
+     "front": "Leaving an employer",
+     "back": "Prepare, yes. Take client lists or solicit before leaving, no."
+    },
+    {
+     "front": "Record retention default",
+     "back": "Seven years; records belong to the employer."
+    },
+    {
+     "front": "Correct use of 'CFA'",
+     "back": "Adjective only: 'CFA charterholder', never 'a CFA'."
+    }
+   ]
+  },
+  {
+   "lm_no": 4,
+   "title": "Introduction to the Global Investment Performance Standards (GIPS)",
+   "summary": "Why GIPS exists, who can claim compliance, composites, and verification.",
+   "los": [
+    {
+     "code": "4.a",
+     "command_word": "explain",
+     "statement": "Explain why the GIPS standards were created, who can claim compliance and who benefits from compliance."
+    },
+    {
+     "code": "4.b",
+     "command_word": "describe",
+     "statement": "Describe the key concepts of the GIPS standards for firms."
+    },
+    {
+     "code": "4.c",
+     "command_word": "explain",
+     "statement": "Explain the purpose of composites."
+    },
+    {
+     "code": "4.d",
+     "command_word": "explain",
+     "statement": "Explain the requirements and benefits of verification."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Why GIPS exists",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Before GIPS, managers could show only their best accounts ("
+         },
+         {
+          "t": "cherry-picking",
+          "b": true
+         },
+         {
+          "t": "), drop closed funds ("
+         },
+         {
+          "t": "survivorship bias",
+          "b": true
+         },
+         {
+          "t": ") or pick flattering periods. GIPS are voluntary, ethical standards for calculating and presenting investment performance so clients can "
+         },
+         {
+          "t": "compare managers fairly",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Who claims compliance",
+           "b": true
+          },
+          {
+           "t": ": only "
+          },
+          {
+           "t": "investment firms",
+           "b": true
+          },
+          {
+           "t": " (and asset owners), never individuals or software. Compliance is "
+          },
+          {
+           "t": "firm-wide",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Who benefits",
+           "b": true
+          },
+          {
+           "t": ": prospective clients get comparable, complete records; firms gain credibility and an edge when bidding for mandates, plus stronger internal controls."
+          }
+         ],
+         [
+          {
+           "t": "There is "
+          },
+          {
+           "t": "no partial compliance",
+           "b": true
+          },
+          {
+           "t": ": a firm either meets all requirements or may not claim it."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "An individual portfolio manager cannot claim GIPS compliance. Only the firm can."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Composites and key concepts",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "composite",
+          "b": true
+         },
+         {
+          "t": " groups all actual, fee-paying, discretionary portfolios managed to a similar strategy or objective, for example 'Indian large-cap equity'. Every such portfolio must be in at least one composite, so the record cannot be cherry-picked."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Firms define themselves and document "
+          },
+          {
+           "t": "policies and procedures",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Present at least "
+          },
+          {
+           "t": "five years",
+           "b": true
+          },
+          {
+           "t": " of GIPS-compliant performance (or since inception if shorter), adding a year each year until "
+          },
+          {
+           "t": "ten years",
+           "b": true
+          },
+          {
+           "t": " are shown."
+          }
+         ],
+         [
+          {
+           "t": "Portfolios are valued at fair value; returns are time-weighted (money-weighted is allowed in some cases such as private equity)."
+          }
+         ],
+         [
+          {
+           "t": "Pooled funds and asset owners are also covered by the 2020 edition."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Prakash Capital runs 40 discretionary large-cap accounts. It may not build its composite from the 10 best ones. All 40 must be in the composite; non-discretionary accounts are excluded."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Verification",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Verification",
+          "b": true
+         },
+         {
+          "t": " is an independent third-party review of whether the firm has complied with composite construction requirements and its policies are designed to calculate and present performance in line with GIPS, "
+         },
+         {
+          "t": "firm-wide",
+          "b": true
+         },
+         {
+          "t": ". It is "
+         },
+         {
+          "t": "optional but recommended",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Benefits: credibility with prospects and consultants, and better internal processes."
+          }
+         ],
+         [
+          {
+           "t": "It does not certify any single composite's numbers; that is a separate "
+          },
+          {
+           "t": "performance examination",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "A firm must not claim verification of an individual composite unless it was examined."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "GIPS is the cricket scorecard rule: you must count every innings you played, not only the centuries you show your friends."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Composite = ALL actual, fee-paying, discretionary portfolios with similar strategy"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Who complies",
+        "Firms (and asset owners), never individuals"
+       ],
+       [
+        "Scope",
+        "Firm-wide; no partial compliance"
+       ],
+       [
+        "Track record",
+        "At least 5 years, building to 10"
+       ],
+       [
+        "Purpose",
+        "Fair, comparable performance; stops cherry-picking"
+       ],
+       [
+        "Verification",
+        "Optional, recommended, firm-wide, independent"
+       ],
+       [
+        "Performance examination",
+        "Separate review of a specific composite"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "GIPS compliance can be claimed by:",
+     "o": [
+      "An individual portfolio manager",
+      "An investment firm",
+      "A performance software vendor"
+     ],
+     "a": 1,
+     "e": "Only firms (and asset owners) can claim compliance.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "The main purpose of composites is to:",
+     "o": [
+      "Reduce management fees",
+      "Replace the need for verification",
+      "Prevent firms from presenting only their best-performing portfolios"
+     ],
+     "a": 2,
+     "e": "Including all similar portfolios stops cherry-picking.",
+     "los": "4.c"
+    },
+    {
+     "d": "M",
+     "q": "Which portfolio must be included in a composite?",
+     "o": [
+      "An actual, fee-paying, discretionary portfolio",
+      "A non-fee-paying staff account",
+      "A non-discretionary account"
+     ],
+     "a": 0,
+     "e": "Every actual, fee-paying, discretionary portfolio must be in at least one composite.",
+     "los": "4.c"
+    },
+    {
+     "d": "E",
+     "q": "Verification under GIPS is:",
+     "o": [
+      "Mandatory",
+      "Optional but recommended",
+      "Prohibited for small firms"
+     ],
+     "a": 1,
+     "e": "Verification is voluntary, though strongly encouraged.",
+     "los": "4.d"
+    },
+    {
+     "d": "H",
+     "q": "A firm meets every GIPS requirement except the record-keeping rule. It may claim:",
+     "o": [
+      "Partial compliance",
+      "Compliance except for record keeping",
+      "No GIPS compliance"
+     ],
+     "a": 2,
+     "e": "There is no partial compliance.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "At first, a GIPS-compliant firm must present at least:",
+     "o": [
+      "Five years of performance, or since inception if shorter",
+      "One year",
+      "Twenty years"
+     ],
+     "a": 0,
+     "e": "It starts with at least five years and builds to ten.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Verification tests whether the firm:",
+     "o": [
+      "Beat its benchmark",
+      "Has complied with composite construction requirements firm-wide and has policies to calculate and present performance per GIPS",
+      "Charges competitive fees"
+     ],
+     "a": 1,
+     "e": "Verification is firm-wide and covers composite construction and policies.",
+     "los": "4.d"
+    },
+    {
+     "d": "E",
+     "q": "Survivorship bias in performance presentation occurs when a firm:",
+     "o": [
+      "Includes every portfolio",
+      "Uses time-weighted returns",
+      "Drops closed or poor-performing portfolios from its record"
+     ],
+     "a": 2,
+     "e": "Excluding closed portfolios flatters the record; GIPS prevents it.",
+     "los": "4.a"
+    },
+    {
+     "d": "H",
+     "q": "A consultant comparing two GIPS-compliant managers benefits mainly because:",
+     "o": [
+      "Performance is calculated and presented on a consistent, complete basis",
+      "Both use the same benchmark",
+      "Both managers are guaranteed to outperform"
+     ],
+     "a": 0,
+     "e": "GIPS gives comparable and complete records, not guaranteed returns.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "Which statement about a performance examination is correct?",
+     "o": [
+      "It replaces the need for composites",
+      "It is a separate review of a specific composite or pooled fund",
+      "It is the same as verification"
+     ],
+     "a": 1,
+     "e": "Examination focuses on particular composites; verification is firm-wide.",
+     "los": "4.d"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Who can claim GIPS compliance?",
+     "back": "Firms and asset owners only."
+    },
+    {
+     "front": "Composite",
+     "back": "All actual, fee-paying, discretionary portfolios with a similar strategy."
+    },
+    {
+     "front": "Partial compliance?",
+     "back": "Not allowed. All requirements or no claim."
+    },
+    {
+     "front": "Minimum record",
+     "back": "5 years (or since inception), building to 10."
+    },
+    {
+     "front": "Verification",
+     "back": "Optional, independent, firm-wide review."
+    },
+    {
+     "front": "Problem GIPS solves",
+     "back": "Cherry-picking and survivorship bias in track records."
+    }
+   ]
+  },
+  {
+   "lm_no": 5,
+   "title": "Ethics Application",
+   "summary": "Working through realistic cases: spot the Standard, judge the conduct, recommend the fix.",
+   "los": [
+    {
+     "code": "5.a",
+     "command_word": "evaluate",
+     "statement": "Evaluate practices, policies and conduct relative to the Code and Standards."
+    },
+    {
+     "code": "5.b",
+     "command_word": "explain",
+     "statement": "Explain how the practices, policies and conduct support or violate the Code and Standards."
+    }
+   ],
+   "topics": [
+    {
+     "title": "How to attack an ethics case",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "Find "
+          },
+          {
+           "t": "who the member owes duties to",
+           "b": true
+          },
+          {
+           "t": ": client, employer, market."
+          }
+         ],
+         [
+          {
+           "t": "Spot the "
+          },
+          {
+           "t": "trigger",
+           "b": true
+          },
+          {
+           "t": ": a gift, a tip, a new job, a trade, a performance claim, a conflict."
+          }
+         ],
+         [
+          {
+           "t": "Map it to the "
+          },
+          {
+           "t": "Standard",
+           "b": true
+          },
+          {
+           "t": " and ask: was it disclosed? Was there consent? Was the client harmed or put second?"
+          }
+         ],
+         [
+          {
+           "t": "Recommend a "
+          },
+          {
+           "t": "procedure",
+           "b": true
+          },
+          {
+           "t": " that would prevent it next time."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Disclosure fixes many conflicts, but "
+         },
+         {
+          "t": "not",
+          "b": true
+         },
+         {
+          "t": " MNPI, misrepresentation or market manipulation. You cannot disclose your way out of trading on inside information."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Case 1: the hot IPO",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Anil manages accounts at Moti Securities. An oversubscribed IPO is allocated to the firm. He puts shares in his own account and his brother's (a fee-paying client) before filling other clients' orders. Violations: VI(B) priority of transactions (his own account first) and III(B) fair dealing. His brother may participate only on the same terms as other clients, pro rata. Fix: a written allocation policy, pro-rata fills, and pre-clearance of personal trades."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Family accounts that are fee-paying clients must be treated like other clients: not better, and not worse."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Case 2: the research report and the trip",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Kavya writes research on Surya Hotels. Surya offers a free week at its new resort for her family. Accepting would threaten I(B) independence and objectivity. Acceptable alternatives: decline, or have her firm pay for any genuine site visit. Separately, her report copies two charts from another broker without credit: I(C) misrepresentation (plagiarism)."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A free family holiday from the company you are rating 'Buy' is the finance version of a referee accepting dinner from one team before the final."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Case method: duty owed → trigger → Standard → disclosed/consented? → procedure"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Disclosure cures",
+        "Conflicts, referral fees, outside work (with consent)"
+       ],
+       [
+        "Disclosure does not cure",
+        "MNPI, plagiarism, manipulation, misrepresentation"
+       ],
+       [
+        "Hot issues",
+        "Clients first; family-client accounts pro rata"
+       ],
+       [
+        "Issuer-paid travel",
+        "Pay your own way to stay independent"
+       ],
+       [
+        "Recommended fix",
+        "Written policies, pre-clearance, training, monitoring"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "A portfolio manager fills her own order for an oversubscribed IPO before client orders. She has most likely violated:",
+     "o": [
+      "V(C) Record retention",
+      "VII(A) Conduct in the programme",
+      "VI(B) Priority of transactions"
+     ],
+     "a": 2,
+     "e": "Client transactions must take priority over personal ones.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "An analyst's brother is a fee-paying client of the firm. In a hot IPO, the brother's account should:",
+     "o": [
+      "Receive shares pro rata like any other client",
+      "Receive priority allocation",
+      "Be excluded entirely"
+     ],
+     "a": 0,
+     "e": "Family accounts that are clients are treated like other clients.",
+     "los": "5.b"
+    },
+    {
+     "d": "H",
+     "q": "Which conflict can not be resolved by disclosure alone?",
+     "o": [
+      "Receiving referral fees",
+      "Trading on material non-public information",
+      "Owning shares in a company you cover"
+     ],
+     "a": 1,
+     "e": "Trading on MNPI is prohibited regardless of disclosure.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "An analyst accepts an all-expenses-paid family holiday from a company she covers. The Standard most at risk is:",
+     "o": [
+      "IV(A) Loyalty",
+      "III(D) Performance presentation",
+      "I(B) Independence and objectivity"
+     ],
+     "a": 2,
+     "e": "Lavish issuer gifts threaten objectivity.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "An analyst copies charts from another firm's report into his own without citing them. This is:",
+     "o": [
+      "A violation of I(C) Misrepresentation",
+      "A violation of II(B)",
+      "Acceptable if the data are public"
+     ],
+     "a": 0,
+     "e": "Using others' work without attribution is plagiarism, a form of misrepresentation.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "A manager tells prospects 'our strategy has never had a losing year' but omits two closed portfolios that lost money. This violates:",
+     "o": [
+      "VI(C) Referral fees",
+      "III(D) Performance presentation",
+      "IV(B) Additional compensation"
+     ],
+     "a": 1,
+     "e": "Performance must be fair, accurate and complete.",
+     "los": "5.a"
+    },
+    {
+     "d": "H",
+     "q": "Which firm procedure best prevents personal trading conflicts?",
+     "o": [
+      "Allowing staff to trade freely",
+      "Disclosing trades only once a year",
+      "Pre-clearance and reporting of personal trades with blackout periods"
+     ],
+     "a": 2,
+     "e": "Pre-clearance, reporting and blackout periods are recommended procedures.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "Before analysing an ethics case, the first thing to establish is:",
+     "o": [
+      "To whom the member owes duties",
+      "The stock's price target",
+      "The member's salary"
+     ],
+     "a": 0,
+     "e": "Identifying duties owed frames which Standards apply.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "A member receives a referral fee from a broker for sending clients and discloses it to both the employer and clients in advance. This is:",
+     "o": [
+      "A violation of III(E)",
+      "Compliant with VI(C)",
+      "A violation of II(A)"
+     ],
+     "a": 1,
+     "e": "Referral fees are permitted when disclosed before the engagement.",
+     "los": "5.b"
+    },
+    {
+     "d": "H",
+     "q": "A supervisor's firm has no written compliance procedures, and a subordinate front-runs client trades. The supervisor most likely violated:",
+     "o": [
+      "I(E) Competence",
+      "VII(B)",
+      "IV(C) Responsibilities of supervisors"
+     ],
+     "a": 2,
+     "e": "Supervisors must ensure adequate procedures exist to prevent violations.",
+     "los": "5.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Ethics case: step 1",
+     "back": "Who is owed a duty: client, employer or market?"
+    },
+    {
+     "front": "Not curable by disclosure",
+     "back": "MNPI, plagiarism, misrepresentation, manipulation."
+    },
+    {
+     "front": "Hot IPO rule",
+     "back": "Clients first; family-client accounts pro rata."
+    },
+    {
+     "front": "Issuer-paid trips",
+     "back": "Pay your own way where possible to keep independence."
+    },
+    {
+     "front": "Front-running",
+     "back": "Trading ahead of client orders; breaches VI(B)."
+    },
+    {
+     "front": "Prevent personal-trading conflicts",
+     "back": "Pre-clearance, reporting, blackout periods."
+    }
+   ]
+  }
+ ],
+ "retag_proto": {
+  "34": 2,
+  "35": 3,
+  "36": 3
+ }
+}

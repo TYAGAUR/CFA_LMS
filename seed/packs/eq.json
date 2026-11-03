@@ -1,0 +1,2540 @@
+{
+ "subject": "eq",
+ "name": "Equity Investments",
+ "lms": [
+  {
+   "lm_no": 1,
+   "title": "Overview of Equity Securities",
+   "summary": "Types and features of equity, private versus public equity, foreign equity and the cost of equity.",
+   "los": [
+    {
+     "code": "1.a",
+     "command_word": "describe",
+     "statement": "Describe characteristics of types of equity securities."
+    },
+    {
+     "code": "1.b",
+     "command_word": "compare",
+     "statement": "Compare the risk and return characteristics of equity securities."
+    },
+    {
+     "code": "1.c",
+     "command_word": "describe",
+     "statement": "Describe methods for investing in non-domestic equity securities."
+    },
+    {
+     "code": "1.d",
+     "command_word": "compare",
+     "statement": "Compare a company's book value and market value, and its cost of equity, return on equity and investors' required return."
+    }
+   ],
+   "topics": [],
+   "revision": null,
+   "questions": [
+    {
+     "d": "M",
+     "q": "With cumulative voting, a shareholder who owns 200 shares and four directors are being elected can cast:",
+     "o": [
+      "200 votes for one director only",
+      "Up to 800 votes for a single director",
+      "50 votes per director"
+     ],
+     "a": 1,
+     "e": "Cumulative voting gives shares × seats votes that can be concentrated, helping minority holders.",
+     "los": "1.a"
+    },
+    {
+     "d": "E",
+     "q": "A depository receipt is:",
+     "o": [
+      "A bank deposit certificate",
+      "A type of preference share",
+      "A security traded locally that represents shares of a foreign company"
+     ],
+     "a": 2,
+     "e": "DRs let investors hold foreign shares through a domestic depository bank.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "In a sponsored depository receipt, the foreign company:",
+     "o": [
+      "Is involved, and DR holders usually get voting rights",
+      "Must be unlisted in its home market",
+      "Has no involvement"
+     ],
+     "a": 0,
+     "e": "Sponsored DRs involve the issuer; unsponsored ones do not.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "A company's net income is ₹120 crore and average book equity is ₹800 crore. Its ROE is:",
+     "o": [
+      "12%",
+      "15%",
+      "6.7%"
+     ],
+     "a": 1,
+     "e": "ROE = 120 ÷ 800 = 15%.",
+     "los": "1.d"
+    },
+    {
+     "d": "H",
+     "q": "From the company's viewpoint, the investors' minimum required rate of return on its equity is its:",
+     "o": [
+      "Dividend yield",
+      "Return on equity",
+      "Cost of equity"
+     ],
+     "a": 2,
+     "e": "The investors' required return is the company's cost of equity.",
+     "los": "1.d"
+    },
+    {
+     "d": "E",
+     "q": "Market value of equity typically exceeds book value when investors expect the company to:",
+     "o": [
+      "Earn returns above its cost of equity",
+      "Make losses",
+      "Be liquidated soon"
+     ],
+     "a": 0,
+     "e": "Book value records past investment; market value prices future value creation.",
+     "los": "1.d"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Statutory vs cumulative voting",
+     "back": "One vote per share per seat vs votes pooled for one candidate."
+    },
+    {
+     "front": "Depository receipt",
+     "back": "Local security representing foreign shares, held by a depository bank."
+    },
+    {
+     "front": "Book vs market value of equity",
+     "back": "Accounting net assets vs price investors pay for future value."
+    }
+   ]
+  },
+  {
+   "lm_no": 2,
+   "title": "Market Organization and Structure",
+   "summary": "Functions of the financial system, market types, orders, positions, margin and market structures.",
+   "los": [
+    {
+     "code": "2.a",
+     "command_word": "explain",
+     "statement": "Explain the main functions of the financial system."
+    },
+    {
+     "code": "2.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret the leverage ratio, the rate of return on a margin transaction and the price at which a margin call occurs."
+    },
+    {
+     "code": "2.c",
+     "command_word": "compare",
+     "statement": "Compare execution, validity and clearing instructions, and market structures."
+    },
+    {
+     "code": "2.d",
+     "command_word": "describe",
+     "statement": "Describe primary and secondary security markets."
+    }
+   ],
+   "topics": [],
+   "revision": null,
+   "questions": [
+    {
+     "d": "M",
+     "q": "An investor buys on margin with 50% initial margin. The leverage ratio is:",
+     "o": [
+      "1.5",
+      "0.5",
+      "2.0"
+     ],
+     "a": 2,
+     "e": "Leverage ratio = 1 ÷ initial margin = 2.",
+     "los": "2.b"
+    },
+    {
+     "d": "H",
+     "q": "A share is bought at ₹200 with 50% initial margin and 25% maintenance margin. A margin call occurs when the price falls below about:",
+     "o": [
+      "₹133.33",
+      "₹150.00",
+      "₹100.00"
+     ],
+     "a": 0,
+     "e": "200 × (1 − 0.5)/(1 − 0.25) = 133.33.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "Ignoring interest and fees, a share bought at ₹200 with 50% margin rises to ₹240. The return on the investor's equity is:",
+     "o": [
+      "20%",
+      "40%",
+      "80%"
+     ],
+     "a": 1,
+     "e": "Gain 40 on own funds of 100 = 40%.",
+     "los": "2.b"
+    },
+    {
+     "d": "E",
+     "q": "A market in which dealers post bid and ask prices and trade from their own inventory is:",
+     "o": [
+      "Order-driven",
+      "Brokered",
+      "Quote-driven"
+     ],
+     "a": 2,
+     "e": "Dealer markets are quote-driven.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "A rights issue gives existing shareholders:",
+     "o": [
+      "The right to buy new shares, usually at a discount, in proportion to their holdings",
+      "Preference over debt in liquidation",
+      "Free shares with no payment"
+     ],
+     "a": 0,
+     "e": "Rights let holders avoid dilution by subscribing pro rata.",
+     "los": "2.d"
+    },
+    {
+     "d": "E",
+     "q": "A 'good-till-cancelled' instruction is a:",
+     "o": [
+      "Clearing instruction",
+      "Validity instruction",
+      "Execution instruction"
+     ],
+     "a": 1,
+     "e": "Validity instructions say when an order can be filled.",
+     "los": "2.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Leverage ratio",
+     "back": "1 ÷ initial margin."
+    },
+    {
+     "front": "Margin call price",
+     "back": "P₀ × (1 − initial margin) ÷ (1 − maintenance margin)."
+    },
+    {
+     "front": "Quote- vs order- vs brokered market",
+     "back": "Dealers quote; orders match by rules; brokers find counterparties."
+    },
+    {
+     "front": "Execution vs validity vs clearing",
+     "back": "How to fill (market/limit), when (day/GTC), how to settle."
+    },
+    {
+     "front": "Seasoned offering",
+     "back": "New shares sold by an already-listed company."
+    },
+    {
+     "front": "Primary vs secondary market",
+     "back": "New issues vs trading of existing securities."
+    }
+   ]
+  },
+  {
+   "lm_no": 3,
+   "title": "Market Efficiency",
+   "summary": "Forms of efficiency, what makes markets efficient, anomalies, and behavioural explanations.",
+   "los": [
+    {
+     "code": "3.a",
+     "command_word": "describe",
+     "statement": "Describe market efficiency and distinguish market value from intrinsic value."
+    },
+    {
+     "code": "3.b",
+     "command_word": "explain",
+     "statement": "Explain factors that affect a market's efficiency."
+    },
+    {
+     "code": "3.c",
+     "command_word": "contrast",
+     "statement": "Contrast weak-form, semi-strong-form and strong-form efficiency and their implications for active and passive management."
+    },
+    {
+     "code": "3.d",
+     "command_word": "describe",
+     "statement": "Describe market anomalies and behavioural finance explanations."
+    }
+   ],
+   "topics": [],
+   "revision": null,
+   "questions": [
+    {
+     "d": "E",
+     "q": "Intrinsic value is best described as:",
+     "o": [
+      "The value an investor with full understanding of the asset would place on it",
+      "The book value per share",
+      "The current market price"
+     ],
+     "a": 0,
+     "e": "Market value is the price; intrinsic value is the fundamental worth.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "Which factor tends to make a market more efficient?",
+     "o": [
+      "Restrictions on short selling",
+      "Many active analysts and investors",
+      "High transaction costs"
+     ],
+     "a": 1,
+     "e": "More participants and analysis speed up price adjustment.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "If markets are semi-strong efficient, the best strategy for most investors is:",
+     "o": [
+      "Technical analysis",
+      "Frequent trading on public news",
+      "Low-cost passive investing"
+     ],
+     "a": 2,
+     "e": "Public information is already priced, so costs dominate.",
+     "los": "3.c"
+    },
+    {
+     "d": "M",
+     "q": "Small-cap stocks earning higher risk-adjusted returns than large caps in some studies is the:",
+     "o": [
+      "Size effect",
+      "January effect",
+      "Momentum effect"
+     ],
+     "a": 0,
+     "e": "It is a cross-sectional anomaly.",
+     "los": "3.d"
+    },
+    {
+     "d": "H",
+     "q": "An apparent anomaly that disappears once transaction costs and risk are properly measured is evidence that the market is:",
+     "o": [
+      "Inefficient",
+      "Probably efficient",
+      "Strong-form inefficient"
+     ],
+     "a": 1,
+     "e": "Many anomalies vanish after costs or risk adjustment.",
+     "los": "3.d"
+    },
+    {
+     "d": "E",
+     "q": "Short-term persistence in returns (winners keep winning) is called:",
+     "o": [
+      "Overreaction",
+      "Mean reversion",
+      "Momentum"
+     ],
+     "a": 2,
+     "e": "Momentum is a time-series anomaly.",
+     "los": "3.d"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Market vs intrinsic value",
+     "back": "Price paid vs fundamental worth."
+    },
+    {
+     "front": "What makes markets efficient",
+     "back": "Many participants, free information, low costs, few trading limits."
+    },
+    {
+     "front": "Weak / semi-strong / strong",
+     "back": "Past prices / all public info / all info including private."
+    },
+    {
+     "front": "Size and value effects",
+     "back": "Small caps and cheap stocks beating risk-adjusted expectations."
+    }
+   ]
+  },
+  {
+   "lm_no": 4,
+   "title": "Security Market Indexes",
+   "summary": "How indexes are built and weighted, price versus total return, rebalancing, and index types.",
+   "los": [
+    {
+     "code": "4.a",
+     "command_word": "describe",
+     "statement": "Describe a security market index and distinguish price return and total return."
+    },
+    {
+     "code": "4.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret the value, price return and total return of an index."
+    },
+    {
+     "code": "4.c",
+     "command_word": "compare",
+     "statement": "Compare the different weighting methods used in index construction."
+    },
+    {
+     "code": "4.d",
+     "command_word": "describe",
+     "statement": "Describe rebalancing and reconstitution, uses of indexes, and types of indexes."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Index construction and returns",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "An "
+         },
+         {
+          "t": "index",
+          "b": true
+         },
+         {
+          "t": " measures the value of a group of securities. Building one means choosing the target market, the constituents, the weighting, and how often to rebalance and reconstitute."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Price return",
+           "b": true
+          },
+          {
+           "t": " index: price changes only."
+          }
+         ],
+         [
+          {
+           "t": "Total return",
+           "b": true
+          },
+          {
+           "t": " index: price changes plus reinvested income (dividends). Over time the total return index pulls ahead."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Price return = (P₁ − P₀) ÷ P₀ · Total return = (P₁ − P₀ + Income) ÷ P₀"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Weighting methods",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Method",
+         "Weight by",
+         "Feature"
+        ],
+        "rows": [
+         [
+          "Price-weighted",
+          "Share price",
+          "High-priced shares dominate; splits change weights"
+         ],
+         [
+          "Equal-weighted",
+          "1/N each",
+          "Small caps overweighted; frequent rebalancing"
+         ],
+         [
+          "Market-cap weighted",
+          "Price × shares outstanding",
+          "Big firms dominate; overweights overvalued shares"
+         ],
+         [
+          "Float-adjusted",
+          "Price × freely tradable shares",
+          "Most common for major indexes"
+         ],
+         [
+          "Fundamental",
+          "Sales, earnings, book value, dividends",
+          "Value tilt"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Three shares: A ₹100 (1 crore shares), B ₹50 (4 crore), C ₹30 (10 crore). Price-weighted average = (100 + 50 + 30) ÷ 3 = 60. If A rises 10% to ₹110, the price-weighted index rises to 63.33 ("
+         },
+         {
+          "t": "+5.6%",
+          "b": true
+         },
+         {
+          "t": "). In a market-cap index, A is ₹100 crore of ₹600 crore total, so the index rises only 10% × 100/600 = "
+         },
+         {
+          "t": "1.7%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "In a price-weighted index, a stock split "
+         },
+         {
+          "t": "reduces",
+          "b": true
+         },
+         {
+          "t": " that stock's weight; the divisor is adjusted so the index level does not jump."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Maintenance, uses and types",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Rebalancing",
+           "b": true
+          },
+          {
+           "t": ": restoring weights (mostly equal-weighted indexes)."
+          }
+         ],
+         [
+          {
+           "t": "Reconstitution",
+           "b": true
+          },
+          {
+           "t": ": changing constituents as companies grow, shrink, merge or delist."
+          }
+         ],
+         [
+          {
+           "t": "Uses: gauging sentiment, benchmarking managers, proxy for the market in CAPM and beta, basis for index funds, ETFs and derivatives."
+          }
+         ],
+         [
+          {
+           "t": "Types: broad market, sector, style (value/growth, size), fixed income, commodity, real estate, hedge fund indexes."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Bond indexes are hard to build: huge numbers of issues, many trade rarely, and constituents change as bonds mature."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A price-weighted index is like ranking cricketers by the price of their bat. The batter with the ₹2 lakh bat gets the most say, however he plays."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Price-weighted index = Σ prices ÷ divisor · Total return = price return + income return"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Price-weighted",
+        "High-priced shares dominate"
+       ],
+       [
+        "Equal-weighted",
+        "Small-cap tilt; needs rebalancing"
+       ],
+       [
+        "Market-cap",
+        "Big firms dominate; momentum tilt"
+       ],
+       [
+        "Float-adjusted",
+        "Uses freely tradable shares"
+       ],
+       [
+        "Fundamental",
+        "Value tilt"
+       ],
+       [
+        "Rebalancing",
+        "Reset weights"
+       ],
+       [
+        "Reconstitution",
+        "Change constituents"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A total return index includes:",
+     "o": [
+      "Only price changes",
+      "Price changes and reinvested income",
+      "Only dividends"
+     ],
+     "a": 1,
+     "e": "Total return adds income to price changes.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "In a price-weighted index, the stock with the greatest weight is the one with the highest:",
+     "o": [
+      "Dividend yield",
+      "Market capitalisation",
+      "Share price"
+     ],
+     "a": 2,
+     "e": "Weights depend on price alone.",
+     "los": "4.c"
+    },
+    {
+     "d": "M",
+     "q": "An index holds shares priced ₹100, ₹50 and ₹30, divisor 3. If the ₹100 share rises to ₹110, the price-weighted index changes by about:",
+     "o": [
+      "+5.6%",
+      "+10.0%",
+      "+3.3%"
+     ],
+     "a": 0,
+     "e": "Index goes from 60 to 63.33, +5.6%.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Equal-weighted indexes tend to:",
+     "o": [
+      "Overweight the largest companies",
+      "Overweight small companies relative to market-cap indexes",
+      "Never need rebalancing"
+     ],
+     "a": 1,
+     "e": "Every stock gets 1/N, regardless of size.",
+     "los": "4.c"
+    },
+    {
+     "d": "H",
+     "q": "A criticism of market-cap weighting is that it:",
+     "o": [
+      "Is impossible to replicate",
+      "Ignores large firms",
+      "Overweights shares that have become overvalued"
+     ],
+     "a": 2,
+     "e": "Rising prices raise weights, regardless of fundamentals.",
+     "los": "4.c"
+    },
+    {
+     "d": "E",
+     "q": "Adding and removing constituents of an index is:",
+     "o": [
+      "Reconstitution",
+      "Float adjustment",
+      "Rebalancing"
+     ],
+     "a": 0,
+     "e": "Reconstitution changes the membership.",
+     "los": "4.d"
+    },
+    {
+     "d": "M",
+     "q": "A portfolio's value rises from ₹100 to ₹104 and it receives ₹2 of dividends. Its total return is:",
+     "o": [
+      "4%",
+      "6%",
+      "2%"
+     ],
+     "a": 1,
+     "e": "(104 − 100 + 2)/100 = 6%.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "A float-adjusted market-cap index weights each company by:",
+     "o": [
+      "Price only",
+      "Total shares outstanding × price",
+      "Shares available to the public × price"
+     ],
+     "a": 2,
+     "e": "Promoter and locked-in holdings are excluded.",
+     "los": "4.c"
+    },
+    {
+     "d": "H",
+     "q": "Fundamental weighting typically leads to a tilt towards:",
+     "o": [
+      "Value stocks",
+      "High-momentum stocks",
+      "Growth stocks"
+     ],
+     "a": 0,
+     "e": "Weighting by sales or earnings favours cheaply priced firms.",
+     "los": "4.c"
+    },
+    {
+     "d": "E",
+     "q": "Which is a common use of security market indexes?",
+     "o": [
+      "Fixing bond coupons",
+      "Benchmarking portfolio managers",
+      "Setting tax rates"
+     ],
+     "a": 1,
+     "e": "Indexes are standard performance benchmarks.",
+     "los": "4.d"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Price vs total return index",
+     "back": "Price only vs price plus reinvested income."
+    },
+    {
+     "front": "Price-weighted",
+     "back": "Weight by share price; splits reduce weight."
+    },
+    {
+     "front": "Equal-weighted",
+     "back": "1/N each; small-cap tilt; frequent rebalancing."
+    },
+    {
+     "front": "Market-cap / float-adjusted",
+     "back": "Weight by (free-float) market value."
+    },
+    {
+     "front": "Fundamental weighting",
+     "back": "By sales, earnings, book or dividends; value tilt."
+    },
+    {
+     "front": "Rebalancing vs reconstitution",
+     "back": "Reset weights vs change members."
+    }
+   ]
+  },
+  {
+   "lm_no": 5,
+   "title": "Company Analysis: Past and Present",
+   "summary": "Business models, revenue and cost drivers, profitability, capital investment and return on capital.",
+   "los": [
+    {
+     "code": "5.a",
+     "command_word": "describe",
+     "statement": "Describe the elements that should be covered in a thorough company research report."
+    },
+    {
+     "code": "5.b",
+     "command_word": "determine",
+     "statement": "Determine a company's business model."
+    },
+    {
+     "code": "5.c",
+     "command_word": "evaluate",
+     "statement": "Evaluate a company's revenue and revenue drivers, including pricing power."
+    },
+    {
+     "code": "5.d",
+     "command_word": "evaluate",
+     "statement": "Evaluate a company's operating profitability, working capital and capital investment."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Research report and business model",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "A good report covers: the "
+          },
+          {
+           "t": "business model",
+           "b": true
+          },
+          {
+           "t": ", revenue and cost drivers, profitability, capital structure and investment, competitive position, "
+          },
+          {
+           "t": "risks",
+           "b": true
+          },
+          {
+           "t": ", valuation and a recommendation."
+          }
+         ],
+         [
+          {
+           "t": "The "
+          },
+          {
+           "t": "business model",
+           "b": true
+          },
+          {
+           "t": " explains who the customers are, what they buy, how the company delivers it, and how it gets paid."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A food-delivery app earns commission from restaurants, delivery fees from customers and advertising. Its main drivers are orders per user, average order value and take rate."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Revenue and costs",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Revenue = Volume × Price · Volume = market size × market share"
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Pricing power",
+           "b": true
+          },
+          {
+           "t": ": ability to raise prices without losing much volume. Signs: rising gross margin, brand loyalty, few substitutes."
+          }
+         ],
+         [
+          {
+           "t": "Revenue can be split by segment, geography or product."
+          }
+         ],
+         [
+          {
+           "t": "Operating leverage",
+           "b": true
+          },
+          {
+           "t": ": high fixed costs mean profits swing more than revenue."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Narmada Cement has fixed costs of ₹300 crore and variable costs of 40% of sales. At sales of ₹1,000 crore, EBIT = 1,000 − 400 − 300 = ₹300 crore. If sales rise 10% to ₹1,100 crore, EBIT = 1,100 − 440 − 300 = ₹360 crore, up "
+         },
+         {
+          "t": "20%",
+          "b": true
+         },
+         {
+          "t": ": a degree of operating leverage of 2."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Strong revenue growth from price increases is more valuable than growth bought with heavy discounts."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Profitability, working capital and capital investment",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Gross margin",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "operating (EBIT) margin",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "EBITDA margin",
+           "b": true
+          },
+          {
+           "t": " show how much of each rupee of sales becomes profit."
+          }
+         ],
+         [
+          {
+           "t": "Working capital",
+           "b": true
+          },
+          {
+           "t": " needs: days of receivables, inventory and payables; the "
+          },
+          {
+           "t": "cash conversion cycle",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Capital investment",
+           "b": true
+          },
+          {
+           "t": ": maintenance vs growth capex; capex relative to depreciation."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "ROIC = NOPAT ÷ Invested capital · NOPAT = EBIT × (1 − tax rate)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "EBIT ₹200 crore, tax 25%, invested capital ₹1,000 crore. NOPAT = 150; ROIC = "
+         },
+         {
+          "t": "15%",
+          "b": true
+         },
+         {
+          "t": ". If the cost of capital is 11%, the company is creating value."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A business with negative working capital, like a restaurant that collects cash today and pays suppliers next month, is basically being funded by its own vegetable vendor."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "ROIC = EBIT(1 − t) ÷ invested capital · Revenue = volume × price"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Business model",
+        "Customer, product, channel, pricing"
+       ],
+       [
+        "Pricing power",
+        "Raise prices without losing volume"
+       ],
+       [
+        "Operating leverage",
+        "Fixed costs magnify profit swings"
+       ],
+       [
+        "Cash conversion cycle",
+        "DSO + DIO − DPO"
+       ],
+       [
+        "Maintenance vs growth capex",
+        "Sustain vs expand capacity"
+       ],
+       [
+        "Value creation",
+        "ROIC > cost of capital"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A company's revenue can be analysed as:",
+     "o": [
+      "Assets − liabilities",
+      "Net income ÷ equity",
+      "Volume × price"
+     ],
+     "a": 2,
+     "e": "Revenue = volume × price.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "A sign of strong pricing power is:",
+     "o": [
+      "Ability to raise prices with little loss of volume",
+      "Heavy discounting",
+      "Falling gross margins"
+     ],
+     "a": 0,
+     "e": "Pricing power shows in stable volumes after price rises.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "Fixed costs ₹300 crore, variable costs 40% of sales, sales ₹1,000 crore. If sales rise 10%, EBIT rises by:",
+     "o": [
+      "10%",
+      "20%",
+      "30%"
+     ],
+     "a": 1,
+     "e": "EBIT from 300 to 360 = 20%.",
+     "los": "5.d"
+    },
+    {
+     "d": "M",
+     "q": "EBIT ₹200 crore, tax rate 25% and invested capital ₹1,000 crore give an ROIC of:",
+     "o": [
+      "20%",
+      "25%",
+      "15%"
+     ],
+     "a": 2,
+     "e": "NOPAT 150 ÷ 1,000 = 15%.",
+     "los": "5.d"
+    },
+    {
+     "d": "H",
+     "q": "A company creates value for shareholders when:",
+     "o": [
+      "ROIC exceeds its cost of capital",
+      "It pays a dividend",
+      "Revenue grows"
+     ],
+     "a": 0,
+     "e": "Returns above the cost of capital add value.",
+     "los": "5.d"
+    },
+    {
+     "d": "E",
+     "q": "A thorough company research report should include:",
+     "o": [
+      "Only the share price chart",
+      "Business model, drivers, risks, valuation and recommendation",
+      "Only the management's guidance"
+     ],
+     "a": 1,
+     "e": "All these elements support the conclusion.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "Capex needed just to keep existing capacity running is:",
+     "o": [
+      "Working capital",
+      "Growth capex",
+      "Maintenance capex"
+     ],
+     "a": 2,
+     "e": "Growth capex expands capacity.",
+     "los": "5.d"
+    },
+    {
+     "d": "M",
+     "q": "A company with high fixed costs relative to variable costs has:",
+     "o": [
+      "High operating leverage",
+      "No business risk",
+      "Low operating leverage"
+     ],
+     "a": 0,
+     "e": "Profits are very sensitive to sales.",
+     "los": "5.d"
+    },
+    {
+     "d": "H",
+     "q": "A shorter cash conversion cycle generally means a company:",
+     "o": [
+      "Collects receivables more slowly",
+      "Needs less working capital financing",
+      "Has higher inventory"
+     ],
+     "a": 1,
+     "e": "Cash is tied up for fewer days.",
+     "los": "5.d"
+    },
+    {
+     "d": "E",
+     "q": "A company's business model describes:",
+     "o": [
+      "Its tax filings",
+      "Its share register",
+      "How it makes money: customers, products, channels and pricing"
+     ],
+     "a": 2,
+     "e": "That is the definition.",
+     "los": "5.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Revenue drivers",
+     "back": "Volume × price; volume = market size × share."
+    },
+    {
+     "front": "Pricing power signs",
+     "back": "Stable volume after price rises, rising gross margin."
+    },
+    {
+     "front": "Operating leverage",
+     "back": "High fixed costs magnify EBIT changes."
+    },
+    {
+     "front": "ROIC",
+     "back": "NOPAT ÷ invested capital; NOPAT = EBIT(1 − t)."
+    },
+    {
+     "front": "Value creation test",
+     "back": "ROIC above cost of capital."
+    },
+    {
+     "front": "Maintenance vs growth capex",
+     "back": "Keep capacity running vs add capacity."
+    }
+   ]
+  },
+  {
+   "lm_no": 6,
+   "title": "Industry and Competitive Analysis",
+   "summary": "Defining industries, the five forces, the industry life cycle and competitive strategies.",
+   "los": [
+    {
+     "code": "6.a",
+     "command_word": "describe",
+     "statement": "Describe the purposes of, and steps involved in, industry and competitive analysis."
+    },
+    {
+     "code": "6.b",
+     "command_word": "describe",
+     "statement": "Describe industry classification methods and how to define an industry."
+    },
+    {
+     "code": "6.c",
+     "command_word": "analyze",
+     "statement": "Analyse an industry's size, growth, profitability and market share trends."
+    },
+    {
+     "code": "6.d",
+     "command_word": "analyze",
+     "statement": "Analyse competitive forces and a company's competitive strategy."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Defining and classifying industries",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Industries group companies with similar products, customers or production."
+          }
+         ],
+         [
+          {
+           "t": "Commercial systems classify by "
+          },
+          {
+           "t": "principal business activity",
+           "b": true
+          },
+          {
+           "t": " in levels: sector → industry group → industry → sub-industry."
+          }
+         ],
+         [
+          {
+           "t": "Classification can also be "
+          },
+          {
+           "t": "cyclical vs non-cyclical",
+           "b": true
+          },
+          {
+           "t": " (defensive) or by statistical clustering."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Measure industry "
+         },
+         {
+          "t": "size",
+          "b": true
+         },
+         {
+          "t": " (sales), "
+         },
+         {
+          "t": "growth",
+          "b": true
+         },
+         {
+          "t": ", "
+         },
+         {
+          "t": "profitability",
+          "b": true
+         },
+         {
+          "t": " and "
+         },
+         {
+          "t": "concentration",
+          "b": true
+         },
+         {
+          "t": " (how much the top firms control)."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Five forces",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Force",
+         "Industry is more attractive when…"
+        ],
+        "rows": [
+         [
+          "Threat of new entrants",
+          "Barriers are high (scale, licences, brands)"
+         ],
+         [
+          "Threat of substitutes",
+          "Few close substitutes"
+         ],
+         [
+          "Supplier power",
+          "Many suppliers, easy switching"
+         ],
+         [
+          "Buyer power",
+          "Many small buyers"
+         ],
+         [
+          "Rivalry",
+          "Few competitors, fast growth, differentiated products"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Indian airlines: low switching costs for flyers, powerful aircraft lessors and fuel suppliers, intense price rivalry. Even with strong demand, margins stay thin."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "High concentration usually reduces rivalry, but not always: two giants fighting for share can still wage a price war."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Life cycle and competitive strategy",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Stage",
+         "Growth",
+         "Profitability"
+        ],
+        "rows": [
+         [
+          "Embryonic",
+          "Slow, high prices",
+          "Low or negative"
+         ],
+         [
+          "Growth",
+          "Rapid",
+          "Improving"
+         ],
+         [
+          "Shakeout",
+          "Slowing",
+          "Falling as weak firms exit"
+         ],
+         [
+          "Mature",
+          "Little",
+          "Stable, high cash flow"
+         ],
+         [
+          "Decline",
+          "Negative",
+          "Falling, consolidation"
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Cost leadership",
+           "b": true
+          },
+          {
+           "t": ": lowest cost producer."
+          }
+         ],
+         [
+          {
+           "t": "Differentiation",
+           "b": true
+          },
+          {
+           "t": ": unique product, premium price."
+          }
+         ],
+         [
+          {
+           "t": "Focus",
+           "b": true
+          },
+          {
+           "t": ": serve a niche with either cost or differentiation."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "The shakeout stage is musical chairs for companies. When growth stops, someone ends up without a seat and gets bought by the one who did."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Five forces: entrants · substitutes · suppliers · buyers · rivalry"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Classification",
+        "By principal business activity"
+       ],
+       [
+        "Cyclical vs defensive",
+        "Sensitive vs insensitive to the economy"
+       ],
+       [
+        "Concentration",
+        "Share held by top firms"
+       ],
+       [
+        "Life cycle",
+        "Embryonic → growth → shakeout → mature → decline"
+       ],
+       [
+        "Strategies",
+        "Cost leadership, differentiation, focus"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Which industry life cycle stage features rapid growth and improving profitability?",
+     "o": [
+      "Growth",
+      "Decline",
+      "Embryonic"
+     ],
+     "a": 0,
+     "e": "The growth stage.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "An industry becomes less attractive when:",
+     "o": [
+      "Barriers to entry are high",
+      "Buyers have strong bargaining power",
+      "There are few substitutes"
+     ],
+     "a": 1,
+     "e": "Powerful buyers push prices down.",
+     "los": "6.d"
+    },
+    {
+     "d": "M",
+     "q": "Commercial industry classification systems mainly group companies by:",
+     "o": [
+      "Country of listing",
+      "Share price",
+      "Principal business activity"
+     ],
+     "a": 2,
+     "e": "They use the main source of revenue.",
+     "los": "6.b"
+    },
+    {
+     "d": "E",
+     "q": "A firm that competes by being the lowest-cost producer follows a:",
+     "o": [
+      "Cost leadership strategy",
+      "Focus strategy",
+      "Differentiation strategy"
+     ],
+     "a": 0,
+     "e": "Cost leadership.",
+     "los": "6.d"
+    },
+    {
+     "d": "H",
+     "q": "In the shakeout stage of the life cycle, typically:",
+     "o": [
+      "Demand grows fastest",
+      "Growth slows, competition intensifies and weaker firms exit",
+      "Prices are highest"
+     ],
+     "a": 1,
+     "e": "Overcapacity leads to consolidation.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "Defensive (non-cyclical) industries are those whose demand is:",
+     "o": [
+      "Always declining",
+      "Very sensitive to the business cycle",
+      "Relatively insensitive to the business cycle"
+     ],
+     "a": 2,
+     "e": "Examples: utilities, consumer staples, healthcare.",
+     "los": "6.b"
+    },
+    {
+     "d": "M",
+     "q": "High switching costs for customers mainly reduce:",
+     "o": [
+      "Buyer power",
+      "Supplier power",
+      "The threat of substitutes only"
+     ],
+     "a": 0,
+     "e": "Customers locked in cannot easily bargain or leave.",
+     "los": "6.d"
+    },
+    {
+     "d": "H",
+     "q": "Which statement about industry concentration is most accurate?",
+     "o": [
+      "High concentration always eliminates rivalry",
+      "High concentration usually reduces rivalry, but not in every case",
+      "Concentration does not affect pricing"
+     ],
+     "a": 1,
+     "e": "Large rivals can still fight over share.",
+     "los": "6.c"
+    },
+    {
+     "d": "E",
+     "q": "A company selling a unique product at a premium price follows a:",
+     "o": [
+      "Cost leadership strategy",
+      "Shakeout strategy",
+      "Differentiation strategy"
+     ],
+     "a": 2,
+     "e": "Differentiation.",
+     "los": "6.d"
+    },
+    {
+     "d": "M",
+     "q": "The first step in industry analysis is to:",
+     "o": [
+      "Define the industry and its competitors",
+      "Forecast dividends",
+      "Value the shares"
+     ],
+     "a": 0,
+     "e": "You must know the boundaries before analysing.",
+     "los": "6.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Five forces",
+     "back": "Entrants, substitutes, suppliers, buyers, rivalry."
+    },
+    {
+     "front": "Life cycle stages",
+     "back": "Embryonic, growth, shakeout, mature, decline."
+    },
+    {
+     "front": "Competitive strategies",
+     "back": "Cost leadership, differentiation, focus."
+    },
+    {
+     "front": "Cyclical vs defensive",
+     "back": "Sensitive vs insensitive to the economy."
+    },
+    {
+     "front": "High barriers to entry",
+     "back": "Protect incumbents' profits."
+    },
+    {
+     "front": "Classification basis",
+     "back": "Principal business activity."
+    }
+   ]
+  },
+  {
+   "lm_no": 7,
+   "title": "Company Analysis: Forecasting",
+   "summary": "Forecasting approaches, revenue and cost forecasts, the forecast horizon and scenario analysis.",
+   "los": [
+    {
+     "code": "7.a",
+     "command_word": "explain",
+     "statement": "Explain principles and approaches to forecasting a company's financial results."
+    },
+    {
+     "code": "7.b",
+     "command_word": "explain",
+     "statement": "Explain approaches to forecasting revenues, costs, balance sheet items and capital investments."
+    },
+    {
+     "code": "7.c",
+     "command_word": "describe",
+     "statement": "Describe how to choose the forecast horizon and use scenario analysis."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Approaches",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Approach",
+         "Starts from",
+         "Example"
+        ],
+        "rows": [
+         [
+          "Top-down",
+          "Economy → industry → company",
+          "GDP growth → cement demand → company share"
+         ],
+         [
+          "Bottom-up",
+          "Company data",
+          "Stores × sales per store"
+         ],
+         [
+          "Hybrid",
+          "Both, then reconciled",
+          "Most analysts in practice"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Good forecasts are driven by a few "
+         },
+         {
+          "t": "key drivers",
+          "b": true
+         },
+         {
+          "t": " and checked for consistency across the income statement, balance sheet and cash flow statement."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Forecasting the statements",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Revenue",
+           "b": true
+          },
+          {
+           "t": ": growth relative to GDP, market size × share, or volume × price."
+          }
+         ],
+         [
+          {
+           "t": "Costs",
+           "b": true
+          },
+          {
+           "t": ": split fixed and variable; gross margin often stable unless prices or input costs change; use "
+          },
+          {
+           "t": "economies of scale",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Working capital",
+           "b": true
+          },
+          {
+           "t": ": use days or % of sales."
+          }
+         ],
+         [
+          {
+           "t": "Capex",
+           "b": true
+          },
+          {
+           "t": ": maintenance ≈ depreciation; growth capex for new capacity."
+          }
+         ],
+         [
+          {
+           "t": "Long-run assumptions should allow "
+          },
+          {
+           "t": "mean reversion",
+           "b": true
+          },
+          {
+           "t": ": very high margins and growth tend to fade."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Sales this year ₹2,000 crore; forecast growth 12%; gross margin 35%; SG&A fixed at ₹300 crore. Next year: sales ₹2,240 crore, gross profit ₹784 crore, operating profit "
+         },
+         {
+          "t": "₹484 crore",
+          "b": true
+         },
+         {
+          "t": " (up from ₹400 crore)."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Extrapolating a recent boom for ten years is the classic forecasting error. Competition usually erodes excess returns."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Horizon and scenarios",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Horizon depends on the investment strategy, the industry's cycle and any expected change (merger, new plant). Long enough to reach a steady state."
+          }
+         ],
+         [
+          {
+           "t": "Scenario analysis",
+           "b": true
+          },
+          {
+           "t": ": base, bull and bear cases with different drivers, and their effect on value."
+          }
+         ],
+         [
+          {
+           "t": "Sensitivity analysis",
+           "b": true
+          },
+          {
+           "t": ": change one driver at a time."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A forecast is like a wedding guest count: whatever number you pick, make sure your caterer has a plan for 20% more and 20% fewer."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Top-down · bottom-up · hybrid · mean reversion in the long run"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Top-down",
+        "Economy → industry → firm"
+       ],
+       [
+        "Bottom-up",
+        "Firm-level drivers"
+       ],
+       [
+        "Costs",
+        "Split fixed and variable"
+       ],
+       [
+        "Working capital",
+        "Days or % of sales"
+       ],
+       [
+        "Maintenance capex",
+        "≈ depreciation"
+       ],
+       [
+        "Scenario analysis",
+        "Base, bull, bear"
+       ],
+       [
+        "Sensitivity",
+        "One driver at a time"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Forecasting a company's sales from GDP growth and its market share is a:",
+     "o": [
+      "Bottom-up approach",
+      "Top-down approach",
+      "Hybrid of tax analysis"
+     ],
+     "a": 1,
+     "e": "It starts from the economy.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "Sales of ₹2,000 crore grow 12%. Gross margin is 35% and SG&A is fixed at ₹300 crore. Forecast operating profit is:",
+     "o": [
+      "₹400 crore",
+      "₹784 crore",
+      "₹484 crore"
+     ],
+     "a": 2,
+     "e": "2,240 × 0.35 = 784; 784 − 300 = 484.",
+     "los": "7.b"
+    },
+    {
+     "d": "M",
+     "q": "Long-term forecasts of very high margins should usually assume:",
+     "o": [
+      "Some mean reversion as competition increases",
+      "Margins become zero",
+      "Margins rise forever"
+     ],
+     "a": 0,
+     "e": "Excess returns tend to be competed away.",
+     "los": "7.b"
+    },
+    {
+     "d": "E",
+     "q": "Maintenance capital expenditure is often approximated by:",
+     "o": [
+      "Dividends",
+      "Depreciation",
+      "Net income"
+     ],
+     "a": 1,
+     "e": "It replaces worn-out assets.",
+     "los": "7.b"
+    },
+    {
+     "d": "M",
+     "q": "Forecasting a retailer's sales as number of stores × sales per store is:",
+     "o": [
+      "Scenario analysis",
+      "Top-down",
+      "Bottom-up"
+     ],
+     "a": 2,
+     "e": "It builds from company data.",
+     "los": "7.a"
+    },
+    {
+     "d": "H",
+     "q": "Changing one forecast driver at a time to see the effect on value is:",
+     "o": [
+      "Sensitivity analysis",
+      "Scenario analysis",
+      "Top-down analysis"
+     ],
+     "a": 0,
+     "e": "Scenarios change several drivers together.",
+     "los": "7.c"
+    },
+    {
+     "d": "M",
+     "q": "The forecast horizon should generally be:",
+     "o": [
+      "Exactly one year",
+      "Long enough for the company to reach a steady state",
+      "Equal to the analyst's tenure"
+     ],
+     "a": 1,
+     "e": "Then a terminal value can be applied.",
+     "los": "7.c"
+    },
+    {
+     "d": "H",
+     "q": "Forecasting working capital items as days of sales or cost of sales mainly ensures:",
+     "o": [
+      "They stay fixed",
+      "Taxes are lower",
+      "They grow consistently with the business"
+     ],
+     "a": 2,
+     "e": "Receivables, inventory and payables scale with activity.",
+     "los": "7.b"
+    },
+    {
+     "d": "E",
+     "q": "Base, bull and bear cases are used in:",
+     "o": [
+      "Scenario analysis",
+      "Index rebalancing",
+      "GIPS verification"
+     ],
+     "a": 0,
+     "e": "Each case uses different assumptions.",
+     "los": "7.c"
+    },
+    {
+     "d": "M",
+     "q": "When forecasting costs, splitting them into fixed and variable helps capture:",
+     "o": [
+      "Tax rates",
+      "Operating leverage",
+      "Dividend policy"
+     ],
+     "a": 1,
+     "e": "Fixed costs create operating leverage.",
+     "los": "7.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Top-down vs bottom-up",
+     "back": "Economy → firm vs firm-level drivers."
+    },
+    {
+     "front": "Hybrid forecasting",
+     "back": "Combine both and reconcile."
+    },
+    {
+     "front": "Mean reversion",
+     "back": "Very high growth and margins fade over time."
+    },
+    {
+     "front": "Maintenance capex proxy",
+     "back": "Depreciation."
+    },
+    {
+     "front": "Scenario vs sensitivity",
+     "back": "Several drivers together vs one at a time."
+    },
+    {
+     "front": "Forecast horizon",
+     "back": "Long enough to reach steady state."
+    }
+   ]
+  },
+  {
+   "lm_no": 8,
+   "title": "Equity Valuation: Concepts and Basic Tools",
+   "summary": "Intrinsic value, dividend discount models, free cash flow, multiples and asset-based valuation.",
+   "los": [
+    {
+     "code": "8.a",
+     "command_word": "evaluate",
+     "statement": "Evaluate whether a security is overvalued, fairly valued or undervalued."
+    },
+    {
+     "code": "8.b",
+     "command_word": "describe",
+     "statement": "Describe major categories of equity valuation models."
+    },
+    {
+     "code": "8.c",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret the intrinsic value of an equity security using the Gordon growth model and the value of preferred stock."
+    },
+    {
+     "code": "8.d",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret justified multiples and enterprise value multiples."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Valuation categories",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Present value models",
+           "b": true
+          },
+          {
+           "t": ": dividends (DDM) or free cash flow to equity (FCFE)."
+          }
+         ],
+         [
+          {
+           "t": "Multiplier models",
+           "b": true
+          },
+          {
+           "t": ": P/E, P/B, P/S, P/CF, or "
+          },
+          {
+           "t": "EV/EBITDA",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Asset-based models",
+           "b": true
+          },
+          {
+           "t": ": value of assets minus liabilities, adjusted to market."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "If estimated "
+         },
+         {
+          "t": "intrinsic value > price",
+          "b": true
+         },
+         {
+          "t": ", the share is "
+         },
+         {
+          "t": "undervalued",
+          "b": true
+         },
+         {
+          "t": "; < price, overvalued. Allow a margin for uncertainty in the estimate."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Dividend discount models",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Gordon growth: V₀ = D₁ ÷ (r − g) · Preferred: V₀ = D ÷ r · FCFE = CFO − FCInv + net borrowing"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Sona Paints paid D₀ = ₹10; dividends grow 5% for ever; required return 11%. D₁ = 10.5. V₀ = 10.5 ÷ 0.06 = "
+         },
+         {
+          "t": "₹175",
+          "b": true
+         },
+         {
+          "t": ". At a market price of ₹160 it looks undervalued."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A perpetual preference share pays ₹8 a year; required return 10%. V₀ = 8 ÷ 0.10 = "
+         },
+         {
+          "t": "₹80",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Gordon growth needs r > g, and suits mature companies with stable payout. Use multistage models for high-growth firms."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Multiples and asset-based value",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Justified forward P/E = (D₁/E₁) ÷ (r − g) · EV = market cap + debt + preferred − cash"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Payout 40%, r = 11%, g = 5%: justified forward P/E = 0.40 ÷ 0.06 = "
+         },
+         {
+          "t": "6.67×",
+          "b": true
+         },
+         {
+          "t": ". If EBITDA is ₹500 crore and EV is ₹4,000 crore, EV/EBITDA = 8×."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Method of comparables: compare multiples with peers, adjusting for growth and risk."
+          }
+         ],
+         [
+          {
+           "t": "EV/EBITDA is useful across firms with different leverage."
+          }
+         ],
+         [
+          {
+           "t": "Asset-based valuation suits firms with mostly tangible or financial assets (holding companies, resource firms); hard for firms with large intangibles."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Valuing a company only by its P/E is like choosing a groom only by salary. A useful number, but ask about growth and risk before the wedding."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "V₀ = D₁/(r − g) · Preferred V₀ = D/r · Justified P/E = payout/(r − g)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Undervalued",
+        "Intrinsic value > price"
+       ],
+       [
+        "PV models",
+        "DDM, FCFE"
+       ],
+       [
+        "Multiplier models",
+        "P/E, P/B, P/S, EV/EBITDA"
+       ],
+       [
+        "Asset-based",
+        "Assets − liabilities at market values"
+       ],
+       [
+        "Gordon condition",
+        "r > g, stable growth"
+       ],
+       [
+        "EV",
+        "Market cap + debt + preferred − cash"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "D₀ = ₹10, growth 5% for ever and required return 11%. The Gordon growth value is:",
+     "o": [
+      "₹166.67",
+      "₹90.91",
+      "₹175.00"
+     ],
+     "a": 2,
+     "e": "D₁ = 10.5; 10.5/0.06 = 175.",
+     "los": "8.c"
+    },
+    {
+     "d": "E",
+     "q": "A share with intrinsic value ₹175 trading at ₹160 is:",
+     "o": [
+      "Undervalued",
+      "Fairly valued",
+      "Overvalued"
+     ],
+     "a": 0,
+     "e": "Value exceeds price.",
+     "los": "8.a"
+    },
+    {
+     "d": "M",
+     "q": "A perpetual preference share pays ₹8 a year and investors require 10%. Its value is:",
+     "o": [
+      "₹88",
+      "₹80",
+      "₹8"
+     ],
+     "a": 1,
+     "e": "8 ÷ 0.10 = 80.",
+     "los": "8.c"
+    },
+    {
+     "d": "M",
+     "q": "With a payout ratio of 40%, r = 11% and g = 5%, the justified forward P/E is closest to:",
+     "o": [
+      "4.00×",
+      "8.00×",
+      "6.67×"
+     ],
+     "a": 2,
+     "e": "0.40 ÷ 0.06 = 6.67.",
+     "los": "8.d"
+    },
+    {
+     "d": "E",
+     "q": "Which is a multiplier model?",
+     "o": [
+      "EV/EBITDA",
+      "FCFE model",
+      "Gordon growth model"
+     ],
+     "a": 0,
+     "e": "EV/EBITDA is an enterprise multiple.",
+     "los": "8.b"
+    },
+    {
+     "d": "M",
+     "q": "Enterprise value is calculated as:",
+     "o": [
+      "Book equity + cash",
+      "Market cap + debt + preferred − cash",
+      "Market cap − debt"
+     ],
+     "a": 1,
+     "e": "EV is the value of the whole operating business.",
+     "los": "8.d"
+    },
+    {
+     "d": "H",
+     "q": "The Gordon growth model is least appropriate for:",
+     "o": [
+      "A firm with steady 4% growth",
+      "A mature utility with stable dividends",
+      "A fast-growing tech firm that pays no dividend"
+     ],
+     "a": 2,
+     "e": "It needs stable growth below the required return.",
+     "los": "8.c"
+    },
+    {
+     "d": "M",
+     "q": "EV/EBITDA is especially useful when comparing companies with:",
+     "o": [
+      "Different capital structures",
+      "Identical leverage",
+      "No debt only"
+     ],
+     "a": 0,
+     "e": "EBITDA is before interest, so leverage matters less.",
+     "los": "8.d"
+    },
+    {
+     "d": "H",
+     "q": "Asset-based valuation is most suitable for a:",
+     "o": [
+      "Software firm with large intangibles",
+      "Holding company with mostly marketable investments",
+      "High-growth start-up"
+     ],
+     "a": 1,
+     "e": "Asset values can be measured reliably.",
+     "los": "8.b"
+    },
+    {
+     "d": "E",
+     "q": "If g rises closer to r in the Gordon growth model, the estimated value:",
+     "o": [
+      "Is unchanged",
+      "Falls",
+      "Rises sharply"
+     ],
+     "a": 2,
+     "e": "The denominator (r − g) shrinks.",
+     "los": "8.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Gordon growth model",
+     "back": "V₀ = D₁/(r − g)."
+    },
+    {
+     "front": "Preferred share value",
+     "back": "D/r."
+    },
+    {
+     "front": "Justified forward P/E",
+     "back": "Payout ratio ÷ (r − g)."
+    },
+    {
+     "front": "Enterprise value",
+     "back": "Market cap + debt + preferred − cash."
+    },
+    {
+     "front": "Three valuation families",
+     "back": "Present value, multiplier, asset-based."
+    },
+    {
+     "front": "Undervalued means",
+     "back": "Intrinsic value above market price."
+    }
+   ]
+  }
+ ],
+ "retag_proto": {}
+}

@@ -1,0 +1,2716 @@
+{
+ "subject": "pm",
+ "name": "Portfolio Management",
+ "lms": [
+  {
+   "lm_no": 1,
+   "title": "Portfolio Risk and Return: Part I",
+   "summary": "Return and risk of assets and portfolios, correlation, risk aversion and the optimal portfolio.",
+   "los": [
+    {
+     "code": "1.a",
+     "command_word": "describe",
+     "statement": "Describe characteristics of the major asset classes that investors consider."
+    },
+    {
+     "code": "1.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret the mean, variance and covariance of a two-asset portfolio."
+    },
+    {
+     "code": "1.c",
+     "command_word": "explain",
+     "statement": "Explain risk aversion and its implications for portfolio selection, and use utility."
+    },
+    {
+     "code": "1.d",
+     "command_word": "describe",
+     "statement": "Describe the minimum-variance and efficient frontiers and the optimal portfolio."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Return and risk of a portfolio",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Historically, riskier asset classes have earned higher average returns: small-cap shares > large-cap shares > corporate bonds > government bonds > T-bills, with volatility in the same order."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "E(R_p) = w₁E(R₁) + w₂E(R₂) · σ²_p = w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρ₁₂σ₁σ₂"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "60% in shares (E = 12%, σ = 20%) and 40% in bonds (E = 7%, σ = 10%), correlation 0.2. E(R_p) = 0.6 × 12 + 0.4 × 7 = 10%. σ²_p = 0.36 × 0.04 + 0.16 × 0.01 + 2 × 0.6 × 0.4 × 0.2 × 0.2 × 0.1 = 0.01792, so σ_p = "
+         },
+         {
+          "t": "13.4%",
+          "b": true
+         },
+         {
+          "t": ", less than the 16% weighted average."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Portfolio risk falls below the weighted-average risk whenever "
+         },
+         {
+          "t": "ρ < 1",
+          "b": true
+         },
+         {
+          "t": ". With ρ = −1, a zero-risk portfolio is possible."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Risk aversion and utility",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "U = E(r) − ½ A σ²   (A > 0 risk-averse, A = 0 risk-neutral, A < 0 risk-seeking)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A portfolio offers E(r) = 10% and σ = 20%. For an investor with A = 4, U = 0.10 − 0.5 × 4 × 0.04 = "
+         },
+         {
+          "t": "0.02",
+          "b": true
+         },
+         {
+          "t": " (2%). A T-bill yielding 3% gives U = 0.03, so this investor prefers the T-bill."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Indifference curves",
+          "b": true
+         },
+         {
+          "t": " join portfolios with equal utility. More risk-averse investors have steeper curves."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Efficient frontier and optimal portfolio",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "The "
+          },
+          {
+           "t": "minimum-variance frontier",
+           "b": true
+          },
+          {
+           "t": " shows the lowest risk for each expected return."
+          }
+         ],
+         [
+          {
+           "t": "The "
+          },
+          {
+           "t": "global minimum-variance portfolio",
+           "b": true
+          },
+          {
+           "t": " is its leftmost point."
+          }
+         ],
+         [
+          {
+           "t": "The "
+          },
+          {
+           "t": "efficient frontier",
+           "b": true
+          },
+          {
+           "t": " is the part above it: no other portfolio gives more return for the same risk."
+          }
+         ],
+         [
+          {
+           "t": "Adding a risk-free asset creates the "
+          },
+          {
+           "t": "capital allocation line (CAL)",
+           "b": true
+          },
+          {
+           "t": "; the "
+          },
+          {
+           "t": "optimal risky portfolio",
+           "b": true
+          },
+          {
+           "t": " is where the CAL is tangent to the frontier."
+          }
+         ],
+         [
+          {
+           "t": "Each investor's "
+          },
+          {
+           "t": "optimal portfolio",
+           "b": true
+          },
+          {
+           "t": " is where their highest indifference curve touches the CAL."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "The efficient frontier is the thali menu at a good restaurant: for every price, there is one dish that is simply the most food. Everything below the line is a waste of money."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "σ²_p = w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂ · U = E(r) − ½Aσ²"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Diversification",
+        "Risk falls when ρ < 1"
+       ],
+       [
+        "ρ = −1",
+        "A riskless combination is possible"
+       ],
+       [
+        "Risk aversion A",
+        "Higher A = steeper indifference curves"
+       ],
+       [
+        "Global min-variance",
+        "Leftmost point on the frontier"
+       ],
+       [
+        "Efficient frontier",
+        "Best return for each risk level"
+       ],
+       [
+        "Optimal portfolio",
+        "Tangency of indifference curve and CAL"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A portfolio has 60% in an asset returning 10% and 40% in one returning 5%. Its expected return is:",
+     "o": [
+      "7.5%",
+      "8.0%",
+      "9.0%"
+     ],
+     "a": 1,
+     "e": "0.6 × 10 + 0.4 × 5 = 8%.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "Portfolio risk is lower than the weighted average of asset risks whenever the correlation is:",
+     "o": [
+      "Exactly +1",
+      "Greater than +1",
+      "Less than +1"
+     ],
+     "a": 2,
+     "e": "Any correlation below +1 gives diversification.",
+     "los": "1.b"
+    },
+    {
+     "d": "H",
+     "q": "60% shares (σ = 20%) and 40% bonds (σ = 10%), correlation 0.2. The portfolio standard deviation is closest to:",
+     "o": [
+      "13.4%",
+      "12.0%",
+      "16.0%"
+     ],
+     "a": 0,
+     "e": "Variance 0.01792 → σ = 13.4%.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "An investor with A = 4 evaluates a portfolio with E(r) = 10% and σ = 20%. Utility is:",
+     "o": [
+      "10%",
+      "2%",
+      "6%"
+     ],
+     "a": 1,
+     "e": "0.10 − 0.5 × 4 × 0.04 = 0.02.",
+     "los": "1.c"
+    },
+    {
+     "d": "E",
+     "q": "A risk-neutral investor has a risk-aversion coefficient of:",
+     "o": [
+      "Less than zero",
+      "Greater than zero",
+      "Zero"
+     ],
+     "a": 2,
+     "e": "A = 0 means risk does not affect utility.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "Compared with a less risk-averse investor, a more risk-averse investor's indifference curves are:",
+     "o": [
+      "Steeper",
+      "Identical",
+      "Flatter"
+     ],
+     "a": 0,
+     "e": "They need more return per unit of extra risk.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "The portion of the minimum-variance frontier above the global minimum-variance portfolio is the:",
+     "o": [
+      "Security market line",
+      "Efficient frontier",
+      "Capital market line"
+     ],
+     "a": 1,
+     "e": "Only these portfolios are efficient.",
+     "los": "1.d"
+    },
+    {
+     "d": "H",
+     "q": "An investor's optimal portfolio lies where:",
+     "o": [
+      "The efficient frontier meets the y-axis",
+      "Utility is zero",
+      "The investor's highest indifference curve is tangent to the capital allocation line"
+     ],
+     "a": 2,
+     "e": "That point maximises the investor's utility.",
+     "los": "1.d"
+    },
+    {
+     "d": "E",
+     "q": "Historically, which asset class has had the highest average return and volatility?",
+     "o": [
+      "Small-cap equities",
+      "Government bonds",
+      "Treasury bills"
+     ],
+     "a": 0,
+     "e": "Higher risk has been rewarded with higher average returns.",
+     "los": "1.a"
+    },
+    {
+     "d": "H",
+     "q": "With two assets perfectly negatively correlated (ρ = −1), it is possible to:",
+     "o": [
+      "Only increase risk",
+      "Create a portfolio with zero risk",
+      "Eliminate all return"
+     ],
+     "a": 1,
+     "e": "The right weights cancel all variance.",
+     "los": "1.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Two-asset portfolio variance",
+     "back": "w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂."
+    },
+    {
+     "front": "Utility formula",
+     "back": "U = E(r) − ½Aσ²."
+    },
+    {
+     "front": "When does diversification help?",
+     "back": "Whenever correlation is below +1."
+    },
+    {
+     "front": "Global minimum-variance portfolio",
+     "back": "Lowest-risk portfolio on the frontier."
+    },
+    {
+     "front": "Efficient frontier",
+     "back": "Highest return for each level of risk."
+    },
+    {
+     "front": "Investor's optimal portfolio",
+     "back": "Highest indifference curve tangent to the CAL."
+    }
+   ]
+  },
+  {
+   "lm_no": 2,
+   "title": "Portfolio Risk and Return: Part II",
+   "summary": "The capital market line, systematic risk, beta, CAPM and performance measures.",
+   "los": [
+    {
+     "code": "2.a",
+     "command_word": "describe",
+     "statement": "Describe the implications of combining a risk-free asset with the market portfolio (the capital market line)."
+    },
+    {
+     "code": "2.b",
+     "command_word": "explain",
+     "statement": "Explain systematic and nonsystematic risk and why only systematic risk is priced."
+    },
+    {
+     "code": "2.c",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret beta and the CAPM expected return."
+    },
+    {
+     "code": "2.d",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret the Sharpe ratio, Treynor ratio, M² and Jensen's alpha."
+    }
+   ],
+   "topics": [
+    {
+     "title": "CML and systematic risk",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "If everyone holds the same expectations, the optimal risky portfolio is the "
+         },
+         {
+          "t": "market portfolio",
+          "b": true
+         },
+         {
+          "t": ", and the CAL becomes the "
+         },
+         {
+          "t": "capital market line (CML)",
+          "b": true
+         },
+         {
+          "t": ": E(R_p) = R_f + [(E(R_m) − R_f)/σ_m] × σ_p."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Systematic (market) risk",
+           "b": true
+          },
+          {
+           "t": ": from economy-wide factors; cannot be diversified away."
+          }
+         ],
+         [
+          {
+           "t": "Nonsystematic (company-specific) risk",
+           "b": true
+          },
+          {
+           "t": ": can be diversified away, so it earns "
+          },
+          {
+           "t": "no",
+           "b": true
+          },
+          {
+           "t": " extra return."
+          }
+         ],
+         [
+          {
+           "t": "Total risk = systematic + nonsystematic."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Lending at R_f puts you left of the market portfolio on the CML; borrowing (leverage) puts you to the right."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Beta and CAPM",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "β_i = Cov(R_i, R_m) ÷ σ²_m = ρ_im σ_i ÷ σ_m · E(R_i) = R_f + β_i[E(R_m) − R_f]"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "R_f = 6%, E(R_m) = 12%, β = 1.2. E(R) = 6 + 1.2 × 6 = "
+         },
+         {
+          "t": "13.2%",
+          "b": true
+         },
+         {
+          "t": ". If analysts forecast 14%, the share plots "
+         },
+         {
+          "t": "above",
+          "b": true
+         },
+         {
+          "t": " the SML: undervalued."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "The "
+         },
+         {
+          "t": "security market line (SML)",
+          "b": true
+         },
+         {
+          "t": " plots expected return against beta. Every correctly priced asset lies on it."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Performance measures",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Measure",
+         "Formula",
+         "Risk used"
+        ],
+        "rows": [
+         [
+          "Sharpe ratio",
+          "(R_p − R_f) ÷ σ_p",
+          "Total"
+         ],
+         [
+          "Treynor ratio",
+          "(R_p − R_f) ÷ β_p",
+          "Systematic"
+         ],
+         [
+          "M²",
+          "(R_p − R_f) × σ_m/σ_p − (R_m − R_f)",
+          "Total, in % terms"
+         ],
+         [
+          "Jensen's alpha",
+          "R_p − [R_f + β_p(R_m − R_f)]",
+          "Systematic"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Fund return 14%, σ = 20%, β = 1.2; R_f = 6%, market 12%, σ_m = 18%. Sharpe = 8/20 = 0.40. Treynor = 8/1.2 = 6.67. M² = 0.40 × 18 − 6 = "
+         },
+         {
+          "t": "1.2%",
+          "b": true
+         },
+         {
+          "t": ". Alpha = 14 − 13.2 = "
+         },
+         {
+          "t": "0.8%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Beta is how loudly a stock screams when the market stubs its toe. β = 2 screams twice as loud; β = 0.5 just says 'ouch'."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "CAPM: E(R) = R_f + β[E(R_m) − R_f] · β = ρσ_i/σ_m"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "CML",
+        "Efficient portfolios, total risk (σ)"
+       ],
+       [
+        "SML",
+        "All assets, systematic risk (β)"
+       ],
+       [
+        "Priced risk",
+        "Only systematic"
+       ],
+       [
+        "Sharpe",
+        "Excess return per σ"
+       ],
+       [
+        "Treynor",
+        "Excess return per β"
+       ],
+       [
+        "M²",
+        "Sharpe expressed as % vs market"
+       ],
+       [
+        "Jensen's alpha",
+        "Actual − CAPM return"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Diversification mainly reduces:",
+     "o": [
+      "Interest rate risk only",
+      "Systematic risk",
+      "Nonsystematic risk"
+     ],
+     "a": 2,
+     "e": "Company-specific risk can be diversified away.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "R_f = 6%, E(R_m) = 12% and β = 1.2. The CAPM expected return is:",
+     "o": [
+      "13.2%",
+      "14.4%",
+      "12.0%"
+     ],
+     "a": 0,
+     "e": "6 + 1.2 × 6 = 13.2%.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "A stock's correlation with the market is 0.6, its σ is 30% and the market σ is 20%. Its beta is:",
+     "o": [
+      "0.40",
+      "0.90",
+      "1.50"
+     ],
+     "a": 1,
+     "e": "0.6 × 30/20 = 0.9.",
+     "los": "2.c"
+    },
+    {
+     "d": "H",
+     "q": "A share's forecast return is 14% and its CAPM required return is 13.2%. The share is:",
+     "o": [
+      "Overvalued",
+      "Fairly valued",
+      "Undervalued"
+     ],
+     "a": 2,
+     "e": "It plots above the SML.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "A fund earns 14% with σ = 20% when R_f = 6%. Its Sharpe ratio is:",
+     "o": [
+      "0.40",
+      "0.70",
+      "0.30"
+     ],
+     "a": 0,
+     "e": "(14 − 6)/20 = 0.40.",
+     "los": "2.d"
+    },
+    {
+     "d": "M",
+     "q": "Which measure uses beta as the risk measure?",
+     "o": [
+      "M²",
+      "Treynor ratio",
+      "Sharpe ratio"
+     ],
+     "a": 1,
+     "e": "Treynor divides excess return by beta.",
+     "los": "2.d"
+    },
+    {
+     "d": "H",
+     "q": "Fund return 14%, β = 1.2, R_f = 6%, market return 12%. Jensen's alpha is:",
+     "o": [
+      "2.0%",
+      "−0.8%",
+      "0.8%"
+     ],
+     "a": 2,
+     "e": "14 − (6 + 1.2 × 6) = 0.8%.",
+     "los": "2.d"
+    },
+    {
+     "d": "E",
+     "q": "The capital market line plots expected return against:",
+     "o": [
+      "Total risk (standard deviation)",
+      "Correlation",
+      "Beta"
+     ],
+     "a": 0,
+     "e": "The CML uses σ.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "A portfolio on the CML to the right of the market portfolio is created by:",
+     "o": [
+      "Lending at the risk-free rate",
+      "Borrowing at the risk-free rate to buy more of the market",
+      "Holding only T-bills"
+     ],
+     "a": 1,
+     "e": "Leverage moves the investor beyond the market portfolio.",
+     "los": "2.a"
+    },
+    {
+     "d": "H",
+     "q": "Why does CAPM reward only systematic risk?",
+     "o": [
+      "Nonsystematic risk is always zero",
+      "Systematic risk is easy to diversify",
+      "Investors can diversify away nonsystematic risk at no cost"
+     ],
+     "a": 2,
+     "e": "No reward is paid for risk that can be removed.",
+     "los": "2.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "CAPM",
+     "back": "E(R) = R_f + β[E(R_m) − R_f]."
+    },
+    {
+     "front": "Beta",
+     "back": "Cov(R_i, R_m)/σ²_m = ρσ_i/σ_m."
+    },
+    {
+     "front": "CML vs SML",
+     "back": "CML: efficient portfolios vs σ. SML: all assets vs β."
+    },
+    {
+     "front": "Sharpe vs Treynor",
+     "back": "Excess return per σ vs per β."
+    },
+    {
+     "front": "Jensen's alpha",
+     "back": "Actual return − CAPM return."
+    },
+    {
+     "front": "Which risk is priced?",
+     "back": "Only systematic (market) risk."
+    }
+   ]
+  },
+  {
+   "lm_no": 3,
+   "title": "Portfolio Management: An Overview",
+   "summary": "The portfolio approach, the management process, types of investors and pooled products.",
+   "los": [
+    {
+     "code": "3.a",
+     "command_word": "describe",
+     "statement": "Describe the portfolio approach to investing."
+    },
+    {
+     "code": "3.b",
+     "command_word": "describe",
+     "statement": "Describe the steps in the portfolio management process."
+    },
+    {
+     "code": "3.c",
+     "command_word": "describe",
+     "statement": "Describe types of investors and distinctive characteristics and needs of each."
+    },
+    {
+     "code": "3.d",
+     "command_word": "describe",
+     "statement": "Describe mutual funds and compare them with other pooled investment products."
+    }
+   ],
+   "topics": [
+    {
+     "title": "The portfolio approach and process",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Judge each investment by its effect on the "
+         },
+         {
+          "t": "whole portfolio",
+          "b": true
+         },
+         {
+          "t": ", not in isolation. Diversification lowers risk without necessarily lowering expected return; the "
+         },
+         {
+          "t": "diversification ratio",
+          "b": true
+         },
+         {
+          "t": " = portfolio risk ÷ average risk of the holdings."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "Planning",
+           "b": true
+          },
+          {
+           "t": ": understand the client, write the "
+          },
+          {
+           "t": "investment policy statement (IPS)",
+           "b": true
+          },
+          {
+           "t": ", form capital market expectations."
+          }
+         ],
+         [
+          {
+           "t": "Execution",
+           "b": true
+          },
+          {
+           "t": ": asset allocation, security selection, portfolio construction and trading."
+          }
+         ],
+         [
+          {
+           "t": "Feedback",
+           "b": true
+          },
+          {
+           "t": ": monitor and rebalance; measure and report performance."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "The IPS comes first, before any security is chosen."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Types of investors",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Investor",
+         "Horizon",
+         "Risk tolerance",
+         "Liquidity needs"
+        ],
+        "rows": [
+         [
+          "Individual",
+          "Varies",
+          "Varies",
+          "Varies"
+         ],
+         [
+          "Defined benefit pension",
+          "Long",
+          "High",
+          "Low"
+         ],
+         [
+          "Endowment / foundation",
+          "Very long",
+          "High",
+          "Low"
+         ],
+         [
+          "Bank",
+          "Short",
+          "Low",
+          "High"
+         ],
+         [
+          "Insurer",
+          "Short (P&C) to long (life)",
+          "Low",
+          "High"
+         ],
+         [
+          "Sovereign wealth fund",
+          "Long",
+          "High",
+          "Low"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "In a "
+         },
+         {
+          "t": "defined benefit",
+          "b": true
+         },
+         {
+          "t": " plan the employer promises a pension and bears investment risk. In a "
+         },
+         {
+          "t": "defined contribution",
+          "b": true
+         },
+         {
+          "t": " plan the employer contributes; the employee bears the risk."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Pooled products",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Open-end mutual fund",
+           "b": true
+          },
+          {
+           "t": ": units issued and redeemed at NAV daily."
+          }
+         ],
+         [
+          {
+           "t": "Closed-end fund",
+           "b": true
+          },
+          {
+           "t": ": fixed number of units that trade on an exchange, often at a discount or premium to NAV."
+          }
+         ],
+         [
+          {
+           "t": "ETF",
+           "b": true
+          },
+          {
+           "t": ": trades on an exchange like a share, usually tracks an index, low cost; creation and redemption by authorised participants keeps price near NAV."
+          }
+         ],
+         [
+          {
+           "t": "Separately managed account",
+           "b": true
+          },
+          {
+           "t": ": investor owns the securities directly; tailored, higher minimum."
+          }
+         ],
+         [
+          {
+           "t": "Hedge funds and private equity",
+           "b": true
+          },
+          {
+           "t": ": less regulated, high fees, limited liquidity."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A mutual fund is a shared auto-rickshaw: everyone pays a fraction of the fare and goes the same way. A separately managed account is your own car with a driver."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Process: Planning (IPS) → Execution → Feedback"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Portfolio approach",
+        "Judge each asset by its effect on the whole"
+       ],
+       [
+        "DB plan",
+        "Employer bears risk"
+       ],
+       [
+        "DC plan",
+        "Employee bears risk"
+       ],
+       [
+        "Bank",
+        "Short horizon, low risk, high liquidity"
+       ],
+       [
+        "Endowment",
+        "Very long horizon, high risk tolerance"
+       ],
+       [
+        "Open-end vs closed-end",
+        "Redeem at NAV vs trade on exchange"
+       ],
+       [
+        "ETF",
+        "Exchange-traded, low cost, near NAV"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The first step in the portfolio management process is:",
+     "o": [
+      "Planning, including writing the IPS",
+      "Performance measurement",
+      "Security selection"
+     ],
+     "a": 0,
+     "e": "Planning starts with understanding the client and the IPS.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "In a defined benefit pension plan, investment risk is borne by:",
+     "o": [
+      "The employee",
+      "The employer (plan sponsor)",
+      "The government"
+     ],
+     "a": 1,
+     "e": "The sponsor must meet promised benefits.",
+     "los": "3.c"
+    },
+    {
+     "d": "M",
+     "q": "Which investor typically has the shortest horizon and the highest liquidity needs?",
+     "o": [
+      "Sovereign wealth fund",
+      "University endowment",
+      "Bank"
+     ],
+     "a": 2,
+     "e": "Banks must meet deposit withdrawals.",
+     "los": "3.c"
+    },
+    {
+     "d": "E",
+     "q": "An open-end mutual fund:",
+     "o": [
+      "Issues and redeems units at NAV",
+      "Trades only at a discount",
+      "Has a fixed number of units"
+     ],
+     "a": 0,
+     "e": "Investors buy from and sell to the fund at NAV.",
+     "los": "3.d"
+    },
+    {
+     "d": "M",
+     "q": "A closed-end fund's units:",
+     "o": [
+      "Must trade at NAV",
+      "Trade on an exchange and may differ from NAV",
+      "Are redeemed by the fund daily"
+     ],
+     "a": 1,
+     "e": "Supply and demand set the price.",
+     "los": "3.d"
+    },
+    {
+     "d": "H",
+     "q": "Which feature keeps an ETF's price close to its NAV?",
+     "o": [
+      "A fixed price set by the regulator",
+      "Daily redemption by retail investors",
+      "Creation and redemption by authorised participants"
+     ],
+     "a": 2,
+     "e": "APs arbitrage away price gaps.",
+     "los": "3.d"
+    },
+    {
+     "d": "M",
+     "q": "The portfolio approach to investing means:",
+     "o": [
+      "Evaluating investments by their effect on the overall portfolio",
+      "Holding only one asset",
+      "Judging each security in isolation"
+     ],
+     "a": 0,
+     "e": "Correlation matters as much as individual risk.",
+     "los": "3.a"
+    },
+    {
+     "d": "E",
+     "q": "Rebalancing and performance reporting belong to which step of the process?",
+     "o": [
+      "Execution",
+      "Feedback",
+      "Planning"
+     ],
+     "a": 1,
+     "e": "Feedback monitors and reports.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "University endowments typically have:",
+     "o": [
+      "Short horizons and low risk tolerance",
+      "High liquidity needs",
+      "Very long horizons and high risk tolerance"
+     ],
+     "a": 2,
+     "e": "They aim to support the institution in perpetuity.",
+     "los": "3.c"
+    },
+    {
+     "d": "H",
+     "q": "Compared with a mutual fund, a separately managed account offers:",
+     "o": [
+      "Direct ownership of securities and tailoring",
+      "Exchange trading of units",
+      "Lower minimum investment"
+     ],
+     "a": 0,
+     "e": "The investor owns the holdings in their own account.",
+     "los": "3.d"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Portfolio process",
+     "back": "Planning (IPS) → Execution → Feedback."
+    },
+    {
+     "front": "DB vs DC plan risk",
+     "back": "DB: employer bears. DC: employee bears."
+    },
+    {
+     "front": "Bank profile",
+     "back": "Short horizon, low risk tolerance, high liquidity."
+    },
+    {
+     "front": "Endowment profile",
+     "back": "Very long horizon, high risk tolerance."
+    },
+    {
+     "front": "Open-end vs closed-end fund",
+     "back": "Redeem at NAV vs trade on exchange (premium/discount)."
+    },
+    {
+     "front": "ETF price stays near NAV because",
+     "back": "Authorised participants create and redeem units."
+    }
+   ]
+  },
+  {
+   "lm_no": 4,
+   "title": "Basics of Portfolio Planning and Construction",
+   "summary": "The IPS, risk and return objectives, constraints, asset allocation and ESG integration.",
+   "los": [
+    {
+     "code": "4.a",
+     "command_word": "describe",
+     "statement": "Describe the reasons for a written IPS and its major components."
+    },
+    {
+     "code": "4.b",
+     "command_word": "describe",
+     "statement": "Describe risk and return objectives and constraints, and distinguish willingness from ability to take risk."
+    },
+    {
+     "code": "4.c",
+     "command_word": "explain",
+     "statement": "Explain the specification of asset classes and strategic asset allocation."
+    },
+    {
+     "code": "4.d",
+     "command_word": "describe",
+     "statement": "Describe how ESG considerations may be integrated into portfolio planning."
+    }
+   ],
+   "topics": [
+    {
+     "title": "The investment policy statement",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "An IPS records the client's goals, risk and constraints, the manager's duties, the benchmark and the review process. It keeps decisions consistent and protects both client and manager."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Return objective",
+           "b": true
+          },
+          {
+           "t": ": absolute or relative, stated as a required return."
+          }
+         ],
+         [
+          {
+           "t": "Risk objective",
+           "b": true
+          },
+          {
+           "t": ": "
+          },
+          {
+           "t": "ability",
+           "b": true
+          },
+          {
+           "t": " (horizon, wealth, liabilities) and "
+          },
+          {
+           "t": "willingness",
+           "b": true
+          },
+          {
+           "t": " (psychology). If they conflict, usually adopt the "
+          },
+          {
+           "t": "lower",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Constraints",
+           "b": true
+          },
+          {
+           "t": ": "
+          },
+          {
+           "t": "liquidity, time horizon, tax, legal and regulatory, unique circumstances",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Sunita, 35, earns well and has a 30-year horizon: high ability. She panicked and sold everything in the last crash: low willingness. The adviser should set a "
+         },
+         {
+          "t": "moderate",
+          "b": true
+         },
+         {
+          "t": " risk tolerance, and educate her over time."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Unique circumstances include religious or ethical restrictions, such as avoiding alcohol or tobacco companies."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Strategic asset allocation",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Asset classes should be "
+          },
+          {
+           "t": "internally similar",
+           "b": true
+          },
+          {
+           "t": " and "
+          },
+          {
+           "t": "not highly correlated",
+           "b": true
+          },
+          {
+           "t": " with each other, and together should cover most investable assets."
+          }
+         ],
+         [
+          {
+           "t": "Strategic asset allocation",
+           "b": true
+          },
+          {
+           "t": " sets long-term target weights from the IPS and capital market expectations."
+          }
+         ],
+         [
+          {
+           "t": "Tactical",
+           "b": true
+          },
+          {
+           "t": " allocation makes short-term deviations to exploit views."
+          }
+         ],
+         [
+          {
+           "t": "Rebalancing policies keep weights within corridors such as ±5%."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Strategic allocation is your diet plan. Tactical allocation is deciding that today is a samosa day."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "ESG integration",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Approach",
+         "What it means"
+        ],
+        "rows": [
+         [
+          "Negative screening",
+          "Exclude sectors or companies (tobacco, weapons)"
+         ],
+         [
+          "Positive / best-in-class",
+          "Choose the best ESG performers in each sector"
+         ],
+         [
+          "ESG integration",
+          "Include ESG factors in financial analysis"
+         ],
+         [
+          "Thematic investing",
+          "Target themes such as clean energy or water"
+         ],
+         [
+          "Impact investing",
+          "Seek measurable social or environmental impact plus a return"
+         ],
+         [
+          "Engagement / stewardship",
+          "Use shareholder rights to influence companies"
+         ]
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Constraints: Liquidity · Time horizon · Tax · Legal/regulatory · Unique (LTTLU)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "IPS purpose",
+        "Consistent decisions; guidance for manager and client"
+       ],
+       [
+        "Ability vs willingness",
+        "If they conflict, use the lower"
+       ],
+       [
+        "Strategic allocation",
+        "Long-term targets"
+       ],
+       [
+        "Tactical allocation",
+        "Short-term deviations"
+       ],
+       [
+        "Good asset class",
+        "Similar inside, low correlation outside"
+       ],
+       [
+        "Negative screening",
+        "Exclude"
+       ],
+       [
+        "Impact investing",
+        "Measurable impact + return"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "An investment policy statement should include the client's:",
+     "o": [
+      "Favourite stocks",
+      "Return objectives, risk tolerance and constraints",
+      "Credit card limits"
+     ],
+     "a": 1,
+     "e": "The IPS documents objectives and constraints.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "A young investor with a long horizon is very nervous about losses. Her risk tolerance should generally be set:",
+     "o": [
+      "At zero",
+      "At the higher, ability level",
+      "At the lower, willingness level, with education over time"
+     ],
+     "a": 2,
+     "e": "When ability and willingness conflict, the more conservative usually prevails.",
+     "los": "4.b"
+    },
+    {
+     "d": "E",
+     "q": "Which is a constraint in an IPS?",
+     "o": [
+      "Liquidity needs",
+      "Required return",
+      "Risk aversion"
+     ],
+     "a": 0,
+     "e": "Constraints are liquidity, horizon, tax, legal and unique circumstances.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Which factor relates to an investor's ability (not willingness) to take risk?",
+     "o": [
+      "Anxiety about losses",
+      "A long time horizon and large wealth",
+      "Past regret"
+     ],
+     "a": 1,
+     "e": "Ability is objective; willingness is psychological.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Strategic asset allocation is:",
+     "o": [
+      "Picking individual stocks",
+      "Short-term bets on market moves",
+      "Long-term target weights set from the IPS"
+     ],
+     "a": 2,
+     "e": "It is the long-run policy mix.",
+     "los": "4.c"
+    },
+    {
+     "d": "H",
+     "q": "Asset classes used for allocation should ideally be:",
+     "o": [
+      "Internally similar with low correlation between classes",
+      "Limited to one market",
+      "Highly correlated with each other"
+     ],
+     "a": 0,
+     "e": "This gives distinct risk-return behaviour for diversification.",
+     "los": "4.c"
+    },
+    {
+     "d": "E",
+     "q": "Excluding tobacco and weapons makers from a portfolio is:",
+     "o": [
+      "Engagement",
+      "Negative screening",
+      "Thematic investing"
+     ],
+     "a": 1,
+     "e": "It screens out sectors.",
+     "los": "4.d"
+    },
+    {
+     "d": "M",
+     "q": "Investing to achieve a measurable social outcome as well as a financial return is:",
+     "o": [
+      "Tactical allocation",
+      "Best-in-class",
+      "Impact investing"
+     ],
+     "a": 2,
+     "e": "Impact investing targets measurable outcomes.",
+     "los": "4.d"
+    },
+    {
+     "d": "H",
+     "q": "A client's religious ban on interest-bearing investments is an example of:",
+     "o": [
+      "A unique circumstance",
+      "A liquidity constraint",
+      "A tax constraint"
+     ],
+     "a": 0,
+     "e": "Ethical or religious preferences are unique circumstances.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Using shareholder votes and dialogue to change a company's practices is:",
+     "o": [
+      "Thematic investing",
+      "Engagement or stewardship",
+      "Negative screening"
+     ],
+     "a": 1,
+     "e": "Active ownership aims to improve company behaviour.",
+     "los": "4.d"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "IPS components",
+     "back": "Objectives (return, risk) and constraints."
+    },
+    {
+     "front": "IPS constraints",
+     "back": "Liquidity, time horizon, tax, legal/regulatory, unique."
+    },
+    {
+     "front": "Ability vs willingness conflict",
+     "back": "Usually adopt the lower; educate the client."
+    },
+    {
+     "front": "Strategic vs tactical allocation",
+     "back": "Long-term targets vs short-term deviations."
+    },
+    {
+     "front": "Negative screening",
+     "back": "Excluding sectors or firms."
+    },
+    {
+     "front": "Impact investing",
+     "back": "Measurable social or environmental impact plus return."
+    }
+   ]
+  },
+  {
+   "lm_no": 5,
+   "title": "The Behavioral Biases of Individuals",
+   "summary": "Cognitive errors and emotional biases, how they affect decisions, and market anomalies.",
+   "los": [
+    {
+     "code": "5.a",
+     "command_word": "compare",
+     "statement": "Compare cognitive errors and emotional biases."
+    },
+    {
+     "code": "5.b",
+     "command_word": "discuss",
+     "statement": "Discuss commonly recognised behavioural biases and their implications for financial decision-making."
+    },
+    {
+     "code": "5.c",
+     "command_word": "describe",
+     "statement": "Describe how behavioural biases of investors can lead to market characteristics that may not be explained by traditional finance."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Cognitive errors",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Cognitive errors come from faulty reasoning or memory. They are easier to "
+         },
+         {
+          "t": "correct",
+          "b": true
+         },
+         {
+          "t": " with information and education."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Group",
+         "Bias",
+         "Example"
+        ],
+        "rows": [
+         [
+          "Belief perseverance",
+          "Conservatism",
+          "Slow to update a view after new data"
+         ],
+         [
+          "",
+          "Confirmation",
+          "Reading only news that supports your stock"
+         ],
+         [
+          "",
+          "Representativeness",
+          "A good company must be a good stock"
+         ],
+         [
+          "",
+          "Illusion of control",
+          "Believing you can influence random outcomes"
+         ],
+         [
+          "",
+          "Hindsight",
+          "'I knew the crash was coming'"
+         ],
+         [
+          "Processing errors",
+          "Anchoring",
+          "Sticking to the purchase price as a reference"
+         ],
+         [
+          "",
+          "Mental accounting",
+          "Treating bonus money differently from salary"
+         ],
+         [
+          "",
+          "Framing",
+          "Choosing based on how options are presented"
+         ],
+         [
+          "",
+          "Availability",
+          "Judging likelihood by what comes to mind easily"
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Emotional biases",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Emotional biases come from feelings and impulses. They are hard to correct, so advisers often "
+         },
+         {
+          "t": "adapt",
+          "b": true
+         },
+         {
+          "t": " to them."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Loss aversion",
+           "b": true
+          },
+          {
+           "t": ": losses hurt about twice as much as equal gains please; leads to holding losers and selling winners too early (disposition effect)."
+          }
+         ],
+         [
+          {
+           "t": "Overconfidence",
+           "b": true
+          },
+          {
+           "t": ": overestimating skill or knowledge; trading too much, under-diversifying."
+          }
+         ],
+         [
+          {
+           "t": "Self-control",
+           "b": true
+          },
+          {
+           "t": ": favouring today's spending over long-term goals."
+          }
+         ],
+         [
+          {
+           "t": "Status quo",
+           "b": true
+          },
+          {
+           "t": ": doing nothing when change would help."
+          }
+         ],
+         [
+          {
+           "t": "Endowment",
+           "b": true
+          },
+          {
+           "t": ": valuing what you own more than an identical asset you don't."
+          }
+         ],
+         [
+          {
+           "t": "Regret aversion",
+           "b": true
+          },
+          {
+           "t": ": avoiding decisions that might cause regret; herding."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Amit bought Lotus Pharma at ₹800; it now trades at ₹560. He refuses to sell 'until it gets back to 800'. That is "
+         },
+         {
+          "t": "anchoring",
+          "b": true
+         },
+         {
+          "t": " on the purchase price plus "
+         },
+         {
+          "t": "loss aversion",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Loss aversion is why finding ₹500 on the road feels nice, but losing ₹500 ruins the whole week."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Behavioural finance and markets",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Momentum",
+           "b": true
+          },
+          {
+           "t": " and bubbles: herding and overconfidence push prices too far."
+          }
+         ],
+         [
+          {
+           "t": "Value vs growth",
+           "b": true
+          },
+          {
+           "t": " anomalies: representativeness makes investors overpay for glamour stocks."
+          }
+         ],
+         [
+          {
+           "t": "Home bias",
+           "b": true
+          },
+          {
+           "t": ": familiarity leads to under-diversification."
+          }
+         ],
+         [
+          {
+           "t": "These patterns may persist because limits to arbitrage stop rational traders correcting them."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "In the curriculum, "
+         },
+         {
+          "t": "overconfidence",
+          "b": true
+         },
+         {
+          "t": " is classed as an "
+         },
+         {
+          "t": "emotional",
+          "b": true
+         },
+         {
+          "t": " bias, even though it has cognitive features."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Cognitive → correct (educate) · Emotional → adapt"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Conservatism",
+        "Slow to update"
+       ],
+       [
+        "Confirmation",
+        "Seek supporting evidence"
+       ],
+       [
+        "Representativeness",
+        "Stereotype-based judgement"
+       ],
+       [
+        "Anchoring",
+        "Stuck on a reference number"
+       ],
+       [
+        "Mental accounting",
+        "Money in separate buckets"
+       ],
+       [
+        "Loss aversion",
+        "Losses hurt more than gains please"
+       ],
+       [
+        "Overconfidence",
+        "Emotional bias; overtrading"
+       ],
+       [
+        "Status quo / endowment",
+        "Inertia; overvaluing what you own"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Loss aversion means investors:",
+     "o": [
+      "Prefer losses to gains",
+      "Ignore losses",
+      "Feel losses more strongly than equal gains"
+     ],
+     "a": 2,
+     "e": "Losses hurt about twice as much as gains please.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "Cognitive errors differ from emotional biases in that cognitive errors:",
+     "o": [
+      "Can often be corrected with better information and education",
+      "Arise only in markets",
+      "Are impossible to correct"
+     ],
+     "a": 0,
+     "e": "They stem from reasoning mistakes.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "An investor refuses to sell a share until it returns to his purchase price. This is mainly:",
+     "o": [
+      "Status quo bias",
+      "Anchoring",
+      "Availability"
+     ],
+     "a": 1,
+     "e": "He is fixed on an arbitrary reference point.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "Treating a tax refund as 'fun money' to gamble while being cautious with salary is:",
+     "o": [
+      "Hindsight bias",
+      "Framing",
+      "Mental accounting"
+     ],
+     "a": 2,
+     "e": "Money is put in separate mental buckets.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "Overconfidence bias leads investors to:",
+     "o": [
+      "Trade too much and under-diversify",
+      "Hold too much cash",
+      "Avoid all equities"
+     ],
+     "a": 0,
+     "e": "They overrate their information and skill.",
+     "los": "5.b"
+    },
+    {
+     "d": "H",
+     "q": "In the curriculum, overconfidence is classified as:",
+     "o": [
+      "A cognitive processing error",
+      "An emotional bias",
+      "A belief perseverance error"
+     ],
+     "a": 1,
+     "e": "It is treated as emotional.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "Searching only for news that supports an existing investment is:",
+     "o": [
+      "Endowment bias",
+      "Self-control bias",
+      "Confirmation bias"
+     ],
+     "a": 2,
+     "e": "A belief perseverance error.",
+     "los": "5.b"
+    },
+    {
+     "d": "H",
+     "q": "An adviser dealing with a client's strong emotional bias should usually:",
+     "o": [
+      "Adapt the portfolio to accommodate the bias",
+      "Insist it is corrected immediately",
+      "Ignore it"
+     ],
+     "a": 0,
+     "e": "Emotional biases are hard to change, so advisers adapt.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "Assuming a well-known, well-run company must be a good investment is:",
+     "o": [
+      "Regret aversion",
+      "Representativeness",
+      "Conservatism"
+     ],
+     "a": 1,
+     "e": "Judging by stereotype rather than price and value.",
+     "los": "5.b"
+    },
+    {
+     "d": "H",
+     "q": "Behavioural explanations for momentum in share prices most often cite:",
+     "o": [
+      "Mental accounting only",
+      "Perfectly rational arbitrage",
+      "Herding and overconfidence"
+     ],
+     "a": 2,
+     "e": "Crowd behaviour can push prices beyond fair value.",
+     "los": "5.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Cognitive vs emotional",
+     "back": "Reasoning errors (correct) vs feelings (adapt)."
+    },
+    {
+     "front": "Anchoring",
+     "back": "Sticking to a reference point like the purchase price."
+    },
+    {
+     "front": "Mental accounting",
+     "back": "Treating money differently by its source or bucket."
+    },
+    {
+     "front": "Loss aversion",
+     "back": "Losses feel ~2× as bad as equal gains feel good."
+    },
+    {
+     "front": "Overconfidence",
+     "back": "Emotional bias: overtrading, under-diversifying."
+    },
+    {
+     "front": "Confirmation bias",
+     "back": "Seeking evidence that supports your view."
+    }
+   ]
+  },
+  {
+   "lm_no": 6,
+   "title": "Introduction to Risk Management",
+   "summary": "Risk governance, risk tolerance and budgeting, types of risk, measuring and modifying risk.",
+   "los": [
+    {
+     "code": "6.a",
+     "command_word": "define",
+     "statement": "Define risk management and describe the features of a risk management framework."
+    },
+    {
+     "code": "6.b",
+     "command_word": "describe",
+     "statement": "Describe risk governance, risk tolerance and risk budgeting."
+    },
+    {
+     "code": "6.c",
+     "command_word": "identify",
+     "statement": "Identify financial and non-financial sources of risk."
+    },
+    {
+     "code": "6.d",
+     "command_word": "describe",
+     "statement": "Describe methods for measuring and modifying risk exposures."
+    }
+   ],
+   "topics": [
+    {
+     "title": "The risk management framework",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Risk management",
+          "b": true
+         },
+         {
+          "t": " is the process of setting the level of risk an organisation wants, measuring the risk it actually has, and adjusting one towards the other. The aim is "
+         },
+         {
+          "t": "not",
+          "b": true
+         },
+         {
+          "t": " to minimise risk but to take the "
+         },
+         {
+          "t": "right",
+          "b": true
+         },
+         {
+          "t": " risks."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Risk governance",
+           "b": true
+          },
+          {
+           "t": ": top-down oversight by the board; sets risk tolerance."
+          }
+         ],
+         [
+          {
+           "t": "Risk tolerance",
+           "b": true
+          },
+          {
+           "t": ": how much loss the organisation can and will accept."
+          }
+         ],
+         [
+          {
+           "t": "Risk budgeting",
+           "b": true
+          },
+          {
+           "t": ": allocating total risk across activities, e.g. by tracking error or VaR."
+          }
+         ],
+         [
+          {
+           "t": "Identification, measurement, monitoring, reporting and a strong risk culture."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Sources of risk",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Financial",
+         "Non-financial"
+        ],
+        "rows": [
+         [
+          "Market risk (prices, rates, FX)",
+          "Operational risk (people, systems, fraud)"
+         ],
+         [
+          "Credit risk (default)",
+          "Legal and compliance risk"
+         ],
+         [
+          "Liquidity risk (cannot sell without big price cut)",
+          "Model risk, settlement risk, tax risk"
+         ],
+         [
+          "",
+          "Solvency risk (running out of cash)"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Risks interact: a market crash raises credit risk and can create liquidity problems, as in 2008."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Measuring and modifying risk",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Standard deviation",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "beta",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "duration",
+           "b": true
+          },
+          {
+           "t": ", option "
+          },
+          {
+           "t": "Greeks",
+           "b": true
+          },
+          {
+           "t": " (delta, gamma, vega)."
+          }
+         ],
+         [
+          {
+           "t": "Value at risk (VaR)",
+           "b": true
+          },
+          {
+           "t": ": minimum loss at a given probability over a period. '5% one-day VaR of ₹2 crore' = a 5% chance of losing "
+          },
+          {
+           "t": "at least",
+           "b": true
+          },
+          {
+           "t": " ₹2 crore in a day."
+          }
+         ],
+         [
+          {
+           "t": "Conditional VaR",
+           "b": true
+          },
+          {
+           "t": ": average loss beyond VaR."
+          }
+         ],
+         [
+          {
+           "t": "Scenario analysis",
+           "b": true
+          },
+          {
+           "t": " and "
+          },
+          {
+           "t": "stress testing",
+           "b": true
+          },
+          {
+           "t": " for extreme but plausible events."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Method",
+         "Example"
+        ],
+        "rows": [
+         [
+          "Prevention / avoidance",
+          "Not entering a risky market"
+         ],
+         [
+          "Acceptance (self-insurance, diversification)",
+          "Holding reserves"
+         ],
+         [
+          "Risk transfer",
+          "Buying insurance"
+         ],
+         [
+          "Risk shifting",
+          "Using derivatives to change exposure"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "VaR tells you how bad a normal bad day is. It says nothing about the day the monsoon floods the trading floor. That is what stress tests are for."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "VaR = minimum loss at a given probability over a period · CVaR = average loss beyond VaR"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Goal",
+        "Right risks, not zero risk"
+       ],
+       [
+        "Risk governance",
+        "Board-level oversight"
+       ],
+       [
+        "Risk budgeting",
+        "Allocate total risk across activities"
+       ],
+       [
+        "Financial risks",
+        "Market, credit, liquidity"
+       ],
+       [
+        "Non-financial",
+        "Operational, legal, model, solvency"
+       ],
+       [
+        "Modify risk",
+        "Avoid, accept, transfer, shift"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The main aim of risk management is to:",
+     "o": [
+      "Take the risks the organisation wants and manage them to the chosen level",
+      "Maximise volatility",
+      "Eliminate all risk"
+     ],
+     "a": 0,
+     "e": "Risk management aligns actual risk with risk tolerance.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "Allocating an organisation's total risk across asset classes or traders is:",
+     "o": [
+      "Risk governance",
+      "Risk budgeting",
+      "Risk transfer"
+     ],
+     "a": 1,
+     "e": "A risk budget spreads total risk.",
+     "los": "6.b"
+    },
+    {
+     "d": "E",
+     "q": "Which is a non-financial risk?",
+     "o": [
+      "Market risk",
+      "Credit risk",
+      "Operational risk"
+     ],
+     "a": 2,
+     "e": "Operational risk arises from people and systems.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "A 5% one-day VaR of ₹2 crore means there is a 5% chance of losing:",
+     "o": [
+      "At least ₹2 crore in a day",
+      "At most ₹2 crore in a day",
+      "Exactly ₹2 crore"
+     ],
+     "a": 0,
+     "e": "VaR is a minimum loss at the stated probability.",
+     "los": "6.d"
+    },
+    {
+     "d": "H",
+     "q": "Conditional VaR measures:",
+     "o": [
+      "The median daily return",
+      "The average loss when losses exceed VaR",
+      "The maximum possible loss"
+     ],
+     "a": 1,
+     "e": "It looks into the tail beyond VaR.",
+     "los": "6.d"
+    },
+    {
+     "d": "M",
+     "q": "Buying an insurance policy to cover fire damage is an example of:",
+     "o": [
+      "Self-insurance",
+      "Risk avoidance",
+      "Risk transfer"
+     ],
+     "a": 2,
+     "e": "The insurer takes the risk for a premium.",
+     "los": "6.d"
+    },
+    {
+     "d": "M",
+     "q": "Using futures to reduce a portfolio's equity exposure is:",
+     "o": [
+      "Risk shifting",
+      "Risk prevention",
+      "Risk acceptance"
+     ],
+     "a": 0,
+     "e": "Derivatives shift the distribution of outcomes.",
+     "los": "6.d"
+    },
+    {
+     "d": "H",
+     "q": "Board-level oversight that sets the organisation's risk tolerance is called:",
+     "o": [
+      "Risk budgeting",
+      "Risk governance",
+      "Stress testing"
+     ],
+     "a": 1,
+     "e": "Governance is top-down.",
+     "los": "6.b"
+    },
+    {
+     "d": "E",
+     "q": "The risk of being unable to sell an asset quickly without a large price cut is:",
+     "o": [
+      "Model risk",
+      "Legal risk",
+      "Liquidity risk"
+     ],
+     "a": 2,
+     "e": "A financial risk.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "Which tool examines the effect of extreme but plausible events on a portfolio?",
+     "o": [
+      "Stress testing",
+      "Beta",
+      "Mean return"
+     ],
+     "a": 0,
+     "e": "Stress tests explore tail scenarios.",
+     "los": "6.d"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Risk management aim",
+     "back": "Right risks at the chosen level, not zero risk."
+    },
+    {
+     "front": "Risk governance",
+     "back": "Board oversight; sets risk tolerance."
+    },
+    {
+     "front": "Risk budgeting",
+     "back": "Allocating total risk across activities."
+    },
+    {
+     "front": "Financial vs non-financial risk",
+     "back": "Market, credit, liquidity vs operational, legal, model, solvency."
+    },
+    {
+     "front": "VaR",
+     "back": "Minimum loss at a given probability over a period."
+    },
+    {
+     "front": "Ways to modify risk",
+     "back": "Avoid, accept, transfer (insurance), shift (derivatives)."
+    }
+   ]
+  }
+ ],
+ "retag_proto": {
+  "58": 2,
+  "59": 1,
+  "60": 4
+ }
+}

@@ -1,0 +1,5322 @@
+{
+ "subject": "fsa",
+ "name": "Financial Statement Analysis",
+ "lms": [
+  {
+   "lm_no": 1,
+   "title": "Introduction to Financial Statement Analysis",
+   "summary": "Roles of the statements and other sources, standard-setters, the conceptual framework and the analysis process.",
+   "los": [
+    {
+     "code": "1.a",
+     "command_word": "describe",
+     "statement": "Describe the roles of financial statement analysis and of the key financial statements."
+    },
+    {
+     "code": "1.b",
+     "command_word": "describe",
+     "statement": "Describe the importance of notes, MD&A and the audit report."
+    },
+    {
+     "code": "1.c",
+     "command_word": "describe",
+     "statement": "Describe the roles of standard-setting bodies and regulators, and the qualitative characteristics of financial reports."
+    },
+    {
+     "code": "1.d",
+     "command_word": "describe",
+     "statement": "Describe the steps in the financial statement analysis framework."
+    }
+   ],
+   "topics": [
+    {
+     "title": "The statements and other sources",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Statement",
+         "Shows"
+        ],
+        "rows": [
+         [
+          "Statement of financial position (balance sheet)",
+          "Assets, liabilities, equity at a point in time"
+         ],
+         [
+          "Income statement / comprehensive income",
+          "Revenue, expenses, profit over a period"
+         ],
+         [
+          "Statement of changes in equity",
+          "Movements in each equity component"
+         ],
+         [
+          "Cash flow statement",
+          "Operating, investing and financing cash flows"
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Notes",
+           "b": true
+          },
+          {
+           "t": " explain policies, estimates and details behind the numbers."
+          }
+         ],
+         [
+          {
+           "t": "MD&A",
+           "b": true
+          },
+          {
+           "t": " (management commentary): results, trends, risks and outlook in management's words."
+          }
+         ],
+         [
+          {
+           "t": "Auditor's report",
+           "b": true
+          },
+          {
+           "t": ": opinion on whether statements are fairly presented. "
+          },
+          {
+           "t": "Unqualified",
+           "b": true
+          },
+          {
+           "t": " (clean), "
+          },
+          {
+           "t": "qualified",
+           "b": true
+          },
+          {
+           "t": " (except for…), "
+          },
+          {
+           "t": "adverse",
+           "b": true
+          },
+          {
+           "t": " (not fair), or "
+          },
+          {
+           "t": "disclaimer",
+           "b": true
+          },
+          {
+           "t": " (unable to form an opinion)."
+          }
+         ],
+         [
+          {
+           "t": "Other sources: earnings calls, industry data, economic data, press releases."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "An audit gives "
+         },
+         {
+          "t": "reasonable",
+          "b": true
+         },
+         {
+          "t": " assurance, not a guarantee that there is no fraud."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Standards and the framework",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Standard-setters",
+           "b": true
+          },
+          {
+           "t": " write the rules: IASB (IFRS) and FASB (US GAAP). India's Ind AS are converged with IFRS."
+          }
+         ],
+         [
+          {
+           "t": "Regulators",
+           "b": true
+          },
+          {
+           "t": " enforce them and require filing: SEC in the US, SEBI in India."
+          }
+         ],
+         [
+          {
+           "t": "Fundamental qualitative characteristics",
+           "b": true
+          },
+          {
+           "t": ": "
+          },
+          {
+           "t": "relevance",
+           "b": true
+          },
+          {
+           "t": " (including materiality) and "
+          },
+          {
+           "t": "faithful representation",
+           "b": true
+          },
+          {
+           "t": " (complete, neutral, free from error)."
+          }
+         ],
+         [
+          {
+           "t": "Enhancing",
+           "b": true
+          },
+          {
+           "t": ": comparability, verifiability, timeliness, understandability."
+          }
+         ],
+         [
+          {
+           "t": "Constraint: benefits of information should exceed its cost."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Standard-setters write the cricket rulebook; regulators are the umpires; auditors are the third umpire checking the replay."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "The analysis framework",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "Define the "
+          },
+          {
+           "t": "purpose",
+           "b": true
+          },
+          {
+           "t": " and context."
+          }
+         ],
+         [
+          {
+           "t": "Collect",
+           "b": true
+          },
+          {
+           "t": " data."
+          }
+         ],
+         [
+          {
+           "t": "Process",
+           "b": true
+          },
+          {
+           "t": " data (adjust, compute ratios, common-size)."
+          }
+         ],
+         [
+          {
+           "t": "Analyse and interpret",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Communicate",
+           "b": true
+          },
+          {
+           "t": " conclusions."
+          }
+         ],
+         [
+          {
+           "t": "Follow up",
+           "b": true
+          },
+          {
+           "t": " and update."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A bank evaluating a ₹50 crore loan to a textile firm: purpose = repayment ability; collect five years of statements; compute interest coverage and debt/EBITDA; conclude and write a credit note; review each quarter."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Framework: purpose → collect → process → analyse → communicate → follow up"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Balance sheet",
+        "Point in time"
+       ],
+       [
+        "Income statement",
+        "Over a period"
+       ],
+       [
+        "Notes / MD&A",
+        "Policies and management's commentary"
+       ],
+       [
+        "Unqualified opinion",
+        "Clean audit report"
+       ],
+       [
+        "Standard-setters",
+        "IASB, FASB"
+       ],
+       [
+        "Regulators",
+        "SEC, SEBI"
+       ],
+       [
+        "Fundamental qualities",
+        "Relevance, faithful representation"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Which statement reports a company's financial position at a point in time?",
+     "o": [
+      "Income statement",
+      "Balance sheet",
+      "Cash flow statement"
+     ],
+     "a": 1,
+     "e": "The balance sheet is a snapshot.",
+     "los": "1.a"
+    },
+    {
+     "d": "M",
+     "q": "An auditor's opinion stating the statements are fairly presented except for one matter is:",
+     "o": [
+      "Unqualified",
+      "Adverse",
+      "Qualified"
+     ],
+     "a": 2,
+     "e": "Qualified = 'except for'.",
+     "los": "1.b"
+    },
+    {
+     "d": "E",
+     "q": "The body that issues IFRS is the:",
+     "o": [
+      "IASB",
+      "FASB",
+      "SEC"
+     ],
+     "a": 0,
+     "e": "The IASB writes IFRS; FASB writes US GAAP.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "The two fundamental qualitative characteristics of useful financial information are:",
+     "o": [
+      "Timeliness and comparability",
+      "Relevance and faithful representation",
+      "Verifiability and cost"
+     ],
+     "a": 1,
+     "e": "The others are enhancing characteristics.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "The role of a securities regulator such as SEBI is mainly to:",
+     "o": [
+      "Audit companies",
+      "Write accounting standards",
+      "Enforce reporting requirements and oversee markets"
+     ],
+     "a": 2,
+     "e": "Regulators enforce; standard-setters write.",
+     "los": "1.c"
+    },
+    {
+     "d": "E",
+     "q": "Management's discussion of results, risks and outlook is found in the:",
+     "o": [
+      "MD&A",
+      "Auditor's report",
+      "Statement of changes in equity"
+     ],
+     "a": 0,
+     "e": "MD&A gives management's view.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "The first step in the financial statement analysis framework is to:",
+     "o": [
+      "Compute ratios",
+      "Define the purpose and context",
+      "Collect data"
+     ],
+     "a": 1,
+     "e": "The purpose shapes everything after.",
+     "los": "1.d"
+    },
+    {
+     "d": "H",
+     "q": "An audit provides:",
+     "o": [
+      "No assurance at all",
+      "Absolute assurance that there is no fraud",
+      "Reasonable assurance that statements are free of material misstatement"
+     ],
+     "a": 2,
+     "e": "Audits test samples and judgements; assurance is reasonable.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "Computing ratios and preparing common-size statements belongs to which step?",
+     "o": [
+      "Process",
+      "Follow up",
+      "Collect"
+     ],
+     "a": 0,
+     "e": "Processing turns raw data into analysable form.",
+     "los": "1.d"
+    },
+    {
+     "d": "E",
+     "q": "Information is material if:",
+     "o": [
+      "It is in the notes",
+      "Omitting or misstating it could influence users' decisions",
+      "It is audited"
+     ],
+     "a": 1,
+     "e": "Materiality is part of relevance.",
+     "los": "1.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Four main statements",
+     "back": "Financial position, comprehensive income, changes in equity, cash flows."
+    },
+    {
+     "front": "Audit opinion types",
+     "back": "Unqualified, qualified, adverse, disclaimer."
+    },
+    {
+     "front": "Standard-setters vs regulators",
+     "back": "IASB/FASB write rules; SEC/SEBI enforce."
+    },
+    {
+     "front": "Fundamental qualities",
+     "back": "Relevance and faithful representation."
+    },
+    {
+     "front": "Enhancing qualities",
+     "back": "Comparability, verifiability, timeliness, understandability."
+    },
+    {
+     "front": "Analysis framework",
+     "back": "Purpose, collect, process, analyse, communicate, follow up."
+    }
+   ]
+  },
+  {
+   "lm_no": 2,
+   "title": "Analyzing Income Statements",
+   "summary": "Revenue and expense recognition, non-recurring items, EPS and common-size analysis.",
+   "los": [
+    {
+     "code": "2.a",
+     "command_word": "evaluate",
+     "statement": "Evaluate the revenue recognition and expense recognition policies of a company."
+    },
+    {
+     "code": "2.b",
+     "command_word": "describe",
+     "statement": "Describe non-recurring items, discontinued operations and changes in accounting policy."
+    },
+    {
+     "code": "2.c",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret basic and diluted earnings per share."
+    },
+    {
+     "code": "2.d",
+     "command_word": "evaluate",
+     "statement": "Evaluate a company's financial performance using common-size income statements and margins."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Revenue and expense recognition",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Under "
+         },
+         {
+          "t": "accrual accounting",
+          "b": true
+         },
+         {
+          "t": ", revenue is recognised when it is earned (control of goods or services passes to the customer), not when cash arrives. The five-step model:"
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "Identify the contract."
+          }
+         ],
+         [
+          {
+           "t": "Identify the performance obligations."
+          }
+         ],
+         [
+          {
+           "t": "Determine the transaction price."
+          }
+         ],
+         [
+          {
+           "t": "Allocate the price to each obligation."
+          }
+         ],
+         [
+          {
+           "t": "Recognise revenue as each obligation is satisfied."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Expenses are matched to the revenue they help generate, or to the period."
+          }
+         ],
+         [
+          {
+           "t": "Principal vs agent",
+           "b": true
+          },
+          {
+           "t": ": a principal reports gross revenue; an agent reports only its commission."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "A software firm sells a ₹12 lakh package: licence (₹8 lakh value) and one-year support (₹4 lakh). It recognises ₹8 lakh at delivery and ₹4 lakh evenly over 12 months."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Non-recurring items and EPS",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Discontinued operations",
+           "b": true
+          },
+          {
+           "t": " are shown separately, net of tax, below continuing profit."
+          }
+         ],
+         [
+          {
+           "t": "Unusual or infrequent items are in continuing operations but disclosed; analysts often exclude them when forecasting."
+          }
+         ],
+         [
+          {
+           "t": "Policy changes are applied "
+          },
+          {
+           "t": "retrospectively",
+           "b": true
+          },
+          {
+           "t": "; changes in estimates "
+          },
+          {
+           "t": "prospectively",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Basic EPS = (Net income − preferred dividends) ÷ weighted average shares"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Net income ₹1,000 crore, preferred dividends ₹100 crore, weighted shares 300 crore: basic EPS = "
+         },
+         {
+          "t": "₹3.00",
+          "b": true
+         },
+         {
+          "t": ". Convertible preferred would add 50 crore shares; diluted EPS = 1,000 ÷ 350 = ₹2.86, lower, so it is dilutive."
+         }
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Treasury stock method for options"
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "100 options at exercise price ₹20, average share price ₹25. Proceeds 2,000 buy back 2,000 ÷ 25 = 80 shares. Net new shares = "
+         },
+         {
+          "t": "20",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A security is "
+         },
+         {
+          "t": "antidilutive",
+          "b": true
+         },
+         {
+          "t": " if including it raises EPS; it is then left out of diluted EPS."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Common-size analysis and margins",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Express every line as a "
+         },
+         {
+          "t": "percentage of revenue",
+          "b": true
+         },
+         {
+          "t": " to compare across years and companies."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Margin",
+         "Formula"
+        ],
+        "rows": [
+         [
+          "Gross margin",
+          "Gross profit ÷ revenue"
+         ],
+         [
+          "Operating margin",
+          "Operating profit ÷ revenue"
+         ],
+         [
+          "Pre-tax margin",
+          "EBT ÷ revenue"
+         ],
+         [
+          "Net margin",
+          "Net income ÷ revenue"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A common-size income statement is like comparing two thalis by the share of rice, dal and sweets, so a giant wedding thali and a small office one can be judged fairly."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Basic EPS = (NI − pref div) ÷ weighted shares · Treasury stock: new shares = N − N×X/avg P"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Revenue recognition",
+        "When control passes to the customer"
+       ],
+       [
+        "Five steps",
+        "Contract, obligations, price, allocate, recognise"
+       ],
+       [
+        "Principal vs agent",
+        "Gross vs net revenue"
+       ],
+       [
+        "Discontinued ops",
+        "Separate, net of tax"
+       ],
+       [
+        "Policy change",
+        "Retrospective"
+       ],
+       [
+        "Estimate change",
+        "Prospective"
+       ],
+       [
+        "Antidilutive",
+        "Raises EPS; excluded"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Under accrual accounting, revenue is recognised when:",
+     "o": [
+      "The invoice is printed",
+      "Cash is received",
+      "It is earned, as control passes to the customer"
+     ],
+     "a": 2,
+     "e": "Recognition follows the transfer of goods or services.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "Net income is ₹1,000 crore, preferred dividends ₹100 crore and weighted shares 300 crore. Basic EPS is:",
+     "o": [
+      "₹3.00",
+      "₹2.86",
+      "₹3.33"
+     ],
+     "a": 0,
+     "e": "(1,000 − 100)/300 = 3.00.",
+     "los": "2.c"
+    },
+    {
+     "d": "H",
+     "q": "100 options with exercise price ₹20 are outstanding; the average share price is ₹25. Under the treasury stock method, incremental shares are:",
+     "o": [
+      "80",
+      "20",
+      "100"
+     ],
+     "a": 1,
+     "e": "Proceeds buy back 80 shares, so 20 are net new.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "A convertible security whose conversion would raise EPS is:",
+     "o": [
+      "Always included",
+      "Dilutive",
+      "Antidilutive and excluded"
+     ],
+     "a": 2,
+     "e": "Antidilutive securities are excluded.",
+     "los": "2.c"
+    },
+    {
+     "d": "M",
+     "q": "Results of a business segment the company has sold are reported:",
+     "o": [
+      "As discontinued operations, net of tax",
+      "Only in the notes",
+      "Within operating expenses"
+     ],
+     "a": 0,
+     "e": "Shown separately so users can focus on continuing operations.",
+     "los": "2.b"
+    },
+    {
+     "d": "E",
+     "q": "Gross profit margin is calculated as:",
+     "o": [
+      "Revenue ÷ total assets",
+      "Gross profit ÷ revenue",
+      "Net income ÷ revenue"
+     ],
+     "a": 1,
+     "e": "Gross margin definition.",
+     "los": "2.d"
+    },
+    {
+     "d": "M",
+     "q": "A travel website that arranges hotel bookings without bearing inventory risk is an agent and reports:",
+     "o": [
+      "No revenue",
+      "The full booking value as revenue",
+      "Only its commission as revenue"
+     ],
+     "a": 2,
+     "e": "Agents report net revenue.",
+     "los": "2.a"
+    },
+    {
+     "d": "H",
+     "q": "A change in an accounting estimate, such as an asset's useful life, is applied:",
+     "o": [
+      "Prospectively",
+      "Never",
+      "Retrospectively"
+     ],
+     "a": 0,
+     "e": "Estimates change going forward.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "In a common-size income statement, each line is expressed as a percentage of:",
+     "o": [
+      "Total assets",
+      "Revenue",
+      "Net income"
+     ],
+     "a": 1,
+     "e": "Revenue is the base.",
+     "los": "2.d"
+    },
+    {
+     "d": "E",
+     "q": "The final step of the five-step revenue model is to:",
+     "o": [
+      "Set the price",
+      "Identify the contract",
+      "Recognise revenue as obligations are satisfied"
+     ],
+     "a": 2,
+     "e": "Revenue is recognised as each obligation is met.",
+     "los": "2.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Five-step revenue model",
+     "back": "Contract, obligations, price, allocate, recognise."
+    },
+    {
+     "front": "Principal vs agent",
+     "back": "Gross revenue vs commission only."
+    },
+    {
+     "front": "Basic EPS",
+     "back": "(NI − preferred dividends) ÷ weighted average shares."
+    },
+    {
+     "front": "Treasury stock method",
+     "back": "Option proceeds buy back shares at the average price."
+    },
+    {
+     "front": "Antidilutive security",
+     "back": "Would raise EPS; excluded from diluted EPS."
+    },
+    {
+     "front": "Policy vs estimate change",
+     "back": "Retrospective vs prospective."
+    }
+   ]
+  },
+  {
+   "lm_no": 3,
+   "title": "Analyzing Balance Sheets",
+   "summary": "Classification and measurement of assets and liabilities, financial instruments, equity, and liquidity and solvency ratios.",
+   "los": [
+    {
+     "code": "3.a",
+     "command_word": "explain",
+     "statement": "Explain the classification and measurement of current and non-current assets and liabilities."
+    },
+    {
+     "code": "3.b",
+     "command_word": "describe",
+     "statement": "Describe the measurement of financial instruments, intangibles and goodwill."
+    },
+    {
+     "code": "3.c",
+     "command_word": "describe",
+     "statement": "Describe the components of equity."
+    },
+    {
+     "code": "3.d",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret common-size balance sheets and liquidity and solvency ratios."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Classification and measurement",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Current",
+           "b": true
+          },
+          {
+           "t": " items are expected to be realised or settled within one year (or the operating cycle). The rest are "
+          },
+          {
+           "t": "non-current",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Measurement bases: "
+          },
+          {
+           "t": "historical cost",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "amortised cost",
+           "b": true
+          },
+          {
+           "t": ", "
+          },
+          {
+           "t": "fair value",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Goodwill",
+           "b": true
+          },
+          {
+           "t": " = price paid in an acquisition − fair value of net identifiable assets. Not amortised; tested for impairment."
+          }
+         ],
+         [
+          {
+           "t": "Internally generated brands and goodwill are "
+          },
+          {
+           "t": "not",
+           "b": true
+          },
+          {
+           "t": " recognised as assets."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Financial asset category",
+         "Measured at",
+         "Changes in value go to"
+        ],
+        "rows": [
+         [
+          "Amortised cost (hold to collect)",
+          "Amortised cost",
+          "Not recognised"
+         ],
+         [
+          "FVOCI",
+          "Fair value",
+          "Other comprehensive income"
+         ],
+         [
+          "FVPL",
+          "Fair value",
+          "Profit or loss"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Ganga Retail pays ₹900 crore for a company whose identifiable net assets are worth ₹700 crore at fair value. Goodwill = "
+         },
+         {
+          "t": "₹200 crore",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Equity",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Share capital and share premium (contributed capital)."
+          }
+         ],
+         [
+          {
+           "t": "Retained earnings",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Accumulated other comprehensive income",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Treasury shares (bought back, deducted)."
+          }
+         ],
+         [
+          {
+           "t": "Non-controlling interest",
+           "b": true
+          },
+          {
+           "t": ": the part of subsidiaries not owned by the parent."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Ratios",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Ratio",
+         "Formula",
+         "Tells you"
+        ],
+        "rows": [
+         [
+          "Current ratio",
+          "Current assets ÷ current liabilities",
+          "Short-term liquidity"
+         ],
+         [
+          "Quick ratio",
+          "(Cash + marketable securities + receivables) ÷ CL",
+          "Liquidity without inventory"
+         ],
+         [
+          "Cash ratio",
+          "(Cash + marketable securities) ÷ CL",
+          "Strictest liquidity test"
+         ],
+         [
+          "Debt-to-equity",
+          "Total debt ÷ total equity",
+          "Solvency, leverage"
+         ],
+         [
+          "Financial leverage",
+          "Total assets ÷ total equity",
+          "Leverage"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Current assets ₹500 crore (inventory 200), current liabilities ₹250 crore. Current ratio = "
+         },
+         {
+          "t": "2.0",
+          "b": true
+         },
+         {
+          "t": "; quick ratio = 300 ÷ 250 = "
+         },
+         {
+          "t": "1.2",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A high current ratio can hide slow-moving inventory. The quick ratio strips it out."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Goodwill is the extra money you pay for a sweet shop because the queue outside is long. You can't sell the queue separately, but you paid for it."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Current ratio = CA/CL · Quick = (cash + MS + AR)/CL · Goodwill = price − FV net assets"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Current",
+        "Within one year or operating cycle"
+       ],
+       [
+        "Amortised cost",
+        "Hold-to-collect debt"
+       ],
+       [
+        "FVOCI",
+        "Value changes to OCI"
+       ],
+       [
+        "FVPL",
+        "Value changes to profit"
+       ],
+       [
+        "Goodwill",
+        "Not amortised; impairment test"
+       ],
+       [
+        "NCI",
+        "Minority share of subsidiaries"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "A company pays ₹900 crore for a business with identifiable net assets at fair value of ₹700 crore. Goodwill is:",
+     "o": [
+      "₹200 crore",
+      "₹900 crore",
+      "₹1,600 crore"
+     ],
+     "a": 0,
+     "e": "900 − 700 = 200.",
+     "los": "3.b"
+    },
+    {
+     "d": "E",
+     "q": "Goodwill acquired in a business combination is:",
+     "o": [
+      "Amortised over 5 years",
+      "Not amortised but tested for impairment",
+      "Expensed immediately"
+     ],
+     "a": 1,
+     "e": "Goodwill is tested at least annually for impairment.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "Current assets ₹500 crore including ₹200 crore inventory; current liabilities ₹250 crore. The quick ratio (assume no prepaid items) is:",
+     "o": [
+      "0.8",
+      "2.0",
+      "1.2"
+     ],
+     "a": 2,
+     "e": "(500 − 200)/250 = 1.2.",
+     "los": "3.d"
+    },
+    {
+     "d": "M",
+     "q": "Changes in the fair value of an equity investment classified at FVPL are reported in:",
+     "o": [
+      "Profit or loss",
+      "Other comprehensive income",
+      "Retained earnings directly"
+     ],
+     "a": 0,
+     "e": "FVPL means through profit or loss.",
+     "los": "3.b"
+    },
+    {
+     "d": "E",
+     "q": "A debt investment held only to collect contractual cash flows is measured at:",
+     "o": [
+      "Fair value through profit or loss",
+      "Amortised cost",
+      "Replacement cost"
+     ],
+     "a": 1,
+     "e": "Hold-to-collect → amortised cost.",
+     "los": "3.b"
+    },
+    {
+     "d": "H",
+     "q": "Which is not recognised as an asset on the balance sheet?",
+     "o": [
+      "Purchased patents",
+      "Goodwill from an acquisition",
+      "Internally generated brand value"
+     ],
+     "a": 2,
+     "e": "Internally created brands cannot be capitalised.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "The part of a subsidiary's equity not owned by the parent is:",
+     "o": [
+      "Non-controlling interest",
+      "Retained earnings",
+      "Treasury stock"
+     ],
+     "a": 0,
+     "e": "NCI is shown within equity.",
+     "los": "3.c"
+    },
+    {
+     "d": "E",
+     "q": "Liabilities due to be settled within one year are classified as:",
+     "o": [
+      "Non-current",
+      "Current",
+      "Contingent"
+     ],
+     "a": 1,
+     "e": "One year or the operating cycle.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "Debt-to-equity is a measure of:",
+     "o": [
+      "Profitability",
+      "Liquidity",
+      "Solvency"
+     ],
+     "a": 2,
+     "e": "It shows the reliance on debt financing.",
+     "los": "3.d"
+    },
+    {
+     "d": "H",
+     "q": "A company's current ratio is high but its quick ratio is low. This suggests:",
+     "o": [
+      "Large inventories relative to other current assets",
+      "Very high cash balances",
+      "No current liabilities"
+     ],
+     "a": 0,
+     "e": "Inventory explains the gap.",
+     "los": "3.d"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Current vs non-current",
+     "back": "Within one year/operating cycle vs longer."
+    },
+    {
+     "front": "Financial asset categories",
+     "back": "Amortised cost, FVOCI, FVPL."
+    },
+    {
+     "front": "Goodwill",
+     "back": "Price paid − fair value of net identifiable assets; impairment-tested."
+    },
+    {
+     "front": "Current ratio",
+     "back": "Current assets ÷ current liabilities."
+    },
+    {
+     "front": "Quick ratio",
+     "back": "(Cash + marketable securities + receivables) ÷ CL."
+    },
+    {
+     "front": "Non-controlling interest",
+     "back": "Share of subsidiaries owned by outsiders."
+    }
+   ]
+  },
+  {
+   "lm_no": 4,
+   "title": "Analyzing Statements of Cash Flows I",
+   "summary": "Classifying cash flows, IFRS versus US GAAP, and the direct and indirect methods.",
+   "los": [
+    {
+     "code": "4.a",
+     "command_word": "describe",
+     "statement": "Describe the operating, investing and financing classifications of cash flows."
+    },
+    {
+     "code": "4.b",
+     "command_word": "contrast",
+     "statement": "Contrast cash flow statements prepared under IFRS and US GAAP."
+    },
+    {
+     "code": "4.c",
+     "command_word": "contrast",
+     "statement": "Contrast the direct and indirect methods of presenting operating cash flow."
+    },
+    {
+     "code": "4.d",
+     "command_word": "prepare",
+     "statement": "Prepare an operating cash flow section using the indirect method."
+    }
+   ],
+   "topics": [
+    {
+     "title": "The three sections",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Section",
+         "Examples"
+        ],
+        "rows": [
+         [
+          "Operating (CFO)",
+          "Cash from customers, paid to suppliers, staff, taxes"
+         ],
+         [
+          "Investing (CFI)",
+          "Buying or selling PP&E, investments, acquisitions"
+         ],
+         [
+          "Financing (CFF)",
+          "Issuing or repaying debt, issuing shares, buybacks, dividends paid (US GAAP)"
+         ]
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Item",
+         "IFRS",
+         "US GAAP"
+        ],
+        "rows": [
+         [
+          "Interest paid",
+          "CFO or CFF",
+          "CFO"
+         ],
+         [
+          "Interest received",
+          "CFO or CFI",
+          "CFO"
+         ],
+         [
+          "Dividends paid",
+          "CFO or CFF",
+          "CFF"
+         ],
+         [
+          "Dividends received",
+          "CFO or CFI",
+          "CFO"
+         ],
+         [
+          "Taxes paid",
+          "CFO unless linked to investing/financing",
+          "CFO"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Non-cash transactions, like converting debt to equity, do not appear in the cash flow statement; they are disclosed in notes."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Direct and indirect methods",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "The "
+         },
+         {
+          "t": "direct method",
+          "b": true
+         },
+         {
+          "t": " lists actual cash receipts and payments. The "
+         },
+         {
+          "t": "indirect method",
+          "b": true
+         },
+         {
+          "t": " starts from net income and adjusts it. Both give the same CFO; IFRS and US GAAP encourage direct but most companies use indirect."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "Start with "
+          },
+          {
+           "t": "net income",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Add back "
+          },
+          {
+           "t": "non-cash expenses",
+           "b": true
+          },
+          {
+           "t": " (depreciation, amortisation)."
+          }
+         ],
+         [
+          {
+           "t": "Subtract "
+          },
+          {
+           "t": "gains",
+           "b": true
+          },
+          {
+           "t": " / add losses on investing and financing items."
+          }
+         ],
+         [
+          {
+           "t": "Adjust for working capital: "
+          },
+          {
+           "t": "increase in current assets → subtract",
+           "b": true
+          },
+          {
+           "t": "; "
+          },
+          {
+           "t": "increase in current liabilities → add",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Net income ₹100 crore; depreciation ₹30 crore; gain on sale of machine ₹10 crore; receivables up ₹15 crore; inventory down ₹5 crore; payables up ₹8 crore. CFO = 100 + 30 − 10 − 15 + 5 + 8 = "
+         },
+         {
+          "t": "₹118 crore",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Net income is the selfie with filters; CFO is the photo your aunt takes at the wedding. Same person, very different look."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Indirect CFO = NI + non-cash charges − gains + losses − ΔCA (non-cash) + ΔCL (operating)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "CFO",
+        "Day-to-day operations"
+       ],
+       [
+        "CFI",
+        "Long-term assets, investments"
+       ],
+       [
+        "CFF",
+        "Debt and equity financing"
+       ],
+       [
+        "US GAAP",
+        "Interest paid/received and dividends received in CFO; dividends paid in CFF"
+       ],
+       [
+        "IFRS",
+        "More choice for interest and dividends"
+       ],
+       [
+        "Increase in receivables",
+        "Subtract"
+       ],
+       [
+        "Increase in payables",
+        "Add"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Purchase of a new factory is classified as:",
+     "o": [
+      "Operating cash flow",
+      "Investing cash flow",
+      "Financing cash flow"
+     ],
+     "a": 1,
+     "e": "PP&E purchases are investing.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "Under US GAAP, dividends paid are classified as:",
+     "o": [
+      "Operating",
+      "Investing",
+      "Financing"
+     ],
+     "a": 2,
+     "e": "Dividends paid are CFF under US GAAP.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "Under IFRS, interest paid may be classified as:",
+     "o": [
+      "Operating or financing",
+      "Investing only",
+      "Financing only"
+     ],
+     "a": 0,
+     "e": "IFRS gives a choice.",
+     "los": "4.b"
+    },
+    {
+     "d": "H",
+     "q": "NI ₹100 crore, depreciation ₹30 crore, gain on asset sale ₹10 crore, receivables +₹15 crore, inventory −₹5 crore, payables +₹8 crore. CFO is:",
+     "o": [
+      "₹98 crore",
+      "₹118 crore",
+      "₹138 crore"
+     ],
+     "a": 1,
+     "e": "100 + 30 − 10 − 15 + 5 + 8 = 118.",
+     "los": "4.d"
+    },
+    {
+     "d": "M",
+     "q": "Under the indirect method, an increase in accounts receivable is:",
+     "o": [
+      "Ignored",
+      "Added to net income",
+      "Subtracted from net income"
+     ],
+     "a": 2,
+     "e": "Sales were not yet collected in cash.",
+     "los": "4.d"
+    },
+    {
+     "d": "E",
+     "q": "The direct method of presenting CFO:",
+     "o": [
+      "Shows actual cash receipts and payments",
+      "Is required under US GAAP only",
+      "Starts from net income"
+     ],
+     "a": 0,
+     "e": "It lists cash from customers, paid to suppliers, and so on.",
+     "los": "4.c"
+    },
+    {
+     "d": "M",
+     "q": "A gain on the sale of equipment is, in the indirect method:",
+     "o": [
+      "Added back",
+      "Subtracted",
+      "Classified as CFF"
+     ],
+     "a": 1,
+     "e": "The cash proceeds are in CFI, so the gain is removed from CFO.",
+     "los": "4.d"
+    },
+    {
+     "d": "M",
+     "q": "Converting bonds into common shares appears:",
+     "o": [
+      "In CFF",
+      "In CFI",
+      "Only in the notes as a non-cash transaction"
+     ],
+     "a": 2,
+     "e": "No cash changes hands.",
+     "los": "4.a"
+    },
+    {
+     "d": "E",
+     "q": "Depreciation is added back in the indirect method because it is:",
+     "o": [
+      "A non-cash expense",
+      "A financing item",
+      "A cash inflow"
+     ],
+     "a": 0,
+     "e": "It reduced net income without using cash.",
+     "los": "4.d"
+    },
+    {
+     "d": "H",
+     "q": "Both methods of presenting operating cash flow produce:",
+     "o": [
+      "Different CFO totals",
+      "The same CFO total",
+      "The same net income only"
+     ],
+     "a": 1,
+     "e": "Only the presentation differs.",
+     "los": "4.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "CFO / CFI / CFF",
+     "back": "Operations / long-term assets and investments / debt and equity."
+    },
+    {
+     "front": "US GAAP interest and dividends",
+     "back": "Interest paid/received and dividends received: CFO. Dividends paid: CFF."
+    },
+    {
+     "front": "IFRS flexibility",
+     "back": "Interest and dividends can be CFO, CFI or CFF depending on type."
+    },
+    {
+     "front": "Indirect method start",
+     "back": "Net income."
+    },
+    {
+     "front": "Increase in current assets",
+     "back": "Subtract in indirect CFO."
+    },
+    {
+     "front": "Increase in current liabilities",
+     "back": "Add in indirect CFO."
+    }
+   ]
+  },
+  {
+   "lm_no": 5,
+   "title": "Analyzing Statements of Cash Flows II",
+   "summary": "Interpreting cash flows, common-size cash flow statements, free cash flow and cash flow ratios.",
+   "los": [
+    {
+     "code": "5.a",
+     "command_word": "analyze",
+     "statement": "Analyse and interpret a cash flow statement and its links to the other statements."
+    },
+    {
+     "code": "5.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret free cash flow to the firm and free cash flow to equity."
+    },
+    {
+     "code": "5.c",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret cash flow ratios."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Reading a cash flow statement",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "A healthy, mature firm: positive CFO that covers capex and dividends."
+          }
+         ],
+         [
+          {
+           "t": "A growing firm: CFO may be below net income as working capital builds; heavy CFI outflows."
+          }
+         ],
+         [
+          {
+           "t": "Red flag: CFO persistently below net income, or CFO propped up by stretching payables or selling receivables."
+          }
+         ],
+         [
+          {
+           "t": "Common-size",
+           "b": true
+          },
+          {
+           "t": " cash flows: each item as % of revenue, or inflows/outflows as % of totals."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Selling assets each year to fund dividends shows up as CFI inflows. It is not sustainable."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Free cash flow",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "FCFF = CFO + interest × (1 − t) − capex · FCFE = CFO − capex + net borrowing"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "CFO ₹500 crore, interest paid ₹80 crore (in CFO), tax 25%, capex ₹200 crore, net borrowing ₹50 crore. FCFF = 500 + 80 × 0.75 − 200 = "
+         },
+         {
+          "t": "₹360 crore",
+          "b": true
+         },
+         {
+          "t": ". FCFE = 500 − 200 + 50 = "
+         },
+         {
+          "t": "₹350 crore",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Under IFRS, if interest paid was put in CFF, do "
+         },
+         {
+          "t": "not",
+          "b": true
+         },
+         {
+          "t": " add it back to CFO when computing FCFF."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Cash flow ratios",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Ratio",
+         "Formula"
+        ],
+        "rows": [
+         [
+          "Cash flow to revenue",
+          "CFO ÷ revenue"
+         ],
+         [
+          "Cash return on assets",
+          "CFO ÷ average total assets"
+         ],
+         [
+          "Cash flow to income",
+          "CFO ÷ operating income"
+         ],
+         [
+          "Debt coverage",
+          "CFO ÷ total debt"
+         ],
+         [
+          "Interest coverage",
+          "(CFO + interest paid + taxes paid) ÷ interest paid"
+         ],
+         [
+          "Reinvestment",
+          "CFO ÷ cash paid for long-term assets"
+         ],
+         [
+          "Dividend payment",
+          "CFO ÷ dividends paid"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Profit is opinion, cash is fact. A company with great profits and no cash is like a groom with a great horoscope who can't pay for the wedding."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "FCFF = CFO + Int(1 − t) − FCInv · FCFE = CFO − FCInv + net borrowing"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "CFO < NI persistently",
+        "Earnings-quality red flag"
+       ],
+       [
+        "Common-size CF",
+        "Items as % of revenue"
+       ],
+       [
+        "Debt coverage",
+        "CFO ÷ total debt"
+       ],
+       [
+        "Reinvestment ratio",
+        "CFO ÷ capex"
+       ],
+       [
+        "Dividend payment ratio",
+        "CFO ÷ dividends"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "CFO ₹500 crore (interest ₹80 crore paid in CFO), tax 25%, capex ₹200 crore. FCFF is:",
+     "o": [
+      "₹300 crore",
+      "₹380 crore",
+      "₹360 crore"
+     ],
+     "a": 2,
+     "e": "500 + 60 − 200 = 360.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "CFO ₹500 crore, capex ₹200 crore and net borrowing ₹50 crore. FCFE is:",
+     "o": [
+      "₹350 crore",
+      "₹750 crore",
+      "₹250 crore"
+     ],
+     "a": 0,
+     "e": "500 − 200 + 50 = 350.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "The cash flow to revenue ratio is:",
+     "o": [
+      "Capex ÷ revenue",
+      "CFO ÷ revenue",
+      "Net income ÷ revenue"
+     ],
+     "a": 1,
+     "e": "It measures cash generated per rupee of sales.",
+     "los": "5.c"
+    },
+    {
+     "d": "H",
+     "q": "A company reports net income well above CFO year after year. This most likely suggests:",
+     "o": [
+      "Very conservative accounting",
+      "High earnings quality",
+      "Possible aggressive accruals or working capital build-up"
+     ],
+     "a": 2,
+     "e": "Profits not turning into cash are a warning sign.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "The reinvestment ratio is:",
+     "o": [
+      "CFO ÷ cash paid for long-term assets",
+      "Dividends ÷ CFO",
+      "Debt ÷ CFO"
+     ],
+     "a": 0,
+     "e": "It shows whether operations fund capex.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "Under IFRS a company classifies interest paid in CFF. To compute FCFF from CFO you should:",
+     "o": [
+      "Add after-tax interest to CFO",
+      "Not add interest back",
+      "Subtract interest twice"
+     ],
+     "a": 1,
+     "e": "Interest was never deducted in CFO.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "Debt coverage is measured as:",
+     "o": [
+      "Total debt ÷ equity",
+      "EBIT ÷ interest",
+      "CFO ÷ total debt"
+     ],
+     "a": 2,
+     "e": "Higher is better.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "A company funding dividends by selling assets each year would show:",
+     "o": [
+      "Large CFI inflows",
+      "Large CFO inflows",
+      "No change in CFI"
+     ],
+     "a": 0,
+     "e": "Asset sales are investing inflows.",
+     "los": "5.a"
+    },
+    {
+     "d": "H",
+     "q": "Free cash flow to equity is the cash available to:",
+     "o": [
+      "All capital providers",
+      "Common shareholders after debt payments and reinvestment",
+      "Lenders only"
+     ],
+     "a": 1,
+     "e": "FCFE is after net borrowing and capex.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "A common-size cash flow statement often expresses items as a percentage of:",
+     "o": [
+      "Total equity",
+      "Share price",
+      "Revenue"
+     ],
+     "a": 2,
+     "e": "Revenue is a common base.",
+     "los": "5.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "FCFF",
+     "back": "CFO + interest(1 − t) − capex."
+    },
+    {
+     "front": "FCFE",
+     "back": "CFO − capex + net borrowing."
+    },
+    {
+     "front": "Red flag",
+     "back": "CFO persistently below net income."
+    },
+    {
+     "front": "Cash flow to revenue",
+     "back": "CFO ÷ revenue."
+    },
+    {
+     "front": "Reinvestment ratio",
+     "back": "CFO ÷ cash paid for long-term assets."
+    },
+    {
+     "front": "IFRS FCFF trap",
+     "back": "If interest paid sits in CFF, don't add it back."
+    }
+   ]
+  },
+  {
+   "lm_no": 6,
+   "title": "Analysis of Inventories",
+   "summary": "Cost formulas, LIFO and the LIFO reserve, write-downs, and inventory ratios.",
+   "los": [
+    {
+     "code": "6.a",
+     "command_word": "describe",
+     "statement": "Describe the measurement of inventory and the cost formulas."
+    },
+    {
+     "code": "6.b",
+     "command_word": "calculate",
+     "statement": "Calculate and compare cost of sales, gross profit and ending inventory under different methods."
+    },
+    {
+     "code": "6.c",
+     "command_word": "explain",
+     "statement": "Explain LIFO reserve and LIFO liquidation, and inventory write-downs."
+    },
+    {
+     "code": "6.d",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret inventory ratios."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Cost formulas",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Specific identification",
+           "b": true
+          },
+          {
+           "t": ": for unique items (jewellery, cars)."
+          }
+         ],
+         [
+          {
+           "t": "FIFO",
+           "b": true
+          },
+          {
+           "t": ": first in, first out. Ending inventory at recent costs."
+          }
+         ],
+         [
+          {
+           "t": "Weighted average cost",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "LIFO",
+           "b": true
+          },
+          {
+           "t": ": last in, first out. Allowed under "
+          },
+          {
+           "t": "US GAAP only",
+           "b": true
+          },
+          {
+           "t": ", not IFRS."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Opening: 100 units at ₹10. Bought 100 at ₹12. Sold 150. FIFO COGS = 100×10 + 50×12 = "
+         },
+         {
+          "t": "₹1,600",
+          "b": true
+         },
+         {
+          "t": "; ending inventory 50×12 = ₹600. Weighted average cost = 2,200 ÷ 200 = ₹11; COGS = "
+         },
+         {
+          "t": "₹1,650",
+          "b": true
+         },
+         {
+          "t": "; ending ₹550. LIFO COGS = 100×12 + 50×10 = "
+         },
+         {
+          "t": "₹1,700",
+          "b": true
+         },
+         {
+          "t": "; ending ₹500."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "When prices rise, "
+         },
+         {
+          "t": "LIFO",
+          "b": true
+         },
+         {
+          "t": " gives the highest COGS, lowest profit, lowest taxes and lowest inventory. FIFO gives the opposite. Cash flow is higher under LIFO because of lower taxes."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "LIFO reserve, liquidation and write-downs",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "LIFO reserve",
+           "b": true
+          },
+          {
+           "t": " = FIFO inventory − LIFO inventory. To convert LIFO to FIFO: inventory + reserve; COGS − increase in reserve."
+          }
+         ],
+         [
+          {
+           "t": "LIFO liquidation",
+           "b": true
+          },
+          {
+           "t": ": selling more than is bought dips into old cheap layers; profit jumps for one year, which is not sustainable."
+          }
+         ],
+         [
+          {
+           "t": "IFRS",
+           "b": true
+          },
+          {
+           "t": ": lower of cost and "
+          },
+          {
+           "t": "net realisable value",
+           "b": true
+          },
+          {
+           "t": "; write-downs "
+          },
+          {
+           "t": "can be reversed",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "US GAAP",
+           "b": true
+          },
+          {
+           "t": ": lower of cost and NRV (FIFO, average); lower of cost or market (LIFO); "
+          },
+          {
+           "t": "no reversals",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A LIFO liquidation is like finally eating the sweets hidden at the back of the cupboard since Diwali three years ago. Great day, not repeatable."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Ratios",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Inventory turnover = COGS ÷ average inventory · Days of inventory on hand = 365 ÷ turnover"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "COGS ₹730 crore, average inventory ₹73 crore. Turnover = 10×; DOH = "
+         },
+         {
+          "t": "36.5 days",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A very high turnover may also mean stock-outs and lost sales; compare with sales growth."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "LIFO reserve = FIFO inv − LIFO inv · FIFO COGS = LIFO COGS − Δ reserve"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Rising prices, LIFO",
+        "Higher COGS, lower profit, lower tax, lower inventory"
+       ],
+       [
+        "Rising prices, FIFO",
+        "Lower COGS, higher profit, current-cost inventory"
+       ],
+       [
+        "LIFO",
+        "US GAAP only"
+       ],
+       [
+        "IFRS write-down",
+        "Lower of cost and NRV; reversals allowed"
+       ],
+       [
+        "US GAAP write-down",
+        "No reversals"
+       ],
+       [
+        "DOH",
+        "365 ÷ inventory turnover"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "Opening stock 100 units at ₹10, purchases 100 at ₹12, 150 sold. FIFO cost of goods sold is:",
+     "o": [
+      "₹1,600",
+      "₹1,650",
+      "₹1,700"
+     ],
+     "a": 0,
+     "e": "100×10 + 50×12 = 1,600.",
+     "los": "6.b"
+    },
+    {
+     "d": "M",
+     "q": "With the same data, weighted average COGS is:",
+     "o": [
+      "₹1,600",
+      "₹1,650",
+      "₹1,700"
+     ],
+     "a": 1,
+     "e": "Average cost 11; 150 × 11 = 1,650.",
+     "los": "6.b"
+    },
+    {
+     "d": "E",
+     "q": "LIFO is permitted under:",
+     "o": [
+      "Both IFRS and US GAAP",
+      "IFRS only",
+      "US GAAP only"
+     ],
+     "a": 2,
+     "e": "IFRS prohibits LIFO.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "In a period of rising prices, compared with FIFO, LIFO results in:",
+     "o": [
+      "Lower ending inventory and lower taxes",
+      "Higher taxes",
+      "Higher gross profit"
+     ],
+     "a": 0,
+     "e": "Recent, higher costs go to COGS.",
+     "los": "6.b"
+    },
+    {
+     "d": "H",
+     "q": "LIFO inventory is ₹400 crore and the LIFO reserve is ₹60 crore. FIFO inventory is:",
+     "o": [
+      "₹400 crore",
+      "₹460 crore",
+      "₹340 crore"
+     ],
+     "a": 1,
+     "e": "Add the reserve.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "Under IFRS, a previous inventory write-down:",
+     "o": [
+      "Must be reversed each year",
+      "Can never be reversed",
+      "Can be reversed up to the original write-down"
+     ],
+     "a": 2,
+     "e": "IFRS allows reversals; US GAAP does not.",
+     "los": "6.c"
+    },
+    {
+     "d": "H",
+     "q": "A LIFO liquidation in a period of rising prices will:",
+     "o": [
+      "Temporarily boost gross profit",
+      "Raise COGS",
+      "Lower reported profit"
+     ],
+     "a": 0,
+     "e": "Old low-cost layers flow into COGS.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "COGS ₹730 crore and average inventory ₹73 crore give days of inventory on hand of:",
+     "o": [
+      "10 days",
+      "36.5 days",
+      "73 days"
+     ],
+     "a": 1,
+     "e": "Turnover 10; 365/10 = 36.5.",
+     "los": "6.d"
+    },
+    {
+     "d": "E",
+     "q": "Inventory under IFRS is measured at the lower of cost and:",
+     "o": [
+      "Replacement cost",
+      "Market value",
+      "Net realisable value"
+     ],
+     "a": 2,
+     "e": "NRV = selling price − costs to complete and sell.",
+     "los": "6.a"
+    },
+    {
+     "d": "M",
+     "q": "Specific identification is most appropriate for:",
+     "o": [
+      "Unique, high-value items",
+      "Perishable goods only",
+      "Identical commodity goods"
+     ],
+     "a": 0,
+     "e": "Each item's actual cost is traceable.",
+     "los": "6.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Rising prices: LIFO effects",
+     "back": "Higher COGS, lower profit, lower taxes, lower inventory."
+    },
+    {
+     "front": "LIFO reserve",
+     "back": "FIFO inventory − LIFO inventory."
+    },
+    {
+     "front": "LIFO to FIFO COGS",
+     "back": "LIFO COGS − increase in LIFO reserve."
+    },
+    {
+     "front": "LIFO allowed?",
+     "back": "US GAAP only."
+    },
+    {
+     "front": "Write-down reversals",
+     "back": "IFRS yes; US GAAP no."
+    },
+    {
+     "front": "Days of inventory on hand",
+     "back": "365 ÷ (COGS ÷ average inventory)."
+    }
+   ]
+  },
+  {
+   "lm_no": 7,
+   "title": "Analysis of Long-Term Assets",
+   "summary": "Capitalising versus expensing, intangibles, depreciation, impairment, revaluation and derecognition.",
+   "los": [
+    {
+     "code": "7.a",
+     "command_word": "compare",
+     "statement": "Compare the financial reporting of capitalised and expensed costs."
+    },
+    {
+     "code": "7.b",
+     "command_word": "describe",
+     "statement": "Describe the accounting for intangible assets, including R&D."
+    },
+    {
+     "code": "7.c",
+     "command_word": "calculate",
+     "statement": "Calculate depreciation and amortisation under different methods."
+    },
+    {
+     "code": "7.d",
+     "command_word": "explain",
+     "statement": "Explain impairment, the revaluation model and derecognition of long-term assets."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Capitalise or expense?",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Effect (in the first year)",
+         "Capitalise",
+         "Expense"
+        ],
+        "rows": [
+         [
+          "Net income",
+          "Higher",
+          "Lower"
+         ],
+         [
+          "Total assets and equity",
+          "Higher",
+          "Lower"
+         ],
+         [
+          "CFO",
+          "Higher (outflow in CFI)",
+          "Lower"
+         ],
+         [
+          "Later years' income",
+          "Lower (depreciation)",
+          "Higher"
+         ],
+         [
+          "Income variability",
+          "Smoother",
+          "More volatile"
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Interest during construction of an asset is "
+         },
+         {
+          "t": "capitalised",
+          "b": true
+         },
+         {
+          "t": " into its cost."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Capitalising boosts CFO because the cash outflow is classified as investing, not operating."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Intangibles and depreciation",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Purchased intangibles are capitalised. "
+          },
+          {
+           "t": "IFRS",
+           "b": true
+          },
+          {
+           "t": ": research expensed; "
+          },
+          {
+           "t": "development",
+           "b": true
+          },
+          {
+           "t": " capitalised if feasibility criteria are met. "
+          },
+          {
+           "t": "US GAAP",
+           "b": true
+          },
+          {
+           "t": ": R&D generally expensed (software has special rules)."
+          }
+         ],
+         [
+          {
+           "t": "Intangibles with finite lives are amortised; indefinite-life ones (and goodwill) are tested for impairment."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Straight-line = (cost − residual) ÷ life · DDB = 2/life × opening book value (stop at residual)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Machine cost ₹100 lakh, residual ₹10 lakh, life 5 years. Straight-line = "
+         },
+         {
+          "t": "₹18 lakh",
+          "b": true
+         },
+         {
+          "t": " a year. DDB year 1 = 40% × 100 = "
+         },
+         {
+          "t": "₹40 lakh",
+          "b": true
+         },
+         {
+          "t": "; year 2 = 40% × 60 = ₹24 lakh. Units-of-production: if it will make 90,000 units and makes 20,000 this year, depreciation = 90 × 20/90 = ₹20 lakh."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Impairment, revaluation and derecognition",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "IFRS",
+           "b": true
+          },
+          {
+           "t": " impairment: carrying amount vs "
+          },
+          {
+           "t": "recoverable amount",
+           "b": true
+          },
+          {
+           "t": " = higher of fair value less costs to sell and "
+          },
+          {
+           "t": "value in use",
+           "b": true
+          },
+          {
+           "t": ". Reversals allowed (except goodwill)."
+          }
+         ],
+         [
+          {
+           "t": "US GAAP",
+           "b": true
+          },
+          {
+           "t": " (held for use): "
+          },
+          {
+           "t": "recoverability",
+           "b": true
+          },
+          {
+           "t": " test using undiscounted cash flows; if it fails, write down to fair value. No reversals."
+          }
+         ],
+         [
+          {
+           "t": "Revaluation model",
+           "b": true
+          },
+          {
+           "t": " (IFRS only): carry PP&E at fair value; increases go to a revaluation surplus in OCI unless reversing a past loss."
+          }
+         ],
+         [
+          {
+           "t": "On sale, gain or loss = proceeds − carrying amount."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Capitalising every cost is like calling your gym membership an 'asset'. Technically it will make you stronger; your accountant may disagree."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "SL = (cost − residual)/life · DDB = 2/life × book value · IFRS recoverable = max(FVLCS, VIU)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Capitalise",
+        "Higher NI and CFO now, lower later"
+       ],
+       [
+        "IFRS R&D",
+        "Research expensed, development capitalised if criteria met"
+       ],
+       [
+        "US GAAP R&D",
+        "Generally expensed"
+       ],
+       [
+        "IFRS impairment",
+        "Reversals allowed (not goodwill)"
+       ],
+       [
+        "US GAAP impairment",
+        "Undiscounted recoverability test; no reversals"
+       ],
+       [
+        "Revaluation model",
+        "IFRS only"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "A company capitalises a cost instead of expensing it. In the current year, net income will be:",
+     "o": [
+      "Lower",
+      "Higher",
+      "Unchanged"
+     ],
+     "a": 1,
+     "e": "Only depreciation is expensed this year.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "Capitalising rather than expensing an expenditure makes current-year CFO:",
+     "o": [
+      "Lower",
+      "Unchanged",
+      "Higher"
+     ],
+     "a": 2,
+     "e": "The outflow is classified in CFI.",
+     "los": "7.a"
+    },
+    {
+     "d": "E",
+     "q": "Under IFRS, research costs are:",
+     "o": [
+      "Expensed",
+      "Recorded as goodwill",
+      "Capitalised"
+     ],
+     "a": 0,
+     "e": "Development may be capitalised; research is expensed.",
+     "los": "7.b"
+    },
+    {
+     "d": "M",
+     "q": "Cost ₹100 lakh, residual ₹10 lakh, life 5 years. Annual straight-line depreciation is:",
+     "o": [
+      "₹20 lakh",
+      "₹18 lakh",
+      "₹40 lakh"
+     ],
+     "a": 1,
+     "e": "(100 − 10)/5 = 18.",
+     "los": "7.c"
+    },
+    {
+     "d": "H",
+     "q": "Using the same machine, double-declining-balance depreciation in year 2 is:",
+     "o": [
+      "₹40 lakh",
+      "₹18 lakh",
+      "₹24 lakh"
+     ],
+     "a": 2,
+     "e": "Year 1: 40; book 60; year 2: 40% × 60 = 24.",
+     "los": "7.c"
+    },
+    {
+     "d": "M",
+     "q": "Under IFRS, an asset's recoverable amount is the:",
+     "o": [
+      "Higher of fair value less costs to sell and value in use",
+      "Undiscounted future cash flows",
+      "Lower of fair value and cost"
+     ],
+     "a": 0,
+     "e": "Impairment compares carrying amount to recoverable amount.",
+     "los": "7.d"
+    },
+    {
+     "d": "H",
+     "q": "Which statement about impairment reversals is correct?",
+     "o": [
+      "US GAAP permits reversals of assets held for use",
+      "IFRS permits reversals except for goodwill",
+      "Neither permits reversals"
+     ],
+     "a": 1,
+     "e": "US GAAP prohibits reversals for assets held for use.",
+     "los": "7.d"
+    },
+    {
+     "d": "E",
+     "q": "The revaluation model for PP&E is permitted under:",
+     "o": [
+      "Both",
+      "US GAAP",
+      "IFRS"
+     ],
+     "a": 2,
+     "e": "US GAAP requires the cost model.",
+     "los": "7.d"
+    },
+    {
+     "d": "M",
+     "q": "An asset with carrying amount ₹30 lakh is sold for ₹35 lakh. The result is:",
+     "o": [
+      "A ₹5 lakh gain",
+      "A ₹5 lakh loss",
+      "No gain or loss"
+     ],
+     "a": 0,
+     "e": "Proceeds − carrying amount.",
+     "los": "7.d"
+    },
+    {
+     "d": "M",
+     "q": "Interest incurred while constructing an asset for own use is generally:",
+     "o": [
+      "Expensed immediately",
+      "Capitalised into the asset's cost",
+      "Recorded in equity"
+     ],
+     "a": 1,
+     "e": "Capitalised interest becomes part of the asset.",
+     "los": "7.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Capitalising effects",
+     "back": "Higher NI, assets, CFO now; more depreciation later."
+    },
+    {
+     "front": "IFRS vs US GAAP R&D",
+     "back": "IFRS capitalises development if criteria met; US GAAP expenses."
+    },
+    {
+     "front": "DDB rate",
+     "back": "2 ÷ useful life, applied to opening book value."
+    },
+    {
+     "front": "IFRS recoverable amount",
+     "back": "Higher of FV less costs to sell and value in use."
+    },
+    {
+     "front": "US GAAP impairment test",
+     "back": "Undiscounted cash flows; write down to fair value; no reversal."
+    },
+    {
+     "front": "Revaluation model",
+     "back": "IFRS only; surplus to OCI."
+    }
+   ]
+  },
+  {
+   "lm_no": 8,
+   "title": "Topics in Long-Term Liabilities and Equity",
+   "summary": "Bonds at amortised cost, leases, pensions and share-based compensation.",
+   "los": [
+    {
+     "code": "8.a",
+     "command_word": "explain",
+     "statement": "Explain the accounting for bonds issued at par, a premium or a discount, using the effective interest method."
+    },
+    {
+     "code": "8.b",
+     "command_word": "explain",
+     "statement": "Explain lease accounting from the lessee's perspective."
+    },
+    {
+     "code": "8.c",
+     "command_word": "describe",
+     "statement": "Describe defined contribution and defined benefit pension plans and their reporting."
+    },
+    {
+     "code": "8.d",
+     "command_word": "describe",
+     "statement": "Describe the reporting of share-based compensation."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Bonds payable",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A bond is recorded at the cash received (its fair value at issue). Interest expense = "
+         },
+         {
+          "t": "market rate at issue × opening carrying amount",
+          "b": true
+         },
+         {
+          "t": " (effective interest method). The coupon paid is cash."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Sagar Ltd issues 3-year bonds with face ₹1,000 lakh and a 5% coupon when market yields are 6%, raising ₹973.3 lakh (a discount). Year 1 interest expense = 6% × 973.3 = "
+         },
+         {
+          "t": "₹58.4 lakh",
+          "b": true
+         },
+         {
+          "t": "; coupon paid = 50; the ₹8.4 lakh difference increases the carrying amount towards face value."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Discount bond: interest expense > coupon. Premium bond: interest expense < coupon."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Leases (lessee)",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "At commencement the lessee records a "
+          },
+          {
+           "t": "right-of-use (ROU) asset",
+           "b": true
+          },
+          {
+           "t": " and a "
+          },
+          {
+           "t": "lease liability",
+           "b": true
+          },
+          {
+           "t": " = PV of lease payments (short-term and low-value leases can be exempted)."
+          }
+         ],
+         [
+          {
+           "t": "IFRS",
+           "b": true
+          },
+          {
+           "t": ": single model: depreciation of ROU asset + interest on liability; principal repayment in CFF."
+          }
+         ],
+         [
+          {
+           "t": "US GAAP",
+           "b": true
+          },
+          {
+           "t": ": "
+          },
+          {
+           "t": "finance lease",
+           "b": true
+          },
+          {
+           "t": " (like IFRS) or "
+          },
+          {
+           "t": "operating lease",
+           "b": true
+          },
+          {
+           "t": " (single straight-line lease expense, all in CFO)."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Lease accounting puts the debt on the balance sheet, raising debt-to-equity and assets."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Pensions and share-based pay",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Defined contribution",
+           "b": true
+          },
+          {
+           "t": ": expense = contribution owed; no further obligation."
+          }
+         ],
+         [
+          {
+           "t": "Defined benefit",
+           "b": true
+          },
+          {
+           "t": ": net pension liability (asset) = obligation − plan assets. Service cost and net interest in P&L (IFRS); "
+          },
+          {
+           "t": "remeasurements",
+           "b": true
+          },
+          {
+           "t": " in OCI."
+          }
+         ],
+         [
+          {
+           "t": "Share-based compensation",
+           "b": true
+          },
+          {
+           "t": ": fair value at "
+          },
+          {
+           "t": "grant date",
+           "b": true
+          },
+          {
+           "t": ", expensed over the "
+          },
+          {
+           "t": "vesting period",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Stock options increase equity, not liabilities; cash-settled awards (SARs) are liabilities."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Options with a grant-date fair value of ₹12 crore vest over three years. Expense = "
+         },
+         {
+          "t": "₹4 crore a year",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A DB pension is like promising your grandchildren a fixed pocket money for life. Better hope your investments grow faster than their appetite."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Interest expense = market rate at issue × carrying amount · Lease liability = PV of payments"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Discount bond",
+        "Expense > coupon; carrying amount rises"
+       ],
+       [
+        "Premium bond",
+        "Expense < coupon; carrying amount falls"
+       ],
+       [
+        "Lessee",
+        "ROU asset + lease liability"
+       ],
+       [
+        "US GAAP operating lease",
+        "Straight-line expense, CFO"
+       ],
+       [
+        "DC plan",
+        "Expense = contribution"
+       ],
+       [
+        "DB net liability",
+        "Obligation − plan assets"
+       ],
+       [
+        "Share-based pay",
+        "Grant-date fair value over vesting"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "A bond is issued at a discount. Each period, interest expense under the effective interest method is:",
+     "o": [
+      "Equal to the coupon paid",
+      "Less than the coupon paid",
+      "Greater than the coupon paid"
+     ],
+     "a": 2,
+     "e": "The market rate exceeds the coupon rate.",
+     "los": "8.a"
+    },
+    {
+     "d": "H",
+     "q": "A bond is issued for ₹973.3 lakh, with a 5% coupon on ₹1,000 lakh face and a 6% market yield. Year 1 interest expense is closest to:",
+     "o": [
+      "₹58.4 lakh",
+      "₹60.0 lakh",
+      "₹50.0 lakh"
+     ],
+     "a": 0,
+     "e": "6% × 973.3 = 58.4.",
+     "los": "8.a"
+    },
+    {
+     "d": "E",
+     "q": "When a lessee signs a five-year lease, it typically records:",
+     "o": [
+      "Only rent expense",
+      "A right-of-use asset and a lease liability",
+      "Revenue"
+     ],
+     "a": 1,
+     "e": "Both IFRS and US GAAP put leases on the balance sheet.",
+     "los": "8.b"
+    },
+    {
+     "d": "M",
+     "q": "Under US GAAP, an operating lease is reported in the income statement as:",
+     "o": [
+      "Nothing",
+      "Depreciation plus interest",
+      "A single straight-line lease expense"
+     ],
+     "a": 2,
+     "e": "Finance leases show depreciation and interest; operating leases a single cost.",
+     "los": "8.b"
+    },
+    {
+     "d": "M",
+     "q": "Under IFRS, the lessee's repayments of lease principal appear in:",
+     "o": [
+      "CFF",
+      "CFO",
+      "CFI"
+     ],
+     "a": 0,
+     "e": "Principal is financing; interest follows the company's policy.",
+     "los": "8.b"
+    },
+    {
+     "d": "E",
+     "q": "In a defined contribution plan, the employer's pension expense equals:",
+     "o": [
+      "Benefits paid",
+      "Its required contribution",
+      "The change in plan assets"
+     ],
+     "a": 1,
+     "e": "There is no further obligation.",
+     "los": "8.c"
+    },
+    {
+     "d": "M",
+     "q": "A defined benefit plan has an obligation of ₹500 crore and plan assets of ₹420 crore. It reports:",
+     "o": [
+      "No balance",
+      "A net pension asset of ₹80 crore",
+      "A net pension liability of ₹80 crore"
+     ],
+     "a": 2,
+     "e": "Obligation exceeds assets.",
+     "los": "8.c"
+    },
+    {
+     "d": "M",
+     "q": "Options with a grant-date fair value of ₹12 crore vest over three years. Annual compensation expense is:",
+     "o": [
+      "₹4 crore",
+      "₹3 crore",
+      "₹12 crore"
+     ],
+     "a": 0,
+     "e": "12 ÷ 3 = 4.",
+     "los": "8.d"
+    },
+    {
+     "d": "H",
+     "q": "Under IFRS, remeasurements of a defined benefit plan (actuarial gains and losses) are reported in:",
+     "o": [
+      "Profit or loss",
+      "Other comprehensive income",
+      "Retained earnings directly"
+     ],
+     "a": 1,
+     "e": "Remeasurements go to OCI.",
+     "los": "8.c"
+    },
+    {
+     "d": "E",
+     "q": "Share-based compensation is measured at fair value on the:",
+     "o": [
+      "Balance sheet date",
+      "Exercise date",
+      "Grant date"
+     ],
+     "a": 2,
+     "e": "Grant-date fair value is expensed over vesting.",
+     "los": "8.d"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Effective interest method",
+     "back": "Expense = market rate at issue × carrying amount."
+    },
+    {
+     "front": "Discount vs premium bond expense",
+     "back": "Above coupon vs below coupon."
+    },
+    {
+     "front": "Lessee accounting",
+     "back": "ROU asset + lease liability = PV of payments."
+    },
+    {
+     "front": "US GAAP operating lease",
+     "back": "Single straight-line expense, all in CFO."
+    },
+    {
+     "front": "DB net pension liability",
+     "back": "Obligation − plan assets."
+    },
+    {
+     "front": "Share-based pay",
+     "back": "Grant-date fair value spread over vesting."
+    }
+   ]
+  },
+  {
+   "lm_no": 9,
+   "title": "Analysis of Income Taxes",
+   "summary": "Accounting profit versus taxable income, deferred tax assets and liabilities, and effective tax rates.",
+   "los": [
+    {
+     "code": "9.a",
+     "command_word": "describe",
+     "statement": "Describe the differences between accounting profit and taxable income."
+    },
+    {
+     "code": "9.b",
+     "command_word": "explain",
+     "statement": "Explain how deferred tax liabilities and assets are created."
+    },
+    {
+     "code": "9.c",
+     "command_word": "calculate",
+     "statement": "Calculate the tax base of assets and liabilities and deferred tax amounts."
+    },
+    {
+     "code": "9.d",
+     "command_word": "explain",
+     "statement": "Explain permanent differences, valuation allowances and the effective tax rate."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Two sets of books",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Accounting profit",
+           "b": true
+          },
+          {
+           "t": " (pre-tax income) follows accounting standards; "
+          },
+          {
+           "t": "taxable income",
+           "b": true
+          },
+          {
+           "t": " follows tax law."
+          }
+         ],
+         [
+          {
+           "t": "Income tax expense",
+           "b": true
+          },
+          {
+           "t": " = taxes payable + change in deferred tax liability − change in deferred tax asset."
+          }
+         ],
+         [
+          {
+           "t": "Temporary differences",
+           "b": true
+          },
+          {
+           "t": " reverse over time and create deferred taxes; "
+          },
+          {
+           "t": "permanent differences",
+           "b": true
+          },
+          {
+           "t": " never reverse."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Income tax expense = taxes payable + ΔDTL − ΔDTA"
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Deferred tax liabilities and assets",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "DTL",
+           "b": true
+          },
+          {
+           "t": ": taxes deferred to the future. Usually because "
+          },
+          {
+           "t": "tax depreciation is faster",
+           "b": true
+          },
+          {
+           "t": " than book depreciation, so the asset's carrying amount > its tax base."
+          }
+         ],
+         [
+          {
+           "t": "DTA",
+           "b": true
+          },
+          {
+           "t": ": taxes paid early. E.g. warranty expense recognised in the books before it is tax-deductible, or tax losses carried forward."
+          }
+         ],
+         [
+          {
+           "t": "Asset: carrying amount > tax base → DTL. Liability: carrying amount > tax base → DTA."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "An asset cost ₹300 lakh. After year 1 the book carrying amount is ₹200 lakh, but the tax base is ₹150 lakh (faster tax depreciation). Temporary difference = 50; at 25% tax, "
+         },
+         {
+          "t": "DTL = ₹12.5 lakh",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Under US GAAP, a "
+         },
+         {
+          "t": "valuation allowance",
+          "b": true
+         },
+         {
+          "t": " reduces a DTA if it is more likely than not that it will not be realised. Watch for companies releasing allowances to boost profit."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Effective tax rate",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Effective tax rate = income tax expense ÷ pre-tax income. It differs from the statutory rate because of permanent differences (tax-free income, non-deductible fines), tax credits, and foreign rates."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A DTL is the government letting you pay later because you bought a shiny new machine. The bill still comes; it just waits politely."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Tax expense = taxes payable + ΔDTL − ΔDTA · DTL = (carrying amount − tax base) × t for assets"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Temporary difference",
+        "Reverses; creates deferred tax"
+       ],
+       [
+        "Permanent difference",
+        "Never reverses; changes effective rate"
+       ],
+       [
+        "DTL source",
+        "Accelerated tax depreciation"
+       ],
+       [
+        "DTA source",
+        "Warranty provisions, tax-loss carryforwards"
+       ],
+       [
+        "Valuation allowance",
+        "US GAAP reduction of DTA"
+       ],
+       [
+        "Effective rate",
+        "Tax expense ÷ pre-tax income"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A deferred tax liability most commonly arises when:",
+     "o": [
+      "Tax depreciation is faster than book depreciation",
+      "Warranty costs are accrued",
+      "A company has tax losses"
+     ],
+     "a": 0,
+     "e": "Lower taxable income now means higher taxes later.",
+     "los": "9.b"
+    },
+    {
+     "d": "M",
+     "q": "An asset's carrying amount is ₹200 lakh and its tax base is ₹150 lakh. At a 25% tax rate the deferred tax position is:",
+     "o": [
+      "DTA of ₹12.5 lakh",
+      "DTL of ₹12.5 lakh",
+      "DTL of ₹50 lakh"
+     ],
+     "a": 1,
+     "e": "(200 − 150) × 25% = 12.5 DTL.",
+     "los": "9.c"
+    },
+    {
+     "d": "M",
+     "q": "Income tax expense equals:",
+     "o": [
+      "Taxes payable − ΔDTL",
+      "Pre-tax income × statutory rate",
+      "Taxes payable + ΔDTL − ΔDTA"
+     ],
+     "a": 2,
+     "e": "Expense includes the change in deferred taxes.",
+     "los": "9.b"
+    },
+    {
+     "d": "M",
+     "q": "Warranty expense recognised in the books before it is deductible for tax creates:",
+     "o": [
+      "A deferred tax asset",
+      "A permanent difference",
+      "A deferred tax liability"
+     ],
+     "a": 0,
+     "e": "Taxes are paid earlier than the book expense suggests.",
+     "los": "9.b"
+    },
+    {
+     "d": "H",
+     "q": "Under US GAAP, a valuation allowance is established when:",
+     "o": [
+      "DTLs are large",
+      "It is more likely than not that some of a DTA will not be realised",
+      "Tax rates rise"
+     ],
+     "a": 1,
+     "e": "It reduces the DTA's carrying amount.",
+     "los": "9.d"
+    },
+    {
+     "d": "E",
+     "q": "A difference between book and taxable income that will never reverse is a:",
+     "o": [
+      "Valuation allowance",
+      "Temporary difference",
+      "Permanent difference"
+     ],
+     "a": 2,
+     "e": "E.g. tax-exempt income.",
+     "los": "9.d"
+    },
+    {
+     "d": "M",
+     "q": "Tax-exempt interest income will cause the effective tax rate to be:",
+     "o": [
+      "Lower than the statutory rate",
+      "Equal to the statutory rate",
+      "Higher than the statutory rate"
+     ],
+     "a": 0,
+     "e": "Income in the denominator is not taxed.",
+     "los": "9.d"
+    },
+    {
+     "d": "H",
+     "q": "Taxes payable are ₹40 crore, the DTL rises by ₹5 crore and the DTA rises by ₹2 crore. Income tax expense is:",
+     "o": [
+      "₹37 crore",
+      "₹43 crore",
+      "₹47 crore"
+     ],
+     "a": 1,
+     "e": "40 + 5 − 2 = 43.",
+     "los": "9.b"
+    },
+    {
+     "d": "M",
+     "q": "Taxable income is calculated under:",
+     "o": [
+      "Auditor guidance",
+      "Accounting standards",
+      "Tax law"
+     ],
+     "a": 2,
+     "e": "Tax authorities set the rules.",
+     "los": "9.a"
+    },
+    {
+     "d": "E",
+     "q": "Tax losses carried forward to offset future taxable profit create:",
+     "o": [
+      "A deferred tax asset",
+      "A deferred tax liability",
+      "No deferred tax"
+     ],
+     "a": 0,
+     "e": "They reduce future taxes.",
+     "los": "9.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Income tax expense",
+     "back": "Taxes payable + ΔDTL − ΔDTA."
+    },
+    {
+     "front": "DTL arises when",
+     "back": "Asset carrying amount > tax base (e.g. accelerated tax depreciation)."
+    },
+    {
+     "front": "DTA arises when",
+     "back": "Expenses booked before deductible, or tax losses carried forward."
+    },
+    {
+     "front": "Temporary vs permanent difference",
+     "back": "Reverses vs never reverses."
+    },
+    {
+     "front": "Valuation allowance",
+     "back": "US GAAP reduction of DTA unlikely to be realised."
+    },
+    {
+     "front": "Effective tax rate",
+     "back": "Tax expense ÷ pre-tax income."
+    }
+   ]
+  },
+  {
+   "lm_no": 10,
+   "title": "Financial Reporting Quality",
+   "summary": "The quality spectrum, why managers distort reports, and the warning signs to look for.",
+   "los": [
+    {
+     "code": "10.a",
+     "command_word": "compare",
+     "statement": "Compare financial reporting quality with the quality of reported results."
+    },
+    {
+     "code": "10.b",
+     "command_word": "describe",
+     "statement": "Describe a spectrum for assessing financial reporting quality."
+    },
+    {
+     "code": "10.c",
+     "command_word": "explain",
+     "statement": "Explain conditions conducive to low-quality reporting, and the role of regulators and auditors."
+    },
+    {
+     "code": "10.d",
+     "command_word": "describe",
+     "statement": "Describe accounting warning signs and methods for detecting manipulation."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Two kinds of quality",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Reporting quality",
+          "b": true
+         },
+         {
+          "t": ": are the statements decision-useful and faithful? "
+         },
+         {
+          "t": "Earnings (results) quality",
+          "b": true
+         },
+         {
+          "t": ": are the earnings sustainable and adequate? A company can report its poor results honestly (high reporting quality, low earnings quality)."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "GAAP, decision-useful, sustainable and adequate returns (best)."
+          }
+         ],
+         [
+          {
+           "t": "GAAP, decision-useful, but sustainable earnings are not adequate."
+          }
+         ],
+         [
+          {
+           "t": "GAAP-compliant but biased choices (aggressive or conservative)."
+          }
+         ],
+         [
+          {
+           "t": "Within GAAP but 'managed' earnings."
+          }
+         ],
+         [
+          {
+           "t": "Departures from GAAP."
+          }
+         ],
+         [
+          {
+           "t": "Fictitious transactions (fraud)."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Why it happens",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Motivation",
+           "b": true
+          },
+          {
+           "t": ": hit analyst targets, bonuses, debt covenants, raise capital."
+          }
+         ],
+         [
+          {
+           "t": "Opportunity",
+           "b": true
+          },
+          {
+           "t": ": weak controls, weak board, complex rules with lots of judgement."
+          }
+         ],
+         [
+          {
+           "t": "Rationalisation",
+           "b": true
+          },
+          {
+           "t": ": 'everyone does it', 'it's only temporary'."
+          }
+         ],
+         [
+          {
+           "t": "Defences: regulators (registration, disclosure, enforcement), auditors, audit committees, and private contracts (lenders' covenants)."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Conservative",
+          "b": true
+         },
+         {
+          "t": " is not automatically good: big write-offs today ('cookie jar' reserves) can be released later to inflate profit."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Warning signs",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Revenue: changes in recognition policy, bill-and-hold, "
+          },
+          {
+           "t": "receivables growing faster than sales",
+           "b": true
+          },
+          {
+           "t": ", channel stuffing."
+          }
+         ],
+         [
+          {
+           "t": "Inventory growing faster than sales",
+           "b": true
+          },
+          {
+           "t": "; falling inventory turnover."
+          }
+         ],
+         [
+          {
+           "t": "CFO persistently below net income",
+           "b": true
+          },
+          {
+           "t": "."
+          }
+         ],
+         [
+          {
+           "t": "Capitalising costs that peers expense; lengthening depreciation lives."
+          }
+         ],
+         [
+          {
+           "t": "Frequent 'one-off' charges; heavy reliance on "
+          },
+          {
+           "t": "non-GAAP",
+           "b": true
+          },
+          {
+           "t": " measures."
+          }
+         ],
+         [
+          {
+           "t": "Related-party deals; auditor changes; late filings."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Kamal Electronics grows sales 10% but receivables 45% and inventory 30%. CFO falls while net income rises. Likely: pushing goods onto dealers at year-end with easy credit terms."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "When a company's 'one-time' charge appears every year, it isn't one-time. It is a subscription."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Fraud triangle: motivation · opportunity · rationalisation"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Reporting quality",
+        "Faithful, decision-useful reports"
+       ],
+       [
+        "Earnings quality",
+        "Sustainable, adequate results"
+       ],
+       [
+        "Spectrum top",
+        "GAAP + sustainable, adequate returns"
+       ],
+       [
+        "Spectrum bottom",
+        "Fictitious transactions"
+       ],
+       [
+        "Red flags",
+        "AR or inventory > sales growth; CFO < NI; recurring 'one-offs'"
+       ],
+       [
+        "Cookie jar",
+        "Over-conservative reserves released later"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The lowest point on the financial reporting quality spectrum is:",
+     "o": [
+      "Biased accounting choices",
+      "Fictitious transactions",
+      "Earnings management within GAAP"
+     ],
+     "a": 1,
+     "e": "Fraudulent reporting is the worst case.",
+     "los": "10.b"
+    },
+    {
+     "d": "M",
+     "q": "A company honestly reports a large, sustainable decline in profit. It has:",
+     "o": [
+      "Low reporting and earnings quality",
+      "Low reporting quality and high earnings quality",
+      "High reporting quality and low earnings quality"
+     ],
+     "a": 2,
+     "e": "The report is faithful; the results are poor.",
+     "los": "10.a"
+    },
+    {
+     "d": "M",
+     "q": "The three conditions that make low-quality reporting more likely are:",
+     "o": [
+      "Motivation, opportunity and rationalisation",
+      "Revenue, expenses and assets",
+      "Audit, review and filing"
+     ],
+     "a": 0,
+     "e": "These form the fraud triangle.",
+     "los": "10.c"
+    },
+    {
+     "d": "M",
+     "q": "Receivables growing much faster than sales is a warning sign of:",
+     "o": [
+      "Conservative accounting",
+      "Aggressive revenue recognition",
+      "Strong cash collection"
+     ],
+     "a": 1,
+     "e": "Sales may be booked before they are really earned or collectable.",
+     "los": "10.d"
+    },
+    {
+     "d": "H",
+     "q": "Why might very conservative accounting also be a concern?",
+     "o": [
+      "It is never allowed",
+      "It always overstates profit",
+      "Excess reserves can be released later to boost earnings"
+     ],
+     "a": 2,
+     "e": "Cookie-jar reserves smooth or inflate later earnings.",
+     "los": "10.c"
+    },
+    {
+     "d": "E",
+     "q": "Which is a warning sign of low earnings quality?",
+     "o": [
+      "CFO persistently below net income",
+      "Stable margins",
+      "CFO consistently above net income"
+     ],
+     "a": 0,
+     "e": "Profits not turning into cash.",
+     "los": "10.d"
+    },
+    {
+     "d": "M",
+     "q": "Lengthening the estimated useful lives of assets will:",
+     "o": [
+      "Raise depreciation",
+      "Lower depreciation and raise reported profit",
+      "Not affect profit"
+     ],
+     "a": 1,
+     "e": "A common way to flatter earnings.",
+     "los": "10.d"
+    },
+    {
+     "d": "M",
+     "q": "Debt covenants and bonus plans tied to profit targets mainly create:",
+     "o": [
+      "Rationalisation",
+      "Opportunity",
+      "Motivation"
+     ],
+     "a": 2,
+     "e": "They give managers reasons to manipulate.",
+     "los": "10.c"
+    },
+    {
+     "d": "H",
+     "q": "A company reports large 'non-recurring' restructuring charges in four of the last five years. An analyst should:",
+     "o": [
+      "Treat them as recurring costs of the business",
+      "Ignore them",
+      "Exclude them as truly one-off"
+     ],
+     "a": 0,
+     "e": "Frequent charges are effectively ongoing.",
+     "los": "10.d"
+    },
+    {
+     "d": "E",
+     "q": "Which body enforces financial reporting requirements for listed companies?",
+     "o": [
+      "Stock exchange member",
+      "Securities regulator",
+      "Credit rating agency"
+     ],
+     "a": 1,
+     "e": "Regulators like SEBI or the SEC enforce disclosure.",
+     "los": "10.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Reporting vs earnings quality",
+     "back": "Faithful reports vs sustainable, adequate results."
+    },
+    {
+     "front": "Quality spectrum ends",
+     "back": "Top: GAAP + sustainable returns. Bottom: fictitious transactions."
+    },
+    {
+     "front": "Fraud triangle",
+     "back": "Motivation, opportunity, rationalisation."
+    },
+    {
+     "front": "Revenue red flag",
+     "back": "Receivables growing faster than sales."
+    },
+    {
+     "front": "Cash red flag",
+     "back": "CFO persistently below net income."
+    },
+    {
+     "front": "Recurring one-offs",
+     "back": "Treat as ongoing costs."
+    }
+   ]
+  },
+  {
+   "lm_no": 11,
+   "title": "Financial Analysis Techniques",
+   "summary": "Ratio categories, DuPont analysis, and limits of ratio analysis.",
+   "los": [
+    {
+     "code": "11.a",
+     "command_word": "describe",
+     "statement": "Describe tools and techniques used in financial analysis."
+    },
+    {
+     "code": "11.b",
+     "command_word": "calculate",
+     "statement": "Calculate and interpret activity, liquidity, solvency, profitability and valuation ratios."
+    },
+    {
+     "code": "11.c",
+     "command_word": "demonstrate",
+     "statement": "Demonstrate the application of DuPont analysis of return on equity."
+    },
+    {
+     "code": "11.d",
+     "command_word": "describe",
+     "statement": "Describe the limitations of ratio analysis."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Ratio families",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Category",
+         "Examples"
+        ],
+        "rows": [
+         [
+          "Activity",
+          "Receivables turnover, DSO, inventory turnover, DOH, payables turnover, total asset turnover"
+         ],
+         [
+          "Liquidity",
+          "Current, quick, cash ratios; cash conversion cycle = DSO + DOH − DPO"
+         ],
+         [
+          "Solvency",
+          "Debt-to-equity, debt-to-assets, financial leverage, interest coverage"
+         ],
+         [
+          "Profitability",
+          "Gross, operating, net margins; ROA, ROE"
+         ],
+         [
+          "Valuation",
+          "P/E, P/B, P/S, dividend yield"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "DSO 45 days, DOH 60 days, DPO 35 days. Cash conversion cycle = 45 + 60 − 35 = "
+         },
+         {
+          "t": "70 days",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "DuPont analysis",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "ROE = Net margin × Asset turnover × Financial leverage = (NI/Sales) × (Sales/Assets) × (Assets/Equity)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Net margin 5%, asset turnover 1.2, leverage 2.5: ROE = 0.05 × 1.2 × 2.5 = "
+         },
+         {
+          "t": "15%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Extended DuPont",
+        "inline": [
+         {
+          "t": "Five-way: ROE = (NI/EBT) × (EBT/EBIT) × (EBIT/Sales) × (Sales/Assets) × (Assets/Equity)"
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Tax burden × interest burden × EBIT margin × asset turnover × leverage. It shows whether ROE comes from operations or from borrowing."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "An ROE rise driven only by more leverage is lower quality than one from better margins or turnover."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Limits of ratios",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Different accounting choices (FIFO vs LIFO, IFRS vs US GAAP) distort comparisons."
+          }
+         ],
+         [
+          {
+           "t": "Diversified companies are hard to compare with single-industry peers."
+          }
+         ],
+         [
+          {
+           "t": "Ratios need context: trends, peers, industry norms and the business model."
+          }
+         ],
+         [
+          {
+           "t": "Window dressing at year end can flatter balance sheet ratios."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A ratio alone is like knowing a batter's average without knowing the format. 45 in Tests is great; 45 strike rate in T20 is a disaster."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "ROE = margin × turnover × leverage · CCC = DSO + DOH − DPO"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Activity",
+        "How efficiently assets are used"
+       ],
+       [
+        "Liquidity",
+        "Short-term obligations"
+       ],
+       [
+        "Solvency",
+        "Long-term obligations"
+       ],
+       [
+        "Tax burden",
+        "NI ÷ EBT"
+       ],
+       [
+        "Interest burden",
+        "EBT ÷ EBIT"
+       ],
+       [
+        "Leverage-driven ROE",
+        "Lower quality"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "Net margin 5%, asset turnover 1.2 and financial leverage 2.5 give an ROE of:",
+     "o": [
+      "8.7%",
+      "6%",
+      "15%"
+     ],
+     "a": 2,
+     "e": "0.05 × 1.2 × 2.5 = 15%.",
+     "los": "11.c"
+    },
+    {
+     "d": "M",
+     "q": "DSO 45 days, DOH 60 days and DPO 35 days give a cash conversion cycle of:",
+     "o": [
+      "70 days",
+      "50 days",
+      "140 days"
+     ],
+     "a": 0,
+     "e": "45 + 60 − 35 = 70.",
+     "los": "11.b"
+    },
+    {
+     "d": "E",
+     "q": "Interest coverage is a measure of:",
+     "o": [
+      "Liquidity",
+      "Solvency",
+      "Activity"
+     ],
+     "a": 1,
+     "e": "It shows ability to service debt.",
+     "los": "11.b"
+    },
+    {
+     "d": "M",
+     "q": "In the five-way DuPont, EBT ÷ EBIT is the:",
+     "o": [
+      "EBIT margin",
+      "Tax burden",
+      "Interest burden"
+     ],
+     "a": 2,
+     "e": "It shows how much of EBIT survives interest.",
+     "los": "11.c"
+    },
+    {
+     "d": "H",
+     "q": "ROE rose from 12% to 15% while margins and asset turnover were unchanged. The increase came from:",
+     "o": [
+      "Higher financial leverage",
+      "Lower taxes only",
+      "Better operations"
+     ],
+     "a": 0,
+     "e": "Only the leverage term moved.",
+     "los": "11.c"
+    },
+    {
+     "d": "E",
+     "q": "Receivables turnover is an example of a(n):",
+     "o": [
+      "Solvency ratio",
+      "Activity ratio",
+      "Valuation ratio"
+     ],
+     "a": 1,
+     "e": "It measures collection efficiency.",
+     "los": "11.b"
+    },
+    {
+     "d": "M",
+     "q": "Which is a limitation of ratio analysis?",
+     "o": [
+      "Ratios need no context",
+      "Ratios are always comparable across companies",
+      "Different accounting methods can distort comparisons"
+     ],
+     "a": 2,
+     "e": "Accounting choices affect ratios.",
+     "los": "11.d"
+    },
+    {
+     "d": "M",
+     "q": "A tax burden of 0.75 means:",
+     "o": [
+      "75% of pre-tax income is kept after tax",
+      "75% is paid in tax",
+      "Interest is 75% of EBIT"
+     ],
+     "a": 0,
+     "e": "NI ÷ EBT = 0.75.",
+     "los": "11.c"
+    },
+    {
+     "d": "E",
+     "q": "Price-to-earnings is a:",
+     "o": [
+      "Profitability ratio",
+      "Valuation ratio",
+      "Liquidity ratio"
+     ],
+     "a": 1,
+     "e": "It relates market price to earnings.",
+     "los": "11.b"
+    },
+    {
+     "d": "H",
+     "q": "Total asset turnover falls while net margin is stable. Other things equal, ROE will:",
+     "o": [
+      "Stay the same",
+      "Rise",
+      "Fall"
+     ],
+     "a": 2,
+     "e": "Lower turnover reduces ROE in DuPont.",
+     "los": "11.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Three-way DuPont",
+     "back": "Net margin × asset turnover × financial leverage."
+    },
+    {
+     "front": "Five-way DuPont",
+     "back": "Tax burden × interest burden × EBIT margin × turnover × leverage."
+    },
+    {
+     "front": "Cash conversion cycle",
+     "back": "DSO + DOH − DPO."
+    },
+    {
+     "front": "Solvency ratios",
+     "back": "D/E, debt-to-assets, leverage, interest coverage."
+    },
+    {
+     "front": "Leverage-driven ROE",
+     "back": "Riskier, lower-quality ROE."
+    },
+    {
+     "front": "Ratio limitation",
+     "back": "Accounting differences and lack of context."
+    }
+   ]
+  },
+  {
+   "lm_no": 12,
+   "title": "Introduction to Financial Statement Modeling",
+   "summary": "Building a forecast model, the effect of competition, inflation and technology, and biases in forecasting.",
+   "los": [
+    {
+     "code": "12.a",
+     "command_word": "demonstrate",
+     "statement": "Demonstrate the development of a sales-based pro forma company model."
+    },
+    {
+     "code": "12.b",
+     "command_word": "explain",
+     "statement": "Explain how behavioural factors affect analyst forecasts."
+    },
+    {
+     "code": "12.c",
+     "command_word": "explain",
+     "statement": "Explain how competitive factors, inflation and technological developments affect forecasts."
+    },
+    {
+     "code": "12.d",
+     "command_word": "explain",
+     "statement": "Explain considerations in choosing an explicit forecast horizon."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Building a model",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "Forecast "
+          },
+          {
+           "t": "revenue",
+           "b": true
+          },
+          {
+           "t": " from its drivers."
+          }
+         ],
+         [
+          {
+           "t": "Forecast "
+          },
+          {
+           "t": "COGS",
+           "b": true
+          },
+          {
+           "t": " as a % of revenue (gross margin) and "
+          },
+          {
+           "t": "SG&A",
+           "b": true
+          },
+          {
+           "t": " (often partly fixed)."
+          }
+         ],
+         [
+          {
+           "t": "Forecast "
+          },
+          {
+           "t": "depreciation",
+           "b": true
+          },
+          {
+           "t": " and "
+          },
+          {
+           "t": "capex",
+           "b": true
+          },
+          {
+           "t": ", interest and taxes."
+          }
+         ],
+         [
+          {
+           "t": "Forecast "
+          },
+          {
+           "t": "working capital",
+           "b": true
+          },
+          {
+           "t": " using days or turnover."
+          }
+         ],
+         [
+          {
+           "t": "Build the balance sheet and cash flow; check they balance."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Revenue ₹1,000 crore grows 10%. COGS 60% of sales; SG&A ₹150 crore rising 5%; depreciation ₹40 crore; tax 25%; no debt. Next year: revenue 1,100; gross profit 440; SG&A 157.5; EBIT 242.5; net income "
+         },
+         {
+          "t": "₹181.9 crore",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "What moves the forecast",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Competition",
+           "b": true
+          },
+          {
+           "t": " (five forces) limits how long high margins last."
+          }
+         ],
+         [
+          {
+           "t": "Inflation",
+           "b": true
+          },
+          {
+           "t": ": firms with pricing power pass on costs; others see margins squeezed. Input costs and selling prices may not move together."
+          }
+         ],
+         [
+          {
+           "t": "Technology",
+           "b": true
+          },
+          {
+           "t": ": can create new demand or destroy old products (substitution); a key source of uncertainty in long forecasts."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Behavioural biases in forecasting"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Overconfidence",
+           "b": true
+          },
+          {
+           "t": ": forecast ranges too narrow."
+          }
+         ],
+         [
+          {
+           "t": "Illusion of control",
+           "b": true
+          },
+          {
+           "t": ": too much detail in models."
+          }
+         ],
+         [
+          {
+           "t": "Conservatism",
+           "b": true
+          },
+          {
+           "t": ": slow to update after new information."
+          }
+         ],
+         [
+          {
+           "t": "Representativeness",
+           "b": true
+          },
+          {
+           "t": ": assuming recent trends continue."
+          }
+         ],
+         [
+          {
+           "t": "Confirmation",
+           "b": true
+          },
+          {
+           "t": ": seeking support for the existing view."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A more detailed model is not necessarily a more accurate one. Focus on the few drivers that matter."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Choosing the forecast horizon",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Match the investor's horizon and the strategy (short-term trading vs long-term holding)."
+          }
+         ],
+         [
+          {
+           "t": "Cover the full business cycle for cyclical firms."
+          }
+         ],
+         [
+          {
+           "t": "Extend through any major change (acquisition, restructuring) until results normalise."
+          }
+         ],
+         [
+          {
+           "t": "After the explicit period, use a terminal value assuming steady-state growth."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A 40-tab spreadsheet model with a typo in cell B7 is still a horoscope, just a very well-formatted one."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Sales-based model: revenue → COGS → SG&A → EBIT → tax → NI → balance sheet → cash flow"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Gross margin",
+        "Often stable unless prices or input costs shift"
+       ],
+       [
+        "Inflation",
+        "Hurts firms without pricing power"
+       ],
+       [
+        "Technology",
+        "Substitution risk"
+       ],
+       [
+        "Overconfidence",
+        "Ranges too narrow"
+       ],
+       [
+        "Illusion of control",
+        "Excessive model detail"
+       ],
+       [
+        "Horizon",
+        "Full cycle, through major changes, then terminal value"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "M",
+     "q": "Revenue ₹1,000 crore grows 10%; COGS is 60% of sales; SG&A ₹150 crore rises 5%; depreciation ₹40 crore. Next year's EBIT is closest to:",
+     "o": [
+      "₹242.5 crore",
+      "₹250.0 crore",
+      "₹282.5 crore"
+     ],
+     "a": 0,
+     "e": "1,100 − 660 − 157.5 − 40 = 242.5.",
+     "los": "12.a"
+    },
+    {
+     "d": "E",
+     "q": "A sales-based pro forma model starts by forecasting:",
+     "o": [
+      "Share price",
+      "Revenue",
+      "Dividends"
+     ],
+     "a": 1,
+     "e": "Most items are linked to revenue.",
+     "los": "12.a"
+    },
+    {
+     "d": "M",
+     "q": "An analyst whose forecast ranges are far too narrow most likely shows:",
+     "o": [
+      "Conservatism",
+      "Mental accounting",
+      "Overconfidence"
+     ],
+     "a": 2,
+     "e": "Overconfidence understates uncertainty.",
+     "los": "12.b"
+    },
+    {
+     "d": "M",
+     "q": "Building an extremely detailed model in the belief it will be more accurate is:",
+     "o": [
+      "Illusion of control",
+      "Anchoring",
+      "Availability"
+     ],
+     "a": 0,
+     "e": "Detail does not equal accuracy.",
+     "los": "12.b"
+    },
+    {
+     "d": "H",
+     "q": "During high input-cost inflation, which company is most likely to protect its margins?",
+     "o": [
+      "One with fixed-price long-term sales contracts",
+      "One with strong pricing power",
+      "One in a commodity market with many rivals"
+     ],
+     "a": 1,
+     "e": "Pricing power lets it pass costs on.",
+     "los": "12.c"
+    },
+    {
+     "d": "M",
+     "q": "For a cyclical company, the explicit forecast horizon should ideally:",
+     "o": [
+      "Be one quarter",
+      "End at the peak",
+      "Cover a full business cycle"
+     ],
+     "a": 2,
+     "e": "Normalised earnings need a full cycle.",
+     "los": "12.d"
+    },
+    {
+     "d": "E",
+     "q": "An analyst slow to revise forecasts after a surprise announcement shows:",
+     "o": [
+      "Conservatism bias",
+      "Overconfidence",
+      "Framing"
+     ],
+     "a": 0,
+     "e": "Conservatism is slow updating.",
+     "los": "12.b"
+    },
+    {
+     "d": "M",
+     "q": "A new technology that replaces a company's main product mainly affects forecasts through:",
+     "o": [
+      "Higher inventory turnover",
+      "Substitution and lower future demand",
+      "Lower tax rates"
+     ],
+     "a": 1,
+     "e": "Disruption can shrink the market.",
+     "los": "12.c"
+    },
+    {
+     "d": "H",
+     "q": "After an acquisition, the forecast horizon should extend:",
+     "o": [
+      "Indefinitely without a terminal value",
+      "Only one year",
+      "Until the combined business's results have normalised"
+     ],
+     "a": 2,
+     "e": "Integration effects need to work through first.",
+     "los": "12.d"
+    },
+    {
+     "d": "M",
+     "q": "Assuming last year's 30% growth will continue for ten years is an example of:",
+     "o": [
+      "Representativeness",
+      "Loss aversion",
+      "Endowment bias"
+     ],
+     "a": 0,
+     "e": "Extrapolating recent patterns.",
+     "los": "12.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Sales-based model steps",
+     "back": "Revenue → costs → EBIT → NI → BS → CF."
+    },
+    {
+     "front": "Inflation and margins",
+     "back": "Pricing power protects; commodity sellers squeezed."
+    },
+    {
+     "front": "Overconfidence in forecasts",
+     "back": "Ranges too narrow."
+    },
+    {
+     "front": "Illusion of control",
+     "back": "Too much model detail."
+    },
+    {
+     "front": "Conservatism bias",
+     "back": "Slow to update after news."
+    },
+    {
+     "front": "Forecast horizon",
+     "back": "Full cycle; through major changes; then terminal value."
+    }
+   ]
+  }
+ ],
+ "retag_proto": {
+  "46": 2,
+  "47": 7,
+  "48": 2
+ }
+}

@@ -1,0 +1,3728 @@
+{
+ "subject": "cf",
+ "name": "Corporate Finance",
+ "lms": [
+  {
+   "lm_no": 1,
+   "title": "Organizational Forms",
+   "summary": "Business forms, features of corporations, and public versus private ownership.",
+   "los": [
+    {
+     "code": "1.a",
+     "command_word": "compare",
+     "statement": "Compare the main organizational forms of businesses."
+    },
+    {
+     "code": "1.b",
+     "command_word": "describe",
+     "statement": "Describe the key features of corporate issuers."
+    },
+    {
+     "code": "1.c",
+     "command_word": "compare",
+     "statement": "Compare publicly and privately owned corporate issuers."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Forms of business",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Every business has to answer four questions: who owns it, who runs it, who is liable for its debts, and how its profits are taxed. The answers define its "
+         },
+         {
+          "t": "organizational form",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Form",
+         "Owner liability",
+         "Who runs it",
+         "Taxation"
+        ],
+        "rows": [
+         [
+          "Sole proprietorship",
+          "Unlimited",
+          "The owner",
+          "Owner level only (pass-through)"
+         ],
+         [
+          "General partnership",
+          "Unlimited, shared",
+          "The partners",
+          "Partner level only"
+         ],
+         [
+          "Limited partnership",
+          "GP unlimited; LPs limited",
+          "General partner",
+          "Partner level only"
+         ],
+         [
+          "Corporation",
+          "Limited",
+          "Professional managers, overseen by a board",
+          "Company level, then dividends taxed again"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "In a limited partnership, the "
+         },
+         {
+          "t": "general partner",
+          "b": true
+         },
+         {
+          "t": " runs the business and carries unlimited liability. Limited partners only supply capital, so their loss is capped at what they put in."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A sole proprietor is like a home tiffin service: the cook, the cashier and the person the customer shouts at are all the same person."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Features of corporations",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Separate legal entity",
+           "b": true
+          },
+          {
+           "t": ": the company can own assets, sign contracts, sue and be sued."
+          }
+         ],
+         [
+          {
+           "t": "Limited liability",
+           "b": true
+          },
+          {
+           "t": ": shareholders can lose at most what they invested."
+          }
+         ],
+         [
+          {
+           "t": "Separation of ownership and control",
+           "b": true
+          },
+          {
+           "t": ": owners elect a board, the board hires managers. This makes raising capital easy but creates principal–agent conflicts."
+          }
+         ],
+         [
+          {
+           "t": "Double taxation",
+           "b": true
+          },
+          {
+           "t": " in many countries: profit is taxed at the company and dividends are taxed again in shareholders' hands."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Sagar Ltd earns ₹100 of profit. Corporate tax is 25%, so ₹75 is left and paid out as dividends. Dividend tax is 20%, so the shareholder keeps 75 × 0.80 = ₹60. The "
+         },
+         {
+          "t": "effective tax rate is 40%",
+          "b": true
+         },
+         {
+          "t": ". A pass-through firm taxed once at 30% would leave ₹70."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Limited liability protects shareholders, not managers who commit fraud, and not partners in a general partnership."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Public and private companies",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "public company",
+          "b": true
+         },
+         {
+          "t": " has shares listed and traded on an exchange. A "
+         },
+         {
+          "t": "private company",
+          "b": true
+         },
+         {
+          "t": " does not, so its shares are harder to sell and its disclosure obligations are lighter."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "",
+         "Public",
+         "Private"
+        ],
+        "rows": [
+         [
+          "Share liquidity",
+          "High (exchange-traded)",
+          "Low (negotiated sales)"
+         ],
+         [
+          "Disclosure and regulation",
+          "Extensive, periodic",
+          "Limited"
+         ],
+         [
+          "Access to capital",
+          "Broad, from many investors",
+          "Narrower: founders, VC, PE"
+         ],
+         [
+          "Ownership",
+          "Dispersed",
+          "Concentrated"
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Ways to go public or private"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "IPO",
+           "b": true
+          },
+          {
+           "t": ": the company issues new shares to the public with investment-bank underwriting."
+          }
+         ],
+         [
+          {
+           "t": "Direct listing",
+           "b": true
+          },
+          {
+           "t": ": existing shares start trading; no new capital is raised."
+          }
+         ],
+         [
+          {
+           "t": "SPAC",
+           "b": true
+          },
+          {
+           "t": ": a listed shell raises cash in its own IPO, then merges with a private company."
+          }
+         ],
+         [
+          {
+           "t": "Going private / LBO",
+           "b": true
+          },
+          {
+           "t": ": a buyer, often private equity funded largely with debt, buys all public shares and delists the company."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A direct listing raises "
+         },
+         {
+          "t": "no new money",
+          "b": true
+         },
+         {
+          "t": ". It only gives existing holders a market to sell into."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Effective tax under double taxation = 1 − (1 − t_corp) × (1 − t_div)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Sole proprietor",
+        "Unlimited liability, owner-run, pass-through tax"
+       ],
+       [
+        "General partner",
+        "Runs the LP, unlimited liability"
+       ],
+       [
+        "Limited partner",
+        "Capital only, limited liability"
+       ],
+       [
+        "Corporation",
+        "Separate entity, limited liability, double tax"
+       ],
+       [
+        "Direct listing",
+        "Listing without raising capital"
+       ],
+       [
+        "SPAC",
+        "Listed shell that acquires a private company"
+       ],
+       [
+        "LBO",
+        "Debt-funded buyout that takes a company private"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Which business form gives its owner unlimited personal liability and taxes profit only at the owner level?",
+     "o": [
+      "Sole proprietorship",
+      "Corporation",
+      "A limited partner's interest"
+     ],
+     "a": 0,
+     "e": "A sole proprietor is personally liable for all business debts and the profit is taxed as the owner's income.",
+     "los": "1.a"
+    },
+    {
+     "d": "E",
+     "q": "In a limited partnership, the general partner:",
+     "o": [
+      "Has limited liability and no management role",
+      "Manages the business and has unlimited liability",
+      "Must be a listed company"
+     ],
+     "a": 1,
+     "e": "The GP runs the partnership and bears unlimited liability; limited partners only contribute capital.",
+     "los": "1.a"
+    },
+    {
+     "d": "M",
+     "q": "A key feature that distinguishes a corporation from a partnership is that a corporation:",
+     "o": [
+      "Pays tax only at the owner level",
+      "Is a legal entity separate from its owners",
+      "Must be run by its owners"
+     ],
+     "a": 1,
+     "e": "A corporation has its own legal identity: it owns assets, signs contracts and can be sued.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "A company earns ₹100 of profit. Corporate tax is 25% and all after-tax profit is paid as dividends taxed at 20%. The effective tax rate on the profit is closest to:",
+     "o": [
+      "40%",
+      "45%",
+      "25%"
+     ],
+     "a": 0,
+     "e": "100 × (1 − 0.25) = 75; 75 × (1 − 0.20) = 60 kept, so 40% goes in tax.",
+     "los": "1.b"
+    },
+    {
+     "d": "M",
+     "q": "Separation of ownership and control in a corporation most likely leads to:",
+     "o": [
+      "Unlimited liability for shareholders",
+      "Shareholders running daily operations",
+      "Potential conflicts between managers and shareholders"
+     ],
+     "a": 2,
+     "e": "Owners delegate decisions to managers whose interests may differ: the principal–agent problem.",
+     "los": "1.b"
+    },
+    {
+     "d": "E",
+     "q": "Compared with private companies, publicly listed companies typically face:",
+     "o": [
+      "Greater regulatory and disclosure requirements",
+      "Fewer reporting obligations",
+      "No access to equity markets"
+     ],
+     "a": 0,
+     "e": "Listed companies must publish periodic financial reports and follow exchange and regulator rules.",
+     "los": "1.c"
+    },
+    {
+     "d": "M",
+     "q": "A company whose existing shares begin trading on an exchange without issuing new shares or using underwriters is using a(n):",
+     "o": [
+      "IPO",
+      "SPAC merger",
+      "Direct listing"
+     ],
+     "a": 2,
+     "e": "A direct listing only lists existing shares; no new capital is raised.",
+     "los": "1.c"
+    },
+    {
+     "d": "H",
+     "q": "A special purpose acquisition company (SPAC) is best described as:",
+     "o": [
+      "A listed shell that raises cash in an IPO to acquire a private company",
+      "A private equity fund that buys listed companies",
+      "A regulator that approves listings"
+     ],
+     "a": 0,
+     "e": "A SPAC goes public first with only cash, then merges with a private target, which becomes listed.",
+     "los": "1.c"
+    },
+    {
+     "d": "H",
+     "q": "A public company is most likely to go private through a leveraged buyout in order to:",
+     "o": [
+      "Increase its public disclosure",
+      "Restructure away from short-term market scrutiny",
+      "Give retail investors more liquidity"
+     ],
+     "a": 1,
+     "e": "Going private removes listing obligations and quarterly pressure while new owners restructure.",
+     "los": "1.c"
+    },
+    {
+     "d": "H",
+     "q": "Which statement about pass-through business forms is most accurate?",
+     "o": [
+      "Profit is taxed at the entity and again at the owner",
+      "They are exempt from all tax",
+      "Profit is taxed only at the owner level"
+     ],
+     "a": 2,
+     "e": "Partnerships and proprietorships pass profit through to owners, who pay tax once.",
+     "los": "1.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Which owners have unlimited liability?",
+     "back": "Sole proprietors, general partners and the GP of a limited partnership."
+    },
+    {
+     "front": "What does a limited partner contribute?",
+     "back": "Capital only. No management role; liability capped at the investment."
+    },
+    {
+     "front": "Double taxation",
+     "back": "Profit taxed at the company, then dividends taxed again for shareholders."
+    },
+    {
+     "front": "Separation of ownership and control",
+     "back": "Shareholders own, board oversees, managers run: the source of agency conflicts."
+    },
+    {
+     "front": "Direct listing vs IPO",
+     "back": "Direct listing: existing shares trade, no new money. IPO: new shares sold, capital raised."
+    },
+    {
+     "front": "What is a SPAC?",
+     "back": "A listed cash shell that later merges with a private company to take it public."
+    }
+   ]
+  },
+  {
+   "lm_no": 2,
+   "title": "Investors and Stakeholders",
+   "summary": "Debt and equity claims, stakeholder groups, and ESG in investment analysis.",
+   "los": [
+    {
+     "code": "2.a",
+     "command_word": "compare",
+     "statement": "Compare the financial claims and motivations of lenders and shareholders."
+    },
+    {
+     "code": "2.b",
+     "command_word": "describe",
+     "statement": "Describe a corporation's stakeholder groups and compare their interests."
+    },
+    {
+     "code": "2.c",
+     "command_word": "describe",
+     "statement": "Describe environmental, social and governance (ESG) factors in investment analysis."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Debt and equity claims",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Debt holders",
+          "b": true
+         },
+         {
+          "t": " have a fixed, contractual claim: interest and principal, ranked ahead of equity. "
+         },
+         {
+          "t": "Equity holders",
+          "b": true
+         },
+         {
+          "t": " have the residual claim on whatever is left after debt is paid."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "",
+         "Debt holders",
+         "Equity holders"
+        ],
+        "rows": [
+         [
+          "Claim",
+          "Fixed, contractual",
+          "Residual"
+         ],
+         [
+          "Upside",
+          "Capped at interest + principal",
+          "Unlimited"
+         ],
+         [
+          "Maximum loss",
+          "Amount lent",
+          "Amount invested"
+         ],
+         [
+          "Preferred risk level",
+          "Lower volatility",
+          "Higher volatility can raise value"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Kaveri Motors has ₹100 crore of debt due next year. If its assets are then worth ₹150 crore, lenders get ₹100 crore and "
+         },
+         {
+          "t": "shareholders get ₹50 crore",
+          "b": true
+         },
+         {
+          "t": ". If assets are worth ₹80 crore, lenders take all ₹80 crore and shareholders get nothing, but lose no more than their stake."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Equity behaves like a "
+         },
+         {
+          "t": "call option",
+          "b": true
+         },
+         {
+          "t": " on the company's assets with a strike price equal to the debt. This is why shareholders may favour riskier projects than lenders do."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Stakeholder groups",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Shareholders",
+           "b": true
+          },
+          {
+           "t": ": want higher share value and dividends."
+          }
+         ],
+         [
+          {
+           "t": "Creditors",
+           "b": true
+          },
+          {
+           "t": ": want timely interest and principal, so prefer stability."
+          }
+         ],
+         [
+          {
+           "t": "Board of directors",
+           "b": true
+          },
+          {
+           "t": ": oversees management on behalf of shareholders."
+          }
+         ],
+         [
+          {
+           "t": "Managers and employees",
+           "b": true
+          },
+          {
+           "t": ": pay, job security, career growth."
+          }
+         ],
+         [
+          {
+           "t": "Customers and suppliers",
+           "b": true
+          },
+          {
+           "t": ": reliable products, fair prices, prompt payment."
+          }
+         ],
+         [
+          {
+           "t": "Governments and regulators",
+           "b": true
+          },
+          {
+           "t": ": taxes, compliance, protection of the public."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Shareholder theory",
+          "b": true
+         },
+         {
+          "t": " says management's main goal is to maximise shareholder value. "
+         },
+         {
+          "t": "Stakeholder theory",
+          "b": true
+         },
+         {
+          "t": " says management should balance the interests of all groups affected by the company."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Running a company is like planning a family trip: shareholders want the best hotel, creditors want you to stay within budget, and employees just want a day off."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "ESG in investment analysis",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "ESG factors are environmental, social and governance issues that can affect a company's risk and value. Analysts focus on factors that are "
+         },
+         {
+          "t": "material",
+          "b": true
+         },
+         {
+          "t": " to the business."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Pillar",
+         "Examples"
+        ],
+        "rows": [
+         [
+          "Environmental",
+          "Carbon emissions, water use, waste, climate risk"
+         ],
+         [
+          "Social",
+          "Workplace safety, labour practices, data privacy, community relations"
+         ],
+         [
+          "Governance",
+          "Board independence, executive pay, shareholder rights, audit quality"
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "ESG investment approaches"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Negative (exclusionary) screening",
+           "b": true
+          },
+          {
+           "t": ": leave out sectors such as tobacco or weapons."
+          }
+         ],
+         [
+          {
+           "t": "Positive / best-in-class screening",
+           "b": true
+          },
+          {
+           "t": ": favour leaders on ESG within each sector."
+          }
+         ],
+         [
+          {
+           "t": "ESG integration",
+           "b": true
+          },
+          {
+           "t": ": build material ESG factors into valuation and risk analysis."
+          }
+         ],
+         [
+          {
+           "t": "Thematic investing",
+           "b": true
+          },
+          {
+           "t": ": target a theme such as clean energy or water."
+          }
+         ],
+         [
+          {
+           "t": "Impact investing",
+           "b": true
+          },
+          {
+           "t": ": seek measurable social or environmental outcomes plus a return."
+          }
+         ],
+         [
+          {
+           "t": "Engagement / stewardship",
+           "b": true
+          },
+          {
+           "t": ": use voting and dialogue to change company behaviour."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "ESG integration does "
+         },
+         {
+          "t": "not",
+          "b": true
+         },
+         {
+          "t": " replace financial analysis. It adds risks and opportunities that traditional analysis may miss."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Equity payoff at maturity = max(0, assets − debt); debt payoff = min(debt, assets)"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Debt claim",
+        "Fixed, ranked first, limited upside"
+       ],
+       [
+        "Equity claim",
+        "Residual, unlimited upside, loss capped"
+       ],
+       [
+        "Risk preference",
+        "Lenders prefer low risk; shareholders may accept more"
+       ],
+       [
+        "Shareholder theory",
+        "Maximise shareholder value"
+       ],
+       [
+        "Stakeholder theory",
+        "Balance all affected groups"
+       ],
+       [
+        "Exclusionary screening",
+        "Remove sectors on ESG grounds"
+       ],
+       [
+        "Impact investing",
+        "Measurable outcome plus financial return"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "Compared with equity holders, debt holders have:",
+     "o": [
+      "A residual claim with unlimited upside",
+      "A fixed contractual claim with limited upside",
+      "No priority in liquidation"
+     ],
+     "a": 1,
+     "e": "Lenders are owed fixed interest and principal and rank ahead of shareholders.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "A shareholder's payoff resembles a call option on the company's assets because shareholders:",
+     "o": [
+      "Gain all value above the debt but can lose at most their investment",
+      "Receive fixed interest payments",
+      "Rank first in liquidation"
+     ],
+     "a": 0,
+     "e": "Above the debt level each extra rupee of asset value goes to equity; below it, equity is worth zero.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "A company's assets are worth ₹150 crore when its ₹100 crore of debt matures. Shareholders receive:",
+     "o": [
+      "₹100 crore",
+      "₹150 crore",
+      "₹50 crore"
+     ],
+     "a": 2,
+     "e": "Lenders are paid ₹100 crore first; the residual 150 − 100 = ₹50 crore belongs to shareholders.",
+     "los": "2.a"
+    },
+    {
+     "d": "M",
+     "q": "Which stakeholder group generally prefers lower company risk?",
+     "o": [
+      "Shareholders",
+      "Creditors",
+      "Managers paid mainly in stock options"
+     ],
+     "a": 1,
+     "e": "Creditors' upside is capped, so extra risk only raises their chance of loss.",
+     "los": "2.b"
+    },
+    {
+     "d": "E",
+     "q": "Under shareholder theory, management's primary goal is to:",
+     "o": [
+      "Maximise shareholder value",
+      "Treat every stakeholder group equally",
+      "Maximise employee wages"
+     ],
+     "a": 0,
+     "e": "Shareholder theory puts the owners' value first.",
+     "los": "2.b"
+    },
+    {
+     "d": "M",
+     "q": "Stakeholder theory differs from shareholder theory in that it:",
+     "o": [
+      "Ignores shareholders entirely",
+      "Requires no board of directors",
+      "Considers employees, customers, suppliers and others alongside shareholders"
+     ],
+     "a": 2,
+     "e": "Stakeholder theory widens the objective to everyone the company affects.",
+     "los": "2.b"
+    },
+    {
+     "d": "E",
+     "q": "Which is a governance (G) factor in ESG analysis?",
+     "o": [
+      "Carbon emissions",
+      "Board independence",
+      "Workplace safety"
+     ],
+     "a": 1,
+     "e": "Emissions are environmental and workplace safety is social; board independence is governance.",
+     "los": "2.c"
+    },
+    {
+     "d": "H",
+     "q": "An investor that removes tobacco and weapons companies from its portfolio is using:",
+     "o": [
+      "Thematic investing",
+      "Impact investing",
+      "Negative (exclusionary) screening"
+     ],
+     "a": 2,
+     "e": "Excluding whole sectors on ESG grounds is negative screening.",
+     "los": "2.c"
+    },
+    {
+     "d": "H",
+     "q": "Impact investing is best described as investing that:",
+     "o": [
+      "Seeks measurable social or environmental outcomes alongside a financial return",
+      "Excludes every company with any ESG risk",
+      "Ranks stocks by price momentum"
+     ],
+     "a": 0,
+     "e": "Impact investors target a specific, measurable positive outcome as well as a return.",
+     "los": "2.c"
+    },
+    {
+     "d": "H",
+     "q": "ESG integration in investment analysis means:",
+     "o": [
+      "Investing only in green bonds",
+      "Including material ESG factors in valuation and risk assessment",
+      "Replacing financial analysis with ESG scores"
+     ],
+     "a": 1,
+     "e": "Integration adds material ESG risks and opportunities to normal fundamental analysis.",
+     "los": "2.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Debt holder claim",
+     "back": "Fixed and contractual; ranks ahead of equity; upside capped."
+    },
+    {
+     "front": "Equity holder claim",
+     "back": "Residual; unlimited upside; loss capped at the investment."
+    },
+    {
+     "front": "Why is equity like a call option?",
+     "back": "Shareholders get max(0, assets − debt) at debt maturity."
+    },
+    {
+     "front": "Shareholder vs stakeholder theory",
+     "back": "Maximise owner value vs balance all affected groups."
+    },
+    {
+     "front": "Three ESG pillars",
+     "back": "Environmental, Social, Governance."
+    },
+    {
+     "front": "Negative screening",
+     "back": "Excluding sectors or companies on ESG grounds, e.g. tobacco."
+    }
+   ]
+  },
+  {
+   "lm_no": 3,
+   "title": "Corporate Governance",
+   "summary": "Principal–agent conflicts, governance mechanisms, and analysing governance risk.",
+   "los": [
+    {
+     "code": "3.a",
+     "command_word": "describe",
+     "statement": "Describe principal–agent relationships and conflicts between stakeholder groups."
+    },
+    {
+     "code": "3.b",
+     "command_word": "describe",
+     "statement": "Describe mechanisms used to manage stakeholder relationships and reduce conflicts."
+    },
+    {
+     "code": "3.c",
+     "command_word": "describe",
+     "statement": "Describe the risks and benefits of corporate governance and stakeholder management."
+    },
+    {
+     "code": "3.d",
+     "command_word": "describe",
+     "statement": "Describe factors relevant to analysing a company's corporate governance."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Principal–agent conflicts",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "principal–agent relationship",
+          "b": true
+         },
+         {
+          "t": " exists when one party (the agent) acts on behalf of another (the principal). Conflicts arise when the agent's interests differ."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Conflict",
+         "Typical behaviour"
+        ],
+        "rows": [
+         [
+          "Shareholders vs managers",
+          "Insufficient effort, empire building, entrenchment, perks, too much or too little risk"
+         ],
+         [
+          "Controlling vs minority shareholders",
+          "Dual-class voting, related-party transactions at unfair prices"
+         ],
+         [
+          "Shareholders vs creditors",
+          "Riskier projects, extra debt, large dividends that weaken lenders' security"
+         ],
+         [
+          "Company vs other stakeholders",
+          "Cutting safety, delaying supplier payments, avoiding regulation"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Dual-class shares",
+          "b": true
+         },
+         {
+          "t": " give founders more votes than their economic ownership. Control and cash-flow rights are no longer aligned, so minority holders carry more agency risk."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Governance mechanisms",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Shareholders"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "General meetings",
+           "b": true
+          },
+          {
+           "t": ": an ordinary resolution needs a simple majority; an "
+          },
+          {
+           "t": "extraordinary (special) resolution",
+           "b": true
+          },
+          {
+           "t": ", e.g. a merger or charter change, needs a supermajority."
+          }
+         ],
+         [
+          {
+           "t": "Proxy voting",
+           "b": true
+          },
+          {
+           "t": " lets absent shareholders vote."
+          }
+         ],
+         [
+          {
+           "t": "Straight voting",
+           "b": true
+          },
+          {
+           "t": ": one vote per share per seat, so a majority holder fills every seat. "
+          },
+          {
+           "t": "Cumulative voting",
+           "b": true
+          },
+          {
+           "t": ": votes can be pooled on one candidate, which helps minorities win seats."
+          }
+         ],
+         [
+          {
+           "t": "Activism, proxy fights and takeover threats",
+           "b": true
+          },
+          {
+           "t": " discipline poor managers."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Under cumulative voting, the shares needed to guarantee one seat = shares ÷ (seats + 1) + 1. With 1,000 shares and 3 seats: 1,000 ÷ 4 + 1 = "
+         },
+         {
+          "t": "251 shares",
+          "b": true
+         },
+         {
+          "t": ". Under straight voting, you would need 501 to win any seat."
+         }
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Board of directors and committees"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Audit",
+           "b": true
+          },
+          {
+           "t": ": financial reporting, internal controls, external auditor."
+          }
+         ],
+         [
+          {
+           "t": "Remuneration (compensation)",
+           "b": true
+          },
+          {
+           "t": ": executive pay linked to long-term performance."
+          }
+         ],
+         [
+          {
+           "t": "Nomination",
+           "b": true
+          },
+          {
+           "t": ": identifies and recommends board candidates."
+          }
+         ],
+         [
+          {
+           "t": "Governance, risk and investment",
+           "b": true
+          },
+          {
+           "t": " committees in larger companies."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Other stakeholders"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Creditors: "
+          },
+          {
+           "t": "covenants",
+           "b": true
+          },
+          {
+           "t": " in loan agreements and bond indentures."
+          }
+         ],
+         [
+          {
+           "t": "Employees: labour laws, contracts, share plans."
+          }
+         ],
+         [
+          {
+           "t": "Customers and suppliers: contracts; governments: regulation and laws."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Risks, benefits and analysis",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Weak governance risks",
+         "Effective governance benefits"
+        ],
+        "rows": [
+         [
+          "Poor control systems and fraud",
+          "Better operational efficiency"
+         ],
+         [
+          "Bad decisions and value destruction",
+          "Lower cost of debt and equity"
+         ],
+         [
+          "Legal, regulatory and reputational damage",
+          "Stronger financial performance"
+         ],
+         [
+          "Higher default risk",
+          "Lower default and bankruptcy risk"
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "What an analyst checks"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Ownership and voting structure (dual-class shares, controlling holders)."
+          }
+         ],
+         [
+          {
+           "t": "Board composition: independence, skills, tenure, staggered terms."
+          }
+         ],
+         [
+          {
+           "t": "Management remuneration and how it links to strategy."
+          }
+         ],
+         [
+          {
+           "t": "Investor composition and shareholder activism."
+          }
+         ],
+         [
+          {
+           "t": "Strength of shareholder rights and takeover defences."
+          }
+         ],
+         [
+          {
+           "t": "Long-term risk management."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A board full of the promoter's relatives is like a cricket team where the captain's cousins are also the umpires."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "Cumulative voting: shares needed for one seat = shares ÷ (seats + 1) + 1"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Agent conflict",
+        "Agent's interests differ from the principal's"
+       ],
+       [
+        "Empire building",
+        "Growth for its own sake, value-destroying deals"
+       ],
+       [
+        "Dual-class shares",
+        "Votes exceed economic ownership"
+       ],
+       [
+        "Special resolution",
+        "Mergers, charter changes: supermajority"
+       ],
+       [
+        "Audit committee",
+        "Reporting, controls, external auditor"
+       ],
+       [
+        "Covenants",
+        "Creditors' main protection"
+       ],
+       [
+        "Good governance",
+        "Lower cost of capital, fewer defaults"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A principal–agent conflict arises when:",
+     "o": [
+      "An agent acting for a principal has different interests",
+      "Two companies merge",
+      "A company pays taxes"
+     ],
+     "a": 0,
+     "e": "The conflict exists because the agent may act in its own interest rather than the principal's.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "Which is an example of a manager–shareholder conflict?",
+     "o": [
+      "Paying suppliers on time",
+      "Empire building through value-destroying acquisitions",
+      "Publishing an annual report"
+     ],
+     "a": 1,
+     "e": "Managers may grow the firm for prestige and pay even when acquisitions destroy value.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "A related-party transaction at a non-market price most likely benefits:",
+     "o": [
+      "Minority shareholders",
+      "Controlling shareholders at minority shareholders' expense",
+      "Bondholders only"
+     ],
+     "a": 1,
+     "e": "Controlling holders can move value to entities they own, hurting minority holders.",
+     "los": "3.a"
+    },
+    {
+     "d": "M",
+     "q": "A company with dual-class shares most likely:",
+     "o": [
+      "Gives founders voting control out of proportion to their economic ownership",
+      "Gives every shareholder one vote per rupee invested",
+      "Prevents insiders from voting"
+     ],
+     "a": 0,
+     "e": "High-vote shares let founders control the company with a smaller equity stake.",
+     "los": "3.a"
+    },
+    {
+     "d": "H",
+     "q": "A company has 1,000 voting shares and 3 board seats are up for election under cumulative voting. The minimum shares needed to guarantee one seat is closest to:",
+     "o": [
+      "334",
+      "501",
+      "251"
+     ],
+     "a": 2,
+     "e": "Shares ÷ (seats + 1) + 1 = 1,000 ÷ 4 + 1 = 251.",
+     "los": "3.b"
+    },
+    {
+     "d": "E",
+     "q": "Which board committee oversees financial reporting and the external auditor?",
+     "o": [
+      "Remuneration committee",
+      "Audit committee",
+      "Nomination committee"
+     ],
+     "a": 1,
+     "e": "The audit committee monitors reporting quality, internal controls and auditor independence.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "Creditors primarily protect their interests through:",
+     "o": [
+      "Proxy voting",
+      "Electing the CEO",
+      "Covenants in loan agreements and bond indentures"
+     ],
+     "a": 2,
+     "e": "Covenants restrict actions such as extra borrowing or large dividends.",
+     "los": "3.b"
+    },
+    {
+     "d": "M",
+     "q": "An extraordinary (special) resolution at a general meeting is typically required to:",
+     "o": [
+      "Approve a merger or amend the corporate charter",
+      "Reappoint the auditor",
+      "Accept the annual accounts"
+     ],
+     "a": 0,
+     "e": "Major structural changes need a supermajority; routine items need a simple majority.",
+     "los": "3.b"
+    },
+    {
+     "d": "H",
+     "q": "Which is most likely a benefit of effective corporate governance?",
+     "o": [
+      "A higher cost of capital",
+      "A lower cost of capital and better operational efficiency",
+      "Greater default risk"
+     ],
+     "a": 1,
+     "e": "Investors demand lower returns from well-governed firms, and controls improve operations.",
+     "los": "3.c"
+    },
+    {
+     "d": "H",
+     "q": "An analyst worried about management entrenchment would focus most on:",
+     "o": [
+      "Dividend yield",
+      "Inventory turnover",
+      "A staggered board and strong takeover defences"
+     ],
+     "a": 2,
+     "e": "Staggered boards and defences make it hard to replace managers, protecting poor performers.",
+     "los": "3.d"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Principal–agent problem",
+     "back": "An agent acting for a principal pursues its own interests."
+    },
+    {
+     "front": "Straight vs cumulative voting",
+     "back": "Straight: majority fills every seat. Cumulative: votes pooled, helping minorities win seats."
+    },
+    {
+     "front": "Cumulative voting: shares for one seat",
+     "back": "Shares ÷ (seats + 1) + 1"
+    },
+    {
+     "front": "Audit committee",
+     "back": "Oversees financial reporting, internal controls and the external auditor."
+    },
+    {
+     "front": "How do creditors protect themselves?",
+     "back": "Covenants in loan agreements and bond indentures."
+    },
+    {
+     "front": "Benefits of good governance",
+     "back": "Better efficiency, lower cost of capital, lower default risk."
+    }
+   ]
+  },
+  {
+   "lm_no": 4,
+   "title": "Working Capital and Liquidity",
+   "summary": "The cash conversion cycle, sources of liquidity, and short-term financing choices.",
+   "los": [
+    {
+     "code": "4.a",
+     "command_word": "explain",
+     "statement": "Explain the cash conversion cycle and compare issuers' cash conversion cycles."
+    },
+    {
+     "code": "4.b",
+     "command_word": "explain",
+     "statement": "Explain liquidity and compare issuers' liquidity levels."
+    },
+    {
+     "code": "4.c",
+     "command_word": "describe",
+     "statement": "Describe issuers' objectives and compare methods for managing working capital and liquidity."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Cash conversion cycle",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "The "
+         },
+         {
+          "t": "cash conversion cycle (CCC)",
+          "b": true
+         },
+         {
+          "t": " is the number of days cash is tied up between paying suppliers and collecting from customers. A shorter cycle needs less working capital."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "CCC = DIO + DSO − DPO · DIO = 365 ÷ inventory turnover (COGS ÷ avg inventory) · DSO = 365 ÷ receivables turnover (sales ÷ avg receivables) · DPO = 365 ÷ payables turnover (purchases ÷ avg payables)"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Meera Textiles: DIO 45 days, DSO 30 days, DPO 40 days. CCC = 45 + 30 − 40 = "
+         },
+         {
+          "t": "35 days",
+          "b": true
+         },
+         {
+          "t": ". If it negotiates DPO up to 50 days, CCC falls to 25 days and frees cash."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "negative CCC",
+          "b": true
+         },
+         {
+          "t": " is possible: retailers that sell before they pay suppliers are effectively financed by those suppliers."
+         }
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Working capital approaches"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Conservative",
+           "b": true
+          },
+          {
+           "t": ": finance current assets mostly with long-term funds; safer but costlier."
+          }
+         ],
+         [
+          {
+           "t": "Aggressive",
+           "b": true
+          },
+          {
+           "t": ": finance current assets with short-term debt; cheaper but more refinancing risk."
+          }
+         ],
+         [
+          {
+           "t": "Moderate",
+           "b": true
+          },
+          {
+           "t": ": match the maturity of financing with the assets."
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Liquidity",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "Liquidity",
+          "b": true
+         },
+         {
+          "t": " is the ability to meet short-term obligations on time without large losses."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "Primary sources (normal operations)",
+         "Secondary sources (may signal stress)"
+        ],
+        "rows": [
+         [
+          "Cash and short-term investments",
+          "Selling long-term assets"
+         ],
+         [
+          "Cash flow from operations",
+          "Renegotiating debt agreements"
+         ],
+         [
+          "Short-term funding: bank lines, trade credit",
+          "Filing for bankruptcy protection"
+         ]
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Drags",
+           "b": true
+          },
+          {
+           "t": " on liquidity slow cash inflows: uncollected receivables, obsolete inventory, tight credit markets."
+          }
+         ],
+         [
+          {
+           "t": "Pulls",
+           "b": true
+          },
+          {
+           "t": " on liquidity speed up outflows: paying suppliers early, reduced credit limits."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Current ratio = current assets ÷ current liabilities · Quick ratio = (cash + short-term investments + receivables) ÷ current liabilities · Cash ratio = (cash + short-term investments) ÷ current liabilities"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "The quick ratio leaves out "
+         },
+         {
+          "t": "inventory",
+          "b": true
+         },
+         {
+          "t": " because it is usually the least liquid current asset."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Managing working capital",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Trade credit discounts"
+       },
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "Cost of forgoing the discount = (1 + d ÷ (1 − d))^(365 ÷ (credit days − discount days)) − 1"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Terms of 2/10, net 30: 2% off if paid within 10 days, otherwise pay in full by day 30. Cost of skipping = (1 + 0.02 ÷ 0.98)^(365 ÷ 20) − 1 = "
+         },
+         {
+          "t": "44.6%",
+          "b": true
+         },
+         {
+          "t": " a year. Unless the company can borrow above 44.6%, it should take the discount."
+         }
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Short-term financing"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Uncommitted line of credit",
+           "b": true
+          },
+          {
+           "t": ": the bank may refuse to lend; no fee, least reliable."
+          }
+         ],
+         [
+          {
+           "t": "Committed (regular) line",
+           "b": true
+          },
+          {
+           "t": ": the bank commits for a fee; counts as reliable liquidity."
+          }
+         ],
+         [
+          {
+           "t": "Revolving credit",
+           "b": true
+          },
+          {
+           "t": ": a committed line that can be drawn and repaid repeatedly over years."
+          }
+         ],
+         [
+          {
+           "t": "Commercial paper",
+           "b": true
+          },
+          {
+           "t": ": short-term unsecured notes issued by large, creditworthy companies."
+          }
+         ],
+         [
+          {
+           "t": "Factoring",
+           "b": true
+          },
+          {
+           "t": ": selling receivables to a third party at a discount for immediate cash."
+          }
+         ],
+         [
+          {
+           "t": "Secured loans",
+           "b": true
+          },
+          {
+           "t": " backed by inventory or receivables."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Skipping a 2/10, net 30 discount is like declining a ₹2 cashback every 20 days on a ₹100 bill. That is a 44.6% annual return you turned down."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "CCC = DIO + DSO − DPO · Cost of trade credit = (1 + d/(1 − d))^(365/(N − n)) − 1"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Shorter CCC",
+        "Less cash tied up"
+       ],
+       [
+        "Conservative policy",
+        "Long-term funds for current assets"
+       ],
+       [
+        "Aggressive policy",
+        "Short-term funds; refinancing risk"
+       ],
+       [
+        "Primary liquidity",
+        "Cash, operating cash flow, short-term funding"
+       ],
+       [
+        "Secondary liquidity",
+        "Asset sales, renegotiation, bankruptcy"
+       ],
+       [
+        "Quick ratio",
+        "Excludes inventory"
+       ],
+       [
+        "2/10, net 30",
+        "Forgoing the discount costs about 44.6% a year"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "The cash conversion cycle equals:",
+     "o": [
+      "DIO + DSO − DPO",
+      "DIO − DSO + DPO",
+      "DSO + DPO − DIO"
+     ],
+     "a": 0,
+     "e": "Days of inventory plus days to collect, minus days the company takes to pay suppliers.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "A company has DIO of 45 days, DSO of 30 days and DPO of 40 days. Its cash conversion cycle is:",
+     "o": [
+      "115 days",
+      "35 days",
+      "55 days"
+     ],
+     "a": 1,
+     "e": "45 + 30 − 40 = 35 days.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "Annual credit sales are ₹730 crore and average receivables are ₹60 crore. DSO is closest to:",
+     "o": [
+      "12 days",
+      "60 days",
+      "30 days"
+     ],
+     "a": 2,
+     "e": "Receivables turnover = 730 ÷ 60 = 12.17; DSO = 365 ÷ 12.17 = 30 days.",
+     "los": "4.a"
+    },
+    {
+     "d": "M",
+     "q": "A conservative working capital approach is characterised by:",
+     "o": [
+      "Financing current assets mostly with long-term funds",
+      "Financing current assets mostly with short-term debt",
+      "Holding minimal cash and inventory"
+     ],
+     "a": 0,
+     "e": "Long-term funding reduces refinancing risk at a higher cost.",
+     "los": "4.c"
+    },
+    {
+     "d": "E",
+     "q": "Which is a primary source of liquidity?",
+     "o": [
+      "Selling a factory",
+      "Cash balances and short-term investments",
+      "Filing for bankruptcy protection"
+     ],
+     "a": 1,
+     "e": "Primary sources come from normal operations; asset sales and bankruptcy are secondary.",
+     "los": "4.b"
+    },
+    {
+     "d": "M",
+     "q": "The quick ratio excludes inventory from current assets because inventory:",
+     "o": [
+      "Is the most liquid current asset",
+      "Is usually the least liquid current asset",
+      "Is classified as a liability"
+     ],
+     "a": 1,
+     "e": "Inventory must first be sold and then collected before it becomes cash.",
+     "los": "4.b"
+    },
+    {
+     "d": "H",
+     "q": "A supplier offers terms of 2/10, net 30. The annualised cost of not taking the discount and paying on day 30 is closest to:",
+     "o": [
+      "24.5%",
+      "36.7%",
+      "44.6%"
+     ],
+     "a": 2,
+     "e": "(1 + 0.02 ÷ 0.98)^(365 ÷ 20) − 1 = 44.6%.",
+     "los": "4.c"
+    },
+    {
+     "d": "H",
+     "q": "Which is a drag on liquidity?",
+     "o": [
+      "Faster customer collections",
+      "Longer credit from suppliers",
+      "Uncollected receivables"
+     ],
+     "a": 2,
+     "e": "Drags slow cash inflows; uncollected receivables delay cash coming in.",
+     "los": "4.b"
+    },
+    {
+     "d": "H",
+     "q": "Compared with an uncommitted line of credit, a committed (regular) line of credit:",
+     "o": [
+      "Is a firm bank commitment, usually for a fee",
+      "Can be withdrawn by the bank at any time",
+      "Must be secured by receivables"
+     ],
+     "a": 0,
+     "e": "The commitment fee buys reliability, so committed lines count as dependable liquidity.",
+     "los": "4.c"
+    },
+    {
+     "d": "M",
+     "q": "Factoring receivables means:",
+     "o": [
+      "Borrowing from shareholders",
+      "Selling receivables to a third party at a discount",
+      "Delaying payments to suppliers"
+     ],
+     "a": 1,
+     "e": "The factor pays cash now for the receivables, less a discount, and collects from customers.",
+     "los": "4.c"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Cash conversion cycle",
+     "back": "DIO + DSO − DPO: days cash is tied up in operations."
+    },
+    {
+     "front": "DSO",
+     "back": "365 ÷ (sales ÷ average receivables)"
+    },
+    {
+     "front": "Conservative vs aggressive working capital",
+     "back": "Long-term funds (safer, costlier) vs short-term funds (cheaper, refinancing risk)."
+    },
+    {
+     "front": "Drag vs pull on liquidity",
+     "back": "Drag slows inflows (bad receivables); pull speeds outflows (early payments)."
+    },
+    {
+     "front": "Cost of 2/10, net 30",
+     "back": "(1 + 2/98)^(365/20) − 1 ≈ 44.6% a year."
+    },
+    {
+     "front": "Committed vs uncommitted line",
+     "back": "Committed: bank must lend, fee charged. Uncommitted: bank may refuse."
+    }
+   ]
+  },
+  {
+   "lm_no": 5,
+   "title": "Capital Investments",
+   "summary": "Types of capital projects, NPV, IRR and ROIC, allocation principles and pitfalls, real options.",
+   "los": [
+    {
+     "code": "5.a",
+     "command_word": "describe",
+     "statement": "Describe the types of capital investments."
+    },
+    {
+     "code": "5.b",
+     "command_word": "calculate",
+     "statement": "Describe the capital allocation process; calculate NPV, IRR and ROIC and contrast their use."
+    },
+    {
+     "code": "5.c",
+     "command_word": "describe",
+     "statement": "Describe principles of capital allocation and common pitfalls."
+    },
+    {
+     "code": "5.d",
+     "command_word": "describe",
+     "statement": "Describe types of real options relevant to capital investments."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Types of capital investment",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Business maintenance (going concern)",
+           "b": true
+          },
+          {
+           "t": ": replace worn-out assets to keep operating."
+          }
+         ],
+         [
+          {
+           "t": "Business growth",
+           "b": true
+          },
+          {
+           "t": ": expand capacity or enter new products and markets."
+          }
+         ],
+         [
+          {
+           "t": "Regulatory and compliance",
+           "b": true
+          },
+          {
+           "t": ": required by law, e.g. pollution control; may have negative NPV but are unavoidable."
+          }
+         ],
+         [
+          {
+           "t": "Other",
+           "b": true
+          },
+          {
+           "t": ": high-risk projects outside the core business, sometimes 'pet projects'."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "The capital allocation process"
+       },
+       {
+        "type": "list",
+        "ordered": true,
+        "items": [
+         [
+          {
+           "t": "Idea generation",
+           "b": true
+          }
+         ],
+         [
+          {
+           "t": "Investment analysis",
+           "b": true
+          },
+          {
+           "t": ": forecast cash flows, compute NPV / IRR"
+          }
+         ],
+         [
+          {
+           "t": "Planning and prioritisation",
+           "b": true
+          },
+          {
+           "t": ": fit with strategy and budget"
+          }
+         ],
+         [
+          {
+           "t": "Monitoring and post-investment review",
+           "b": true
+          },
+          {
+           "t": ": compare actual with forecast to improve future decisions"
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "NPV, IRR and ROIC",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "NPV = Σ CF_t ÷ (1 + r)^t − initial outlay · IRR = the rate at which NPV = 0 · ROIC = NOPAT ÷ average invested capital"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Godavari Packaging can invest ₹100 lakh to earn ₹45 lakh a year for 3 years. At 10%: PV = 45 × 2.4869 = ₹111.9 lakh, so "
+         },
+         {
+          "t": "NPV = +₹11.9 lakh",
+          "b": true
+         },
+         {
+          "t": ". Setting NPV to zero gives "
+         },
+         {
+          "t": "IRR ≈ 16.7%",
+          "b": true
+         },
+         {
+          "t": ", above the 10% cost of capital, so accept."
+         }
+        ]
+       },
+       {
+        "type": "table",
+        "header": [
+         "",
+         "NPV",
+         "IRR"
+        ],
+        "rows": [
+         [
+          "Output",
+          "Rupee value added",
+          "Percentage return"
+         ],
+         [
+          "Reinvestment assumption",
+          "At the cost of capital",
+          "At the IRR (often unrealistic)"
+         ],
+         [
+          "Mutually exclusive projects",
+          "Preferred rule",
+          "Can rank wrongly (scale, timing)"
+         ],
+         [
+          "Unusual cash flow signs",
+          "Still works",
+          "Can give multiple or no IRRs"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "ROIC: NOPAT ₹18 crore ÷ average invested capital ₹120 crore = "
+         },
+         {
+          "t": "15%",
+          "b": true
+         },
+         {
+          "t": ". With a cost of capital of 11%, the company is creating value."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "When NPV and IRR disagree on mutually exclusive projects, "
+         },
+         {
+          "t": "choose the higher NPV",
+          "b": true
+         },
+         {
+          "t": ": it measures the wealth actually added."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Principles, pitfalls and real options",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Principles"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Use "
+          },
+          {
+           "t": "incremental after-tax cash flows",
+           "b": true
+          },
+          {
+           "t": ", not accounting profit."
+          }
+         ],
+         [
+          {
+           "t": "Ignore "
+          },
+          {
+           "t": "sunk costs",
+           "b": true
+          },
+          {
+           "t": "; include "
+          },
+          {
+           "t": "opportunity costs",
+           "b": true
+          },
+          {
+           "t": " and "
+          },
+          {
+           "t": "externalities",
+           "b": true
+          },
+          {
+           "t": " such as cannibalisation."
+          }
+         ],
+         [
+          {
+           "t": "Leave "
+          },
+          {
+           "t": "financing costs",
+           "b": true
+          },
+          {
+           "t": " out of cash flows; they are in the discount rate."
+          }
+         ],
+         [
+          {
+           "t": "Timing matters: earlier cash is worth more."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Common pitfalls"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Inertia",
+           "b": true
+          },
+          {
+           "t": ": rolling last year's budget forward."
+          }
+         ],
+         [
+          {
+           "t": "Source-of-capital bias",
+           "b": true
+          },
+          {
+           "t": ": spending internal cash more freely than raised capital."
+          }
+         ],
+         [
+          {
+           "t": "Not considering alternatives; "
+          },
+          {
+           "t": "pet projects",
+           "b": true
+          },
+          {
+           "t": "; judging projects by EPS, net income or ROE; optimistic internal forecasts."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Real options"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Timing",
+           "b": true
+          },
+          {
+           "t": ": delay until more is known."
+          }
+         ],
+         [
+          {
+           "t": "Sizing",
+           "b": true
+          },
+          {
+           "t": ": "
+          },
+          {
+           "t": "abandon",
+           "b": true
+          },
+          {
+           "t": " if results disappoint, or "
+          },
+          {
+           "t": "expand",
+           "b": true
+          },
+          {
+           "t": " if they succeed."
+          }
+         ],
+         [
+          {
+           "t": "Flexibility",
+           "b": true
+          },
+          {
+           "t": ": change prices (price-setting) or switch inputs and outputs (production)."
+          }
+         ],
+         [
+          {
+           "t": "Fundamental",
+           "b": true
+          },
+          {
+           "t": ": the payoff depends on an underlying asset price, e.g. an oil field."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Including the interest cost in project cash flows and again in the discount rate is like paying the auto driver twice for the same ride."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "NPV = Σ CF/(1 + r)^t − outlay · IRR: NPV = 0 · ROIC = NOPAT / avg invested capital"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Accept if",
+        "NPV > 0, IRR > cost of capital, ROIC > cost of capital"
+       ],
+       [
+        "Conflict",
+        "Mutually exclusive projects: choose higher NPV"
+       ],
+       [
+        "IRR reinvestment",
+        "Assumes reinvestment at the IRR"
+       ],
+       [
+        "Ignore",
+        "Sunk costs and financing costs"
+       ],
+       [
+        "Include",
+        "Opportunity costs, externalities, taxes"
+       ],
+       [
+        "Pitfalls",
+        "Inertia, source-of-capital bias, pet projects"
+       ],
+       [
+        "Real options",
+        "Timing, sizing (abandon/expand), flexibility, fundamental"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A project required to comply with new pollution rules is a:",
+     "o": [
+      "Regulatory/compliance project",
+      "Business growth project",
+      "Pet project"
+     ],
+     "a": 0,
+     "e": "Projects mandated by law are regulatory or compliance investments.",
+     "los": "5.a"
+    },
+    {
+     "d": "M",
+     "q": "A project costs ₹100 lakh and returns ₹45 lakh a year for 3 years. At a 10% discount rate its NPV is closest to:",
+     "o": [
+      "₹35.0 lakh",
+      "₹11.9 lakh",
+      "−₹0.5 lakh"
+     ],
+     "a": 1,
+     "e": "PV = 45 × 2.4869 = 111.9; NPV = 111.9 − 100 = ₹11.9 lakh.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "For the same project (₹100 lakh outlay, ₹45 lakh a year for 3 years), the IRR is closest to:",
+     "o": [
+      "10.0%",
+      "35.0%",
+      "16.7%"
+     ],
+     "a": 2,
+     "e": "The rate where 45 × annuity factor = 100 is about 16.7%.",
+     "los": "5.b"
+    },
+    {
+     "d": "E",
+     "q": "When NPV and IRR rank mutually exclusive projects differently, an analyst should generally prefer the project with the:",
+     "o": [
+      "Higher NPV",
+      "Higher IRR",
+      "Lower initial cost"
+     ],
+     "a": 0,
+     "e": "NPV measures the rupee value added and assumes reinvestment at the cost of capital.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "NOPAT is ₹18 crore, average invested capital is ₹120 crore and the cost of capital is 11%. ROIC and the best conclusion are:",
+     "o": [
+      "15%; the company is creating value",
+      "15%; the company is destroying value",
+      "6.7%; the company is destroying value"
+     ],
+     "a": 0,
+     "e": "18 ÷ 120 = 15%, above the 11% cost of capital, so value is being created.",
+     "los": "5.b"
+    },
+    {
+     "d": "M",
+     "q": "Which should be excluded from a project's incremental cash flows?",
+     "o": [
+      "Opportunity costs",
+      "Sunk costs",
+      "Cannibalisation of existing sales"
+     ],
+     "a": 1,
+     "e": "Sunk costs have already been incurred and do not change with the decision.",
+     "los": "5.c"
+    },
+    {
+     "d": "M",
+     "q": "Interest expense is excluded from project cash flows because:",
+     "o": [
+      "Interest is not tax-deductible",
+      "Interest is a sunk cost",
+      "The cost of financing is already in the discount rate"
+     ],
+     "a": 2,
+     "e": "Counting interest in cash flows and in the discount rate would double-count it.",
+     "los": "5.c"
+    },
+    {
+     "d": "H",
+     "q": "A manager who sets next year's capital budget by raising last year's by a fixed percentage is showing which pitfall?",
+     "o": [
+      "Real option bias",
+      "Source-of-capital bias",
+      "Inertia"
+     ],
+     "a": 2,
+     "e": "Rolling forward last year's allocation regardless of opportunities is inertia.",
+     "los": "5.c"
+    },
+    {
+     "d": "H",
+     "q": "An option to stop a project and sell its assets if cash flows disappoint is a(n):",
+     "o": [
+      "Timing option",
+      "Abandonment option",
+      "Price-setting option"
+     ],
+     "a": 1,
+     "e": "Abandonment is a sizing option that limits downside.",
+     "los": "5.d"
+    },
+    {
+     "d": "H",
+     "q": "The IRR method implicitly assumes interim cash flows are reinvested at:",
+     "o": [
+      "The cost of capital",
+      "The IRR itself",
+      "The risk-free rate"
+     ],
+     "a": 1,
+     "e": "This assumption is one reason IRR can mislead when it is far above the cost of capital.",
+     "los": "5.b"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Four types of capital project",
+     "back": "Maintenance, growth, regulatory/compliance, other."
+    },
+    {
+     "front": "NPV decision rule",
+     "back": "Accept if NPV > 0; for exclusive projects pick the highest NPV."
+    },
+    {
+     "front": "IRR",
+     "back": "Discount rate that makes NPV zero; assumes reinvestment at the IRR."
+    },
+    {
+     "front": "ROIC",
+     "back": "NOPAT ÷ average invested capital; compare with the cost of capital."
+    },
+    {
+     "front": "Sunk vs opportunity cost",
+     "back": "Ignore sunk costs; include opportunity costs."
+    },
+    {
+     "front": "Types of real options",
+     "back": "Timing, sizing (abandon/expand), flexibility, fundamental."
+    }
+   ]
+  },
+  {
+   "lm_no": 6,
+   "title": "Capital Structure",
+   "summary": "Life-cycle financing, Modigliani–Miller, trade-off and pecking order, target weights and WACC.",
+   "los": [
+    {
+     "code": "6.a",
+     "command_word": "explain",
+     "statement": "Explain factors affecting capital structure."
+    },
+    {
+     "code": "6.b",
+     "command_word": "describe",
+     "statement": "Describe how a company's capital structure may change over its life cycle."
+    },
+    {
+     "code": "6.c",
+     "command_word": "explain",
+     "statement": "Explain the Modigliani–Miller propositions on capital structure."
+    },
+    {
+     "code": "6.d",
+     "command_word": "calculate",
+     "statement": "Describe the use of target capital structure in estimating WACC, and calculate target weights."
+    },
+    {
+     "code": "6.e",
+     "command_word": "describe",
+     "statement": "Describe competing stakeholder interests in capital structure decisions."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Capital structure over the life cycle",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "Stage",
+         "Cash flows",
+         "Typical financing"
+        ],
+        "rows": [
+         [
+          "Start-up",
+          "Negative, unpredictable",
+          "Equity (founders, VC); debt hard to get"
+         ],
+         [
+          "Growth",
+          "Improving but reinvested",
+          "Mostly equity, some secured debt"
+         ],
+         [
+          "Mature",
+          "Stable, positive",
+          "More debt capacity; investment-grade bonds"
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Factors affecting capital structure"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Internal",
+           "b": true
+          },
+          {
+           "t": ": business model, cash flow predictability, asset tangibility (collateral), existing leverage, corporate tax rate, management policy and credit rating targets."
+          }
+         ],
+         [
+          {
+           "t": "External",
+           "b": true
+          },
+          {
+           "t": ": market conditions and interest rates, regulation, industry norms."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Asset-light companies with intangible assets (software, brands) usually carry "
+         },
+         {
+          "t": "less debt",
+          "b": true
+         },
+         {
+          "t": " because they have little collateral to pledge."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Modigliani–Miller and other theories",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "table",
+        "header": [
+         "",
+         "No taxes",
+         "With corporate taxes"
+        ],
+        "rows": [
+         [
+          "Proposition I (value)",
+          "V_L = V_U",
+          "V_L = V_U + tD"
+         ],
+         [
+          "Proposition II (cost of equity)",
+          "r_e = r_0 + (r_0 − r_d)(D/E)",
+          "r_e = r_0 + (r_0 − r_d)(1 − t)(D/E)"
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "r_0 = 12%, r_d = 6%, D/E = 0.5, t = 25%. Cost of equity = 12 + (12 − 6) × 0.75 × 0.5 = "
+         },
+         {
+          "t": "14.25%",
+          "b": true
+         },
+         {
+          "t": ". More debt raises the cost of equity, but with taxes the debt shield still lowers WACC."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Static trade-off theory",
+           "b": true
+          },
+          {
+           "t": ": optimal debt balances the tax shield against the expected costs of financial distress."
+          }
+         ],
+         [
+          {
+           "t": "Pecking order",
+           "b": true
+          },
+          {
+           "t": ": managers prefer internal funds, then debt, and new equity last, because issuing equity signals the shares may be overvalued."
+          }
+         ],
+         [
+          {
+           "t": "Signalling",
+           "b": true
+          },
+          {
+           "t": ": taking on debt signals confidence in future cash flows."
+          }
+         ],
+         [
+          {
+           "t": "Agency costs",
+           "b": true
+          },
+          {
+           "t": ": debt disciplines managers by committing cash to interest payments."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "Under MM with no taxes, cutting a pizza into more slices doesn't give you more pizza. Taxes are the only thing that makes the debt slice taste better."
+         }
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Target structure, WACC and stakeholders",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "callout",
+        "variant": "formula",
+        "title": "Formula",
+        "inline": [
+         {
+          "t": "WACC = w_d × r_d × (1 − t) + w_p × r_p + w_e × r_e, using target weights at market values"
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Target weights: debt 1/3, equity 2/3. After-tax cost of debt = 6% × 0.75 = 4.5%; cost of equity 14.25%. WACC = 1/3 × 4.5 + 2/3 × 14.25 = 1.5 + 9.5 = "
+         },
+         {
+          "t": "11.0%",
+          "b": true
+         },
+         {
+          "t": "."
+         }
+        ]
+       },
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "If the target is not disclosed, analysts use the current market-value structure, trends in the company's structure, or peer averages."
+         }
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Competing stakeholder interests"
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Shareholders may favour more debt to boost returns and use the tax shield."
+          }
+         ],
+         [
+          {
+           "t": "Existing creditors lose when extra debt or a debt-funded special dividend raises default risk."
+          }
+         ],
+         [
+          {
+           "t": "Managers may prefer low debt to protect their jobs."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Use "
+         },
+         {
+          "t": "market values",
+          "b": true
+         },
+         {
+          "t": ", not book values, for the weights. Book equity can be far from what investors actually pay."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "MM with tax: V_L = V_U + tD · r_e = r_0 + (r_0 − r_d)(1 − t)D/E · WACC = w_d r_d(1 − t) + w_e r_e"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Start-up",
+        "Equity-funded, little debt"
+       ],
+       [
+        "Mature",
+        "Stable cash flows, more debt"
+       ],
+       [
+        "MM I, no tax",
+        "Value unaffected by leverage"
+       ],
+       [
+        "MM II",
+        "Cost of equity rises with D/E"
+       ],
+       [
+        "Trade-off",
+        "Tax shield vs distress costs"
+       ],
+       [
+        "Pecking order",
+        "Internal → debt → equity"
+       ],
+       [
+        "Weights",
+        "Target, at market values"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A start-up company typically relies mostly on:",
+     "o": [
+      "Equity financing",
+      "Long-term bank debt",
+      "Investment-grade bonds"
+     ],
+     "a": 0,
+     "e": "Negative, uncertain cash flows and little collateral make debt hard to obtain.",
+     "los": "6.b"
+    },
+    {
+     "d": "M",
+     "q": "Mature companies can usually support more debt because they have:",
+     "o": [
+      "High cash burn",
+      "Stable and predictable cash flows",
+      "No tangible assets"
+     ],
+     "a": 1,
+     "e": "Predictable cash flows make it easier to service interest and principal.",
+     "los": "6.b"
+    },
+    {
+     "d": "M",
+     "q": "Under Modigliani–Miller Proposition I without taxes:",
+     "o": [
+      "Firm value is independent of capital structure",
+      "Firm value rises with debt",
+      "The cost of equity stays constant as debt rises"
+     ],
+     "a": 0,
+     "e": "With no taxes or frictions, how the pie is sliced does not change its size.",
+     "los": "6.c"
+    },
+    {
+     "d": "H",
+     "q": "Unlevered cost of capital is 12%, cost of debt 6%, D/E 0.5 and tax rate 25%. Under MM with taxes, the cost of equity is closest to:",
+     "o": [
+      "15.0%",
+      "14.25%",
+      "12.0%"
+     ],
+     "a": 1,
+     "e": "12 + (12 − 6) × (1 − 0.25) × 0.5 = 14.25%.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "With corporate taxes, MM Proposition I states that:",
+     "o": [
+      "V_L = V_U",
+      "V_L = V_U − tD",
+      "V_L = V_U + tD"
+     ],
+     "a": 2,
+     "e": "The levered firm is worth more by the present value of the debt tax shield, tD.",
+     "los": "6.c"
+    },
+    {
+     "d": "M",
+     "q": "Under the pecking order theory, managers prefer to finance first with:",
+     "o": [
+      "New equity",
+      "New debt",
+      "Internal funds"
+     ],
+     "a": 2,
+     "e": "Internal funds avoid issuance costs and negative signals; equity comes last.",
+     "los": "6.a"
+    },
+    {
+     "d": "H",
+     "q": "The static trade-off theory says the optimal capital structure balances:",
+     "o": [
+      "The tax benefit of debt against the costs of financial distress",
+      "Dividends against buybacks",
+      "Equity issuance against share splits"
+     ],
+     "a": 0,
+     "e": "Beyond some point, extra distress costs outweigh the extra tax shield.",
+     "los": "6.a"
+    },
+    {
+     "d": "H",
+     "q": "Target weights are debt 1/3 and equity 2/3. After-tax cost of debt is 4.5% and cost of equity 14.25%. WACC is closest to:",
+     "o": [
+      "9.4%",
+      "11.0%",
+      "12.0%"
+     ],
+     "a": 1,
+     "e": "1/3 × 4.5 + 2/3 × 14.25 = 1.5 + 9.5 = 11.0%.",
+     "los": "6.d"
+    },
+    {
+     "d": "M",
+     "q": "When estimating WACC, analysts prefer weights based on:",
+     "o": [
+      "Historical book values only",
+      "Equal weights for each source",
+      "The company's target capital structure at market values"
+     ],
+     "a": 2,
+     "e": "WACC applies to future projects, so target market-value weights are most relevant.",
+     "los": "6.d"
+    },
+    {
+     "d": "H",
+     "q": "Borrowing to pay a large special dividend most likely benefits:",
+     "o": [
+      "Shareholders at the expense of existing creditors",
+      "Existing creditors at shareholders' expense",
+      "Neither group"
+     ],
+     "a": 0,
+     "e": "Cash goes to shareholders while creditors face higher leverage and default risk.",
+     "los": "6.e"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "MM Proposition I (no taxes)",
+     "back": "V_L = V_U: capital structure doesn't affect firm value."
+    },
+    {
+     "front": "MM Proposition I (with taxes)",
+     "back": "V_L = V_U + tD"
+    },
+    {
+     "front": "MM Proposition II (with taxes)",
+     "back": "r_e = r_0 + (r_0 − r_d)(1 − t)(D/E)"
+    },
+    {
+     "front": "Static trade-off theory",
+     "back": "Tax shield of debt vs expected costs of financial distress."
+    },
+    {
+     "front": "Pecking order",
+     "back": "Internal funds → debt → new equity."
+    },
+    {
+     "front": "Which weights for WACC?",
+     "back": "Target capital structure at market values."
+    }
+   ]
+  },
+  {
+   "lm_no": 7,
+   "title": "Business Models",
+   "summary": "Value proposition, channels, pricing and revenue models, and common business model types.",
+   "los": [
+    {
+     "code": "7.a",
+     "command_word": "describe",
+     "statement": "Describe key features of business models."
+    },
+    {
+     "code": "7.b",
+     "command_word": "describe",
+     "statement": "Describe various types of business models."
+    }
+   ],
+   "topics": [
+    {
+     "title": "Key features of a business model",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "paragraph",
+        "inline": [
+         {
+          "t": "A "
+         },
+         {
+          "t": "business model",
+          "b": true
+         },
+         {
+          "t": " explains how a company creates value for customers and captures some of it as profit. Analysts ask: "
+         },
+         {
+          "t": "who",
+          "b": true
+         },
+         {
+          "t": " are the customers, "
+         },
+         {
+          "t": "what",
+          "b": true
+         },
+         {
+          "t": " is sold, "
+         },
+         {
+          "t": "where",
+          "b": true
+         },
+         {
+          "t": " and "
+         },
+         {
+          "t": "how",
+          "b": true
+         },
+         {
+          "t": " it reaches them, and "
+         },
+         {
+          "t": "how much",
+          "b": true
+         },
+         {
+          "t": " it costs."
+         }
+        ]
+       },
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Value proposition",
+           "b": true
+          },
+          {
+           "t": ": target customers, the product or service, and why it beats alternatives."
+          }
+         ],
+         [
+          {
+           "t": "Value chain",
+           "b": true
+          },
+          {
+           "t": ": the activities that deliver the value proposition."
+          }
+         ],
+         [
+          {
+           "t": "Channels",
+           "b": true
+          },
+          {
+           "t": ": direct, indirect (distributors, retailers) or "
+          },
+          {
+           "t": "omnichannel",
+           "b": true
+          },
+          {
+           "t": ", which blends online and physical stores into one experience."
+          }
+         ],
+         [
+          {
+           "t": "Pricing and revenue model",
+           "b": true
+          },
+          {
+           "t": ": how and when money comes in."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "heading",
+        "level": 3,
+        "text": "Pricing approaches"
+       },
+       {
+        "type": "table",
+        "header": [
+         "Approach",
+         "Idea",
+         "Example"
+        ],
+        "rows": [
+         [
+          "Value-based",
+          "Price what the customer will pay",
+          "Premium brand"
+         ],
+         [
+          "Cost-based",
+          "Cost plus a markup",
+          "Commodity goods"
+         ],
+         [
+          "Tiered / price discrimination",
+          "Different prices for different groups",
+          "Student discounts"
+         ],
+         [
+          "Dynamic",
+          "Price moves with demand",
+          "Ride-hailing surge, airline fares"
+         ],
+         [
+          "Freemium",
+          "Basic free, premium paid",
+          "Music and cloud apps"
+         ],
+         [
+          "Razors-and-blades",
+          "Cheap base, profitable refills",
+          "Printers and ink"
+         ],
+         [
+          "Subscription",
+          "Recurring fee for access",
+          "OTT streaming"
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "title": "Types of business models",
+     "body": {
+      "schema": "notes/v1",
+      "blocks": [
+       {
+        "type": "list",
+        "ordered": false,
+        "items": [
+         [
+          {
+           "t": "Conventional",
+           "b": true
+          },
+          {
+           "t": ": manufacturers, distributors, retailers, service firms."
+          }
+         ],
+         [
+          {
+           "t": "Platform / network effects",
+           "b": true
+          },
+          {
+           "t": ": each extra user makes the service more valuable to others, e.g. marketplaces and payment apps."
+          }
+         ],
+         [
+          {
+           "t": "Crowdsourcing",
+           "b": true
+          },
+          {
+           "t": ": users contribute content or ideas."
+          }
+         ],
+         [
+          {
+           "t": "Asset-light",
+           "b": true
+          },
+          {
+           "t": ": outsource capital-intensive work and focus on brand, design or software."
+          }
+         ],
+         [
+          {
+           "t": "Licensing and franchising",
+           "b": true
+          },
+          {
+           "t": ": the owner licenses its brand and system to operators for fees and royalties."
+          }
+         ],
+         [
+          {
+           "t": "Private label / contract manufacturing",
+           "b": true
+          },
+          {
+           "t": ": making products sold under another brand."
+          }
+         ]
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "example",
+        "title": "Worked example",
+        "inline": [
+         {
+          "t": "Swara Music charges ₹499 a month; serving each subscriber costs ₹149 a month, so the contribution is ₹350. Acquiring a customer costs ₹2,100, so "
+         },
+         {
+          "t": "payback = 2,100 ÷ 350 = 6 months",
+          "b": true
+         },
+         {
+          "t": ". If subscribers stay well beyond 6 months, the model works."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "watch_out",
+        "title": "Watch out",
+        "inline": [
+         {
+          "t": "Network effects can make winners dominant, but they work in reverse too: if users leave, the platform becomes less valuable to everyone left."
+         }
+        ]
+       },
+       {
+        "type": "callout",
+        "variant": "fun",
+        "title": "Funny use case",
+        "inline": [
+         {
+          "t": "A food-delivery app is a perfect platform: restaurants join because hungry users are there, and hungry users are there because the restaurants joined."
+         }
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "revision": {
+    "schema": "notes/v1",
+    "blocks": [
+     {
+      "type": "callout",
+      "variant": "formula",
+      "title": "Revision sheet · 1 page",
+      "inline": [
+       {
+        "t": "CAC payback (months) = customer acquisition cost ÷ monthly contribution per customer"
+       }
+      ]
+     },
+     {
+      "type": "table",
+      "header": [
+       "Remember",
+       "Point"
+      ],
+      "rows": [
+       [
+        "Business model",
+        "How value is created and captured"
+       ],
+       [
+        "Value proposition",
+        "Who, what, why it beats alternatives"
+       ],
+       [
+        "Omnichannel",
+        "Online and physical channels combined"
+       ],
+       [
+        "Dynamic pricing",
+        "Price varies with demand"
+       ],
+       [
+        "Razors-and-blades",
+        "Cheap base, profitable consumables"
+       ],
+       [
+        "Network effects",
+        "More users, more value per user"
+       ],
+       [
+        "Asset-light",
+        "Outsource capital-heavy activities"
+       ]
+      ]
+     }
+    ]
+   },
+   "questions": [
+    {
+     "d": "E",
+     "q": "A company's value proposition describes:",
+     "o": [
+      "Its target customers and why they should choose its product",
+      "Its loan covenants",
+      "Its corporate tax rate"
+     ],
+     "a": 0,
+     "e": "The value proposition covers who the customer is, what is offered and why it is better.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "A company that sells printers cheaply and earns its profit on ink cartridges uses:",
+     "o": [
+      "Dynamic pricing",
+      "Razors-and-blades pricing",
+      "Cost-plus pricing"
+     ],
+     "a": 1,
+     "e": "The base product is priced low to lock in recurring purchases of profitable consumables.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "Freemium pricing means that:",
+     "o": [
+      "A basic version is free and premium features are paid for",
+      "Every product is sold at cost",
+      "Prices change by time of day"
+     ],
+     "a": 0,
+     "e": "Free users are the funnel; revenue comes from those who upgrade.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "A ride-hailing app that raises fares during peak demand is using:",
+     "o": [
+      "Bundling",
+      "Tiered pricing",
+      "Dynamic pricing"
+     ],
+     "a": 2,
+     "e": "Prices that move with real-time demand are dynamic pricing.",
+     "los": "7.a"
+    },
+    {
+     "d": "H",
+     "q": "A platform business benefits from network effects when:",
+     "o": [
+      "Each additional user makes the service more valuable to other users",
+      "Unit costs rise as it grows",
+      "It owns all the inventory it sells"
+     ],
+     "a": 0,
+     "e": "Network effects mean value per user rises with the number of users.",
+     "los": "7.b"
+    },
+    {
+     "d": "E",
+     "q": "A franchise business model typically involves:",
+     "o": [
+      "The company owning and running every outlet",
+      "The franchisor licensing its brand and system to independent operators for fees",
+      "Government ownership of outlets"
+     ],
+     "a": 1,
+     "e": "Franchisees run outlets using the franchisor's brand and processes, paying fees and royalties.",
+     "los": "7.b"
+    },
+    {
+     "d": "M",
+     "q": "A subscription costs ₹499 a month, the variable cost per subscriber is ₹149 a month and customer acquisition cost is ₹2,100. The payback period on acquisition cost is:",
+     "o": [
+      "4.2 months",
+      "6 months",
+      "14 months"
+     ],
+     "a": 1,
+     "e": "Monthly contribution = 499 − 149 = 350; 2,100 ÷ 350 = 6 months.",
+     "los": "7.a"
+    },
+    {
+     "d": "H",
+     "q": "An asset-light business model most likely:",
+     "o": [
+      "Owns all its factories and logistics",
+      "Requires the highest capital expenditure in its industry",
+      "Outsources capital-intensive activities and keeps fixed assets low"
+     ],
+     "a": 2,
+     "e": "Asset-light firms focus on brand, design or software and outsource heavy assets.",
+     "los": "7.b"
+    },
+    {
+     "d": "H",
+     "q": "Charging students a lower price than corporate buyers for the same course is an example of:",
+     "o": [
+      "Price discrimination (tiered pricing)",
+      "Cost-based pricing",
+      "Bundling"
+     ],
+     "a": 0,
+     "e": "Different prices for different customer groups for the same product is price discrimination.",
+     "los": "7.a"
+    },
+    {
+     "d": "M",
+     "q": "An omnichannel strategy:",
+     "o": [
+      "Sells only through distributors",
+      "Uses only a direct sales force",
+      "Integrates online and physical channels into one customer experience"
+     ],
+     "a": 2,
+     "e": "Omnichannel blends store, web and app so customers can switch between them seamlessly.",
+     "los": "7.a"
+    }
+   ],
+   "flashcards": [
+    {
+     "front": "Business model questions",
+     "back": "Who, what, where, how, how much."
+    },
+    {
+     "front": "Value-based vs cost-based pricing",
+     "back": "What the customer will pay vs cost plus a markup."
+    },
+    {
+     "front": "Razors-and-blades",
+     "back": "Cheap base product, profit on consumables (printer and ink)."
+    },
+    {
+     "front": "Network effects",
+     "back": "Each extra user makes the service more valuable to others."
+    },
+    {
+     "front": "Asset-light model",
+     "back": "Outsource capital-intensive activities; keep fixed assets low."
+    },
+    {
+     "front": "CAC payback",
+     "back": "Customer acquisition cost ÷ monthly contribution per customer."
+    }
+   ]
+  }
+ ],
+ "retag_proto": {
+  "43": 3,
+  "44": 3,
+  "45": 2
+ }
+}
